@@ -11,7 +11,7 @@ function app(initConfigs){
 
 // Init ========================================================
 
-app.init = doAsync("start", async function(dontInstaStar){
+app.init = doAsync("start", async function(dontInstaStart){
 	try{
 		let initObject = {}
 		this.jumpto("getReadingState")(initObject)
