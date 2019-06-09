@@ -11,18 +11,17 @@ function app(initConfigs){
 
 // Init ========================================================
 
-app.init = doAsync("start", async function(dontInstaStart){
-	try{
-		let initObject = {}
-		this.jumpto("getReadingState")(initObject)
+app.init = doAsync("start", function(dontInstaStart){
+	let initObject = {}
 
-		initObject.volumeList = await fetch("ln/volumes.json").then(owo=>owo.json())
+	// while we're doing nothing and waiting for fetching might as well load the configs
+	fetch("ln/volumes.json")
+		.then(owo=>owo.json())
+		.then(owo=>initObject.volumeList = owo && this.jumpto("app")(initObject))
+		.catch(uwu=>this.jumpto("error")(uwu))
 
-		this.jumpto("app")(initObject)
-	}
-	catch(uwu){
-		this.jumpto("error")(uwu)
-	}
+	this.jumpto("getReadingState")(initObject)
+
 })
 .then("getReadingState", function(initObject){
 	Object.assign(initObject, app.getSettings())
