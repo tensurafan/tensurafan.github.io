@@ -1,4 +1,5 @@
-function app(initConfigs){
+async function app(initConfigs){
+	console.log(initConfigs)
 	if (
 		!initConfigs.volumeList ||
 		!initConfigs.id
@@ -6,18 +7,21 @@ function app(initConfigs){
 		return
 	}
 
+	app.indexView = await app.initIndexView(initConfigs.volumeList)
+
 	console.log(initConfigs)
 }
 
 // Init ========================================================
 
+// app.init() is called in the index.html file
 app.init = doAsync("start", function(dontInstaStart){
 	let initObject = {}
 
 	// while we're doing nothing and waiting for fetching might as well load the configs
 	fetch("ln/volumes.json")
 		.then(owo=>owo.json())
-		.then(owo=>initObject.volumeList = owo && this.jumpto("app")(initObject))
+		.then(owo=>(initObject.volumeList = owo) && this.jumpto("app")(initObject))
 		.catch(uwu=>this.jumpto("error")(uwu))
 
 	this.jumpto("getReadingState")(initObject)
