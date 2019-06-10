@@ -1,8 +1,12 @@
-app.initNav = async function(routerInstance){
+app.initNav = async function(currentConfigs, routerInstance){
 	let template = await fetch("/js/nav/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {
-		menuOpen: false
+		configs: currentConfigs,
+		menuOpen: false,
+		back: ()=>{
+			window.location.pathname !== "/" && routerInstance.back()
+		}
 	})
 
 	return view

@@ -1,5 +1,5 @@
 <div class="flex vhcenter"><!-- always visable -->
-	<button class="flex">
+	<button class="flex" onclick="this.app.back()">
 		<span class="icon">
 			<span class="back"></span>
 		</span>
@@ -15,7 +15,7 @@
 	<div class="padding-1"></div>
 	<div class="flex">
 		<span class="grow text-right">Theme:</span>
-		<select onchange="this.app.theme = this.value" class="grow">
+		<select onchange="this.app.configs.theme = this.value" class="grow">
 			<option value="oled">
 				OLED Black
 			</option>

@@ -1,14 +1,14 @@
 async function app(initConfigs){
 	if (
 		!initConfigs.volumeList ||
-		!initConfigs.id
+		!initConfigs.presist
 	){
 		return
 	}
 
 	let router = app.router = app.routerFactory(document.getElementById("app"))
 
-	let nav = app.nav = await app.initNav(router)
+	let nav = app.nav = await app.initNav(initConfigs.presist, router)
 	nav.appendTo(document.getElementById("nav"))
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
@@ -40,7 +40,8 @@ app.init = doAsync("start", function(dontInstaStart){
 
 })
 .then("getReadingState", function(initObject){
-	Object.assign(initObject, app.getSettings())
+	// Object.assign(initObject, app.getSettings())
+	initObject.presist = app.getSettings()
 	this.pass(initObject)
 })
 .then("app", app)
