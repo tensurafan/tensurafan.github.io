@@ -3,6 +3,10 @@ app.initIndexView = async function(volumes, routerInstance){
 
 	let view = proxymity(template, {volumes})
 
+	view.app.read = function(id){
+		routerInstance.rout("/read/" + id)
+	}
+
 	routerInstance.add("/", view)
 
 	return view
