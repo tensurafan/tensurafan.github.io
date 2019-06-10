@@ -1,10 +1,12 @@
 app.routerFactory = function(element){
-	var onSetCallbacks = new Map()
-	var onUnsetCallbacks = new Map()
-	var routs = new Map()
+	const onSetCallbacks = new Map()
+	const onUnsetCallbacks = new Map()
+	const routs = new Map()
 	return {
-		add: function(keyObj, view){
+		add: function(path, view){
 			// add a rout that will activate when those keys in keyobj is found in the query parameter
+			let pathRegex = new RegExp("^" + path + "$")
+			routs.set(pathRegex, view)
 		},
 		set: function(view){
 			// rout the view and set the url to that view's keys
@@ -14,9 +16,6 @@ app.routerFactory = function(element){
 		},
 		rout: function(){
 			// rout the app based on the current ULR
-		},
-		clear: function(){
-			// clear all keys on the ULR that this router has registered
 		},
 		on: {
 			set: function(view, callback){

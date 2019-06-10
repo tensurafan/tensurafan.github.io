@@ -1,4 +1,4 @@
-app.initIndexView = async function(volumes){
+app.initIndexView = async function(volumes, routerInstance){
 	try{
 		var template = await fetch("js/list/view.html").then(owo=>owo.text())
 	}
@@ -7,6 +7,8 @@ app.initIndexView = async function(volumes){
 	}
 
 	let view = proxymity(template, {volumes})
+
+	routerInstance.add("/", view)
 
 	return view
 }

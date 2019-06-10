@@ -6,7 +6,9 @@ async function app(initConfigs){
 		return
 	}
 
-	app.indexView = await app.initIndexView(initConfigs.volumeList)
+	let router = app.router = app.routerFactory(document.getElementById("app"))
+	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
+	app.router.rout()
 
 	console.log(initConfigs)
 }
