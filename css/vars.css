@@ -116,3 +116,8 @@ button-{{color}} will change the button to a color and the text to match the col
 	--color-button: var(--color-error);
 	--color-button-text: var(--color-dark);
 }
+
+.color-in {
+	background-color: var(--color-background);
+	color: var(--color-text);
+}

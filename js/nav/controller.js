@@ -1,7 +1,9 @@
 app.initNav = async function(routerInstance){
 	let template = await fetch("/js/nav/view.html").then(owo=>owo.text())
 
-	let view = proxymity(template)
+	let view = proxymity(template, {
+		menuOpen: false
+	})
 
 	return view
 }

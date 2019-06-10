@@ -1,8 +1,22 @@
-<div><!-- always visable -->
+<div class="flex vhcenter"><!-- always visable -->
 	<button>back</button>
-	<h1>Slime Reader</h1>
-	<button>menu</button>
+	<h1 class="grow font-1.5em text-center marginless">Slime Reader</h1>
+	<button onclick="this.app.menuOpen = !this.app.menuOpen">menu</button>
 </div>
-<div class=""><!-- toggleable dropdown -->
-	
+<div class="{:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
+	<div class="padding-1"></div>
+	<div class="flex">
+		<span class="grow text-right">Theme:</span>
+		<select onchange="this.app.theme = this.value" class="grow">
+			<option value="oled">
+				OLED Black
+			</option>
+			<option value="dark">
+				Dark
+			</option>
+			<option value="">
+				Light
+			</option>
+		</select>
+	</div>
 </div>
