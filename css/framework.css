@@ -17,6 +17,11 @@ button, .button {
 		var(--color-button-text) /*color of shadow*/
 	;
 }
+body {
+	background-color: var(--color-background);
+	color: var(--color-text);
+	font-family: sans-serif;
+}
 .animate {
 	transition: all 0.5s;
 }

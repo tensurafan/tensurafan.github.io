@@ -1,0 +1,8 @@
+.oled {
+	--color-white: #000;
+	--color-light: #1A1A1A;
+	--color-mid: #7C7C7C;
+	--color-low: #B2B2B2;
+	--color-dark: #EEE;
+	--color-black: #FFF;
+}
