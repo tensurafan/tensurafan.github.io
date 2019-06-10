@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "A small web app for reading our fantranslation of That Time I Got Reincarnated as a Slime",
   "main": "index.html",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
