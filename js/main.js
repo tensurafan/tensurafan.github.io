@@ -10,6 +10,9 @@ async function app(initConfigs){
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
 
+	let nav = app.nav = await app.initNav(router)
+	nav.appendTo(document.getElementById("nav"))
+
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()
 	})

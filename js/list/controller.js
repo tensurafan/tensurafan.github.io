@@ -1,10 +1,5 @@
 app.initIndexView = async function(volumes, routerInstance){
-	try{
-		var template = await fetch("/js/list/view.html").then(owo=>owo.text())
-	}
-	catch(uwu){
-		this.jumpto("error")(uwu)
-	}
+	var template = await fetch("/js/list/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {volumes})
 
