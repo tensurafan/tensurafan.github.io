@@ -1,5 +1,4 @@
 async function app(initConfigs){
-	console.log(initConfigs)
 	if (
 		!initConfigs.volumeList ||
 		!initConfigs.id
