@@ -1,0 +1,118 @@
+html {
+	--color-white: #FFF;
+	--color-light: #EEE;
+	--color-mid: #B2B2B2;
+	--color-low: #9C9C9C;
+	--color-dark: #333;
+	--color-black: #000;
+
+	--color-primary: hsl(213, 65%, 65%);
+	--color-secondary: hsl(213, 65%, 75%);
+	--color-clear: rgba(0, 0, 0, 0);
+
+	/* now we've set up the basic background we can go and setup some other variables based on these */
+
+	--color-background: var(--color-white);
+	--color-text: var(--color-black);
+	--color-button: var(--color-light);
+	--color-button-text: var(--color-primary);
+	--base-padding: 0.5rem;
+	--responsive-padding: 0.5em;
+	--base-border-radius: 0.5em;
+
+	--color-error: #FF4444;
+}
+
+/*
+These are the colors that are responsible for the primary theme of the component and is inheritable by child elements. if anything needs to be overridden then they can be done with more spicific classes being the "color-{{color}}" and "button-{{color}}"
+color-{{color}} will change the text color
+button-{{color}} will change the button to a color and the text to match the color of the button
+*/
+.bg-white {
+	--color-background: var(--color-white);
+	--color-text: var(--color-black);
+	--color-button: var(--color-light);
+	--color-button-text: var(--color-primary);
+}
+.bg-light {
+	--color-background: var(--color-light);
+	--color-text: var(--color-black);
+	--color-button: var(--color-mid);
+	--color-button-text: var(--color-primary);
+}
+.bg-mid {
+	--color-background: var(--color-mid);
+	--color-text: var(--color-white);
+	--color-button: var(--color-white);
+	--color-button-text: var(--color-primary);
+}
+.bg-dark {
+	--color-background: var(--color-dark);
+	--color-text: var(--color-white);
+	--color-button: var(--color-light);
+	--color-button-text: var(--color-primary);
+}
+.bg-primary {
+	--color-background: var(--color-primary);
+	--color-text: var(--color-white);
+	--color-button: var(--color-white);
+	--color-button-text: var(--color-dark);
+}
+.bg-secondary {
+	--color-background: var(--color-secondary);
+	--color-text: var(--color-black);
+	--color-button: var(--color-white);
+	--color-button-text: var(--color-primary);
+}
+
+.color-white {
+	--color-text: var(--color-white);
+}
+.color-mid {
+	--color-text: var(--color-mid);
+}
+.color-light {
+	--color-text: var(--color-light);
+}
+.color-dark {
+	--color-text: var(--color-dark);
+}
+.color-primary {
+	--color-text: var(--color-primary);
+}
+.color-secondary {
+	--color-text: var(--color-secondary);
+}
+.color-error {
+	--color-text: var(--color-error);
+}
+
+.button-white {
+	--color-button: var(--color-white);
+	--color-button-text: var(--color-primary);
+}
+.button-mid {
+	--color-button: var(--color-mid);
+	--color-button-text: var(--color-primary);
+}
+.button-light {
+	--color-button: var(--color-light);
+	--color-button-text: var(--color-primary);
+}
+.button-dark {
+	--color-button: var(--color-dark);
+	--color-button-text: var(--color-primary);
+}
+.button-primary {
+	--color-button: var(--color-primary);
+	--color-button-text: var(--color-dark);
+}
+.button-secondary {
+	--color-button: var(--color-secondary);
+	--color-button-text: var(--color-primary);
+}
+
+.button-error {
+	--color-button: var(--color-error);
+	--color-button-text: var(--color-dark);
+}
