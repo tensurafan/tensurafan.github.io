@@ -1,4 +1,15 @@
 #nav {
 	width: 100%;
 	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#app {
+	margin-top: var(--menu-height);
+	padding-bottom: 0;
+	height: calc(100vh - var(--menu-height));
+	overflow: auto;
+	overflow-x: unset;
+	overflow-y: auto;
 }

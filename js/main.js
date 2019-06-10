@@ -8,8 +8,9 @@ async function app(initConfigs){
 
 	let router = app.router = app.routerFactory(document.getElementById("app"))
 
+	let navEl = document.getElementById("nav")
 	let nav = app.nav = await app.initNav(initConfigs.presist, router)
-	nav.appendTo(document.getElementById("nav"))
+	nav.appendTo(navEl)
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
 
@@ -18,6 +19,13 @@ async function app(initConfigs){
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()
 	})
+
+	function updateNavHeight(){
+		document.body.style.setProperty("--menu-height", navEl.offsetHeight + "px")
+	}
+	window.addEventListener("resize", updateNavHeight)
+	proxymity.watch(nav.app, "menuOpen", updateNavHeight)
+	updateNavHeight()
 
 	app.router.rout()
 
