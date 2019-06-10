@@ -1,7 +1,15 @@
 <div class="flex vhcenter"><!-- always visable -->
-	<button>back</button>
+	<button class="flex">
+		<span class="icon">
+			<span class="back"></span>
+		</span>
+	</button>
 	<h1 class="grow font-1.5em text-center marginless">Slime Reader</h1>
-	<button onclick="this.app.menuOpen = !this.app.menuOpen">menu</button>
+	<button onclick="this.app.menuOpen = !this.app.menuOpen" class="flex">
+		<span class="icon">
+			<span class="menu"></span>
+		</span>
+	</button>
 </div>
 <div class="{:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
 	<div class="padding-1"></div>

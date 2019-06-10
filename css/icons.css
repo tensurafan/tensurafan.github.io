@@ -1,0 +1,40 @@
+.icon {
+	background-color: rgba(0,0,0,0);
+}
+.icon, .icon > * {
+	display: inline-block;
+	position: relative;
+	width: 1em;
+	height: 1em;
+	box-sizing: border-box;
+}
+.icon > *:before, .icon > *:after {
+	content: '';
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+}
+.icon.animate, .icon .animate, .icon.animate *, .icon .animate *, .icon.animate *:before, .icon .animate *:after {
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.icon .back {
+	border: none;
+	width: 0.6em;
+	height: 0.6em;
+	margin: 0.2em;
+	border-top: solid 0.25em currentcolor;
+	border-left: solid 0.25em currentcolor;
+	transform: rotate(-45deg);
+}
+
+.icon .menu {
+	border-top: solid 0.15em currentcolor;
+	border-bottom: solid 0.15em currentcolor;
+}
+.icon .menu::before {
+	top: 0.25em;
+	width: 100%;
+	border-top: solid 0.15em currentcolor;
+}
