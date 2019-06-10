@@ -5,7 +5,7 @@ app.initNav = async function(currentConfigs, routerInstance){
 		configs: currentConfigs,
 		menuOpen: false,
 		back: ()=>{
-			window.location.pathname !== "/" && routerInstance.back()
+			routerInstance.path !== "/" && routerInstance.back()
 		}
 	})
 

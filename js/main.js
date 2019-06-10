@@ -14,7 +14,7 @@ async function app(initConfigs){
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
 
-	let reader = app.reader = await app.initReader(router)
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router)
 
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()

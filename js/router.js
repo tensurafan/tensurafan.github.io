@@ -4,7 +4,7 @@ app.routerFactory = function(element){
 	const routs = new Map()
 	let active = null
 
-	return {
+	let instance = {
 		add: function(path, view){
 			// add a rout that will activate when those keys in keyobj is found in the query parameter
 			path = path
@@ -38,7 +38,7 @@ app.routerFactory = function(element){
 		},
 		on: {
 			set: function(view, callback){
-
+				onSetCallbacks.set(view, callback)
 			},
 			unset: function(view, callback){
 
@@ -46,10 +46,18 @@ app.routerFactory = function(element){
 		}
 	}
 
+	Object.defineProperty(instance, "path", {
+		get: ()=>document.location.pathname
+	})
+
+	return instance
+
 	function setView(path, view, addHistory = true){
 		addHistory && history.pushState({}, "", path)
 		active && active.detach()
 		active = view
 		view.appendTo(element)
+		let onSetCallback = onSetCallbacks.get(view)
+		onSetCallback && onSetCallback()
 	}
 }
