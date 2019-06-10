@@ -7,19 +7,12 @@ app.routerFactory = function(element){
 	return {
 		add: function(path, view){
 			// add a rout that will activate when those keys in keyobj is found in the query parameter
+			path = path
+				.replace(/\*$/, ".+")
+				.replace(/\*/, "[^\/]+")
+
 			let pathRegex = new RegExp("^" + path + "$")
 			routs.set(pathRegex, {path, view})
-		},
-		set: function(view){
-			// rout the view and set the url to that view's keys
-			for(let rout of routs){
-				let pathView = rout[1]
-
-				if (pathView.view === view){
-					return setView(pathView.path, view)
-				}
-			}
-			console.warn(view, "is not defined yet")
 		},
 		rout: function(path = undefined){
 			// rout the app based on the current ULR or set the current url to path and rout
@@ -39,6 +32,9 @@ app.routerFactory = function(element){
 			}
 
 			console.warn(path, "does not match any routs")
+		},
+		back: function(){
+			history.back()
 		},
 		on: {
 			set: function(view, callback){
