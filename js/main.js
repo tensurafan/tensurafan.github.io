@@ -20,7 +20,7 @@ app.init = doAsync("start", function(dontInstaStart){
 	let initObject = {}
 
 	// while we're doing nothing and waiting for fetching might as well load the configs
-	fetch("ln/volumes.json")
+	fetch("/ln/volumes.json")
 		.then(owo=>owo.json())
 		.then(owo=>(initObject.volumeList = owo) && this.jumpto("app")(initObject))
 		.catch(uwu=>this.jumpto("error")(uwu))

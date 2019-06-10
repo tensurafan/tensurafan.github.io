@@ -1,6 +1,6 @@
 app.initIndexView = async function(volumes, routerInstance){
 	try{
-		var template = await fetch("js/list/view.html").then(owo=>owo.text())
+		var template = await fetch("/js/list/view.html").then(owo=>owo.text())
 	}
 	catch(uwu){
 		this.jumpto("error")(uwu)
