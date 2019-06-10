@@ -7,12 +7,14 @@ async function app(initConfigs){
 	}
 
 	let router = app.router = app.routerFactory(document.getElementById("app"))
+
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
-	app.router.rout()
 
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()
 	})
+
+	app.router.rout()
 
 	console.log(initConfigs)
 }

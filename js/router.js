@@ -12,7 +12,7 @@ app.routerFactory = function(element){
 		},
 		set: function(view){
 			// rout the view and set the url to that view's keys
-			for(let rout in routs){
+			for(let rout of routs){
 				let pathView = rout[1]
 
 				if (pathView.view === view){
@@ -29,7 +29,7 @@ app.routerFactory = function(element){
 				passive = true
 			}
 
-			for(let rout in routs){
+			for(let rout of routs){
 				let regex = rout[0]
 				let pathView = rout[1]
 
@@ -37,6 +37,8 @@ app.routerFactory = function(element){
 					return setView(path, pathView.view, !passive)
 				}
 			}
+
+			console.warn(path, "does not match any routs")
 		},
 		on: {
 			set: function(view, callback){
