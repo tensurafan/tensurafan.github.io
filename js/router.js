@@ -2,6 +2,7 @@ app.routerFactory = function(element){
 	const onSetCallbacks = new Map()
 	const onUnsetCallbacks = new Map()
 	const routs = new Map()
+	const onRoutCallbacks = []
 	let active = null
 
 	let instance = {
@@ -42,6 +43,9 @@ app.routerFactory = function(element){
 			},
 			unset: function(view, callback){
 
+			},
+			rout: function(callback){
+				onRoutCallbacks.push(callback)
 			}
 		}
 	}
@@ -61,5 +65,6 @@ app.routerFactory = function(element){
 		}
 		let onSetCallback = onSetCallbacks.get(view)
 		onSetCallback && onSetCallback()
+		onRoutCallbacks.forEach(callback=>callback(path, view))
 	}
 }
