@@ -1,7 +1,10 @@
 app.initReader = async function(volumes, routerInstance){
 	let template = await fetch("/js/reader/view.html").then(owo=>owo.text())
 
-	let view = proxymity(template)
+	let view = proxymity(template, {
+		errored: false,
+		errorMessage: "",
+	})
 
 	routerInstance.add("/read/*", view)
 
@@ -13,22 +16,29 @@ app.initReader = async function(volumes, routerInstance){
 
 		let volume = volumes.find(volume=>volume.id === volumeId)
 		if (!volume){
-			view.app.error = true
+			view.app.errored = true
 			view.app.errorMessage = "The volume you have requested doesn't exist UwU"
 			return
 		}
 
 		try{
-			await fetch(volume.path).then(owo=>owo.text())
-			view.app.error = false
+			let content = await fetch(volume.path).then(owo=>owo.json())
+			view.app.errored = false
 			view.app.errorMessage = ""
+			let readerContainer = view.find(el=>el.id === "reading-content")
+
+			content.map(generateParagraph).forEach(paragraph=>paragraph && readerContainer.push(paragraph))
 		}
 		catch(uwu){
-			view.app.error = true
+			view.app.errored = true
 			view.app.errorMessage = "Oops something went wrong UwU"
 			console.warn(uwu)
 		}
 	})
 
 	return template
+
+	function generateParagraph(paragraphData){
+		console.log(paragraphData)
+	}
 }
