@@ -54,9 +54,11 @@ app.routerFactory = function(element){
 
 	function setView(path, view, addHistory = true){
 		addHistory && history.pushState({}, "", path)
-		active && active.detach()
-		active = view
-		view.appendTo(element)
+		if (active !== view){
+			active && active.detach()
+			active = view
+			view.appendTo(element)
+		}
 		let onSetCallback = onSetCallbacks.get(view)
 		onSetCallback && onSetCallback()
 	}
