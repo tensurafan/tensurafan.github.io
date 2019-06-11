@@ -6,6 +6,16 @@ app.initNav = async function(currentConfigs, routerInstance){
 		menuOpen: false,
 		back: ()=>{
 			routerInstance.path !== "/" && routerInstance.back()
+		},
+		backClickable: false,
+	})
+	
+	routerInstance.on.rout(path=>{
+		if (path === "/"){
+			view.app.backClickable = false
+		}
+		else{
+			view.app.backClickable = true
 		}
 	})
 

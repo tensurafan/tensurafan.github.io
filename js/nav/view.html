@@ -1,5 +1,5 @@
 <div class="flex vhcenter"><!-- always visable -->
-	<button class="flex" onclick="this.app.back()">
+	<button class="flex {:this.app.backClickable ? '' : 'bg-white':}|{backClickable}|" onclick="this.app.back()">
 		<span class="icon">
 			<span class="back"></span>
 		</span>
