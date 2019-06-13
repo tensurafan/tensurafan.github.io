@@ -6,6 +6,8 @@ app.initReader = async function(volumes, routerInstance){
 		errorMessage: "",
 	})
 
+	let readerContainer = view.find(el=>el.id === "reading-content")
+
 	routerInstance.add("/read/*", view)
 
 	routerInstance.on.set(view, async function(){
@@ -22,14 +24,9 @@ app.initReader = async function(volumes, routerInstance){
 		}
 
 		try{
-			let content = await fetch(volume.path).then(owo=>owo.json())
 			view.app.errored = false
 			view.app.errorMessage = ""
-			let readerContainer = view.find(el=>el.id === "reading-content")
-
-			while(readerContainer.lastChild){
-				readerContainer.removeChild(readerContainer.lastChild)
-			}
+			let content = await fetch(volume.path).then(owo=>owo.json())
 
 			content.map(generateParagraph)
 				.forEach(paragraph=>paragraph && readerContainer.appendChild(paragraph))
@@ -38,6 +35,12 @@ app.initReader = async function(volumes, routerInstance){
 			view.app.errored = true
 			view.app.errorMessage = "Oops something went wrong UwU"
 			console.warn(uwu)
+		}
+	})
+
+	routerInstance.on.unset(view, async function(){
+		while(readerContainer.lastChild){
+			readerContainer.removeChild(readerContainer.lastChild)
 		}
 	})
 
@@ -59,6 +62,7 @@ app.initReader = async function(volumes, routerInstance){
 			paragraphData.sections.forEach(part=>{
 				if (part.text){
 					let textElement = document.createTextNode(part.text)
+
 					if (part.url){
 						textElement = document.createElement("a")
 						textElement.href = part.url
@@ -66,15 +70,20 @@ app.initReader = async function(volumes, routerInstance){
 						textElement.textContent = part.text
 					}
 
+					if (part.bold){
+						textElement = document.createElement("strong")
+						textElement.textContent = part.text
+					}
+
 					p.appendChild(textElement)
 				}
 				else if (part.info){
 					let iconDiv = document.createElement("div")
-					iconDiv.classList.add("icon")
+					iconDiv.classList.add("icon", "color-primary", "color-in")
 
 					iconDiv
 						.appendChild(document.createElement("div"))
-						.classList.add("footnote")
+						.classList.add("footnote", "clickable")
 
 					iconDiv.addEventListener(
 						"click",
@@ -89,6 +98,6 @@ app.initReader = async function(volumes, routerInstance){
 	}
 
 	function showFootnote(element, footnote){
-
+		console.log(element, footnote)
 	}
 }

@@ -42,7 +42,7 @@ app.routerFactory = function(element){
 				onSetCallbacks.set(view, callback)
 			},
 			unset: function(view, callback){
-
+				onUnsetCallbacks.set(view, callback)
 			},
 			rout: function(callback){
 				onRoutCallbacks.push(callback)
@@ -60,6 +60,8 @@ app.routerFactory = function(element){
 		addHistory && history.pushState({}, "", path)
 		if (active !== view){
 			active && active.detach()
+			let onUnsetCallback = onUnsetCallbacks.get(active)
+			onUnsetCallback && onUnsetCallback()
 			active = view
 			view.appendTo(element)
 		}
