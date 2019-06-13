@@ -15,7 +15,7 @@
 	<div class="padding-1"></div>
 	<div class="flex">
 		<span class="grow text-right">Theme:</span>
-		<select onchange="this.app.configs.theme = this.value" class="grow">
+		<select onchange="this.app.configs.theme = this.value" class="grow" value="{:this.app.configs.theme:}|{configs.theme}|">
 			<option value="oled">
 				OLED Black
 			</option>
