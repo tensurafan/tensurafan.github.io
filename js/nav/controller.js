@@ -8,8 +8,9 @@ app.initNav = async function(currentConfigs, routerInstance){
 			routerInstance.path !== "/" && routerInstance.back()
 		},
 		backClickable: false,
+		goHome: ()=>routerInstance.rout("/")
 	})
-	
+
 	routerInstance.on.rout(path=>{
 		if (path === "/"){
 			view.app.backClickable = false
