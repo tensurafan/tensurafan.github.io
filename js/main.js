@@ -6,6 +6,7 @@ async function app(initConfigs){
 		return
 	}
 
+	// setup the different views
 	let router = app.router = app.routerFactory(document.getElementById("app"))
 
 	let navEl = document.getElementById("nav")
@@ -16,6 +17,7 @@ async function app(initConfigs){
 
 	let reader = app.reader = await app.initReader(initConfigs.volumeList, router)
 
+	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()
 	})
@@ -28,6 +30,19 @@ async function app(initConfigs){
 	updateNavHeight()
 
 	app.router.rout()
+
+	// miscalanious stuff
+	initConfigs.presist.theme = initConfigs.presist.theme || "oled"
+	proxymity.watch(initConfigs.presist, "theme", function(newTheme){
+		console.log(newTheme)
+		if (newTheme && !document.documentElement.classList.contains(newTheme)){
+			document.documentElement.classList.remove("oled", "dark")
+			document.documentElement.classList.add(newTheme)
+		}
+		else if (!newTheme){
+			document.documentElement.classList.remove("oled", "dark")
+		}
+	})
 
 	console.log(initConfigs)
 }
