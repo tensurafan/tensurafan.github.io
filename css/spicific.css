@@ -3,12 +3,13 @@
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 1;
 }
 
 #app {
 	margin-top: var(--menu-height);
 	padding-bottom: 0;
-	height: calc(100vh - var(--menu-height));
+	/* height: calc(100vh - var(--menu-height)); */
 	overflow: auto;
 	overflow-x: unset;
 	overflow-y: auto;
@@ -17,6 +18,13 @@
 #read-error {
 	width: 100%;
 	height: 100%;
+}
+
+#footnote-viewer {
+	min-width: 50vw;
+	max-width: 75vw;
+	top: calc(var(--position-bottom) + var(--base-padding));
+	border-radius: calc(var(--base-border-radius) / 2);
 }
 
 .clickable {

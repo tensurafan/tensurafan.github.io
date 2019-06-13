@@ -44,6 +44,28 @@ app.initReader = async function(volumes, routerInstance){
 		}
 	})
 
+	// --- alright here's the foot note stuff
+
+	let footnoteTemplate = await fetch("/js/reader/footnote.html").then(owo=>owo.text())
+
+	let footnoteView = proxymity(footnoteTemplate, {
+		text: "",
+		parent: null,
+		bottom: 0
+	})
+
+	proxymity.watch(footnoteView.app, "parent", function(newParent){
+		if (!newParent){
+			return footnoteView.detach()
+		}
+
+		footnoteView.appendTo(readerContainer)
+
+		footnoteView.app.bottom = newParent.offsetTop + newParent.offsetHeight
+	})
+
+	document.addEventListener("click", hideFootnote)
+
 	return template
 
 	function generateParagraph(paragraphData){
@@ -97,7 +119,27 @@ app.initReader = async function(volumes, routerInstance){
 		}
 	}
 
-	function showFootnote(element, footnote){
-		console.log(element, footnote)
+	function showFootnote(element, footnote, event){
+		event.stopPropagation()
+		let changed = false
+
+		if (footnoteView.app.text !== footnote){
+			footnoteView.app.text = footnote
+			changed = true
+		}
+
+		if (footnoteView.app.parent !== element){
+			footnoteView.app.parent = element
+			changed = true
+		}
+
+		if (!changed){
+			hideFootnote()
+		}
+	}
+
+	function hideFootnote(){
+		footnoteView.app.parent = null
+		footnoteView.app.bottom = 0
 	}
 }
