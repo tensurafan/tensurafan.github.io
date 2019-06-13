@@ -49,9 +49,19 @@
 }
 
 .icon .footnote::before {
-
+	content: "!";
+    font-size: 0.6em;
+    text-align: center;
+    width: 100%;
+    height: 1em;
+    box-shadow: 0.3em 0.475em 0 -0.3em currentColor;
 }
 
 .icon .footnote::after {
-
+	width: 0.4em;
+	height: 0.4em;
+	border-right: solid 0.1em currentColor;
+	border-bottom: solid 0.1em currentColor;
+	top: 65%;
+	transform: rotate(45deg);
 }
