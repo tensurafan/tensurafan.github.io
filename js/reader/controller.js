@@ -45,11 +45,17 @@ app.initReader = async function(volumes, routerInstance){
 
 	function generateParagraph(paragraphData){
 		if (paragraphData.img){
+			let div = document.createElement("div")
 			let img = document.createElement("img")
 			img.src = paragraphData.img
-			return img
+			div.appendChild(img)
+			div.classList.add("text-center")
+			return div
 		}
-		console.log(paragraphData)
+		else(
+			console.log(paragraphData)
+		)
+		
 		
 	}
 }
