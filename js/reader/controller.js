@@ -26,8 +26,13 @@ app.initReader = async function(volumes, routerInstance){
 			view.app.errored = false
 			view.app.errorMessage = ""
 			let readerContainer = view.find(el=>el.id === "reading-content")
+			
+			while(readerContainer.firstChild){
+				readerContainer.removeChild(readerContainer.firstChild)
+			}
 
-			content.map(generateParagraph).forEach(paragraph=>paragraph && readerContainer.push(paragraph))
+			content.map(generateParagraph)
+				.forEach(paragraph=>paragraph && readerContainer.appendChild(paragraph))
 		}
 		catch(uwu){
 			view.app.errored = true
@@ -39,6 +44,12 @@ app.initReader = async function(volumes, routerInstance){
 	return template
 
 	function generateParagraph(paragraphData){
+		if (paragraphData.img){
+			let img = document.createElement("img")
+			img.src = paragraphData.img
+			return img
+		}
 		console.log(paragraphData)
+		
 	}
 }
