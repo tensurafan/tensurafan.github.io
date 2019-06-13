@@ -26,9 +26,9 @@ app.initReader = async function(volumes, routerInstance){
 			view.app.errored = false
 			view.app.errorMessage = ""
 			let readerContainer = view.find(el=>el.id === "reading-content")
-			
-			while(readerContainer.firstChild){
-				readerContainer.removeChild(readerContainer.firstChild)
+
+			while(readerContainer.lastChild){
+				readerContainer.removeChild(readerContainer.lastChild)
 			}
 
 			content.map(generateParagraph)
@@ -52,10 +52,43 @@ app.initReader = async function(volumes, routerInstance){
 			div.classList.add("text-center")
 			return div
 		}
-		else(
-			console.log(paragraphData)
-		)
-		
-		
+		else{
+			let p = document.createElement("p")
+			paragraphData.classes.forEach(c=>p.classList.add(c))
+
+			paragraphData.sections.forEach(part=>{
+				if (part.text){
+					let textElement = document.createTextNode(part.text)
+					if (part.url){
+						textElement = document.createElement("a")
+						textElement.href = part.url
+						textElement.target = "_blank"
+						textElement.textContent = part.text
+					}
+
+					p.appendChild(textElement)
+				}
+				else if (part.info){
+					let iconDiv = document.createElement("div")
+					iconDiv.classList.add("icon")
+
+					iconDiv
+						.appendChild(document.createElement("div"))
+						.classList.add("footnote")
+
+					iconDiv.addEventListener(
+						"click",
+						showFootnote.bind(iconDiv, iconDiv, part.info)
+					)
+
+					p.appendChild(iconDiv)
+				}
+			})
+			return p
+		}
+	}
+
+	function showFootnote(element, footnote){
+
 	}
 }
