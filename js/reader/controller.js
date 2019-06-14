@@ -1,4 +1,4 @@
-app.initReader = async function(volumes, routerInstance, namePickerInstance, terms){
+app.initReader = async function(volumes, routerInstance, namePickerInstance, terms, globalTermchoices){
 	let template = await fetch("/js/reader/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {
@@ -66,12 +66,12 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	document.addEventListener("click", hideFootnote)
 
+	// ok we need to set up some stuff to do with the term selector
+	let termsToCheck = Object.keys(terms)
+
 	return template
 
-	var termsToCheck
 	function generateParagraph(paragraphData){
-		termsToCheck = termsToCheck || Object.keys(terms)
-
 		if (paragraphData.img){
 			let div = document.createElement("div")
 			let img = document.createElement("img")
@@ -157,8 +157,11 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 					if (part.userChooseable){
 						textElement = document.createElement("span")
-						textElement.classList.add("test")
-						textElement.textContent = part.text
+						textElement.textContent = "{:this.app.allTermsChosen[this.app.displayedTerm]:}|{allTermsChosen[this.app.displayedTerm]}|"
+						proxymity(textElement, {
+							allTermsChosen: globalTermchoices,
+							displayedTerm: part.text
+						})
 					}
 
 					p.appendChild(textElement)

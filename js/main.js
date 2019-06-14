@@ -29,7 +29,13 @@ async function app(initConfigs){
 
 	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"))
 
-	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms)
+	let globalTermchoices = initConfigs.presist.chosenTerms = initConfigs.presist.chosenTerms || {}
+
+	console.log(globalTermchoices)
+
+	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
+
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices)
 
 	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
