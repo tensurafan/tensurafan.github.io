@@ -29,7 +29,7 @@ async function app(initConfigs){
 
 	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"))
 
-	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker)
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms)
 
 	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
@@ -52,8 +52,12 @@ async function app(initConfigs){
 
 // app.init() is called in the index.html file
 app.init = async function(){
-	let volumeList = await fetch("/ln/volumes.json").then(owo=>owo.json())
+	let [volumeList, terms] = await Promise.all([
+		fetch("/ln/volumes.json").then(owo=>owo.json()),
+		fetch("/ln/terms.json").then(owo=>owo.json())
+	])
+
 	let presist = app.getSettings()
 
-	return app({volumeList, presist})
+	return app({volumeList, terms, presist})
 }
