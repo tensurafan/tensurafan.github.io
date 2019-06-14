@@ -27,9 +27,9 @@ async function app(initConfigs){
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
 
-	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"))
-
 	let globalTermchoices = initConfigs.presist.chosenTerms = initConfigs.presist.chosenTerms || {}
+
+	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"), globalTermchoices)
 
 	console.log(globalTermchoices)
 

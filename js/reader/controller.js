@@ -158,10 +158,13 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 					if (part.userChooseable){
 						textElement = document.createElement("span")
 						textElement.textContent = "{:this.app.allTermsChosen[this.app.displayedTerm]:}|{allTermsChosen[this.app.displayedTerm]}|"
+						textElement.classList.add("underline", "clickable")
 						proxymity(textElement, {
 							allTermsChosen: globalTermchoices,
 							displayedTerm: part.text
 						})
+
+						textElement.addEventListener("click", selectNameEventHandler)
 					}
 
 					p.appendChild(textElement)
@@ -208,5 +211,19 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	function hideFootnote(){
 		footnoteView.app.parent = null
 		footnoteView.app.bottom = 0
+	}
+
+	function selectNameEventHandler(ev){
+		let elementModel = ev.target.app
+		if (!elementModel){
+			return
+		}
+
+		namePickerInstance.app.baseName = elementModel.displayedTerm
+		namePickerInstance.app.chosenName = globalTermchoices[elementModel.displayedTerm]
+		namePickerInstance.app.setNameOptions(terms[elementModel.displayedTerm])
+		namePickerInstance.app.display = true
+
+		console.log("clicked")
 	}
 }

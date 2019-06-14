@@ -1,4 +1,4 @@
-app.initNamePicker = async function(routerInstance, appBody){
+app.initNamePicker = async function(routerInstance, appBody, nameChoices){
 	let template = await fetch("/js/name-picker/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {
@@ -10,10 +10,12 @@ app.initNamePicker = async function(routerInstance, appBody){
 			view.app.nameOptions.splice(0, view.app.nameOptions.length - 1 )
 			await proxymity.on.renderend
 			view.app.nameOptions.push.apply(view.app.nameOptions, newOptions)
-		}
+		},
+		nameChoices: nameChoices,
 	})
 
 	proxymity.watch(view.app, "display", function(shouldDisplay){
+		console.log(shouldDisplay)
 		if (!shouldDisplay){
 			return view.detach()
 		}

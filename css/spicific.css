@@ -27,6 +27,17 @@
 	border-radius: calc(var(--base-border-radius) / 2);
 }
 
+#name-picker {
+	top: calc(var(--menu-height) + 1em);
+	border-radius: calc(var(--base-border-radius) / 2);
+	left: 50%;
+	transform: translate(-50%);
+}
+
 .clickable {
 	cursor: pointer;
+}
+
+.underline {
+	text-decoration: underline;
 }

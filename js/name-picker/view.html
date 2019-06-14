@@ -1,12 +1,14 @@
-<div class="fixed text-center" id="name-picker">
+<div class="fixed padding-1 text-center color-in bg-light col-12-12-smol col-3-6-mid" id="name-picker">
 	<div>
 		<strong>Pick the term you'd like to see for『{:this.app.baseName:}|{baseName}|』</strong>
 	</div>
-	<select data-value="{:this.app.chosenName:}|{chosenName}|" onchange="this.app.chosenName = this.value">
+	<select data-value="{:this.app.chosenName:}|{chosenName}|" onchange="this.app.chosenName = this.value; this.app.nameChoices[this.app.baseName] = this.value">
 		<!-- key: "nameIndex" -->
 		<option value="{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|">
 			{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|
 		</option>
 		<!-- in: nameOptions -->
 	</select>
+
+	<button onclick="this.app.display = false">Ok</button>
 </div>
