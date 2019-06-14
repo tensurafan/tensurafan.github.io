@@ -1,12 +1,4 @@
 async function app(initConfigs){
-	if (
-		!initConfigs.volumeList ||
-		!initConfigs.presist
-	){
-		return
-	}
-
-
 	// respoond to the incoming global configs
 	initConfigs.presist.theme = Object.prototype.hasOwnProperty.call(initConfigs.presist, "theme") ? initConfigs.presist.theme : "dark"
 	proxymity.watch(initConfigs.presist, "theme", updateTheme)
@@ -59,25 +51,9 @@ async function app(initConfigs){
 // Init ========================================================
 
 // app.init() is called in the index.html file
-app.init = doAsync("start", function(dontInstaStart){
-	let initObject = {}
+app.init = async function(){
+	let volumeList = await fetch("/ln/volumes.json").then(owo=>owo.json())
+	let presist = app.getSettings()
 
-	// while we're doing nothing and waiting for fetching might as well load the configs
-	fetch("/ln/volumes.json")
-		.then(owo=>owo.json())
-		.then(owo=>(initObject.volumeList = owo) && this.jumpto("app")(initObject))
-		.catch(uwu=>this.jumpto("error")(uwu))
-
-	this.jumpto("getReadingState")(initObject)
-
-})
-.then("getReadingState", function(initObject){
-	// Object.assign(initObject, app.getSettings())
-	initObject.presist = app.getSettings()
-	this.pass(initObject)
-})
-.then("app", app)
-.then("error", function(uwu){
-	console.warn(uwu)
-	alert("failed to load volumes data")
-})
+	app({volumeList, presist})
+}
