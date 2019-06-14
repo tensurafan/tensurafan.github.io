@@ -55,5 +55,5 @@ app.init = async function(){
 	let volumeList = await fetch("/ln/volumes.json").then(owo=>owo.json())
 	let presist = app.getSettings()
 
-	app({volumeList, presist})
+	return app({volumeList, presist})
 }
