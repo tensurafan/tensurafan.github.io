@@ -1,4 +1,4 @@
-app.initReader = async function(volumes, routerInstance){
+app.initReader = async function(volumes, routerInstance, namePickerInstance){
 	let template = await fetch("/js/reader/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {

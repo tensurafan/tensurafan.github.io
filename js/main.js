@@ -35,7 +35,9 @@ async function app(initConfigs){
 
 	let indexView = app.indexView = await app.initIndexView(initConfigs.volumeList, router)
 
-	let reader = app.reader = await app.initReader(initConfigs.volumeList, router)
+	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"))
+
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker)
 
 	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
