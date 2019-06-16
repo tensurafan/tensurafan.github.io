@@ -59,5 +59,5 @@ self.addEventListener("install", function(ev){
 })
 
 self.addEventListener("fetch", function(ev){
-	ev.respondWith(intelegentFetch(ev.request))
+	ev.respondWith(intelegentFetch(ev.request).catch(()=>intelegentFetch("/")))
 })
