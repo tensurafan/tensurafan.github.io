@@ -4,7 +4,7 @@ This is a web app to allow for users to read the fan translation of "That Time I
 # todo
 - ~read content~
 - ~click to read foot note~
-- name toggleer
+- ~name toggleer~
 - service worker
 - save reading location
 - sharable discord quotes
