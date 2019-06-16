@@ -2,9 +2,9 @@
 	--color-white: #000;
 	--color-light: #1A1A1A;
 	--color-mid: #5C5C5C;
-	--color-low: #AAA;
-	--color-dark: #CCC;
-	--color-black: #FFF;
+	--color-low: #777;
+	--color-dark: #999;
+	--color-black: #AAA;
 }
 .dark {
 	--color-white: #292929;
