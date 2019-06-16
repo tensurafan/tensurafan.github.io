@@ -1,11 +1,14 @@
 async function app(initConfigs){
 	// respoond to the incoming global configs
+	app.saveSettings = function(){
+		app.updateSettings(initConfigs.presist)
+	}
+
 	initConfigs.presist.theme = Object.prototype.hasOwnProperty.call(initConfigs.presist, "theme") ? initConfigs.presist.theme : "dark"
 	proxymity.watch(initConfigs.presist, "theme", updateTheme)
 	updateTheme(initConfigs.presist.theme)
 
 	function updateTheme(newTheme){
-		console.log(newTheme)
 		if (newTheme && !document.documentElement.classList.contains(newTheme)){
 			document.documentElement.classList.remove("oled", "dark")
 			document.documentElement.classList.add(newTheme)
@@ -14,9 +17,8 @@ async function app(initConfigs){
 			document.documentElement.classList.remove("oled", "dark")
 		}
 
-		app.updateSettings(initConfigs.presist)
+		app.saveSettings()
 	}
-
 
 	// setup the different views
 	let router = app.router = app.routerFactory(document.getElementById("app"))

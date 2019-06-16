@@ -223,7 +223,5 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		namePickerInstance.app.chosenName = globalTermchoices[elementModel.displayedTerm]
 		namePickerInstance.app.setNameOptions(terms[elementModel.displayedTerm])
 		namePickerInstance.app.display = true
-
-		console.log("clicked")
 	}
 }
