@@ -34,6 +34,16 @@
 	transform: translate(-50%);
 }
 
+#footer, #install-instructions-backdrop  {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#install-instructions-backdrop {
+	top: 0;
+}
+
 .clickable {
 	cursor: pointer;
 }
@@ -41,4 +51,8 @@
 .underline {
 	text-decoration: underline;
 	text-decoration-color: var(--color-button-text);
+}
+
+.bubbly {
+	border-radius: calc(var(--base-border-radius) / 2);
 }

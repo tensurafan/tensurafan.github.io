@@ -39,6 +39,9 @@ async function app(initConfigs){
 
 	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices)
 
+	let footer = app.footer = await app.initFooter(initConfigs.presist)
+	footer.appendTo(document.getElementById("footer"))
+
 	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
 		app.router.rout()

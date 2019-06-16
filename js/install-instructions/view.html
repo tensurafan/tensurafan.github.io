@@ -1,0 +1,4 @@
+<div class="{:this.app.config.showInstallNotice ? '' : 'hidden-state' :}|{config.showInstallNotice}| text-center bg-light color-in padding-1">
+	<button onclick="this.app.showInstructions = !this.app.showInstructions">Instructions for Offline Use</button>
+	<button onclick="this.app.config.showInstallNotice = false; this.app.saveSettings()">Got it!</button>
+</div>
