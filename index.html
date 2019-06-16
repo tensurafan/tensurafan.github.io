@@ -2,7 +2,6 @@
 <html class="color-in oled marginless paddingless">
 	<head>
 		<script src="https://cdn.jsdelivr.net/gh/muggy8/proxymity@fa0fe552f2239eb09353caced41cf078fddf1275/dist/proxymity.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/do-async@0.1.1"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- faveicon and stuff -->
@@ -23,6 +22,17 @@
 		<meta name="msapplication-TileColor" content="#8ec4e6">
 		<meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#8ec4e6">
+
+		<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+			navigator.serviceWorker.register('/service-worker.js')
+				.then((reg) => {
+				  console.log('Service worker registered.', reg);
+				});
+			});
+		}
+		</script>
 	</head>
 	<body class="marginless paddingless">
 		<nav id="nav" class="padding-1 color-in bg-light"></nav>
