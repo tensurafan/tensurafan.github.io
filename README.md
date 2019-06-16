@@ -5,7 +5,7 @@ This is a web app to allow for users to read the fan translation of "That Time I
 - ~read content~
 - ~click to read foot note~
 - ~name toggleer~
-- service worker
+- ~service worker~
 - save reading location
 - sharable discord quotes
 - ~change theme~
