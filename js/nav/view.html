@@ -31,4 +31,8 @@
 	<div class="text-center">
 		<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())">Refresh App</button>
 	</div>
+	<div class="padding-1"></div>
+	<div class="text-center">
+		<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false">Offline Use Instructions</button>
+	</div>
 </div>
