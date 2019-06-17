@@ -29,6 +29,6 @@
 	</div>
 	<div class="padding-1"></div>
 	<div class="text-center">
-		<button onclick="document.location.reload(true)">Refresh App</button>
+		<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())">Refresh App</button>
 	</div>
 </div>

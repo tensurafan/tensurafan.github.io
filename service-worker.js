@@ -23,7 +23,8 @@ async function makeRequestAndCachePathsRecursive(path, exploredPath = []){
 		fetched && urlList.push(fetched)
 	}
 
-	urlList.forEach(uri=>makeRequestAndCachePathsRecursive(uri, exploredPath))
+	let updateList = urlList.map(uri=>makeRequestAndCachePathsRecursive(uri, exploredPath))
+	await Promise.all(updateList)
 }
 
 async function intelegentFetch(req){
@@ -59,5 +60,15 @@ self.addEventListener("install", function(ev){
 })
 
 self.addEventListener("fetch", function(ev){
-	ev.respondWith(intelegentFetch(ev.request).catch(()=>intelegentFetch("/")))
+	if (
+		(/^\/sw\/refresh$/).test(ev.request.url.replace(ev.target.location.origin, ""))
+	){
+		ev.respondWith(
+			makeRequestAndCachePathsRecursive("/")
+				.then(()=>intelegentFetch("/"))
+		)
+	}
+	else{
+		ev.respondWith(intelegentFetch(ev.request).catch(()=>intelegentFetch("/")))
+	}
 })
