@@ -14,7 +14,7 @@
 <div class="{:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
 	<div class="padding-1"></div>
 	<div class="flex">
-		<span class="grow text-right">Theme:</span>
+		<span class="grow text-center">Theme:</span>
 		<select onchange="this.app.configs.theme = this.value" class="grow" data-value="{:this.app.configs.theme:}|{configs.theme}|">
 			<option value="oled">
 				OLED Black
@@ -27,12 +27,18 @@
 			</option>
 		</select>
 	</div>
-	<div class="padding-1"></div>
-	<div class="text-center">
-		<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())">Refresh App</button>
-	</div>
-	<div class="padding-1"></div>
-	<div class="text-center">
-		<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false">Instructions for Offline Use</button>
+	<div class="flex column-smol row-mid">
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
+				<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())">Refresh App</button>
+			</div>
+		</div>
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
+				<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false">Instructions for Offline Use</button>
+			</div>
+		</div>
 	</div>
 </div>
