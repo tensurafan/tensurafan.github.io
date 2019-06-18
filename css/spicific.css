@@ -15,8 +15,13 @@
 	overflow-y: auto;
 }
 
-#read-error {
+#read-error, #reading-content {
 	width: 100%;
+	max-width: calc(var(--base-padding) * 75);
+	margin: auto;
+}
+
+#read-error {
 	height: 100%;
 }
 
