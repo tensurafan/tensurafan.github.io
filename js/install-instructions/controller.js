@@ -7,7 +7,7 @@ app.initFooter = async function(configs){
 		saveSettings: app.saveSettings,
 	})
 
-	let instructionsTemplate = await fetch("js//install-instructions/instructions.html").then(owo=>owo.text())
+	let instructionsTemplate = await fetch("/js/install-instructions/instructions.html").then(owo=>owo.text())
 
 	let instructionsView = proxymity(instructionsTemplate, view.app)
 
