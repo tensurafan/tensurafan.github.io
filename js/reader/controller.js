@@ -1,4 +1,4 @@
-app.initReader = async function(volumes, routerInstance, namePickerInstance, terms, globalTermchoices){
+app.initReader = async function(volumes, routerInstance, namePickerInstance, terms, globalTermchoices, presistantConfigs){
 	let template = await fetch("/js/reader/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {
@@ -44,19 +44,27 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 					fragment.appendChild(paragraph)
 					if (index === quotedLine){
 						paragraph.classList.add("color-primary", "underline", "color-in")
-						paragraph.id = "quoted"
 						quotedParagraph = paragraph
 					}
+					paragraph.id = ("line_" + index)
+					paragraph.classList.add("line")
 				})
 
 			readerContainer.appendChild(fragment)
 
 			await Promise.all(imagesPromise).then(RAFP)
 
-			quotedParagraph && quotedParagraph.scrollIntoView({
-				// behavior: "smooth",
-				block: "center"
-			})
+
+			if (quotedParagraph){
+				quotedParagraph.scrollIntoView({
+					// behavior: "smooth",
+					block: "center"
+				})
+			}
+			else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
+				let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
+				line.scrollIntoView({block: "start"})
+			}
 		}
 		catch(uwu){
 			view.app.errored = true
@@ -255,7 +263,12 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		namePickerInstance.app.display = true
 	}
 
+	var navBarEl
 	function onUserInteractWithPage(){
+		!navBarEl && (navBarEl = document.getElementById("nav"))
+		let navBarBox = navBarEl.getBoundingClientRect()
+
+		let overlappings = document.elementFromPoint(navBarBox.width/2, navBarBox.bottom + 1)
 
 	}
 

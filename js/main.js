@@ -37,7 +37,7 @@ async function app(initConfigs){
 
 	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
 
-	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices)
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices, initConfigs.presist)
 
 	let footer = app.footer = await app.initFooter(initConfigs.presist)
 	footer.appendTo(document.getElementById("footer"))
