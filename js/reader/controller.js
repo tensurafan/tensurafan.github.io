@@ -14,7 +14,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		let pathMatch = /^\/read\/([^\/]+)(\/quote\/([^\/]+))?$/.exec(routerInstance.path)
 
 		let volumeId = pathMatch[1]
-		let quotedLine = pathMatch[3]
+		let quotedLine = parseInt(pathMatch[3])
 
 		let volume = volumes.find(volume=>volume.id === volumeId)
 		if (!volume){
@@ -28,8 +28,35 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			view.app.errorMessage = ""
 			let content = await fetch(volume.path).then(owo=>owo.json())
 
+			let quotedParagraph = null
+			let fragment = document.createDocumentFragment()
+			let imagesPromise = []
 			content.map(generateParagraph)
-				.forEach(paragraph=>paragraph && readerContainer.appendChild(paragraph))
+				.forEach(function(paragraph, index){
+					if (!paragraph){
+						return
+					}
+
+					if (paragraph.imagesPromise){
+						imagesPromise.push(paragraph.imagesPromise)
+					}
+
+					fragment.appendChild(paragraph)
+					if (index === quotedLine){
+						paragraph.classList.add("color-primary", "underline", "color-in")
+						paragraph.id = "quoted"
+						quotedParagraph = paragraph
+					}
+				})
+
+			readerContainer.appendChild(fragment)
+
+			await Promise.all(imagesPromise).then(RAFP)
+
+			quotedParagraph && quotedParagraph.scrollIntoView({
+				// behavior: "smooth",
+				block: "center"
+			})
 		}
 		catch(uwu){
 			view.app.errored = true
@@ -78,6 +105,9 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			img.src = paragraphData.img
 			div.appendChild(img)
 			div.classList.add("text-center")
+			div.loadPromise = new Promise(function(accept){
+				img.addEventListener("load", accept)
+			}).then(RAFP)
 			return div
 		}
 		else{
@@ -223,5 +253,15 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		namePickerInstance.app.chosenName = globalTermchoices[elementModel.displayedTerm]
 		namePickerInstance.app.setNameOptions(terms[elementModel.displayedTerm])
 		namePickerInstance.app.display = true
+	}
+
+	function onUserInteractWithPage(){
+
+	}
+
+	function RAFP(){
+		return new Promise(function(accept){
+			requestAnimationFrame(accept)
+		})
 	}
 }
