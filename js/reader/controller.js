@@ -9,6 +9,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	let readerContainer = view.find(el=>el.id === "reading-content")
 
 	routerInstance.add("/read/*", view)
+	
+	let subableEvents = ["scroll", "touchend", "touchcancle", "mouseup", "blur"]
 
 	routerInstance.on.set(view, async function(){
 		let pathMatch = /^\/read\/([^\/]+)(\/quote\/([^\/]+))?$/.exec(routerInstance.path)
@@ -54,7 +56,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 			await Promise.all(imagesPromise).then(RAFP)
 
-
 			if (quotedParagraph){
 				quotedParagraph.scrollIntoView({
 					// behavior: "smooth",
@@ -65,6 +66,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
 				line.scrollIntoView({block: "start"})
 			}
+			
 		}
 		catch(uwu){
 			view.app.errored = true
