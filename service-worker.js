@@ -23,6 +23,10 @@ async function makeRequestAndCachePathsRecursive(path, exploredPath = []){
 		fetched && urlList.push(fetched)
 	}
 
+	urlList = urlList.filter(url=>(/(^\/|^http(s):\/\/cdn)/).test(url))
+
+	console.log(urlList)
+
 	let updateList = urlList.map(uri=>makeRequestAndCachePathsRecursive(uri, exploredPath))
 	await Promise.all(updateList)
 }
