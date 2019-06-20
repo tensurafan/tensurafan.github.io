@@ -9,13 +9,13 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	let readerContainer = view.find(el=>el.id === "reading-content")
 
 	routerInstance.add("/read/*", view)
-	
+
 	let subableEvents = ["scroll", "touchend", "touchcancle", "mouseup", "blur"]
 
 	routerInstance.on.set(view, async function(){
 		let pathMatch = /^\/read\/([^\/]+)(\/quote\/([^\/]+))?$/.exec(routerInstance.path)
 
-		let volumeId = pathMatch[1]
+		let volumeId = view.app.volumeId = pathMatch[1]
 		let quotedLine = parseInt(pathMatch[3])
 
 		let volume = volumes.find(volume=>volume.id === volumeId)
@@ -66,7 +66,10 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
 				line.scrollIntoView({block: "start"})
 			}
-			
+
+			subableEvents.forEach(eventName=>{
+				window.addEventListener(eventName, onUserInteractWithPage)
+			})
 		}
 		catch(uwu){
 			view.app.errored = true
@@ -79,6 +82,9 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		while(readerContainer.lastChild){
 			readerContainer.removeChild(readerContainer.lastChild)
 		}
+		subableEvents.forEach(eventName=>{
+			window.removeEventListener(eventName, onUserInteractWithPage)
+		})
 	})
 
 	// --- alright here's the foot note stuff
@@ -101,7 +107,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		footnoteView.app.bottom = newParent.offsetTop + newParent.offsetHeight
 	})
 
-	document.addEventListener("click", hideFootnote)
+	// document.addEventListener("click", onUserInteractWithPage)
 
 	// ok we need to set up some stuff to do with the term selector
 	let termsToCheck = Object.keys(terms)
@@ -272,6 +278,11 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 		let overlappings = document.elementFromPoint(navBarBox.width/2, navBarBox.bottom + 1)
 
+		presistantConfigs.topLine = presistantConfigs.topLine || {}
+
+		presistantConfigs.topLine[view.app.volumeId] = parseInt(overlappings.id.replace("line_", ""))
+
+		app.saveSettings()
 	}
 
 	function RAFP(){
