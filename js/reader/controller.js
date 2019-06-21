@@ -28,33 +28,34 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		try{
 			view.app.errored = false
 			view.app.errorMessage = ""
-			let content = await fetch(volume.path).then(owo=>owo.json())
+			let content = await fetch(volume.path).then(owo=>owo.text())
 
 			let quotedParagraph = null
-			let fragment = document.createDocumentFragment()
-			let imagesPromise = []
-			content.map(generateParagraph)
-				.forEach(function(paragraph, index){
-					if (!paragraph){
-						return
-					}
+			// let imagesPromise = []
+			// content.map(generateParagraph)
+			// 	.forEach(function(paragraph, index){
+			// 		if (!paragraph){
+			// 			return
+			// 		}
+			//
+			// 		if (paragraph.imagesPromise){
+			// 			imagesPromise.push(paragraph.imagesPromise)
+			// 		}
+			//
+			// 		fragment.appendChild(paragraph)
+			// 		if (index === quotedLine){
+			// 			paragraph.classList.add("color-primary", "underline", "color-in")
+			// 			quotedParagraph = paragraph
+			// 		}
+			// 		paragraph.id = ("line_" + index)
+			// 		paragraph.classList.add("line")
+			// 	})
 
-					if (paragraph.imagesPromise){
-						imagesPromise.push(paragraph.imagesPromise)
-					}
 
-					fragment.appendChild(paragraph)
-					if (index === quotedLine){
-						paragraph.classList.add("color-primary", "underline", "color-in")
-						quotedParagraph = paragraph
-					}
-					paragraph.id = ("line_" + index)
-					paragraph.classList.add("line")
-				})
 
-			readerContainer.appendChild(fragment)
+			readerContainer.innerHTML = content
 
-			await Promise.all(imagesPromise).then(RAFP)
+			// await Promise.all(imagesPromise).then(RAFP)
 
 			if (quotedParagraph){
 				quotedParagraph.scrollIntoView({
