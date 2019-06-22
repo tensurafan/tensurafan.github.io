@@ -4,6 +4,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	let view = proxymity(template, {
 		errored: false,
 		errorMessage: "",
+		showFootnote,
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -51,9 +52,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			// 		paragraph.classList.add("line")
 			// 	})
 
-
-
-			readerContainer.innerHTML = content
+			proxymity(content, view.app).appendTo(readerContainer)
 
 			// await Promise.all(imagesPromise).then(RAFP)
 
@@ -115,127 +114,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	return template
 
-	function generateParagraph(paragraphData){
-		if (paragraphData.img){
-			let div = document.createElement("div")
-			let img = document.createElement("img")
-			img.src = paragraphData.img
-			div.appendChild(img)
-			div.classList.add("text-center")
-			div.loadPromise = new Promise(function(accept){
-				img.addEventListener("load", accept)
-			}).then(RAFP)
-			return div
-		}
-		else{
-			let p = document.createElement("p")
-			paragraphData.classes.forEach(c=>p.classList.add(c))
-
-			// filter the text for anything that we know is a term that we want to change
-
-			paragraphData.sections = paragraphData.sections.reduce((expanded, part)=>{
-				if (part.url || part.info){
-					expanded.push(part)
-					return expanded
-				}
-				else{
-					let termToReplaceIndex = {}
-					termsToCheck.forEach(term=>{
-						let termIndex
-						if ((termIndex = part.text.indexOf(term)) > -1){
-							termToReplaceIndex[termIndex] = term
-						}
-					})
-
-					let resultingIndexes = Object.keys(termToReplaceIndex)
-
-					if (!resultingIndexes.length){
-						expanded.push(part)
-						return expanded
-					}
-
-					let remainingSentenceToParse = part.text
-
-					resultingIndexes
-						.map(parseInt)
-						.sort()
-						.forEach(index=>{
-							let termToReplace = termToReplaceIndex[index]
-							let newPart = Object.assign({}, part)
-							let splitupSentences = remainingSentenceToParse.split(termToReplace)
-
-							newPart.text = splitupSentences[0]
-							expanded.push(newPart)
-
-							let termPart = {
-								text: termToReplace,
-								bold: false,
-								userChooseable: true
-							}
-							expanded.push(termPart)
-
-							remainingSentenceToParse = splitupSentences[1]
-						})
-
-					let finalPart = Object.assign({}, part)
-					finalPart.text = remainingSentenceToParse
-					expanded.push(finalPart)
-
-					return expanded
-				}
-			}, [])
-
-			// ok now we actually build the data based on our paragraph data
-			paragraphData.sections.forEach(part=>{
-				if (part.text){
-					let textElement = document.createTextNode(part.text)
-
-					if (part.url){
-						textElement = document.createElement("a")
-						textElement.href = part.url
-						textElement.target = "_blank"
-						textElement.textContent = part.text
-					}
-
-					if (part.bold){
-						textElement = document.createElement("strong")
-						textElement.textContent = part.text
-					}
-
-					if (part.userChooseable){
-						textElement = document.createElement("span")
-						textElement.textContent = "{:this.app.allTermsChosen[this.app.displayedTerm]:}|{allTermsChosen[this.app.displayedTerm]}|"
-						textElement.classList.add("underline", "clickable")
-						proxymity(textElement, {
-							allTermsChosen: globalTermchoices,
-							displayedTerm: part.text
-						})
-
-						textElement.addEventListener("click", selectNameEventHandler)
-					}
-
-					p.appendChild(textElement)
-				}
-				else if (part.info){
-					let iconDiv = document.createElement("div")
-					iconDiv.classList.add("icon", "color-primary", "color-in")
-
-					iconDiv
-						.appendChild(document.createElement("div"))
-						.classList.add("footnote", "clickable")
-
-					iconDiv.addEventListener(
-						"click",
-						showFootnote.bind(iconDiv, iconDiv, part.info)
-					)
-
-					p.appendChild(iconDiv)
-				}
-			})
-			return p
-		}
-	}
-
 	function showFootnote(element, footnote, event){
 		event.stopPropagation()
 		let changed = false
@@ -274,6 +152,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	var navBarEl
 	function onUserInteractWithPage(){
+		hideFootnote()
 		!navBarEl && (navBarEl = document.getElementById("nav"))
 		let navBarBox = navBarEl.getBoundingClientRect()
 

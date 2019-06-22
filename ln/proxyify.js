@@ -5,14 +5,16 @@ Array.prototype.forEach.call(document.querySelectorAll("sup"), sup=>{
 
 	let footNote = target.nextElementSibling.textContent
 
-	let iconDiv = document.createElement("div")
+	let iconDiv = document.createElement("span")
 	iconDiv.classList.add("icon", "color-primary", "color-in")
 
 	iconDiv
-		.appendChild(document.createElement("div"))
+		.appendChild(document.createElement("span"))
 		.classList.add("footnote", "clickable")
 
 	iconDiv.setAttribute("data-hover-text", footNote)
+
+	iconDiv.setAttribute("onclick", `this.app.showFootnote(this, this.getAttribute('data-hover-text'), event)`)
 
 	sup.parentNode.replaceChild(iconDiv, sup)
 })
