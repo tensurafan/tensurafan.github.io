@@ -83,19 +83,24 @@
 	await RAFP()
 	await RAFP()
 
-	let ln = document.body.innerHTML
+	// let ln = document.body.innerHTML
+
+	let spans = Array.prototype.filter.call(document.querySelectorAll("span"), span=>!span.querySelector("*"))
 
 	Object.keys(terms).forEach(termToCheck=>{
 		let termRegex = new RegExp("(\\W)" + termToCheck + "(\\W)", "g")
 
-		ln = ln.replace(termRegex, function(matched, before, after){
-			return before + `<span data-term="${termToCheck}" class="underline" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>` + after
+		spans.forEach(span=>{
+			let text = span.innerHTML
+			span.innerHTML = span.innerHTML.replace(termRegex, function(matched, before, after){
+				return before + `<span data-term="${termToCheck}" class="underline clickable" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>` + after
 
-			return termToCheck
+				return termToCheck
+			})
 		})
 	})
 
-	console.log(ln)
+	console.log(document.body.innerHTML)
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
