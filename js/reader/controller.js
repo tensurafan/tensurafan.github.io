@@ -155,8 +155,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			return
 		}
 
-		console.log(globalTermchoices[ele.dataset.term], terms[ele.dataset.term])
-
 		namePickerInstance.app.baseName = ele.dataset.term
 		namePickerInstance.app.chosenName = globalTermchoices[ele.dataset.term]
 		namePickerInstance.app.setNameOptions(terms[ele.dataset.term])

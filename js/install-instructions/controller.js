@@ -13,7 +13,5 @@ app.initFooter = async function(configs){
 
 	instructionsView.appendTo(document.body)
 
-	console.log(instructionsView)
-
 	return view
 }

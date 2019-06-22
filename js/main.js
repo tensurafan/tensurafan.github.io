@@ -33,8 +33,6 @@ async function app(initConfigs){
 
 	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"), globalTermchoices)
 
-	console.log(globalTermchoices)
-
 	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
 
 	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices, initConfigs.presist)
@@ -56,7 +54,6 @@ async function app(initConfigs){
 
 	app.router.rout()
 
-	console.log(initConfigs)
 }
 
 // Init ========================================================
