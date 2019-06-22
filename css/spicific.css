@@ -77,3 +77,8 @@ hr.line::before {
 	max-width: calc(var(--base-padding) * 75);
 	margin: auto;
 }
+
+img.line {
+	max-width: 100%;
+	height: auto;
+}

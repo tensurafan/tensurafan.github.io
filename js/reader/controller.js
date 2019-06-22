@@ -33,28 +33,33 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			view.app.errorMessage = ""
 			let content = await fetch(volume.path).then(owo=>owo.text())
 
-			// let quotedParagraph = null
-			// let imagesPromise = []
-			// content.map(generateParagraph)
-			// 	.forEach(function(paragraph, index){
-			// 		if (!paragraph){
-			// 			return
-			// 		}
-			//
-			// 		if (paragraph.imagesPromise){
-			// 			imagesPromise.push(paragraph.imagesPromise)
-			// 		}
-			//
-			// 		fragment.appendChild(paragraph)
-			// 		if (index === quotedLine){
-			// 			paragraph.classList.add("color-primary", "underline", "color-in")
-			// 			quotedParagraph = paragraph
-			// 		}
-			// 		paragraph.id = ("line_" + index)
-			// 		paragraph.classList.add("line")
-			// 	})
+			let readeingcontent = proxymity(content, view.app)
 
-			proxymity(content, view.app).appendTo(readerContainer)
+			let containerWidth = readerContainer.offsetWidth
+
+			readeingcontent.forEach(el=>{
+				if (el instanceof HTMLImageElement){
+					let originalWidth = parseInt(el.getAttribute("width"))
+					if (originalWidth < containerWidth){
+						return
+					}
+					let originalHeight = parseInt(el.getAttribute("height"))
+
+					let shrinkRatio = containerWidth / originalWidth
+
+					el.setAttribute("width", (originalWidth * shrinkRatio) + "px")
+					el.setAttribute("height", (originalHeight * shrinkRatio) + "px")
+
+					el.style.minWidth = el.getAttribute("width")
+					el.style.minHeight = el.getAttribute("height")
+					el.addEventListener("load", ()=>{
+						el.style.minWidth = "0"
+						el.style.minHeight = "0"
+					})
+				}
+			})
+
+			readeingcontent.appendTo(readerContainer)
 
 			// await Promise.all(imagesPromise).then(RAFP)
 
@@ -166,11 +171,18 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 		let overlappings = document.elementFromPoint(navBarBox.width/2, navBarBox.bottom + 1)
 
+		if (!overlappings){
+			return
+		}
+
 		presistantConfigs.topLine = presistantConfigs.topLine || {}
 
-		presistantConfigs.topLine[view.app.volumeId] = parseInt(overlappings.id.replace("line_", ""))
+		let savedLineNumber = parseInt(overlappings.id.replace("line_", ""))
 
-		app.saveSettings()
+		if (savedLineNumber){
+			presistantConfigs.topLine[view.app.volumeId] = savedLineNumber
+			app.saveSettings()
+		}
 	}
 
 	function RAFP(){
