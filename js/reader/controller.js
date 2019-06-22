@@ -31,7 +31,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			view.app.errorMessage = ""
 			let content = await fetch(volume.path).then(owo=>owo.text())
 
-			let quotedParagraph = null
+			// let quotedParagraph = null
 			// let imagesPromise = []
 			// content.map(generateParagraph)
 			// 	.forEach(function(paragraph, index){
@@ -56,11 +56,14 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 			// await Promise.all(imagesPromise).then(RAFP)
 
-			if (quotedParagraph){
+			if (quotedLine){
+				let quotedParagraph = document.getElementById("line_" + quotedLine)
+				quotedParagraph.classList.add("color-primary", "color-in")
 				quotedParagraph.scrollIntoView({
 					// behavior: "smooth",
 					block: "center"
 				})
+
 			}
 			else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
 				let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
