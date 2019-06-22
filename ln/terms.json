@@ -1,6 +1,89 @@
 {
 	"Wisdom King Raphael": [
 		"Wisdom King Raphael",
-		"Raphael Lord of Wisdom"
+		"Wisdom Lord Raphael",
+		"Raphael, Lord of Wisdom",
+		"Raphael, King of Wisdom"
+	],
+	"Ruberios": [
+		"Ruberios",
+		"Ruberius",
+		"Ruberion"
+	],
+	"Karion": [
+		"Karion",
+		"Carion",
+		"Carrion",
+		"Karrion"
+	],
+	"Farmus": [
+		"Farmus",
+		"Falmus"
+	],
+	"Brumund": [
+		"Brumund",
+		"Burumund",
+		"Bulumund",
+		"Bulmund"
+	],
+	"Cabal": [
+		"Cabal",
+		"Kabal"
+	],
+	"Alvis": [
+		"Alvis",
+		"Arubis",
+		"Arubisu",
+		"Arbis",
+		"Arvis"
+	],
+	"Suphia": [
+		"Suphia",
+		"Sophia"
+	],
+	"Covenant King Uriel": [
+		"Covenant King Uriel",
+		"Covenant Lord Uriel",
+		"Vows King Uriel",
+		"Vows Lord Uriel",
+		"Uriel, Lord of Vows",
+		"Uriel, King of Vows",
+		"Uriel, Lord of Covenants",
+		"Uriel, King of Covenants"
+	],
+	"Storm King Veldora": [
+		"Storm King Veldora",
+		"Storm Lord Veldora",
+		"Veldora, Lord of Storms",
+		"Veldora, King of Storms"
+	],
+	"Gluttonous King Beelzebuth": [
+		"Gluttonous King Beelzebuth",
+		"Gluttonous King Beelzebud",
+		"Gluttonous Lord Beelzebuth",
+		"Gluttonous Lord Beelzebud",
+		"Beelzebuth, King of Gluttony",
+		"Beelzebud, King of Gluttony",
+		"Beelzebuth, Lord of Gluttony",
+		"Beelzebud, Lord of Gluttony"
+	],
+	"Investigation King Faust": [
+		"Investigation King Faust",
+		"Investigation Lord Faust",
+		"Faust, Lord of Investigation",
+		"Faust, King of Investigation"
+	],
+	"Youmu": [
+		"Youmu",
+		"Yomu",
+		"Yohm"
+	],
+	"Myuran": [
+		"Myuran",
+		"Mjurran"
+	],
+	"Grucius": [
+		"Grucius",
+		"Gruecith"
 	]
 }
