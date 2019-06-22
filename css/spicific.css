@@ -82,3 +82,16 @@ img.line {
 	max-width: 100%;
 	height: auto;
 }
+
+.border-top {
+	border-top: solid 1px var(--color-button);
+}
+.border-bot {
+	border-bottom: solid 1px var(--color-button);
+}
+.border-left {
+	border-left: solid 1px var(--color-button);
+}
+.border-right {
+	border-right: solid 1px var(--color-button);
+}

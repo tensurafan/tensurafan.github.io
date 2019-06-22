@@ -1,18 +1,17 @@
-<div class="flex vhcenter"><!-- always visable -->
-	<button class="flex {:this.app.backClickable ? '' : 'bg-white':}|{backClickable}|" onclick="this.app.back()">
+<div class="border-bot flex vhcenter"><!-- always visable -->
+	<div class="border-right padding-2 flex {:this.app.backClickable ? '' : 'color-light color-in':}|{backClickable}|" onclick="this.app.back()">
 		<span class="icon">
 			<span class="back"></span>
 		</span>
-	</button>
+	</div>
 	<h1 class="grow font-1.5em text-center marginless clickable" onclick="this.app.goHome()">Slime Reader</h1>
-	<button onclick="this.app.menuOpen = !this.app.menuOpen" class="flex">
+	<div class="border-left padding-2 flex" onclick="this.app.menuOpen = !this.app.menuOpen">
 		<span class="icon">
 			<span class="menu"></span>
 		</span>
-	</button>
+	</div>
 </div>
-<div class="{:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
-	<div class="padding-1"></div>
+<div class="padding-2 {:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
 	<div class="flex">
 		<span class="grow text-center">Theme:</span>
 		<select onchange="this.app.configs.theme = this.value" class="grow" data-value="{:this.app.configs.theme:}|{configs.theme}|">
@@ -31,13 +30,13 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())">Refresh App</button>
+				<button onclick="fetch('/sw/refresh').then(owo=>owo.text()).then(owo=>document.location.reload())" class="inline block">Refresh App</button>
 			</div>
 		</div>
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false">Instructions for Offline Use</button>
+				<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false" class="inline block">Instructions for Offline Use</button>
 			</div>
 		</div>
 	</div>
@@ -45,7 +44,7 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<a href="https://tensurafan.home.blog/" class="button" target="_blank">Visit our blog</a>
+				<a href="https://tensurafan.home.blog/" class="button inline block" target="_blank">Visit our blog</a>
 			</div>
 		</div>
 		<div class="basis"></div>
