@@ -5,6 +5,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		errored: false,
 		errorMessage: "",
 		showFootnote,
+		allTermsChosen: globalTermchoices,
+		selectNameEventHandler,
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -142,14 +144,17 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	}
 
 	function selectNameEventHandler(ev){
-		let elementModel = ev.target.app
+		let ele = ev.target
+		let elementModel = ele.app
 		if (!elementModel){
 			return
 		}
 
-		namePickerInstance.app.baseName = elementModel.displayedTerm
-		namePickerInstance.app.chosenName = globalTermchoices[elementModel.displayedTerm]
-		namePickerInstance.app.setNameOptions(terms[elementModel.displayedTerm])
+		console.log(globalTermchoices[ele.dataset.term], terms[ele.dataset.term])
+
+		namePickerInstance.app.baseName = ele.dataset.term
+		namePickerInstance.app.chosenName = globalTermchoices[ele.dataset.term]
+		namePickerInstance.app.setNameOptions(terms[ele.dataset.term])
 		namePickerInstance.app.display = true
 	}
 
