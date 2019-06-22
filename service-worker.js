@@ -25,8 +25,6 @@ async function makeRequestAndCachePathsRecursive(path, exploredPath = []){
 
 	urlList = urlList.filter(url=>(/(^\/|^http(s):\/\/cdn)/).test(url))
 
-	console.log(urlList)
-
 	let updateList = urlList.map(uri=>makeRequestAndCachePathsRecursive(uri, exploredPath))
 	await Promise.all(updateList)
 }
@@ -73,6 +71,8 @@ self.addEventListener("fetch", function(ev){
 		)
 	}
 	else{
-		ev.respondWith(intelegentFetch(ev.request).catch(()=>intelegentFetch("/")))
+		ev.respondWith(intelegentFetch(ev.request).catch((ev)=>{
+			return intelegentFetch("/")
+		}))
 	}
 })
