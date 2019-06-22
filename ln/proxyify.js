@@ -1,3 +1,5 @@
+Array.prototype.forEach.call(document.querySelectorAll("body > div"), div=>!div.querySelector("img") && div.classList.add("trash"))
+
 Array.prototype.forEach.call(document.querySelectorAll("sup"), sup=>{
 	let target = document.getElementById(sup.querySelector("a").hash.replace("#", ""))
 
@@ -54,3 +56,14 @@ Array.prototype.filter.call(document.querySelectorAll("p"), p=>p.querySelector("
 	.forEach(p=>{
 		p.parentNode.replaceChild(p.querySelector("img"), p)
 	})
+
+Array.prototype.forEach.call(document.querySelectorAll(".trash, script"), trash=>trash.parentNode.removeChild(trash))
+
+Array.prototype.forEach.call(document.querySelectorAll("body > *"), (line, index)=>{
+	line.classList.add("line")
+	line.id = "line_" + index
+})
+
+Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
+
+console.log(document.body.innerHTML)
