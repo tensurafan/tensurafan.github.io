@@ -11,7 +11,7 @@ app.initNamePicker = async function(routerInstance, appBody, nameChoices){
 			let savedChosenName = view.app.chosenName
 			view.app.chosenName = ""
 			await proxymity.on.renderend
-			view.app.nameOptions.push.apply(view.app.nameOptions, newOptions)
+			newOptions.forEach(name=>view.app.nameOptions.push(name))
 			!view.app.chosenName && (view.app.chosenName = savedChosenName)
 		},
 		nameChoices: nameChoices,
