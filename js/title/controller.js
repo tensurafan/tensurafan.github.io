@@ -6,14 +6,14 @@ app.initTitle = async function(routerInstance){
 	})
 
 	routerInstance.on.rout(function(path, routedView){
-		if (routedView.title){
-			view.app.viewTitle = routedView.title
+		if (routedView.app.title){
+			view.app.viewTitle = routedView.app.title
 		}
 		else{
 			view.app.viewTitle = "Slime Reader"
 		}
-		if (routedView.description){
-			view.app.viewDescription = routedView.description
+		if (routedView.app.description){
+			view.app.viewDescription = routedView.app.description
 		}
 		else{
 			view.app.viewDescription = "Read Tensurafan translation group's english translation of the light novel series 《That time I got reincarnated as a slime》"
