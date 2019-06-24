@@ -1,7 +1,7 @@
 const fs = require("fs")
 const volumes = require(__dirname + "/ln/volumes.json")
 const jsdom = require("jsdom")
-const path = require{"path"}
+const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
 // const JSDOM = jsdom.JSDOM
 
@@ -23,8 +23,8 @@ const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...
 			let quotedPage = genPage(`Slime Reader ${volume.name}: Line ${lineNumber}`, ele.textContent, redirectTag)
 
 			return [
-				smartWrite(fs.writeFile, quotePath1, quotedPage),
-				smartWrite(fs.writeFile, quotePath2, quotedPage)
+				smartWrite(quotePath1, quotedPage),
+				smartWrite(quotePath2, quotedPage)
 			]
 		}).flat())
 
@@ -33,8 +33,8 @@ const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...
 
 		let readerPage = genPage(`Slime Reader ${volume.name}`, "", redirectTag)
 
-		await smartWrite(fs.writeFile, readerPath1, readerPage)
-		await smartWrite(fs.writeFile, readerPath2, readerPage)
+		await smartWrite(readerPath1, readerPage)
+		await smartWrite(readerPath2, readerPage)
 	})
 
 })()
@@ -64,7 +64,9 @@ async function smartWrite(location, data){
 		await waitFor(fs.writeFile, location, data)
 	}
 	catch(uwu){
-		await waitFor(fs.mkdir, path.dirname(location), { recursive: true })
+		let folder = path.dirname(location)
+		console.log("making folder", folder)
+		await waitFor(fs.mkdir, folder, { recursive: true })
 		await waitFor(fs.writeFile, location, data)
 	}
 }
