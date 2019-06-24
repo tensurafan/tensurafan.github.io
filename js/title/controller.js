@@ -1,8 +1,15 @@
 app.initTitle = async function(routerInstance){
-	let template = await fetch("/js/title/view.html").then(owo=>owo.text())
+	let template = document.querySelectorAll(".title-controllable")
+
+	let viewTitle = template[0].textContent
+	template[0].textContent = "{:this.app.viewTitle:}|{viewTitle}|"
+
+	let viewDescription = template[1].getAttribute("content")
+	template[1].setAttribute("content", "{:this.app.viewDescription:}|{viewDescription}|")
+
 	let view = proxymity(template, {
-		viewTitle: "",
-		viewDescription: ""
+		viewTitle,
+		viewDescription,
 	})
 
 	routerInstance.on.rout(function(path, routedView){
