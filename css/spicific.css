@@ -43,6 +43,24 @@
 	top: 0;
 }
 
+#quote-url-block, #quote-url-block::before, #quote-url-block .url-location{
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: var(--base-padding);
+	color: var(--color-button-text);
+}
+#quote-url-block::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	background-color: var(--color-button);
+	opacity: 0.9;
+}
+#quote-url-block {
+	bottom: calc(var(--base-padding) * 2);
+}
 .clickable {
 	cursor: pointer;
 }
@@ -60,6 +78,7 @@
 	padding: 0;
 	margin: 0;
 	padding-bottom: calc(var(--base-padding) * 2);
+	position: relative;
 }
 
 hr.line {

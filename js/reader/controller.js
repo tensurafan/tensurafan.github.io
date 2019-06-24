@@ -1,4 +1,4 @@
-app.initReader = async function(volumes, routerInstance, namePickerInstance, terms, globalTermchoices, presistantConfigs){
+app.initReader = async function(volumes, routerInstance, namePickerInstance, terms, globalTermchoices, presistantConfigs, quoterInstance){
 	let template = await fetch("/js/reader/view.html").then(owo=>owo.text())
 
 	let view = proxymity(template, {
@@ -12,6 +12,17 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		volume: "",
 		title: "",
 		description: "",
+		beginLongPress: function(ele, ev){
+			console.log(ele)
+			ele.longPressWait = setTimeout(()=>{
+				let line = ele.id.replace("line_", "")
+				quoterInstance.app.url = `${document.location.origin}/read/${view.app.volume.id}/quote/${line}/`
+				quoterInstance.app.element = ele
+			}, 800)
+		},
+		cancleLongPress: function(ele, ev){
+			ele.longPressWait && clearTimeout(ele.longPressWait)
+		},
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -34,7 +45,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		}
 
 		try{
-			if (!view.app.mounted && view.app.volume !== volume){
+			if (!view.app.mounted && view.app.volume.id !== volume.id){
 				view.app.errored = false
 				view.app.errorMessage = ""
 				let content = await fetch(volume.path).then(owo=>owo.text())
@@ -88,8 +99,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				subableEvents.forEach(eventName=>{
 					window.addEventListener(eventName, onUserInteractWithPage)
 				})
-
-
 			}
 		}
 		catch(uwu){

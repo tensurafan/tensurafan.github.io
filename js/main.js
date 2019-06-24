@@ -33,9 +33,11 @@ async function app(initConfigs){
 
 	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"), globalTermchoices)
 
+	let quoter = app.quoter = await app.initQuoter()
+
 	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
 
-	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices, initConfigs.presist)
+	let reader = app.reader = await app.initReader(initConfigs.volumeList, router, namePicker, initConfigs.terms, globalTermchoices, initConfigs.presist, quoter)
 
 	let footer = app.footer = await app.initFooter(initConfigs.presist)
 	footer.appendTo(document.getElementById("footer"))
