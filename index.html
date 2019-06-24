@@ -4,6 +4,13 @@
 		<script src="https://cdn.jsdelivr.net/gh/muggy8/proxymity@4cd9b08c7092045f7b92f638ddb5f6f1e05ae3ff/dist/proxymity.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<title class="controllable">{:this.app.viewTitle:}|{viewTitle}|</title>
+		<meta class="controllable" name="description" content="{:this.app.viewDescription:}|{viewDescription}|"/>
+		<meta class="controllable" property="og:title" content="{:this.app.viewTitle:}|{viewTitle}|" />
+		<meta class="controllable" property="og:url" content="{:this.app.url:}|{url}|" />
+		<meta class="controllable" property="og:description" content="{:this.app.viewDescription:}|{viewDescription}|" />
+		<meta class="controllable" property="og:locale" content="en_US" />
+
 		<!-- faveicon and stuff -->
 		<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
