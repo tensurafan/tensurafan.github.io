@@ -9,7 +9,9 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		selectNameEventHandler,
 		mounted: false,
 		rout: routerInstance.rout,
-		volume: ""
+		volume: "",
+		title: "",
+		description: "",
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -65,6 +67,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 				readeingcontent.appendTo(readerContainer)
 
+				app.title.app.viewDescription = ""
+				app.title.app.viewTitle = `Slime Reader ${volume.name}`
 				if (quotedLine){
 					let quotedParagraph = document.getElementById("line_" + quotedLine)
 					quotedParagraph.classList.add("color-primary", "color-in")
@@ -73,6 +77,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 						block: "center"
 					})
 
+					app.title.app.viewTitle = `Slime Reader ${volume.name} Line ${quotedLine}`
+					app.title.app.viewDescription = quotedParagraph.textContent
 				}
 				else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
 					let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
@@ -82,6 +88,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				subableEvents.forEach(eventName=>{
 					window.addEventListener(eventName, onUserInteractWithPage)
 				})
+
+
 			}
 		}
 		catch(uwu){
