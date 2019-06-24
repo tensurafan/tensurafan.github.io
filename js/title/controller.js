@@ -2,7 +2,8 @@ app.initTitle = async function(routerInstance){
 	let template = await fetch("/js/title/view.html").then(owo=>owo.text())
 	let view = proxymity(template, {
 		viewTitle: "",
-		viewDescription: ""
+		viewDescription: "",
+		url: document.location.href
 	})
 
 	routerInstance.on.rout(function(path, routedView){
@@ -18,6 +19,7 @@ app.initTitle = async function(routerInstance){
 		else{
 			view.app.viewDescription = "Read Tensurafan translation group's english translation of the light novel series 《That time I got reincarnated as a slime》"
 		}
+		view.app.url = document.location.origin + path
 	})
 
 	return view
