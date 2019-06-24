@@ -58,6 +58,10 @@
 	background-color: var(--color-button);
 	opacity: 0.9;
 }
+#quote-url-block .close-button {
+	padding: calc(var(--base-padding) / 2);
+	align-self: flex-start;
+}
 #quote-url-block {
 	bottom: calc(var(--base-padding) * 2);
 }
