@@ -62,6 +62,12 @@
 	padding: calc(var(--base-padding) / 2);
 	align-self: flex-start;
 }
+#quote-url-block pre {
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
 #quote-url-block {
 	bottom: calc(var(--base-padding) * 2);
 }
