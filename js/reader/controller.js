@@ -21,7 +21,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	let subableEvents = ["scroll", "touchend", "touchcancle", "mouseup", "blur"]
 
 	routerInstance.on.set(view, async function(){
-		let pathMatch = /^\/read\/([^\/]+)(\/quote\/([^\/]+))?$/.exec(routerInstance.path)
+		let pathMatch = /^\/read\/([^\/]+)\/?(quote\/([^\/]+))?/.exec(routerInstance.path)
 
 		let volumeId = view.app.volumeId = pathMatch[1]
 		let quotedLine = parseInt(pathMatch[3])
