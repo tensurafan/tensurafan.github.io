@@ -41,6 +41,7 @@ async function app(initConfigs){
 	footer.appendTo(document.getElementById("footer"))
 
 	let title = app.title = await app.initTitle(router)
+	title.appendTo(document.head)
 
 	// set up the router and stuff
 	window.addEventListener("popstate", ev=>{
