@@ -7,6 +7,9 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		showFootnote,
 		allTermsChosen: globalTermchoices,
 		selectNameEventHandler,
+		mounted: false,
+		rout: routerInstance.rout,
+		volume: ""
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -29,63 +32,66 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		}
 
 		try{
-			view.app.errored = false
-			view.app.errorMessage = ""
-			let content = await fetch(volume.path).then(owo=>owo.text())
+			if (!view.app.mounted && view.app.volume !== volume){
+				view.app.errored = false
+				view.app.errorMessage = ""
+				let content = await fetch(volume.path).then(owo=>owo.text())
 
-			let readeingcontent = proxymity(content, view.app)
+				let readeingcontent = proxymity(content, view.app)
 
-			let containerWidth = readerContainer.offsetWidth
+				let containerWidth = readerContainer.offsetWidth
 
-			readeingcontent.forEach(el=>{
-				if (el instanceof HTMLImageElement){
-					let originalWidth = parseInt(el.getAttribute("width"))
-					if (originalWidth < containerWidth){
-						return
+				readeingcontent.forEach(el=>{
+					if (el instanceof HTMLImageElement){
+						let originalWidth = parseInt(el.getAttribute("width"))
+						if (originalWidth < containerWidth){
+							return
+						}
+						let originalHeight = parseInt(el.getAttribute("height"))
+
+						let shrinkRatio = containerWidth / originalWidth
+
+						el.setAttribute("width", (originalWidth * shrinkRatio) + "px")
+						el.setAttribute("height", (originalHeight * shrinkRatio) + "px")
+
+						el.style.minWidth = el.getAttribute("width")
+						el.style.minHeight = el.getAttribute("height")
+						el.addEventListener("load", ()=>{
+							el.style.minWidth = "0"
+							el.style.minHeight = "0"
+						})
 					}
-					let originalHeight = parseInt(el.getAttribute("height"))
-
-					let shrinkRatio = containerWidth / originalWidth
-
-					el.setAttribute("width", (originalWidth * shrinkRatio) + "px")
-					el.setAttribute("height", (originalHeight * shrinkRatio) + "px")
-
-					el.style.minWidth = el.getAttribute("width")
-					el.style.minHeight = el.getAttribute("height")
-					el.addEventListener("load", ()=>{
-						el.style.minWidth = "0"
-						el.style.minHeight = "0"
-					})
-				}
-			})
-
-			readeingcontent.appendTo(readerContainer)
-
-			// await Promise.all(imagesPromise).then(RAFP)
-
-			if (quotedLine){
-				let quotedParagraph = document.getElementById("line_" + quotedLine)
-				quotedParagraph.classList.add("color-primary", "color-in")
-				quotedParagraph.scrollIntoView({
-					// behavior: "smooth",
-					block: "center"
 				})
 
-			}
-			else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
-				let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
-				line.scrollIntoView({block: "start"})
-			}
+				readeingcontent.appendTo(readerContainer)
 
-			subableEvents.forEach(eventName=>{
-				window.addEventListener(eventName, onUserInteractWithPage)
-			})
+				if (quotedLine){
+					let quotedParagraph = document.getElementById("line_" + quotedLine)
+					quotedParagraph.classList.add("color-primary", "color-in")
+					quotedParagraph.scrollIntoView({
+						// behavior: "smooth",
+						block: "center"
+					})
+
+				}
+				else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
+					let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
+					line.scrollIntoView({block: "start"})
+				}
+
+				subableEvents.forEach(eventName=>{
+					window.addEventListener(eventName, onUserInteractWithPage)
+				})
+			}
 		}
 		catch(uwu){
 			view.app.errored = true
 			view.app.errorMessage = "Oops something went wrong UwU"
 			console.warn(uwu)
 		}
+
+		view.app.mounted = true
+		view.app.volume = volume
 	})
 
 	routerInstance.on.unset(view, async function(){
@@ -95,6 +101,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		subableEvents.forEach(eventName=>{
 			window.removeEventListener(eventName, onUserInteractWithPage)
 		})
+
+		view.app.mounted = false
 	})
 
 	// --- alright here's the foot note stuff

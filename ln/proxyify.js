@@ -72,7 +72,15 @@
 
 	Array.prototype.forEach.call(document.querySelectorAll("body > *"), (line, index)=>{
 		line.classList.add("line")
+		let originalId = line.id
 		line.id = "line_" + index
+
+		if (originalId){
+			let targetingLink = document.querySelector(`[href*="${originalId}"]`)
+			if(targetingLink){
+				targetingLink.setAttribute("href", "#" + line.id)
+			}
+		}
 	})
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
