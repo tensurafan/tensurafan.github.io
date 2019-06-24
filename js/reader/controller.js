@@ -13,7 +13,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		title: "",
 		description: "",
 		beginLongPress: function(ele, ev){
-			console.log(ele)
 			ele.longPressWait = setTimeout(()=>{
 				let line = ele.id.replace("line_", "")
 				quoterInstance.app.url = `${document.location.origin}/read/${view.app.volume.id}/quote/${line}/`
