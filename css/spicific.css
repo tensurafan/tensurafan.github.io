@@ -124,3 +124,9 @@ img.line {
 .border-right {
 	border-right: solid 1px var(--color-button);
 }
+.scrollable {
+	max-height: calc(90vh - var(--menu-height));
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}

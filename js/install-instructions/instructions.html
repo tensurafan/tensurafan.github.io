@@ -1,13 +1,29 @@
 <div id="install-instructions-backdrop" class="flex vhcenter padding-1 fixed {:this.app.showInstructions ? '' : 'hidden-state' :}|{showInstructions}|" onclick="this.app.showInstructions = false">
-	<div class="color-in bg-light bubbly padding-1 text-center" onclick="event.stopPropagation()">
+	<div class="color-in bg-light bubbly padding-1 text-center scrollable" onclick="event.stopPropagation()">
 		<h4>Android Firefox/Chrome</h4>
 		<p>
-			If you're on a mobile device, please clicke on the button at the top of the screen to the left of the URL bar (show below) and add this web app to your home scree. Doing so would allow you to use this app offline.
+			If you're on an Android device, please click on the button at the top of the screen to the left of the URL bar (show below) and add this web app to your home scree. Doing so would allow you to use this app offline.
 		</p>
-		<img src="/img/mobile-instructions.jpg"/>
+		<div  class="padding-1">
+			<img src="/img/mobile-instructions.jpg"/>
+		</div>
 		<p>
 			If you do not see this button at the top right of the screen beside your navigation bar, plese refresh the page. if you still dont have it, try visiting this website again using FireFox or Chrome.
 		</p>
+
+		<H4>iOS Safari</H4>
+		<p>
+			If you're using an iOS device, you can "share" this page to your home screen by clicking on the share button then clicking on the "Save to Homescreen" button. <strike>I'm sorry the only iOS device I have is an iPod touch 4G</strike>
+		</p>
+		<div class="flex-mid">
+			<div class="padding-1 grow">
+				<img src="/img/ios-instruct-1.png"/>
+			</div>
+			<div class="padding-1 grow">
+				<img src="/img/ios-instruct-2.png"/>
+			</div>
+		</div>
+
 	</div>
 
 </div>
