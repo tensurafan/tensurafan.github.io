@@ -61,12 +61,12 @@ function genPage(title, description, redirectTag){
 
 async function smartWrite(location, data){
 	try{
-		await waitFor(fs.writeFile, location, data)
+		fs.writeFileSync(location, data)
 	}
 	catch(uwu){
 		let folder = path.dirname(location)
 		console.log("making folder", folder)
-		await waitFor(fs.mkdir, folder, { recursive: true })
-		await waitFor(fs.writeFile, location, data)
+		fs.mkdirSync(folder, { recursive: true })
+		fs.writeFileSync(location, data)
 	}
 }
