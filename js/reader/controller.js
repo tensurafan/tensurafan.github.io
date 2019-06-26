@@ -123,26 +123,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	// --- alright here's the foot note stuff
 
-	let footnoteTemplate = await fetch("/js/reader/footnote.html").then(owo=>owo.text())
-
-	let footnoteView = proxymity(footnoteTemplate, {
-		text: "",
-		parent: null,
-		bottom: 0
-	})
-
-	proxymity.watch(footnoteView.app, "parent", function(newParent){
-		if (!newParent){
-			return footnoteView.detach()
-		}
-
-		footnoteView.appendTo(readerContainer)
-
-		footnoteView.app.bottom = newParent.offsetTop + newParent.offsetHeight
-	})
-
-	// document.addEventListener("click", onUserInteractWithPage)
-
 	// ok we need to set up some stuff to do with the term selector
 	let termsToCheck = Object.keys(terms)
 
@@ -150,26 +130,19 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	function showFootnote(element, footnote, event){
 		event.stopPropagation()
-		let changed = false
 
-		if (footnoteView.app.text !== footnote){
-			footnoteView.app.text = footnote
-			changed = true
+		if (element.querySelector(".footnote-visable")){
+			return hideFootnote(element)
 		}
-
-		if (footnoteView.app.parent !== element){
-			footnoteView.app.parent = element
-			changed = true
-		}
-
-		if (!changed){
-			hideFootnote()
-		}
+		let span = document.createElement("span")
+		span.textContent = "[" + footnote + "]"
+		span.classList.add("footnote-visable")
+		element.appendChild(span)
 	}
 
-	function hideFootnote(){
-		footnoteView.app.parent = null
-		footnoteView.app.bottom = 0
+	function hideFootnote(ele){
+		let span = ele.querySelector(".footnote-visable")
+		span.parentNode.removeChild(span)
 	}
 
 	function selectNameEventHandler(ev){
@@ -187,7 +160,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 	var navBarEl
 	function onUserInteractWithPage(){
-		hideFootnote()
+		// hideFootnote()
 		!navBarEl && (navBarEl = document.getElementById("nav"))
 		let navBarBox = navBarEl.getBoundingClientRect()
 
