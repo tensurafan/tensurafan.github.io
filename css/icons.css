@@ -30,6 +30,8 @@
 .icon .menu {
 	border-top: solid 0.15em currentcolor;
 	border-bottom: solid 0.15em currentcolor;
+	height: 1em;
+	width: 1em;
 }
 .icon .menu::before {
 	top: 0.275em;
