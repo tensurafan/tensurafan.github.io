@@ -4,7 +4,6 @@
 .icon, .icon > * {
 	display: inline-block;
 	position: relative;
-	width: 1em;
 	height: 1em;
 	box-sizing: border-box;
 }
