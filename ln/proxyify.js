@@ -109,7 +109,7 @@
 	let spans = Array.prototype.filter.call(document.querySelectorAll("span"), span=>!span.querySelector("*"))
 
 	Object.keys(terms).forEach(termToCheck=>{
-		let termRegex = new RegExp("(\\W|^)" + termToCheck + "(\\W|$)", "g")
+		let termRegex = new RegExp("(\\W\|\^)" + termToCheck + "(\\W\|\$)", "g")
 
 		spans.forEach(span=>{
 			let text = span.innerHTML
