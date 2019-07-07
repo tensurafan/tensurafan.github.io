@@ -17,7 +17,15 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				let line = ele.id.replace("line_", "")
 				quoterInstance.app.url = `${document.location.origin}/read/${view.app.volume.id}/quote/${line}/`
 				quoterInstance.app.element = ele
+				document.removeEventListener("scroll", cancleWhenScroll)
 			}, 800)
+			
+			document.addEventListener("scroll", cancleWhenScroll, {once: true})
+			
+			
+			function cancleWhenScroll(ev){
+				view.app.cancleLongPress(ele, ev)
+			}
 		},
 		cancleLongPress: function(ele, ev){
 			ele.longPressWait && clearTimeout(ele.longPressWait)
