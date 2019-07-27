@@ -8,5 +8,10 @@
 		"id": "v7",
 		"name": "Volume 7",
 		"path": "/ln/v7.html"
+	},
+	{
+		"id": "v8",
+		"name": "Volume 8",
+		"path": "/ln/v8.html"
 	}
 ]
