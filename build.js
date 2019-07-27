@@ -56,7 +56,7 @@ function genPage(title, description, redirectTag){
 			${redirectTag}
 		</head>
 		<body></body>
-	</html>`
+	</html>`.replace(/(\t|\r\n|\n)/, "")
 }
 
 async function smartWrite(location, data){
