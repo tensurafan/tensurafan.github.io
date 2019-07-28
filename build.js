@@ -3,12 +3,15 @@ const volumes = require(__dirname + "/ln/volumes.json")
 const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
+const uglify = require("uglify-js"))
 // const JSDOM = jsdom.JSDOM
 
 ;(async function(){
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
-	let redirectTag = doc404.window.document.head.innerHTML
+	let redirectScript = doc404.window.document.head.querySelector("script").innerHTML
+	let scriptBody = uglify.minify(redirectScript).code
+	let redirectTag = `<script>${scriptBody}</script>`
 
 	let waiting = volumes.map(async volume=>{
 		let text = await waitFor(fs.readFile, __dirname + volume.path, "utf-8")
