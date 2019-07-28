@@ -12,8 +12,12 @@ const uglify = require("uglify-js")
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
 	let redirectScript = doc404.window.document.head.querySelector("script").innerHTML
-	let scriptBody = uglify.minify(redirectScript).code
-	let redirectTag = `<script>${scriptBody}</script>`
+	console.log(redirectScript)
+	let scriptBody = uglify.minify(redirectScript)
+	console.log(scriptBody)
+	
+	let redirectTag = `<script>${scriptBody.code}</script>`
+	console.log(redirectTag)
 
 	let waiting = volumes.map(async volume=>{
 		let text = await waitFor(fs.readFile, __dirname + volume.path, "utf-8")
