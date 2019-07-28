@@ -3,8 +3,10 @@ const volumes = require(__dirname + "/ln/volumes.json")
 const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
-const uglify = require("uglify-js"))
+const uglify = require("uglify-js")
 // const JSDOM = jsdom.JSDOM
+
+// console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
@@ -29,7 +31,7 @@ const uglify = require("uglify-js"))
 				smartWrite(quotePath1, quotedPage),
 				smartWrite(quotePath2, quotedPage)
 			]
-		}).flat())
+		}).reduce((sum, set)=>sum.concat(set), []))
 
 		let readerPath1 = `${__dirname}/read/${volume.id}/index.html`
 		let readerPath2 = `${__dirname}/read/${volume.id}.html`
