@@ -43,7 +43,7 @@
 			textNode.classList.add("strong")
 		}
 
-		if (paraStyles.textDecoration === "line-through"){
+		if (paraStyles.textDecoration.indexOf("line-through") > -1){
 			textNode.classList.add("strikethrough")
 		}
 
