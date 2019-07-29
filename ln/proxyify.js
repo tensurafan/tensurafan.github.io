@@ -43,6 +43,14 @@
 			textNode.classList.add("strong")
 		}
 
+		if (paraStyles.textDecoration === "line-through"){
+			textNode.classList.add("strikethrough")
+		}
+
+		if (paraStyles.fontStyle === "italic"){
+			textNode.classList.add("italic")
+		}
+
 		classesToRemove.forEach(classToDrop=>textNode.classList.remove(classToDrop))
 	})
 
