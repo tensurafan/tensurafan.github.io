@@ -1,9 +1,8 @@
-(async function(){
+let fs = require("fs")
+module.exports = async function(document){
 	await RAFP()
 	await RAFP()
 	await RAFP()
-
-	console.log(document.body.style.display = "none")
 
 	await RAFP()
 
@@ -106,9 +105,7 @@
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	console.log(document.body.style.display = "none")
-
-	let terms = await fetch("/ln/terms.json").then(owo=>owo.json())
+	let terms = await fs.promises.readFile("./terms.json", "utf-8").then(owo=>JSON.parse(owo))
 	await RAFP()
 	await RAFP()
 
@@ -129,7 +126,7 @@
 		})
 	})
 
-	console.log(document.body.innerHTML)
+	return document.body.innerHTML
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
@@ -138,4 +135,4 @@
 	function RAFP(){
 		return new Promise(accept=>requestAnimationFrame(accept))
 	}
-})()
+}
