@@ -1,5 +1,7 @@
-let fs = require("fs")
+const fs = require("fs")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
+const path = require("path")
+
 module.exports = async function(document, window){
 	await RAFP()
 	await RAFP()
@@ -106,7 +108,7 @@ module.exports = async function(document, window){
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	let terms = await waitFor(fs.readFile, "./terms.json", "utf-8").then(owo=>JSON.parse(owo))
+	let terms = await waitFor(fs.readFile, path.dirname(__filename) + "/terms.json", "utf-8").then(owo=>JSON.parse(owo))
 	await RAFP()
 	await RAFP()
 
