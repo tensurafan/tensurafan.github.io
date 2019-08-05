@@ -1,5 +1,5 @@
 let fs = require("fs")
-module.exports = async function(document){
+module.exports = async function(document, window){
 	await RAFP()
 	await RAFP()
 	await RAFP()

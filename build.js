@@ -15,7 +15,7 @@ const proxify = require("./ln/proxyify.js")
 		let DOM = new jsdom.JSDOM(raw, {
 			url: "http://localhost:5000" + vol.source
 		})
-		let proxified = await proxify(DOM.window.document)
+		let proxified = await proxify(DOM.window.document, DOM.window)
 		await smartWrite( __dirname + vol.path, proxified)
 	})
 
