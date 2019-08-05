@@ -4,7 +4,7 @@ const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
 const uglify = require("uglify-js")
-const proxify = require("./ln/proxify.js")
+const proxify = require("./ln/proxyify.js")
 // const JSDOM = jsdom.JSDOM
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
