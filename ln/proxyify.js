@@ -133,6 +133,6 @@ module.exports = async function(document){
 	}
 
 	function RAFP(){
-		return new Promise(accept=>requestAnimationFrame(accept))
+		return new Promise(accept=>setTimeout(accept, 0))
 	}
 }
