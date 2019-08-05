@@ -130,3 +130,16 @@ img.line {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
+
+/* reader stuff */
+.strong {
+	font-weight: bold;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.italic {
+	font-style: italic;
+}
