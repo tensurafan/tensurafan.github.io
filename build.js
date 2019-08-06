@@ -8,13 +8,17 @@ const uglify = require("uglify-js")
 const http = require("http")
 const handler = require("serve-handler")
 const open = require("open")
+const body = require("body")
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
 	let tempServer = http.createServer((req, res)=>{
 		if (req.method === "POST" && req.url === "/save"){
-			saveFile(req).then(()=>res.end(201))
+			let targetdVol = volumes.find(vol=>vol.raw === req.headers.raw)
+			let writer = fs.crateWriteStream(__dirname + targetedVol.path)
+			req.on("data", chunk=>writer.write(chunk))
+			req.on("end", writer.end())
 		}
 		else{
 			handler(req, res, {
@@ -40,10 +44,6 @@ const open = require("open")
 		parsingVol.reject = rej
 		parsingVol.url = volume.raw
 		await parsingVol
-	}
-	
-	async function saveFile(req){
-		
 	}
 	
 	return

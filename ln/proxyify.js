@@ -121,7 +121,15 @@
 		})
 	})
 
-	console.log(document.body.innerHTML)
+	// console.log(document.body.innerHTML)
+	
+	fetch("/save", {
+		method: "POST",
+		headers: {
+			raw: document.location.pathname
+		},
+		body: document.body.innerHTML
+	})
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
