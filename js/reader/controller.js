@@ -19,10 +19,10 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				quoterInstance.app.element = ele
 				document.removeEventListener("scroll", cancleWhenScroll)
 			}, 800)
-			
+
 			document.addEventListener("scroll", cancleWhenScroll, {once: true})
-			
-			
+
+
 			function cancleWhenScroll(ev){
 				view.app.cancleLongPress(ele, ev)
 			}
@@ -160,9 +160,11 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			return
 		}
 
-		namePickerInstance.app.baseName = ele.dataset.term
-		namePickerInstance.app.chosenName = globalTermchoices[ele.dataset.term]
-		namePickerInstance.app.setNameOptions(terms[ele.dataset.term])
+		namePickerInstance.app.nameOptions = terms[ele.dataset.term].slice()
+		proxymity.on.renderend.then(function(){
+			namePickerInstance.app.baseName = ele.dataset.term
+			namePickerInstance.app.chosenName = globalTermchoices[ele.dataset.term]
+		})
 		namePickerInstance.app.display = true
 	}
 

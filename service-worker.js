@@ -61,7 +61,6 @@ async function intelegentFetch(req){
 
 
 self.addEventListener("install", function(ev){
-	ev.waitUntil(makeRequestAndCachePathsRecursive("/"))
 	console.log("begin install")
 	ev.waitUntil(makeRequestAndCachePathsRecursive("/").then(()=>console.log("install complete")))
 })
