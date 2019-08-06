@@ -3,18 +3,18 @@
 		"id": "v6",
 		"name": "Volume 6",
 		"path": "/ln/v6.html",
-		"raw": "/ln/v6/index.html"
+		"raw": "/ln/v6/raw.html"
 	},
 	{
 		"id": "v7",
 		"name": "Volume 7",
 		"path": "/ln/v7.html",
-		"raw": "/ln/v7/index.html"
+		"raw": "/ln/v7/raw.html"
 	},
 	{
 		"id": "v8",
 		"name": "Volume 8",
 		"path": "/ln/v8.html",
-		"raw": "/ln/v8/index.html"
+		"raw": "/ln/v8/raw.html"
 	}
 ]
