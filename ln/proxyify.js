@@ -42,6 +42,14 @@
 		if (parseInt(paraStyles.fontWeight) > 400 ){
 			textNode.classList.add("strong")
 		}
+		
+		if (paraStyles.textDecoration.indexOf("line-through") > -1){ 
+			textNode.classList.add("strikethrough") 
+		} 
+				
+		if (paraStyles.fontStyle === "italic"){ 
+			textNode.classList.add("italic") 
+		}
 
 		classesToRemove.forEach(classToDrop=>textNode.classList.remove(classToDrop))
 	})
