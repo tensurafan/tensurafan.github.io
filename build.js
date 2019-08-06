@@ -13,8 +13,7 @@ const handler = require("serve-handler")
 ;(async function(){
 	let tempServer = http.createServer((req, res)=>{
 		if (req.method === "POST" && req.url === "/save"){
-			await saveFile(req)
-			res.end(201)
+			saveFile(req).then(()=>res.end(201))
 		}
 		else{
 			handler(req, res)
