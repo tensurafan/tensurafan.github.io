@@ -5,10 +5,44 @@ const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
 const uglify = require("uglify-js")
 // const JSDOM = jsdom.JSDOM
+const http = require("http")
+const handler = require("serve-handler")
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
+	let tempServer = http.createServer((req, res)=>{
+		if (req.method === "POST" && req.url === "/save"){
+			await saveFile(req)
+			res.end(201)
+		}
+		else{
+			handler(req, res)
+		}
+	})
+	
+	tempServer.listen(1337)
+	
+	let parsingVol = null
+	for(let volume of volumes){
+		await open("http://localhost:1337" + volume.raw)
+		let acc = null, rej = null
+		parsingVol = new Promise((accept, reject)=>{
+			acc = accept
+			rej = reject
+		}) 
+		parsingVol.accept = acc
+		parsingVol.reject = rej
+		parsingVol.url = volume.raw
+		await parsingVol
+	}
+	
+	async function saveFile(req){
+		
+	}
+	
+	return
+	
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
 	let redirectScript = doc404.window.document.head.querySelector("script").innerHTML

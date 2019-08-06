@@ -4,7 +4,8 @@
   "description": "A small web app for reading our fantranslation of That Time I Got Reincarnated as a Slime",
   "main": "index.html",
   "dependencies": {
-    "open": "^6.4.0"
+    "open": "^6.4.0",
+    "serve-handler": "^6.1.0"
   },
   "devDependencies": {
     "express": "^4.17.1",
