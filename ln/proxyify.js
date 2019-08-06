@@ -100,7 +100,7 @@
 
 	console.log(document.body.style.display = "none")
 
-	let terms = await fetch("/ln/terms.json").then(owo=>owo.json())
+	let terms = await fetch("/ln/terms.json?nocache" + Date.now()).then(owo=>owo.json())
 	await RAFP()
 	await RAFP()
 
@@ -110,6 +110,7 @@
 
 	Object.keys(terms).forEach(termToCheck=>{
 		let termRegex = new RegExp("(\\W\|\^)" + termToCheck + "(\\W\|\$)", "g")
+		console.log(termRegex)
 
 		spans.forEach(span=>{
 			let text = span.innerHTML
@@ -129,7 +130,7 @@
 			raw: document.location.pathname
 		},
 		body: document.body.innerHTML
-	}),then(owo=>owo.text()).then(()=>window.close())
+	}).then(owo=>owo.text()).then(()=>window.close())
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))

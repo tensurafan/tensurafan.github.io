@@ -56,6 +56,8 @@ const open = require("open")
 	let scriptBody = uglify.minify(redirectScript)
 	let redirectTag = `<script>${scriptBody.code}</script>`
 
+	console.log("created redirect script")
+
 	let waiting = volumes.map(async volume=>{
 		let text = await waitFor(fs.readFile, __dirname + volume.path, "utf-8")
 		let doc = new jsdom.JSDOM(text)
@@ -82,6 +84,8 @@ const open = require("open")
 		await smartWrite(readerPath1, readerPage)
 		await smartWrite(readerPath2, readerPage)
 	})
+	
+	console.log("/read/* files created")
 
 })()
 
