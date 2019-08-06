@@ -129,7 +129,7 @@
 			raw: document.location.pathname
 		},
 		body: document.body.innerHTML
-	})
+	}),then(owo=>owo.text()).then(()=>window.close())
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))

@@ -15,9 +15,9 @@ const open = require("open")
 	let tempServer = http.createServer((req, res)=>{
 		if (req.method === "POST" && req.url === "/save"){
 			let targetedVol = volumes.find(vol=>vol.raw === req.headers.raw)
-			let writer = fs.createWriteStream(__dirname + targetedVol.path + ".test")
+			let writer = fs.createWriteStream(__dirname + targetedVol.path)
 			req.on("data", chunk=>writer.write(chunk))
-			req.on("end", ()=>writer.end())
+			req.on("end", ()=>writer.end() + parsingVol.accept())
 		}
 		else{
 			handler(req, res, {
@@ -45,7 +45,10 @@ const open = require("open")
 		await parsingVol
 	}
 	
-	return
+	await new Promise(accept=>tempServer.close(()=>console.log("temp server closed")+accept()))
+	
+	
+	console.log("parse over")
 	
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
