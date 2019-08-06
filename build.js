@@ -4,23 +4,11 @@ const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
 const uglify = require("uglify-js")
-const proxify = require("./ln/proxyify.js")
 // const JSDOM = jsdom.JSDOM
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
-	let volumesConversion = volumes.map(async vol=>{
-		let raw = await waitFor(fs.readFile, __dirname + vol.source, "utf-8")
-		let DOM = new jsdom.JSDOM(raw, {
-			url: "http://localhost:5000" + vol.source
-		})
-		let proxified = await proxify(DOM.window.document, DOM.window)
-		await smartWrite( __dirname + vol.path, proxified)
-	})
-
-	await Promise.all(volumesConversion)
-
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
 	let redirectScript = doc404.window.document.head.querySelector("script").innerHTML

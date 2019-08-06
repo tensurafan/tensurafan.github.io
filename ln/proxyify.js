@@ -1,11 +1,9 @@
-const fs = require("fs")
-const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
-const path = require("path")
+(async function(){
+	await RAFP()
+	await RAFP()
+	await RAFP()
 
-module.exports = async function(document, window){
-	await RAFP()
-	await RAFP()
-	await RAFP()
+	console.log(document.body.style.display = "none")
 
 	await RAFP()
 
@@ -43,14 +41,6 @@ module.exports = async function(document, window){
 
 		if (parseInt(paraStyles.fontWeight) > 400 ){
 			textNode.classList.add("strong")
-		}
-
-		if (paraStyles.textDecoration.indexOf("line-through") > -1){
-			textNode.classList.add("strikethrough")
-		}
-
-		if (paraStyles.fontStyle === "italic"){
-			textNode.classList.add("italic")
 		}
 
 		classesToRemove.forEach(classToDrop=>textNode.classList.remove(classToDrop))
@@ -108,7 +98,9 @@ module.exports = async function(document, window){
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	let terms = await waitFor(fs.readFile, path.dirname(__filename) + "/terms.json", "utf-8").then(owo=>JSON.parse(owo))
+	console.log(document.body.style.display = "none")
+
+	let terms = await fetch("/ln/terms.json").then(owo=>owo.json())
 	await RAFP()
 	await RAFP()
 
@@ -129,13 +121,13 @@ module.exports = async function(document, window){
 		})
 	})
 
-	return document.body.innerHTML
+	console.log(document.body.innerHTML)
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
 	}
 
 	function RAFP(){
-		return new Promise(accept=>setTimeout(accept, 0))
+		return new Promise(accept=>requestAnimationFrame(accept))
 	}
-}
+})()
