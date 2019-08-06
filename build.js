@@ -7,6 +7,7 @@ const uglify = require("uglify-js")
 // const JSDOM = jsdom.JSDOM
 const http = require("http")
 const handler = require("serve-handler")
+const open = require("open")
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
@@ -16,7 +17,10 @@ const handler = require("serve-handler")
 			saveFile(req).then(()=>res.end(201))
 		}
 		else{
-			handler(req, res)
+			handler(req, res, {
+				trailingSlash: true,
+				cleanUrls: false,
+			})
 		}
 	})
 	
@@ -24,7 +28,9 @@ const handler = require("serve-handler")
 	
 	let parsingVol = null
 	for(let volume of volumes){
-		await open("http://localhost:1337" + volume.raw)
+		let location = "http://localhost:1337" + volume.raw 
+		console.log("opening", location)
+		await open(location)
 		let acc = null, rej = null
 		parsingVol = new Promise((accept, reject)=>{
 			acc = accept
