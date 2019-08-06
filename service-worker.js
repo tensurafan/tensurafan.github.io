@@ -26,7 +26,7 @@ async function makeRequestAndCachePathsRecursive(path, exploredPath = []){
 	urlList = urlList.filter(url=>(/(^\/|^http(s):\/\/cdn)/).test(url))
 
 	let updateList = urlList.map(uri=>makeRequestAndCachePathsRecursive(uri, exploredPath))
-	await Promise.all(updateList)
+	return Promise.all(updateList)
 }
 
 async function intelegentFetch(req){
@@ -44,9 +44,12 @@ async function intelegentFetch(req){
 		if (!remoteHeaders || !remoteHeaders.headers || !remoteHeaders.headers.get("etag") || remoteHeaders.headers.get("etag") === cachedEtag){
 			return cachedAsset
 		}
+		else{
+			console.log("asset needs refreshing", req)
+		}
 	}
 
-	let res = await fetch(req)
+	let res = await fetch(req.url || req)
 
 	if (!res.ok){
 		return Promise.reject(res)
@@ -59,6 +62,8 @@ async function intelegentFetch(req){
 
 self.addEventListener("install", function(ev){
 	ev.waitUntil(makeRequestAndCachePathsRecursive("/"))
+	console.log("begin install")
+	ev.waitUntil(makeRequestAndCachePathsRecursive("/").then(()=>console.log("install complete")))
 })
 
 self.addEventListener("fetch", function(ev){
@@ -76,3 +81,5 @@ self.addEventListener("fetch", function(ev){
 		}))
 	}
 })
+
+self.addEventListener("activate", uwu=>console.log("SW active", uwu))
