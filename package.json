@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A small web app for reading our fantranslation of That Time I Got Reincarnated as a Slime",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "open": "^6.4.0"
+  },
   "devDependencies": {
     "express": "^4.17.1",
     "jsdom": "^15.1.1",
