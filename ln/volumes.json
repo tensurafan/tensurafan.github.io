@@ -16,5 +16,11 @@
 		"name": "Volume 8",
 		"path": "/ln/v8.html",
 		"raw": "/ln/v8/raw.html"
+	},
+	{
+		"id": "v8.5",
+		"name": "Volume 8.5",
+		"path": "/ln/v8.5.html",
+		"raw": "/ln/v8.5/raw.html"
 	}
 ]
