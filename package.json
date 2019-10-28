@@ -4,6 +4,7 @@
   "description": "A small web app for reading our fantranslation of That Time I Got Reincarnated as a Slime",
   "main": "index.html",
   "dependencies": {
+    "mkdir-recursive": "^0.4.0",
     "open": "^6.4.0",
     "serve-handler": "^6.1.0"
   },
