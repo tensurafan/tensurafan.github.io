@@ -14,6 +14,7 @@ const fx = require('mkdir-recursive');
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
+	let parsingVol = null
 	let tempServer = http.createServer((req, res)=>{
 		if (req.method === "POST" && req.url === "/save"){
 			let targetedVol = volumes.find(vol=>vol.raw === req.headers.raw)
@@ -25,13 +26,43 @@ const fx = require('mkdir-recursive');
 			handler(req, res, {
 				trailingSlash: true,
 				cleanUrls: false,
+			}, {
+				readFile: function(path, config){
+					if (/\.html$/.test(path)){
+						return new promise(function(accept, reject){
+							fs.readFile(path, config, function(err, data){
+								if (err){
+									return reject(err)
+								}
+
+								if (typeof data === "string"){
+									data = data.replace("</body>", `<script src="../proxyify.js"></script></body>`)
+									accept(data)
+								}
+								else{
+									data = data.toString()
+									data = data.replace("</body>", `<script src="../proxyify.js"></script></body>`)
+									data = Buffer.from(data)
+									accept(data, "utf8")
+								}
+							})
+						})
+					}
+					return new promise(function(accept, reject){
+						fs.readFile(path, config, function(err, data){
+							if (err){
+								return reject(err)
+							}
+							return accept(data)
+						})
+					})
+				}
 			})
 		}
 	})
 
 	tempServer.listen(1337)
 
-	let parsingVol = null
 	for(let volume of volumes){
 		let location = "http://localhost:1337" + volume.raw
 		console.log("opening", location)
@@ -48,7 +79,6 @@ const fx = require('mkdir-recursive');
 	}
 
 	await new Promise(accept=>tempServer.close(()=>console.log("temp server closed")+accept()))
-
 
 	console.log("parse over")
 
