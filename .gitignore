@@ -1,4 +1,5 @@
 *.zip
+*.csv
 
 # Logs
 logs
