@@ -22,5 +22,11 @@
 		"name": "Side Stories Volume 8.5 + Volume 13.5",
 		"path": "/ln/v8_5.html",
 		"raw": "/ln/v8_5/raw.html"
+	},
+	{
+		"id": "v9",
+		"name": "Volume 9",
+		"path": "/ln/v9.html",
+		"raw": "/ln/v9/raw.html"
 	}
 ]
