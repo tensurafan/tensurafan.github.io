@@ -1,112 +1,322 @@
 {
-	"Wisdom King Raphael": [
-		"Wisdom King Raphael",
-		"Wisdom Lord Raphael",
-		"Raphael, Lord of Wisdom",
-		"Raphael, King of Wisdom"
-	],
-	"Ruberios": [
-		"Ruberios",
-		"Ruberius",
-		"Ruberion"
-	],
-	"Karion": [
-		"Karion",
-		"Carion",
-		"Carrion",
-		"Karrion"
-	],
-	"Farmus": [
-		"Farmus",
-		"Falmus"
-	],
-	"Brumund": [
-		"Brumund",
-		"Burumund",
-		"Bulumund",
-		"Bulmund"
-	],
-	"Cabal": [
-		"Cabal",
-		"Kabal"
-	],
-	"Alvis": [
-		"Alvis",
-		"Arubis",
-		"Arubisu",
-		"Arbis",
-		"Arvis"
-	],
-	"Suphia": [
-		"Suphia",
-		"Sophia"
-	],
-	"Covenant King Uriel": [
-		"Covenant King Uriel",
-		"Covenant Lord Uriel",
-		"Vows King Uriel",
-		"Vows Lord Uriel",
-		"Uriel, Lord of Vows",
-		"Uriel, King of Vows",
-		"Uriel, Lord of Covenants",
-		"Uriel, King of Covenants"
-	],
-	"Storm King Veldora": [
-		"Storm King Veldora",
-		"Storm Lord Veldora",
-		"Veldora, Lord of Storms",
-		"Veldora, King of Storms"
-	],
-	"Gluttonous King Beelzebuth": [
-		"Gluttonous King Beelzebuth",
-		"Gluttonous King Beelzebud",
-		"Gluttonous Lord Beelzebuth",
-		"Gluttonous Lord Beelzebud",
-		"Beelzebuth, King of Gluttony",
-		"Beelzebud, King of Gluttony",
-		"Beelzebuth, Lord of Gluttony",
-		"Beelzebud, Lord of Gluttony"
-	],
-	"Investigation King Faust": [
-		"Investigation King Faust",
-		"Investigation Lord Faust",
-		"Faust, Lord of Investigation",
-		"Faust, King of Investigation"
-	],
-	"Youmu": [
-		"Youmu",
-		"Yomu",
-		"Yohm"
-	],
-	"Myuran": [
-		"Myuran",
-		"Mjurran"
-	],
-	"Grucius": [
-		"Grucius",
-		"Gruecith"
-	],
-	"Demon Lord Breed": [
-		"Demon Lord Breed",
-		"Demon Lord Seed",
-		"Demon Lord Kin",
-		"Demon Lord Class"
-	],
-	"Ruminasism": [
-		"Ruminasism",
-		"Ruminism",
-		"Luminism",
-		"Luminiousism",
-		"Lewdminism >///<"
-	],
-	"「": [
-		"「",
-		"“",
-		"\""
-	],
-	"」": [
-		"」",
-		"”",
-		"\""
-	]
+    "Rimuru": [
+        "Rimuru",
+        "Rimuru",
+        "Lime road"
+    ],
+    "Beastketeers": [
+        "Beastketeers",
+        "Lycanthropeers"
+    ],
+    "Benimaru": [
+        "Benimaru",
+        "Benimaru",
+        "Red pill"
+    ],
+    "beastman": [
+        "beastman",
+        "lycanthrope"
+    ],
+    "Beastman": [
+        "Beastman",
+        "Lycanthrope"
+    ],
+    "Souei": [
+        "Souei",
+        "Soei"
+    ],
+    "beastmen": [
+        "beastmen",
+        "lycanthropes"
+    ],
+    "Beastmen": [
+        "Beastmen",
+        "Lycanthropes"
+    ],
+    "Hakurou": [
+        "Hakurou",
+        "Hakuro"
+    ],
+    "Grucius": [
+        "Grucius",
+        "Gruecith"
+    ],
+    "Myourmiles": [
+        "Myourmiles",
+        "Mjöllmile",
+        "Myourmile"
+    ],
+    "Alvis": [
+        "Alvis",
+        "Alvis",
+        "Arubis"
+    ],
+    "Gabil": [
+        "Gabil",
+        "Gabil",
+        "Gabiru"
+    ],
+    "Suphia": [
+        "Suphia",
+        "Sufia",
+        "Sophia"
+    ],
+    "Souka": [
+        "Souka",
+        "Soka",
+        "Cyka"
+    ],
+    "Karion": [
+        "Karion",
+        "Carillon",
+        "Carion",
+        "Karrion",
+        "Carrion",
+        "Carroña"
+    ],
+    "Abil": [
+        "Abil",
+        "Abil",
+        "Abiru"
+    ],
+    "Rigurdo": [
+        "Rigurdo",
+        "Rigurd"
+    ],
+    "Regurdo": [
+        "Regurdo",
+        "Regurd"
+    ],
+    "Ruminas": [
+        "Ruminas",
+        "Luminus",
+        "Luminas"
+    ],
+    "Rogurdo": [
+        "Rogurdo",
+        "Rogurd"
+    ],
+    "Seven Celestial Saints": [
+        "Seven Celestial Saints",
+        "Seven Days Clergy",
+        "Seven Luminary Clerics"
+    ],
+    "Rugurdo": [
+        "Rugurdo",
+        "Rugurd"
+    ],
+    "Gobta": [
+        "Gobta",
+        "Gobta",
+        "Gobuta"
+    ],
+    "Elalude": [
+        "Elalude",
+        "Erald"
+    ],
+    "Elaure": [
+        "Elaure",
+        "Elaure",
+        "Elure"
+    ],
+    "Jiu": [
+        "Jiu",
+        "Jiu",
+        "Cho"
+    ],
+    "Myrd": [
+        "Myrd",
+        "Mildo"
+    ],
+    "Geld": [
+        "Geld",
+        "Geld",
+        "Gerudo",
+        "Gaylord"
+    ],
+    "Cabal": [
+        "Cabal",
+        "Kabal"
+    ],
+    "Aubert": [
+        "Aubert",
+        "Aubert",
+        "O'bell"
+    ],
+    "Youmu": [
+        "Youmu",
+        "Yohm",
+        "Youm"
+    ],
+    "Gale": [
+        "Gale",
+        "Gail"
+    ],
+    "Myuran": [
+        "Myuran",
+        "Mjurran",
+        "Myulan"
+    ],
+    "Edmalis": [
+        "Edmalis",
+        "Edmaris",
+        "Edomalis"
+    ],
+    "Eight Star Demon Lords": [
+        "Eight Star Demon Lords",
+        "Octagram"
+    ],
+    "Larzen": [
+        "Larzen",
+        "Razen"
+    ],
+    "Dagruel": [
+        "Dagruel",
+        "Daggrull"
+    ],
+    "Rayhiem": [
+        "Rayhiem",
+        "Reyhiem"
+    ],
+    "Dino": [
+        "Dino",
+        "Deeno"
+    ],
+    "Rosso": [
+        "Rosso",
+        "Rozzo"
+    ],
+    "Anrietta": [
+        "Anrietta",
+        "Henrietta"
+    ],
+    "Magic Perception": [
+        "Magic Perception",
+        "Magic Sense"
+    ],
+    "Farmus": [
+        "Farmus",
+        "Farmus",
+        "Falmus"
+    ],
+    "Shadow Step": [
+        "Shadow Step",
+        "Shadow Motion"
+    ],
+    "Ruberios": [
+        "Ruberios",
+        "Lubelius",
+        "Ruberius"
+    ],
+    "Yuurazania": [
+        "Yuurazania",
+        "Eurazania",
+        "Yurazania"
+    ],
+    "Ingracia": [
+        "Ingracia",
+        "Englesia"
+    ],
+    "Wisdom King Raphael": [
+        "Wisdom King Raphael",
+        "Raphael, Lord of Wisdom",
+        "Wisdom Lord Raphael",
+        "Raphael, King of Wisdom"
+    ],
+    "Sorcerer's Dynasty": [
+        "Sorcerer's Dynasty",
+        "Sorcerous Dynasty of"
+    ],
+    "Covenant King Uriel": [
+        "Covenant King Uriel",
+        "Uriel, Lord of Vows",
+        "Covenant Lord Uriel",
+        "Vows King Uriel",
+        "Vows Lord Uriel"
+    ],
+    "Sarion": [
+        "Sarion",
+        "Thalion"
+    ],
+    "Storm King Veldora": [
+        "Storm King Veldora",
+        "Veldora, Lord of Storms",
+        "Storm Lord Veldora",
+        "Veldora, King of Storms"
+    ],
+    "Gluttonous King Beelzebuth": [
+        "Gluttonous King Beelzebuth",
+        "Belzebuth, Lord of Gluttony",
+        "Gluttonous Lord Beelzebuth",
+        "Belzebuth, King of Gluttony",
+        "Gluttonous King Kirby"
+    ],
+    "Investigation King Faust": [
+        "Investigation King Faust",
+        "Faust, Lord of Investigation"
+    ],
+    "Absolute Defense": [
+        "Absolute Defense",
+        "Absolute Defense",
+        "Absolute Joke"
+    ],
+    "majin": [
+        "majin",
+        "magic-born"
+    ],
+    "Majin": [
+        "Majin",
+        "Magic-born"
+    ],
+    "majins": [
+        "majins",
+        "magic-born"
+    ],
+    "Majins": [
+        "Majins",
+        "Magic-born"
+    ],
+    "kijin": [
+        "kijin",
+        "ogre mage"
+    ],
+    "Kijin": [
+        "Kijin",
+        "Ogre mage"
+    ],
+    "kijins": [
+        "kijins",
+        "ogre mages"
+    ],
+    "Kijins": [
+        "Kijins",
+        "Ogre mages"
+    ],
+    "Ruminism": [
+        "Ruminism",
+        "Luminism",
+        "Ruminasism",
+        "Lewdminism"
+    ],
+    "Ruminasism": [
+        "Ruminasism",
+        "Luminism",
+        "Ruminism",
+        "Lewdminism"
+    ],
+    "sama": [
+        "sama",
+        "sama",
+        "adult"
+    ],
+    "Demon Lord": [
+        "Demon Lord",
+        "Demon Lord",
+        "Señor Demonio"
+    ],
+    "demon lord": [
+        "demon lord",
+        "demon lord",
+        "señor demonio"
+    ]
 }
