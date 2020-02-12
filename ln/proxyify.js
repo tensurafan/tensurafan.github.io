@@ -1,5 +1,4 @@
 (async function(){
-	return
 	await RAFP()
 	await RAFP()
 	await RAFP()
@@ -68,11 +67,11 @@
 		img.setAttribute("width", natWidth)
 	})
 
-	Array.prototype.forEach.call(document.querySelectorAll("p"), paragraph=>{
+	/*Array.prototype.forEach.call(document.querySelectorAll("p"), paragraph=>{
 		if (!paragraph.textContent.trim() && !paragraph.id && !paragraph.querySelector("[id]") && !paragraph.querySelector("img")){
 			paragraph.parentNode.removeChild(paragraph)
 		}
-	})
+	})*/
 
 	Array.prototype.forEach.call(document.querySelectorAll("[style]"), el=>el.removeAttribute("style"))
 
@@ -111,7 +110,7 @@
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	console.log(document.body.style.display = "none")
+	// console.log(document.body.style.display = "none")
 
 	let terms = await fetch("/ln/terms.json?nocache" + Date.now()).then(owo=>owo.json())
 	await RAFP()
@@ -135,7 +134,7 @@
 		})
 	})
 
-	// console.log(document.body.innerHTML)
+	console.log(document.body.innerHTML)
 
 	fetch("/save", {
 		method: "POST",
