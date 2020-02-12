@@ -42,13 +42,17 @@
 		if (parseInt(paraStyles.fontWeight) > 400 ){
 			textNode.classList.add("strong")
 		}
-		
-		if (paraStyles.textDecoration.indexOf("line-through") > -1){ 
-			textNode.classList.add("strikethrough") 
-		} 
-				
-		if (paraStyles.fontStyle === "italic"){ 
-			textNode.classList.add("italic") 
+
+		if (paraStyles.textDecoration.indexOf("line-through") > -1){
+			textNode.classList.add("strikethrough")
+		}
+
+		if (paraStyles.fontStyle === "italic"){
+			textNode.classList.add("italic")
+		}
+
+		if (paraStyles.textIndent === "0px"){
+			textNode.classList.add("indent")
 		}
 
 		classesToRemove.forEach(classToDrop=>textNode.classList.remove(classToDrop))
@@ -131,7 +135,7 @@
 	})
 
 	// console.log(document.body.innerHTML)
-	
+
 	fetch("/save", {
 		method: "POST",
 		headers: {

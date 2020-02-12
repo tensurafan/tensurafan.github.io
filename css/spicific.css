@@ -131,13 +131,16 @@ img.line {
 	overflow-y: auto;
 }
 
-/* reader stuff */ 
-.strong { 
-	font-weight: bold; 
-} 
-.strikethrough { 
-	text-decoration: line-through; 
-} 
-.italic { 
-	font-style: italic; 
+/* reader stuff */
+.strong {
+	font-weight: bold;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.italic {
+	font-style: italic;
+}
+.indent {
+	text-indent: 2.5em;
 }
