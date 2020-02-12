@@ -51,7 +51,6 @@
 			textNode.classList.add("italic")
 		}
 
-		console.log(textNode, paraStyles)
 		if (paraStyles.textIndent !== "0px"){
 			textNode.classList.add("indent")
 		}

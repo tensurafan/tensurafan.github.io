@@ -64,7 +64,7 @@ const fx = require('mkdir-recursive');
 	tempServer.listen(1337)
 
 	for(let volume of volumes){
-		let location = "http://localhost:1337" + volume.raw
+		let location = "http://localhost:1337" + volume.raw + "?cache-bust=" + Date.now()
 		console.log("opening", location)
 		await open(location)
 		let acc = null, rej = null
