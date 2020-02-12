@@ -1,4 +1,5 @@
 (async function(){
+	return
 	await RAFP()
 	await RAFP()
 	await RAFP()

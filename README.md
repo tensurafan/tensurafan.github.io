@@ -11,3 +11,7 @@ This is a web app to allow for users to read the fan translation of "That Time I
 - ~change theme~
 - notifications maybe
 - ~install instructions~
+- return to closed page on save
+- toggle underline
+- button to yenpressify selectable options
+- post paragraph spaceing update
