@@ -93,6 +93,7 @@
 
 hr.line {
 	border: 0;
+	text-align: justify;
 }
 
 hr.line::before {
@@ -142,5 +143,5 @@ img.line {
 	font-style: italic;
 }
 .indent {
-	text-indent: 2.5em;
+	text-indent: 2em;
 }
