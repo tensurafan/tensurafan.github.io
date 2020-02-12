@@ -89,11 +89,11 @@
 	margin: 0;
 	padding-bottom: calc(var(--base-padding) * 2);
 	position: relative;
+	text-align: justify;
 }
 
 hr.line {
 	border: 0;
-	text-align: justify;
 }
 
 hr.line::before {
