@@ -90,6 +90,7 @@
 	padding-bottom: calc(var(--base-padding) * 2);
 	position: relative;
 	text-align: justify;
+	min-height: 0.5em;
 }
 
 hr.line {
