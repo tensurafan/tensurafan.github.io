@@ -2,7 +2,8 @@
     "Rimuru": [
         "Rimuru",
         "Rimuru",
-        "Lime road"
+        "Lime road",
+        "Rimuwu"
     ],
     "Beastketeers": [
         "Beastketeers",
@@ -23,7 +24,8 @@
     ],
     "Souei": [
         "Souei",
-        "Soei"
+        "Soei",
+        "Shadow"
     ],
     "beastmen": [
         "beastmen",
@@ -35,36 +37,37 @@
     ],
     "Hakurou": [
         "Hakurou",
-        "Hakuro"
+        "Hakuro",
+        "Old White"
     ],
     "Grucius": [
         "Grucius",
         "Gruecith"
     ],
-    "Myourmiles": [
-        "Myourmiles",
-        "Mjöllmile",
-        "Myourmile"
+    "Shion": [
+        "Shion",
+        "Shion",
+        "Asters"
     ],
     "Alvis": [
         "Alvis",
         "Alvis",
         "Arubis"
     ],
-    "Gabil": [
-        "Gabil",
-        "Gabil",
-        "Gabiru"
+    "Shuna": [
+        "Shuna",
+        "Shuna",
+        "Vegetable"
     ],
     "Suphia": [
         "Suphia",
         "Sufia",
         "Sophia"
     ],
-    "Souka": [
-        "Souka",
-        "Soka",
-        "Cyka"
+    "Phobio": [
+        "Phobio",
+        "Phobio",
+        "Kitty"
     ],
     "Karion": [
         "Karion",
@@ -74,10 +77,47 @@
         "Carrion",
         "Carroña"
     ],
+    "Yuuki": [
+        "Yuuki",
+        "Yuuki",
+        "Excellent Tree"
+    ],
+    "Myourmiles": [
+        "Myourmiles",
+        "Mjöllmile",
+        "Myourmile"
+    ],
+    "Gabil": [
+        "Gabil",
+        "Gabil",
+        "Gabiru"
+    ],
+    "Ruminas": [
+        "Ruminas",
+        "Luminus",
+        "Luminas",
+        "Lewdminas"
+    ],
+    "Souka": [
+        "Souka",
+        "Soka",
+        "Cyka"
+    ],
+    "Seven Celestial Saints": [
+        "Seven Celestial Saints",
+        "Seven Days Clergy",
+        "Seven Luminary Clerics"
+    ],
     "Abil": [
         "Abil",
         "Abil",
         "Abiru"
+    ],
+    "Hinata": [
+        "Hinata",
+        "Hinata",
+        "the Sun",
+        "the Japanese"
     ],
     "Rigurdo": [
         "Rigurdo",
@@ -87,19 +127,9 @@
         "Regurdo",
         "Regurd"
     ],
-    "Ruminas": [
-        "Ruminas",
-        "Luminus",
-        "Luminas"
-    ],
     "Rogurdo": [
         "Rogurdo",
         "Rogurd"
-    ],
-    "Seven Celestial Saints": [
-        "Seven Celestial Saints",
-        "Seven Days Clergy",
-        "Seven Luminary Clerics"
     ],
     "Rugurdo": [
         "Rugurdo",
@@ -112,21 +142,28 @@
     ],
     "Elalude": [
         "Elalude",
-        "Erald"
+        "Erald",
+        "Harold"
     ],
     "Elaure": [
         "Elaure",
         "Elaure",
         "Elure"
     ],
-    "Jiu": [
-        "Jiu",
-        "Jiu",
-        "Cho"
+    "Masayuki": [
+        "Masayuki",
+        "Masayuki",
+        "Lucky",
+        "Xingxing"
     ],
     "Myrd": [
         "Myrd",
         "Mildo"
+    ],
+    "Jiu": [
+        "Jiu",
+        "Jiu",
+        "Cho"
     ],
     "Geld": [
         "Geld",
@@ -185,6 +222,14 @@
     "Rosso": [
         "Rosso",
         "Rozzo"
+    ],
+    "Pann": [
+        "Pann",
+        "Vaughn"
+    ],
+    "Dorf": [
+        "Dorf",
+        "Dolph"
     ],
     "Anrietta": [
         "Anrietta",
