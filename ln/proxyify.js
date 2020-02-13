@@ -127,7 +127,7 @@
 		spans.forEach(span=>{
 			let text = span.innerHTML
 			span.innerHTML = span.innerHTML.replace(termRegex, function(matched, before, after){
-				return before + `<span data-term="${termToCheck}" class="underline clickable" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>` + after
+				return before + `<span data-term="${termToCheck}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>` + after
 
 				return termToCheck
 			})

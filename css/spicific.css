@@ -146,3 +146,7 @@ img.line {
 .indent {
 	text-indent: 2em;
 }
+
+.selectable-term + .selectable-term::before {
+	content: " ";
+}
