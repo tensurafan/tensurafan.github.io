@@ -8,7 +8,8 @@ const uglify = require("uglify-js")
 const http = require("http")
 const handler = require("serve-handler")
 const open = require("open")
-const fx = require('mkdir-recursive');
+const fx = require('mkdir-recursive')
+const port = Math.floor(Math.random() * 9000 + 1000)
 
 
 // console.log(Object.getOwnPropertyNames(Array.prototype))
@@ -61,10 +62,10 @@ const fx = require('mkdir-recursive');
 		}
 	})
 
-	tempServer.listen(1337)
+	tempServer.listen(port)
 
 	for(let volume of volumes){
-		let location = "http://localhost:1337" + volume.raw + "?cache-bust=" + Date.now()
+		let location = "http://localhost:" + port + volume.raw + "?cache-bust=" + Date.now()
 		console.log("opening", location)
 		await open(location)
 		let acc = null, rej = null
