@@ -77,6 +77,8 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 		parsingVol.reject = rej
 		parsingVol.url = volume.raw
 		await parsingVol
+
+		console.log("parsed", location)
 	}
 
 	await new Promise(accept=>tempServer.close(()=>console.log("temp server closed")+accept()))
