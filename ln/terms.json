@@ -57,7 +57,8 @@
     "Shuna": [
         "Shuna",
         "Shuna",
-        "Vegetable"
+        "Vegetable",
+        "Zuh Zuh"
     ],
     "Suphia": [
         "Suphia",
@@ -106,26 +107,36 @@
     "Seven Celestial Saints": [
         "Seven Celestial Saints",
         "Seven Days Clergy",
-        "Seven Luminary Clerics"
+        "Seven Luminary Saints"
     ],
     "Abil": [
         "Abil",
         "Abil",
         "Abiru"
     ],
-    "Hinata": [
-        "Hinata",
-        "Hinata",
-        "the Sun",
-        "the Japanese"
+    "Seven Celestials": [
+        "Seven Celestials",
+        "Seven Days",
+        "Seven Luminaries"
     ],
     "Rigurdo": [
         "Rigurdo",
         "Rigurd"
     ],
+    "Hinata": [
+        "Hinata",
+        "Hinata",
+        "Sun",
+        "Japanese"
+    ],
     "Regurdo": [
         "Regurdo",
         "Regurd"
+    ],
+    "Green Rebellion": [
+        "Green Rebellion",
+        "Green Rebellion",
+        "Rebelle Vert"
     ],
     "Rogurdo": [
         "Rogurdo",
@@ -153,7 +164,7 @@
     "Masayuki": [
         "Masayuki",
         "Masayuki",
-        "Lucky",
+        "Fortunate",
         "Xingxing"
     ],
     "Myrd": [
@@ -235,76 +246,6 @@
         "Anrietta",
         "Henrietta"
     ],
-    "Magic Perception": [
-        "Magic Perception",
-        "Magic Sense"
-    ],
-    "Farmus": [
-        "Farmus",
-        "Farmus",
-        "Falmus"
-    ],
-    "Shadow Step": [
-        "Shadow Step",
-        "Shadow Motion"
-    ],
-    "Ruberios": [
-        "Ruberios",
-        "Lubelius",
-        "Ruberius"
-    ],
-    "Yuurazania": [
-        "Yuurazania",
-        "Eurazania",
-        "Yurazania"
-    ],
-    "Ingracia": [
-        "Ingracia",
-        "Englesia"
-    ],
-    "Wisdom King Raphael": [
-        "Wisdom King Raphael",
-        "Raphael, Lord of Wisdom",
-        "Wisdom Lord Raphael",
-        "Raphael, King of Wisdom"
-    ],
-    "Sorcerer's Dynasty": [
-        "Sorcerer's Dynasty",
-        "Sorcerous Dynasty of"
-    ],
-    "Covenant King Uriel": [
-        "Covenant King Uriel",
-        "Uriel, Lord of Vows",
-        "Covenant Lord Uriel",
-        "Vows King Uriel",
-        "Vows Lord Uriel"
-    ],
-    "Sarion": [
-        "Sarion",
-        "Thalion"
-    ],
-    "Storm King Veldora": [
-        "Storm King Veldora",
-        "Veldora, Lord of Storms",
-        "Storm Lord Veldora",
-        "Veldora, King of Storms"
-    ],
-    "Gluttonous King Beelzebuth": [
-        "Gluttonous King Beelzebuth",
-        "Belzebuth, Lord of Gluttony",
-        "Gluttonous Lord Beelzebuth",
-        "Belzebuth, King of Gluttony",
-        "Gluttonous King Kirby"
-    ],
-    "Investigation King Faust": [
-        "Investigation King Faust",
-        "Faust, Lord of Investigation"
-    ],
-    "Absolute Defense": [
-        "Absolute Defense",
-        "Absolute Defense",
-        "Absolute Joke"
-    ],
     "majin": [
         "majin",
         "magic-born"
@@ -312,6 +253,11 @@
     "Majin": [
         "Majin",
         "Magic-born"
+    ],
+    "Farmus": [
+        "Farmus",
+        "Farmus",
+        "Falmus"
     ],
     "majins": [
         "majins",
@@ -329,6 +275,11 @@
         "Kijin",
         "Ogre mage"
     ],
+    "Ruberios": [
+        "Ruberios",
+        "Lubelius",
+        "Ruberius"
+    ],
     "kijins": [
         "kijins",
         "ogre mages"
@@ -337,31 +288,106 @@
         "Kijins",
         "Ogre mages"
     ],
+    "Yuurazania": [
+        "Yuurazania",
+        "Eurazania",
+        "Yurazania"
+    ],
+    "Ingracia": [
+        "Ingracia",
+        "Englesia"
+    ],
+    "Sorcerer's Dynasty": [
+        "Sorcerer's Dynasty",
+        "Sorcerous Dynasty of"
+    ],
     "Ruminism": [
         "Ruminism",
         "Luminism",
         "Ruminasism",
         "Lewdminism"
     ],
-    "Ruminasism": [
-        "Ruminasism",
-        "Luminism",
-        "Ruminism",
-        "Lewdminism"
+    "Sarion": [
+        "Sarion",
+        "Thalion"
     ],
-    "sama": [
-        "sama",
-        "sama",
-        "adult"
+    "javelin": [
+        "javelin",
+        "javelin",
+        "Death pickle"
+    ],
+    "golem guardian": [
+        "golem guardian",
+        "golem guardian",
+        "Elemental Colossus"
     ],
     "Demon Lord": [
         "Demon Lord",
         "Demon Lord",
-        "Señor Demonio"
+        "Señor Demonio",
+        "Dank Lood"
     ],
     "demon lord": [
         "demon lord",
         "demon lord",
-        "señor demonio"
+        "señor demonio",
+        "dank lood"
+    ],
+    "Holy Knight Order": [
+        "Holy Knight Order",
+        "Crusader"
+    ],
+    "tempest snake": [
+        "tempest snake",
+        "tempest serpent"
+    ],
+    "Tempest snake": [
+        "Tempest snake",
+        "Tempest serpent"
+    ],
+    "Magic Perception": [
+        "Magic Perception",
+        "Magic Sense"
+    ],
+    "Shadow Step": [
+        "Shadow Step",
+        "Shadow Motion"
+    ],
+    "Analyze and Assess": [
+        "Analyze and Assess",
+        "Analyze and Assess",
+        "Analysis"
+    ],
+    "Analysis": [
+        "Analysis",
+        "Analyze and Assess"
+    ],
+    "Wisdom King Raphael": [
+        "Wisdom King Raphael",
+        "Raphael, Lord of Wisdom,",
+        "Wisdom Lord Raphael",
+        "Raphael, King of Wisdom"
+    ],
+    "Covenant King Uriel": [
+        "Covenant King Uriel",
+        "Uriel, Lord of Vows,",
+        "Covenant Lord Uriel",
+        "Vows King Uriel"
+    ],
+    "Storm King Veldora": [
+        "Storm King Veldora",
+        "Veldora, Lord of Storms,",
+        "Storm Lord Veldora",
+        "Veldora, King of Storms"
+    ],
+    "Gluttonous King Beelzebuth": [
+        "Gluttonous King Beelzebuth",
+        "Belzebuth, Lord of Gluttony,",
+        "Gluttonous Lord Beelzebuth",
+        "Belzebuth, King of Gluttony"
+    ],
+    "Investigation King Faust": [
+        "Investigation King Faust",
+        "Faust, Lord of Investigation,"
     ]
 }
