@@ -15,13 +15,13 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 // console.log(Object.getOwnPropertyNames(Array.prototype))
 
 ;(async function(){
-	let parsingVol = null
+	// let parsingVol = null
 	let tempServer = http.createServer((req, res)=>{
 		if (req.method === "POST" && req.url === "/save"){
 			let targetedVol = volumes.find(vol=>vol.raw === req.headers.raw)
 			let writer = fs.createWriteStream(__dirname + targetedVol.path)
 			req.on("data", chunk=>writer.write(chunk))
-			req.on("end", ()=>writer.end() + console.log(`front end parsed ${targetedVol.path}`) + parsingVol.accept())
+			req.on("end", ()=>writer.end() + console.log(`front end parsed ${targetedVol.path}`) + targetedVol.parsePromise.accept())
 
 		}
 		else{
@@ -34,6 +34,7 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 
 	tempServer.listen(port)
 
+	/*
 	for(let volume of volumes){
 		let location = "http://localhost:" + port + volume.raw + "?cache-bust=" + Date.now()
 		console.log("opening", location)
@@ -50,6 +51,25 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 
 		console.log("parsed", location)
 	}
+	*/
+
+	let parseAllPromise = volumes.map(volume=>{
+		let location = "http://localhost:" + port + volume.raw + "?cache-bust=" + Date.now()
+		console.log("opening", location)
+		open(location) // could be awaited but we dont need to bother here
+
+		let acc = null, rej = null
+		let parsePromise = new Promise((accept, reject)=>{
+			acc = accept
+			rej = reject
+		})
+		parsePromise.accept = acc
+		parsePromise.reject = rej
+		volume.parsePromise = parsePromise
+		return parsePromise
+	})
+
+	await Promise.all(parseAllPromise)
 
 	await new Promise(accept=>tempServer.close(()=>console.log("temp server closed")+accept()))
 
