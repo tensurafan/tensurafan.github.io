@@ -1,366 +1,22 @@
 {
-    "Rimuru": [
-        "Rimuru",
-        "Rimuru",
-        "Lime road",
-        "Rimuwu"
+    "Gluttonous King Beelzebuth": [
+        "Gluttonous King Beelzebuth",
+        "Belzebuth, Lord of Gluttony,",
+        "Gluttonous Lord Beelzebuth",
+        "Belzebuth, King of Gluttony"
     ],
-    "Beastketeers": [
-        "Beastketeers",
-        "Lycanthropeers"
+    "Investigation King Faust": [
+        "Investigation King Faust",
+        "Faust, Lord of Investigation,"
     ],
-    "Benimaru": [
-        "Benimaru",
-        "Benimaru",
-        "Red pill"
-    ],
-    "beastman": [
-        "beastman",
-        "lycanthrope"
-    ],
-    "Beastman": [
-        "Beastman",
-        "Lycanthrope"
-    ],
-    "Souei": [
-        "Souei",
-        "Soei",
-        "Shadow"
-    ],
-    "beastmen": [
-        "beastmen",
-        "lycanthropes"
-    ],
-    "Beastmen": [
-        "Beastmen",
-        "Lycanthropes"
-    ],
-    "Hakurou": [
-        "Hakurou",
-        "Hakuro",
-        "Old White"
-    ],
-    "Grucius": [
-        "Grucius",
-        "Gruecith"
-    ],
-    "Shion": [
-        "Shion",
-        "Shion",
-        "Asters"
-    ],
-    "Alvis": [
-        "Alvis",
-        "Alvis",
-        "Arubis"
-    ],
-    "Shuna": [
-        "Shuna",
-        "Shuna",
-        "Vegetable",
-        "Zuh Zuh"
-    ],
-    "Suphia": [
-        "Suphia",
-        "Sufia",
-        "Sophia"
-    ],
-    "Phobio": [
-        "Phobio",
-        "Phobio",
-        "Kitty"
-    ],
-    "Karion": [
-        "Karion",
-        "Carillon",
-        "Carion",
-        "Karrion",
-        "Carrion",
-        "Carroña"
-    ],
-    "Yuuki": [
-        "Yuuki",
-        "Yuuki",
-        "Excellent Tree"
-    ],
-    "Myourmiles": [
-        "Myourmiles",
-        "Mjöllmile",
-        "Myourmile"
-    ],
-    "Gabil": [
-        "Gabil",
-        "Gabil",
-        "Gabiru"
-    ],
-    "Ruminas": [
-        "Ruminas",
-        "Luminus",
-        "Luminas",
-        "Lewdminas"
-    ],
-    "Souka": [
-        "Souka",
-        "Soka",
-        "Cyka"
+    "Fairy of the Labyrinth": [
+        "Fairy of the Labyrinth",
+        "Labyrinth Master"
     ],
     "Seven Celestial Saints": [
         "Seven Celestial Saints",
         "Seven Days Clergy",
         "Seven Luminary Saints"
-    ],
-    "Abil": [
-        "Abil",
-        "Abil",
-        "Abiru"
-    ],
-    "Seven Celestials": [
-        "Seven Celestials",
-        "Seven Days",
-        "Seven Luminaries"
-    ],
-    "Rigurdo": [
-        "Rigurdo",
-        "Rigurd"
-    ],
-    "Hinata": [
-        "Hinata",
-        "Hinata",
-        "Sun",
-        "Japanese"
-    ],
-    "Regurdo": [
-        "Regurdo",
-        "Regurd"
-    ],
-    "Green Rebellion": [
-        "Green Rebellion",
-        "Green Rebellion",
-        "Rebelle Vert"
-    ],
-    "Rogurdo": [
-        "Rogurdo",
-        "Rogurd"
-    ],
-    "Rugurdo": [
-        "Rugurdo",
-        "Rugurd"
-    ],
-    "Gobta": [
-        "Gobta",
-        "Gobta",
-        "Gobuta"
-    ],
-    "Elalude": [
-        "Elalude",
-        "Erald",
-        "Harold"
-    ],
-    "Elaure": [
-        "Elaure",
-        "Elaure",
-        "Elure"
-    ],
-    "Masayuki": [
-        "Masayuki",
-        "Masayuki",
-        "Fortunate",
-        "Xingxing"
-    ],
-    "Myrd": [
-        "Myrd",
-        "Mildo"
-    ],
-    "Jiu": [
-        "Jiu",
-        "Jiu",
-        "Cho"
-    ],
-    "Geld": [
-        "Geld",
-        "Geld",
-        "Gerudo",
-        "Gaylord"
-    ],
-    "Cabal": [
-        "Cabal",
-        "Kabal"
-    ],
-    "Aubert": [
-        "Aubert",
-        "Aubert",
-        "O'bell"
-    ],
-    "Youmu": [
-        "Youmu",
-        "Yohm",
-        "Youm"
-    ],
-    "Gale": [
-        "Gale",
-        "Gail"
-    ],
-    "Myuran": [
-        "Myuran",
-        "Mjurran",
-        "Myulan"
-    ],
-    "Edmalis": [
-        "Edmalis",
-        "Edmaris",
-        "Edomalis"
-    ],
-    "Eight Star Demon Lords": [
-        "Eight Star Demon Lords",
-        "Octagram"
-    ],
-    "Larzen": [
-        "Larzen",
-        "Razen"
-    ],
-    "Dagruel": [
-        "Dagruel",
-        "Daggrull"
-    ],
-    "Rayhiem": [
-        "Rayhiem",
-        "Reyhiem"
-    ],
-    "Dino": [
-        "Dino",
-        "Deeno"
-    ],
-    "Rosso": [
-        "Rosso",
-        "Rozzo"
-    ],
-    "Pann": [
-        "Pann",
-        "Vaughn"
-    ],
-    "Dorf": [
-        "Dorf",
-        "Dolph"
-    ],
-    "Anrietta": [
-        "Anrietta",
-        "Henrietta"
-    ],
-    "majin": [
-        "majin",
-        "magic-born"
-    ],
-    "Majin": [
-        "Majin",
-        "Magic-born"
-    ],
-    "Farmus": [
-        "Farmus",
-        "Farmus",
-        "Falmus"
-    ],
-    "majins": [
-        "majins",
-        "magic-born"
-    ],
-    "Majins": [
-        "Majins",
-        "Magic-born"
-    ],
-    "kijin": [
-        "kijin",
-        "ogre mage"
-    ],
-    "Kijin": [
-        "Kijin",
-        "Ogre mage"
-    ],
-    "Ruberios": [
-        "Ruberios",
-        "Lubelius",
-        "Ruberius"
-    ],
-    "kijins": [
-        "kijins",
-        "ogre mages"
-    ],
-    "Kijins": [
-        "Kijins",
-        "Ogre mages"
-    ],
-    "Yuurazania": [
-        "Yuurazania",
-        "Eurazania",
-        "Yurazania"
-    ],
-    "Ingracia": [
-        "Ingracia",
-        "Englesia"
-    ],
-    "Sorcerer's Dynasty": [
-        "Sorcerer's Dynasty",
-        "Sorcerous Dynasty of"
-    ],
-    "Ruminism": [
-        "Ruminism",
-        "Luminism",
-        "Ruminasism",
-        "Lewdminism"
-    ],
-    "Sarion": [
-        "Sarion",
-        "Thalion"
-    ],
-    "javelin": [
-        "javelin",
-        "javelin",
-        "Death pickle"
-    ],
-    "golem guardian": [
-        "golem guardian",
-        "golem guardian",
-        "Elemental Colossus"
-    ],
-    "Demon Lord": [
-        "Demon Lord",
-        "Demon Lord",
-        "Señor Demonio",
-        "Dank Lood"
-    ],
-    "demon lord": [
-        "demon lord",
-        "demon lord",
-        "señor demonio",
-        "dank lood"
-    ],
-    "Holy Knight Order": [
-        "Holy Knight Order",
-        "Crusader"
-    ],
-    "tempest snake": [
-        "tempest snake",
-        "tempest serpent"
-    ],
-    "Tempest snake": [
-        "Tempest snake",
-        "Tempest serpent"
-    ],
-    "Magic Perception": [
-        "Magic Perception",
-        "Magic Sense"
-    ],
-    "Shadow Step": [
-        "Shadow Step",
-        "Shadow Motion"
-    ],
-    "Analyze and Assess": [
-        "Analyze and Assess",
-        "Analyze and Assess",
-        "Analysis"
-    ],
-    "Analysis": [
-        "Analysis",
-        "Analyze and Assess"
     ],
     "Wisdom King Raphael": [
         "Wisdom King Raphael",
@@ -374,20 +30,452 @@
         "Covenant Lord Uriel",
         "Vows King Uriel"
     ],
+    "Freedom Association": [
+        "Freedom Association",
+        "Free Guild"
+    ],
+    "Analyze and Assess": [
+        "Analyze and Assess",
+        "Analysis"
+    ],
     "Storm King Veldora": [
         "Storm King Veldora",
         "Veldora, Lord of Storms,",
         "Storm Lord Veldora",
         "Veldora, King of Storms"
     ],
-    "Gluttonous King Beelzebuth": [
-        "Gluttonous King Beelzebuth",
-        "Belzebuth, Lord of Gluttony,",
-        "Gluttonous Lord Beelzebuth",
-        "Belzebuth, King of Gluttony"
+    "Tempest Federation": [
+        "Tempest Federation",
+        "Tempest"
     ],
-    "Investigation King Faust": [
-        "Investigation King Faust",
-        "Faust, Lord of Investigation,"
+    "Sorcerer's Dynasty": [
+        "Sorcerer's Dynasty",
+        "Sorcerous Dynasty of"
+    ],
+    "Voice of the World": [
+        "Voice of the World",
+        "World Language"
+    ],
+    "Guardian Colossus": [
+        "Guardian Colossus",
+        "Demon Colossus"
+    ],
+    "Continent’s Wrath": [
+        "Continent’s Wrath",
+        "Earthquake"
+    ],
+    "Holy Knight Order": [
+        "Holy Knight Order",
+        "Crusaders"
+    ],
+    "Magic Perception": [
+        "Magic Perception",
+        "Magic Sense"
+    ],
+    "Soul Consumption": [
+        "Soul Consumption",
+        "Soul Consume"
+    ],
+    "Law Manipulation": [
+        "Law Manipulation",
+        "Control Laws"
+    ],
+    "Space Domination": [
+        "Space Domination",
+        "Dominate Space"
+    ],
+    "Seven Celestials": [
+        "Seven Celestials",
+        "Seven Days",
+        "Seven Luminaries"
+    ],
+    "Green Rebellion": [
+        "Green Rebellion",
+        "Rebelle Vert"
+    ],
+    "Infinite Prison": [
+        "Infinite Prison",
+        "Unlimited Imprisonment"
+    ],
+    "guardian golem": [
+        "guardian golem",
+        "Elemental Colossus"
+    ],
+    "Gate of Hell": [
+        "Gate of Hell",
+        "Gate of Heck"
+    ],
+    "Beastketeers": [
+        "Beastketeers",
+        "Lycanthropeers"
+    ],
+    "Shadow Step": [
+        "Shadow Step",
+        "Shadow Motion"
+    ],
+    "Greedy King": [
+        "Greedy King",
+        "Avaricious King"
+    ],
+    "Spirit Core": [
+        "Spirit Core",
+        "Element Core"
+    ],
+    "Holy Knight": [
+        "Holy Knight",
+        "Crusader"
+    ],
+    "Myourmiles": [
+        "Myourmiles",
+        "Mjöllmile",
+        "Myourmile"
+    ],
+    "Yuurazania": [
+        "Yuurazania",
+        "Eurazania",
+        "Yurazania"
+    ],
+    "Demon Lord": [
+        "Demon Lord",
+        "Señor Demonio",
+        "Dank Lood"
+    ],
+    "demon lord": [
+        "demon lord",
+        "señor demonio",
+        "dank lood"
+    ],
+    "Corrosion": [
+        "Corrosion",
+        "Rot"
+    ],
+    "Oboro-Ryu": [
+        "Oboro-Ryu",
+        "Haze"
+    ],
+    "Benimaru": [
+        "Benimaru",
+        "Red pill"
+    ],
+    "Masayuki": [
+        "Masayuki",
+        "Fortunate",
+        "Xingxing"
+    ],
+    "Anrietta": [
+        "Anrietta",
+        "Henrietta"
+    ],
+    "Granbell": [
+        "Granbell",
+        "Granville"
+    ],
+    "Ruberios": [
+        "Ruberios",
+        "Lubelius",
+        "Ruberius"
+    ],
+    "Ingracia": [
+        "Ingracia",
+        "Englesia"
+    ],
+    "Ruminism": [
+        "Ruminism",
+        "Luminism",
+        "Ruminasism",
+        "Lewdminism"
+    ],
+    "high elf": [
+        "high elf",
+        "THC elf"
+    ],
+    "Hakurou": [
+        "Hakurou",
+        "Hakuro",
+        "Old White"
+    ],
+    "Kurobee": [
+        "Kurobee",
+        "Kurobe"
+    ],
+    "Elalude": [
+        "Elalude",
+        "Erald",
+        "Harold"
+    ],
+    "Grucius": [
+        "Grucius",
+        "Gruecith"
+    ],
+    "Shining": [
+        "Shining",
+        "Lightspeed",
+        "Flash"
+    ],
+    "Edmalis": [
+        "Edmalis",
+        "Edmaris",
+        "Edomalis"
+    ],
+    "Rayhiem": [
+        "Rayhiem",
+        "Reyhiem"
+    ],
+    "Footman": [
+        "Footman",
+        "Fatman"
+    ],
+    "Bacchus": [
+        "Bacchus",
+        ".",
+        "Bakkasu"
+    ],
+    "Reynald": [
+        "Reynald",
+        "Renard"
+    ],
+    "Grigori": [
+        "Grigori",
+        "Guregori"
+    ],
+    "Dagruel": [
+        "Dagruel",
+        "Daggrull"
+    ],
+    "Ruminas": [
+        "Ruminas",
+        "Luminus",
+        "Luminas",
+        "Lewdminas"
+    ],
+    "Thrower": [
+        "Thrower",
+        "Yeet",
+        "Tosser"
+    ],
+    "javelin": [
+        "javelin",
+        "Death pickle"
+    ],
+    "Rimuru": [
+        "Rimuru",
+        "Lime road",
+        "Rimuwu"
+    ],
+    "Treyni": [
+        "Treyni",
+        "Doreyni"
+    ],
+    "Karion": [
+        "Karion",
+        "Carillon",
+        "Carion",
+        "Carroña"
+    ],
+    "Elaure": [
+        "Elaure",
+        "Elure"
+    ],
+    "Suphia": [
+        "Suphia",
+        "Sufia",
+        "Sophia",
+        "Sphere"
+    ],
+    "Phobio": [
+        "Phobio",
+        "Kitty"
+    ],
+    "Myuran": [
+        "Myuran",
+        "Mjurran",
+        "Myulan"
+    ],
+    "Larzen": [
+        "Larzen",
+        "Razen"
+    ],
+    "Aubert": [
+        "Aubert",
+        "O'bell"
+    ],
+    "Hinata": [
+        "Hinata",
+        "Sun",
+        "Japanese"
+    ],
+    "Gerald": [
+        "Gerald",
+        "Garde",
+        "Gyarudo"
+    ],
+    "Ritase": [
+        "Ritase",
+        "Litus"
+    ],
+    "Mizari": [
+        "Mizari",
+        "Mizeri",
+        "Misery"
+    ],
+    "Sarion": [
+        "Sarion",
+        "Thalion"
+    ],
+    "Farmus": [
+        "Farmus",
+        "Falmus"
+    ],
+    "majins": [
+        "majins",
+        "magic-born"
+    ],
+    "Majins": [
+        "Majins",
+        "Magic-born"
+    ],
+    "kijins": [
+        "kijins",
+        "ogre mages"
+    ],
+    "Kijins": [
+        "Kijins",
+        "Ogre mages"
+    ],
+    "Triss": [
+        "Triss",
+        "Doreth",
+        "Doris"
+    ],
+    "Souei": [
+        "Souei",
+        "Soei",
+        "Shadow"
+    ],
+    "Gobta": [
+        "Gobta",
+        "Gobuta"
+    ],
+    "Shion": [
+        "Shion",
+        "Asters"
+    ],
+    "Shuna": [
+        "Shuna",
+        "Vegetable",
+        "Zuh Zuh"
+    ],
+    "Gabil": [
+        "Gabil",
+        "Gabiru"
+    ],
+    "Souka": [
+        "Souka",
+        "Soka",
+        "Cyka"
+    ],
+    "Alvis": [
+        "Alvis",
+        "Arubis"
+    ],
+    "Cabal": [
+        "Cabal",
+        "Kaval"
+    ],
+    "Rosso": [
+        "Rosso",
+        "Rozzo"
+    ],
+    "Yuuki": [
+        "Yuuki",
+        "Excellent Tree",
+        "Edgy Yagami"
+    ],
+    "Fritz": [
+        "Fritz",
+        "Furittsu"
+    ],
+    "Jesta": [
+        "Jesta",
+        "Jester"
+    ],
+    "majin": [
+        "majin",
+        "magic-born"
+    ],
+    "Majin": [
+        "Majin",
+        "Magic-born"
+    ],
+    "kijin": [
+        "kijin",
+        "ogre mage"
+    ],
+    "Kijin": [
+        "Kijin",
+        "Ogre mage"
+    ],
+    "Trya": [
+        "Trya",
+        "Dorya"
+    ],
+    "Abil": [
+        "Abil",
+        "Abiru"
+    ],
+    "Myrd": [
+        "Myrd",
+        "Mildo"
+    ],
+    "Geld": [
+        "Geld",
+        "Gerudo",
+        "Gaylord"
+    ],
+    "Pann": [
+        "Pann",
+        "Vaughn"
+    ],
+    "Dorf": [
+        "Dorf",
+        "Dolph"
+    ],
+    "Jane": [
+        "Jane",
+        "Jaine"
+    ],
+    "Youm": [
+        "Youm",
+        "Yohm",
+        "Youm"
+    ],
+    "Tear": [
+        "Tear",
+        "Teare"
+    ],
+    "Gale": [
+        "Gale",
+        "Gail"
+    ],
+    "Arno": [
+        "Arno",
+        "Arnaud"
+    ],
+    "Sare": [
+        "Sare",
+        "Saare"
+    ],
+    "Dino": [
+        "Dino",
+        "Deeno"
+    ],
+    "Rain": [
+        "Rain",
+        "Raine",
+        "Rhein"
+    ],
+    "Jiu": [
+        "Jiu",
+        "Cho"
     ]
 }
