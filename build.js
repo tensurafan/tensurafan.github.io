@@ -21,43 +21,13 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 			let targetedVol = volumes.find(vol=>vol.raw === req.headers.raw)
 			let writer = fs.createWriteStream(__dirname + targetedVol.path)
 			req.on("data", chunk=>writer.write(chunk))
-			req.on("end", ()=>writer.end() + parsingVol.accept())
+			req.on("end", ()=>writer.end() + console.log(`front end parsed ${targetedVol.path}`) + parsingVol.accept())
+
 		}
 		else{
 			handler(req, res, {
 				trailingSlash: true,
 				cleanUrls: false,
-			}, {
-				readFile: function(path, config){
-					if (/\.html$/.test(path)){
-						return new promise(function(accept, reject){
-							fs.readFile(path, config, function(err, data){
-								if (err){
-									return reject(err)
-								}
-
-								if (typeof data === "string"){
-									data = data.replace("</body>", `<script src="../proxyify.js"></script></body>`)
-									accept(data)
-								}
-								else{
-									data = data.toString()
-									data = data.replace("</body>", `<script src="../proxyify.js"></script></body>`)
-									data = Buffer.from(data)
-									accept(data, "utf8")
-								}
-							})
-						})
-					}
-					return new promise(function(accept, reject){
-						fs.readFile(path, config, function(err, data){
-							if (err){
-								return reject(err)
-							}
-							return accept(data)
-						})
-					})
-				}
 			})
 		}
 	})
