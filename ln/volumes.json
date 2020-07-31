@@ -34,5 +34,11 @@
 		"name": "Volume 10",
 		"path": "/ln/v10.html",
 		"raw": "/ln/v10/raw.html"
+	},
+	{
+		"id": "v11",
+		"name": "Volume 11",
+		"path": "/ln/v11.html",
+		"raw": "/ln/v11/raw.html"
 	}
 ]
