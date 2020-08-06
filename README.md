@@ -7,10 +7,14 @@ This is a web app to allow for users to read the fan translation of "That Time I
 - ~name toggleer~
 - ~service worker~
 - ~save reading location~
-- sharable discord quotes
+- ~sharable discord quotes~
 - ~change theme~
 - notifications maybe
 - ~install instructions~
+- remove shareable quotes
+- search
+
+for later maybe
 - return to closed page on save
 - toggle underline
 - button to yenpressify selectable options
