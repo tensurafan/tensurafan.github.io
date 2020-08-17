@@ -13,6 +13,14 @@
         "Fairy of the Labyrinth",
         "Labyrinth Master"
     ],
+    "the Tempest Federation": [
+        "the Tempest Federation",
+        "Tempest"
+    ],
+    "The tempest federation": [
+        "The tempest federation",
+        "Tempest"
+    ],
     "Seven Celestial Saints": [
         "Seven Celestial Saints",
         "Seven Days Clergy",
@@ -44,10 +52,6 @@
         "Storm Lord Veldora",
         "Veldora, King of Storms"
     ],
-    "Tempest Federation": [
-        "Tempest Federation",
-        "Tempest"
-    ],
     "Sorcerer's Dynasty": [
         "Sorcerer's Dynasty",
         "Sorcerous Dynasty of"
@@ -64,9 +68,17 @@
         "Continent’s Wrath",
         "Earthquake"
     ],
+    "Holy Knight Order": [
+        "Holy Knight Order",
+        "Crusaders"
+    ],
     "Magic Perception": [
         "Magic Perception",
         "Magic Sense"
+    ],
+    "Beast Domination": [
+        "Beast Domination",
+        "Discerner"
     ],
     "Soul Consumption": [
         "Soul Consumption",
@@ -75,10 +87,6 @@
     "Law Manipulation": [
         "Law Manipulation",
         "Control Laws"
-    ],
-    "Space Domination": [
-        "Space Domination",
-        "Dominate Space"
     ],
     "Seven Celestials": [
         "Seven Celestials",
@@ -93,9 +101,22 @@
         "Infinite Prison",
         "Unlimited Imprisonment"
     ],
+    "Coscia Mountain": [
+        "Coscia Mountain",
+        "Khusha Mountains"
+    ],
+    "Imperial Guards": [
+        "Imperial Guards",
+        "Master Rooks",
+        "Rook Geniuses"
+    ],
     "guardian golem": [
         "guardian golem",
         "Elemental Colossus"
+    ],
+    "Level Guardian": [
+        "Level Guardian",
+        "Guardian"
     ],
     "Gate of Hell": [
         "Gate of Hell",
@@ -104,6 +125,10 @@
     "Beastketeers": [
         "Beastketeers",
         "Lycanthropeers"
+    ],
+    "Single-digit": [
+        "Single-digit",
+        "Double O Number"
     ],
     "Shadow Step": [
         "Shadow Step",
@@ -117,10 +142,6 @@
         "Spirit Core",
         "Element Core"
     ],
-    "Holy Knight": [
-        "Holy Knight",
-        "Crusader"
-    ],
     "Myourmiles": [
         "Myourmiles",
         "Mjöllmile",
@@ -130,6 +151,15 @@
         "Yuurazania",
         "Eurazania",
         "Yurazania"
+    ],
+    "Siltorozzo": [
+        "Siltorozzo",
+        "Seltrozzo",
+        "Siltorosso"
+    ],
+    "Level Boss": [
+        "Level Boss",
+        "Boss Monster"
     ],
     "Demon Lord": [
         "Demon Lord",
@@ -141,6 +171,11 @@
         "señor demonio",
         "dank lood"
     ],
+    "undead elf": [
+        "undead elf",
+        "walking dead",
+        "death man"
+    ],
     "Corrosion": [
         "Corrosion",
         "Rot"
@@ -148,6 +183,22 @@
     "Oboro-Ryu": [
         "Oboro-Ryu",
         "Haze"
+    ],
+    "rabbitman": [
+        "rabbitman",
+        "bunnyboi"
+    ],
+    "Rabbitman": [
+        "Rabbitman",
+        "Bunnyboi"
+    ],
+    "rabbitmen": [
+        "rabbitmen",
+        "bunnybois"
+    ],
+    "Rabbitmen": [
+        "Rabbitmen",
+        "Bunnybois"
     ],
     "Benimaru": [
         "Benimaru",
@@ -194,14 +245,18 @@
         "Kurobee",
         "Kurobe"
     ],
+    "Grucius": [
+        "Grucius",
+        "Gruecith"
+    ],
+    "Hokusou": [
+        "Hokusou",
+        "Hokuso"
+    ],
     "Elalude": [
         "Elalude",
         "Erald",
         "Harold"
-    ],
-    "Grucius": [
-        "Grucius",
-        "Gruecith"
     ],
     "Shining": [
         "Shining",
@@ -220,6 +275,10 @@
     "Footman": [
         "Footman",
         "Fatman"
+    ],
+    "Nicolas": [
+        "Nicolas",
+        "Nicholas"
     ],
     "Bacchus": [
         "Bacchus",
@@ -244,11 +303,6 @@
         "Luminas",
         "Lewdminas"
     ],
-    "Thrower": [
-        "Thrower",
-        "Yeet",
-        "Tosser"
-    ],
     "javelin": [
         "javelin",
         "Death pickle"
@@ -262,15 +316,19 @@
         "Treyni",
         "Doreyni"
     ],
+    "Lilina": [
+        "Lilina",
+        "Ririna"
+    ],
     "Karion": [
         "Karion",
         "Carillon",
         "Carion",
         "Carroña"
     ],
-    "Elaure": [
-        "Elaure",
-        "Elure"
+    "Nansou": [
+        "Nansou",
+        "Nanso"
     ],
     "Suphia": [
         "Suphia",
@@ -281,6 +339,10 @@
     "Phobio": [
         "Phobio",
         "Kitty"
+    ],
+    "Elaure": [
+        "Elaure",
+        "Elure"
     ],
     "Myuran": [
         "Myuran",
@@ -320,7 +382,8 @@
     ],
     "Farmus": [
         "Farmus",
-        "Falmus"
+        "Falmus",
+        "Falmuth"
     ],
     "majins": [
         "majins",
@@ -370,9 +433,14 @@
         "Soka",
         "Cyka"
     ],
+    "Touka": [
+        "Touka",
+        "Toka"
+    ],
     "Alvis": [
         "Alvis",
-        "Arubis"
+        "Arubis",
+        "Albis"
     ],
     "Cabal": [
         "Cabal",
@@ -386,6 +454,10 @@
         "Yuuki",
         "Excellent Tree",
         "Edgy Yagami"
+    ],
+    "Woman": [
+        "Woman",
+        "Lover"
     ],
     "Fritz": [
         "Fritz",
@@ -419,14 +491,14 @@
         "Abil",
         "Abiru"
     ],
-    "Myrd": [
-        "Myrd",
-        "Mildo"
-    ],
     "Geld": [
         "Geld",
         "Gerudo",
         "Gaylord"
+    ],
+    "Myrd": [
+        "Myrd",
+        "Mildo"
     ],
     "Pann": [
         "Pann",
