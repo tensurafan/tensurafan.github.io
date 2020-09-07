@@ -84,22 +84,6 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 	console.log("created redirect script")
 
 	let waiting = volumes.map(async volume=>{
-		let text = await waitFor(fs.readFile, __dirname + volume.path, "utf-8")
-		let doc = new jsdom.JSDOM(text)
-
-		let document = doc.window.document
-		await Promise.all(Array.prototype.map.call(document.querySelectorAll("body .line"), ele=>{
-			let lineNumber = ele.id.replace("line_", "")
-			let quotePath1 = `${__dirname}/read/${volume.id}/quote/${lineNumber}/index.html`
-			let quotePath2 = `${__dirname}/read/${volume.id}/quote/${lineNumber}.html`
-
-			let quotedPage = genPage(`Slime Reader ${volume.name}: Line ${lineNumber}`, ele.textContent, redirectTag)
-
-			return [
-				smartWrite(quotePath1, quotedPage),
-				smartWrite(quotePath2, quotedPage)
-			]
-		}).reduce((sum, set)=>sum.concat(set), []))
 
 		let readerPath1 = `${__dirname}/read/${volume.id}/index.html`
 		let readerPath2 = `${__dirname}/read/${volume.id}.html`
