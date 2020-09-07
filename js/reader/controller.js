@@ -12,24 +12,6 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		volume: "",
 		title: "",
 		description: "",
-		beginLongPress: function(ele, ev){
-			ele.longPressWait = setTimeout(()=>{
-				let line = ele.id.replace("line_", "")
-				quoterInstance.app.url = `${document.location.origin}/read/${view.app.volume.id}/quote/${line}/`
-				quoterInstance.app.element = ele
-				document.removeEventListener("scroll", cancleWhenScroll)
-			}, 800)
-
-			document.addEventListener("scroll", cancleWhenScroll, {once: true})
-
-
-			function cancleWhenScroll(ev){
-				view.app.cancleLongPress(ele, ev)
-			}
-		},
-		cancleLongPress: function(ele, ev){
-			ele.longPressWait && clearTimeout(ele.longPressWait)
-		},
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -39,10 +21,10 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	let subableEvents = ["scroll", "touchend", "touchcancle", "mouseup", "blur"]
 
 	routerInstance.on.set(view, async function(){
-		let pathMatch = /^\/read\/([^\/]+)\/?(quote\/([^\/]+))?/.exec(routerInstance.path)
+		// find which volume we wanna read
+		let pathMatch = /^\/read\/([^\/]+)\/?/.exec(routerInstance.path)
 
 		let volumeId = view.app.volumeId = pathMatch[1]
-		let quotedLine = parseInt(pathMatch[3])
 
 		let volume = volumes.find(volume=>volume.id === volumeId)
 		if (!volume){
@@ -59,46 +41,12 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 				let readeingcontent = proxymity(content, view.app)
 
-				let containerWidth = readerContainer.offsetWidth
-
-				readeingcontent.forEach(el=>{
-					if (el instanceof HTMLImageElement){
-						let originalWidth = parseInt(el.getAttribute("width"))
-						if (originalWidth < containerWidth){
-							return
-						}
-						let originalHeight = parseInt(el.getAttribute("height"))
-
-						let shrinkRatio = containerWidth / originalWidth
-
-						el.setAttribute("width", (originalWidth * shrinkRatio) + "px")
-						el.setAttribute("height", (originalHeight * shrinkRatio) + "px")
-
-						el.style.minWidth = el.getAttribute("width")
-						el.style.minHeight = el.getAttribute("height")
-						el.addEventListener("load", ()=>{
-							el.style.minWidth = "0"
-							el.style.minHeight = "0"
-						})
-					}
-				})
-
 				readeingcontent.appendTo(readerContainer)
 
 				app.title.app.viewDescription = ""
 				app.title.app.viewTitle = `Slime Reader ${volume.name}`
-				if (quotedLine){
-					let quotedParagraph = document.getElementById("line_" + quotedLine)
-					quotedParagraph.classList.add("color-primary", "color-in")
-					quotedParagraph.scrollIntoView({
-						// behavior: "smooth",
-						block: "center"
-					})
 
-					app.title.app.viewTitle = `Slime Reader ${volume.name} Line ${quotedLine}`
-					app.title.app.viewDescription = quotedParagraph.textContent
-				}
-				else if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
+				if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
 					let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
 					line.scrollIntoView({block: "start"})
 				}
@@ -127,12 +75,8 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		})
 
 		view.app.mounted = false
+		view.app.volume = ""
 	})
-
-	// --- alright here's the foot note stuff
-
-	// ok we need to set up some stuff to do with the term selector
-	let termsToCheck = Object.keys(terms)
 
 	return template
 

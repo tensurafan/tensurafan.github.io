@@ -94,18 +94,6 @@
 			}
 		}
 
-		let beginLongPressCode = "this.app.beginLongPress(this, event)"
-		let cancleLongPressCode = "this.app.cancleLongPress(this, event)"
-
-		line.setAttribute("onmousedown", beginLongPressCode)
-		line.setAttribute("ontouchstart", beginLongPressCode)
-
-		line.setAttribute("ontouchend", cancleLongPressCode)
-		line.setAttribute("ontouchcancle", cancleLongPressCode)
-		line.setAttribute("onmouseup", cancleLongPressCode)
-		line.setAttribute("onmouseleave", cancleLongPressCode)
-		line.setAttribute("onmouseout", cancleLongPressCode)
-
 	})
 
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
