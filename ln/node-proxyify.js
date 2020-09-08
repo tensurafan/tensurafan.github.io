@@ -1,4 +1,4 @@
-module.exports = (async function(document, volFolder){
+module.exports = (function(window, document, volFolder, terms){
 
 	Array.prototype.forEach.call(document.querySelectorAll("body > div"), div=>!div.querySelector("img") && div.classList.add("trash"))
 
@@ -26,7 +26,7 @@ module.exports = (async function(document, volFolder){
 		classesToRemove.push(`c${i}`)
 	}
 
-	Array.prototype.forEach.call(document.querySelectorAll("p, a, span, div, h1, h2, h3, h4, h5, h6, h7, h8"), textNode=>{
+	Array.prototype.forEach.call(document.querySelectorAll("p, a, span, div, h1, h2, h3, h4, h5, h6, h7, h8, hr"), textNode=>{
 		var paraStyles = window.getComputedStyle(textNode)
 		if (paraStyles.textAlign === "center"){
 			textNode.classList.add("text-center")
@@ -93,6 +93,17 @@ module.exports = (async function(document, volFolder){
 
 	// remove the class attribute from anything that doesn't have a class
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
+
+	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "g")
+	return document.body.innerHTML.replace(termsRegex, function(
+		matchedTerm,
+		beforeTargetedPhraseCharacter,
+		afterTargetedPhraseCharacter,
+		matchedLocation
+	){
+		let targetedPhrase = matchedTerm.slice(1, matchedTerm.length - 1)
+		return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+	})
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
