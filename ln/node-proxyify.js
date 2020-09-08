@@ -1,0 +1,100 @@
+module.exports = (async function(document, volFolder){
+
+	Array.prototype.forEach.call(document.querySelectorAll("body > div"), div=>!div.querySelector("img") && div.classList.add("trash"))
+
+	Array.prototype.forEach.call(document.querySelectorAll("sup"), sup=>{
+		let target = document.getElementById(sup.querySelector("a").hash.replace("#", ""))
+
+		let footNote = target.nextElementSibling.textContent
+
+		let iconDiv = document.createElement("span")
+		iconDiv.classList.add("icon", "color-primary", "color-in")
+
+		iconDiv
+			.appendChild(document.createElement("span"))
+			.classList.add("footnote", "clickable")
+
+		iconDiv.setAttribute("data-hover-text", footNote)
+
+		iconDiv.setAttribute("onclick", `this.app.showFootnote(this, this.getAttribute('data-hover-text'), event)`)
+
+		sup.parentNode.replaceChild(iconDiv, sup)
+	})
+
+	let classesToRemove = []
+	for(var i = 0; i < 100; i++){
+		classesToRemove.push(`c${i}`)
+	}
+
+	Array.prototype.forEach.call(document.querySelectorAll("p, a, span, div, h1, h2, h3, h4, h5, h6, h7, h8"), textNode=>{
+		var paraStyles = window.getComputedStyle(textNode)
+		if (paraStyles.textAlign === "center"){
+			textNode.classList.add("text-center")
+		}
+
+		if (parseInt(paraStyles.fontWeight) > 400 ){
+			textNode.classList.add("strong")
+		}
+
+		if (paraStyles.textDecoration.indexOf("line-through") > -1){
+			textNode.classList.add("strikethrough")
+		}
+
+		if (paraStyles.fontStyle === "italic"){
+			textNode.classList.add("italic")
+		}
+
+		if (paraStyles.textIndent !== "0px"){
+			textNode.classList.add("indent")
+		}
+
+		classesToRemove.forEach(classToDrop=>textNode.classList.remove(classToDrop))
+	})
+
+	Array.prototype.forEach.call(document.querySelectorAll("img"), img=>{
+		let relSrc = img.getAttribute("src")
+
+		//~ let absoluteSrc = img.src.replace(document.location.origin, "")
+		img.setAttribute("src", volFolder + relSrc)
+		//~ let natHeight = img.naturalHeight
+		//~ let natWidth = img.naturalWidth
+		//~ img.setAttribute("height", natHeight)
+		//~ img.setAttribute("width", natWidth)
+	})
+
+	/*Array.prototype.forEach.call(document.querySelectorAll("p"), paragraph=>{
+		if (!paragraph.textContent.trim() && !paragraph.id && !paragraph.querySelector("[id]") && !paragraph.querySelector("img")){
+			paragraph.parentNode.removeChild(paragraph)
+		}
+	})*/
+
+	Array.prototype.forEach.call(document.querySelectorAll("[style]"), el=>el.removeAttribute("style"))
+
+	Array.prototype.filter.call(document.querySelectorAll("p"), p=>p.querySelector("img"))
+		.forEach(p=>{
+			p.parentNode.replaceChild(p.querySelector("img"), p)
+		})
+
+	Array.prototype.forEach.call(document.querySelectorAll(".trash, script"), trash=>trash.parentNode.removeChild(trash))
+
+	Array.prototype.forEach.call(document.querySelectorAll("body > *"), (line, index)=>{
+		line.classList.add("line")
+		let originalId = line.id
+		line.id = "line_" + index
+
+		if (originalId){
+			let targetingLink = document.querySelector(`[href*="${originalId}"]`)
+			if(targetingLink){
+				targetingLink.setAttribute("href", "#" + line.id)
+			}
+		}
+
+	})
+
+	// remove the class attribute from anything that doesn't have a class
+	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
+
+	function sleep(ms){
+		return new Promise(accept=>setTimeout(accept, ms))
+	}
+})
