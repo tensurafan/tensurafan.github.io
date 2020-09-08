@@ -11,8 +11,10 @@ This is a web app to allow for users to read the fan translation of "That Time I
 - ~change theme~
 - notifications maybe
 - ~install instructions~
-- remove shareable quotes
+- ~remove shareable quotes~
 - search
+- center small images
+- space between 2 changeable terms
 
 for later maybe
 - return to closed page on save

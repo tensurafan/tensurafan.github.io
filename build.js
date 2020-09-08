@@ -1,9 +1,11 @@
 const fs = require("fs")
 const volumes = require(__dirname + "/ln/volumes.json")
+const terms = require(__dirname + "/ln/terms.json")
 const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
 const uglify = require("uglify-js")
+const proxyify = require("./ln/node-proxyify.js")
 // const JSDOM = jsdom.JSDOM
 const http = require("http")
 const handler = require("serve-handler")
@@ -11,28 +13,7 @@ const open = require("open")
 const fx = require('mkdir-recursive')
 const port = Math.floor(Math.random() * 9000 + 1000)
 
-
-// console.log(Object.getOwnPropertyNames(Array.prototype))
-
 ;(async function(){
-	// let parsingVol = null
-	let tempServer = http.createServer((req, res)=>{
-		if (req.method === "POST" && req.url === "/save"){
-			let targetedVol = volumes.find(vol=>vol.raw === req.headers.raw)
-			let writer = fs.createWriteStream(__dirname + targetedVol.path)
-			req.on("data", chunk=>writer.write(chunk))
-			req.on("end", ()=>writer.end() + console.log(`front end parsed ${targetedVol.path}`) + targetedVol.parsePromise.accept())
-
-		}
-		else{
-			handler(req, res, {
-				trailingSlash: true,
-				cleanUrls: false,
-			})
-		}
-	})
-
-	tempServer.listen(port)
 
 	/*
 	for(let volume of volumes){
@@ -53,27 +34,23 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 	}
 	*/
 
-	let parseAllPromise = volumes.map(volume=>{
-		let location = "http://localhost:" + port + volume.raw + "?cache-bust=" + Date.now()
-		console.log("opening", location)
-		open(location) // could be awaited but we dont need to bother here
+	let parseAllPromise = volumes.map(async volume=>{
+		console.log("parsing", volume.name)
+		let folder = volume.raw.replace(/\/[^\/]+\.html?$/, "\/")
+		let volumeHtml = await waitFor(fs.readFile, __dirname + volume.raw, "utf-8")
+		let volumeDoc = new jsdom.JSDOM(volumeHtml)
+		let window = volumeDoc.window
+		let document = window.document
+		console.log("proxyifying", volume.name)
 
-		let acc = null, rej = null
-		let parsePromise = new Promise((accept, reject)=>{
-			acc = accept
-			rej = reject
-		})
-		parsePromise.accept = acc
-		parsePromise.reject = rej
-		volume.parsePromise = parsePromise
-		return parsePromise
+		await waitFor(fs.writeFile, __dirname + volume.path, proxyify(window, document, folder, terms))
+
+		console.log("done:", volume.name)
 	})
 
 	await Promise.all(parseAllPromise)
 
-	await new Promise(accept=>tempServer.close(()=>console.log("temp server closed")+accept()))
-
-	console.log("parse over")
+	return console.log("parse over")
 
 	let page404 = await waitFor(fs.readFile, __dirname + "/404.html", "utf-8")
 	let doc404 = new jsdom.JSDOM(page404)
@@ -84,22 +61,6 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 	console.log("created redirect script")
 
 	let waiting = volumes.map(async volume=>{
-		let text = await waitFor(fs.readFile, __dirname + volume.path, "utf-8")
-		let doc = new jsdom.JSDOM(text)
-
-		let document = doc.window.document
-		await Promise.all(Array.prototype.map.call(document.querySelectorAll("body .line"), ele=>{
-			let lineNumber = ele.id.replace("line_", "")
-			let quotePath1 = `${__dirname}/read/${volume.id}/quote/${lineNumber}/index.html`
-			let quotePath2 = `${__dirname}/read/${volume.id}/quote/${lineNumber}.html`
-
-			let quotedPage = genPage(`Slime Reader ${volume.name}: Line ${lineNumber}`, ele.textContent, redirectTag)
-
-			return [
-				smartWrite(quotePath1, quotedPage),
-				smartWrite(quotePath2, quotedPage)
-			]
-		}).reduce((sum, set)=>sum.concat(set), []))
 
 		let readerPath1 = `${__dirname}/read/${volume.id}/index.html`
 		let readerPath2 = `${__dirname}/read/${volume.id}.html`
