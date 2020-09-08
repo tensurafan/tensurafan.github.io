@@ -20,7 +20,7 @@ button, .button {
 		calc(var(--base-padding) / 6) /*offset y*/
 		calc(var(--base-border-radius) / 3) /*Blur Radius*/
 		0 /*Spread Radius*/
-		var(--color-button-text) /*color of shadow*/
+		var(--color-low) /*color of shadow*/
 	;
 }
 body {
