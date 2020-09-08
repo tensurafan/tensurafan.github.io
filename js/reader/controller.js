@@ -104,10 +104,11 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			return
 		}
 
-		namePickerInstance.app.nameOptions = terms[ele.dataset.term]
-		namePickerInstance.app.baseName = ele.dataset.term
-		namePickerInstance.app.chosenName = globalTermchoices[ele.dataset.term]
-		namePickerInstance.app.display = true
+		namePickerInstance.app.setChoice({
+			options: terms[ele.dataset.term].options,
+			baseName: ele.dataset.term,
+			chosenName: globalTermchoices[ele.dataset.term],
+		})
 	}
 
 	var navBarEl

@@ -70,5 +70,5 @@ app.init = async function(){
 
 	let presist = app.getSettings()
 
-	return app({volumeList, terms, presist})
+	return app({volumeList, terms: terms.terms, presist})
 }

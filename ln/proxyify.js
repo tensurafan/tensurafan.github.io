@@ -100,7 +100,7 @@
 
 	// console.log(document.body.style.display = "none")
 
-	let terms = await fetch("/ln/terms.json?nocache" + Date.now()).then(owo=>owo.json())
+	let terms = (await fetch("/ln/terms.json?nocache" + Date.now()).then(owo=>owo.json())).terms
 	await RAFP()
 	await RAFP()
 
