@@ -1,0 +1,12 @@
+<!-- key: "termIndex" -->
+	<div class="flex padding-bottom-1">
+		<div class="basis-50">{:this.app.termsList[this.termIndex]:}|{termsList[this.termIndex]}|</div>
+		<div class="basis-50">
+			<select class="content-width" data-value="{:this.app.termsChosen[this.app.termsList[this.termIndex]]:}|{termsChosen[this.app.termsList[this.termIndex]]}|" onchange="this.app.termsChosen[this.app.termsList[this.termIndex]] = this.value">
+				<!-- key: "optionIndex" -->
+					<option value="{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]}|">{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]}|</option>
+				<!-- in: termsOptions[this.app.termsList[this.termIndex]].options -->
+			</select>
+		</div>
+	</div>
+<!-- in: termsList -->

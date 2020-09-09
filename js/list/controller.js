@@ -7,6 +7,10 @@ app.initIndexView = async function(volumes, routerInstance){
 		routerInstance.rout("/read/" + id)
 	}
 
+	view.app.routSelectables = function(){
+		routerInstance.rout("/chooseables")
+	}
+
 	routerInstance.add("/", view)
 
 	return view
