@@ -95,15 +95,25 @@ module.exports = (function(window, document, volFolder, terms){
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
 	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "g")
-	return document.body.innerHTML.replace(termsRegex, function(
-		matchedTerm,
-		beforeTargetedPhraseCharacter,
-		afterTargetedPhraseCharacter,
-		matchedLocation
-	){
-		let targetedPhrase = matchedTerm.slice(1, matchedTerm.length - 1)
-		return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+	function setupChooseable(text){
+		return text.replace(termsRegex, function(
+			matchedTerm,
+			beforeTargetedPhraseCharacter,
+			afterTargetedPhraseCharacter,
+			matchedLocation
+		){
+			let targetedPhrase = matchedTerm.slice(1, matchedTerm.length - 1)
+			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+		})
+	}
+
+	let spans = Array.prototype.filter.call(document.querySelectorAll("span"), span=>!span.querySelector("*"))
+
+	spans.forEach(span=>{
+		span.innerHTML = setupChooseable(span.innerHTML)
 	})
+
+	return document.body.innerHTML
 
 	function sleep(ms){
 		return new Promise(accept=>setTimeout(accept, ms))
