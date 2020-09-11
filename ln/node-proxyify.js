@@ -102,7 +102,7 @@ module.exports = (function(window, document, volFolder, terms){
 			afterTargetedPhraseCharacter,
 			matchedLocation
 		){
-			let targetedPhrase = matchedTerm.slice(1, matchedTerm.length - 1)
+			let targetedPhrase = matchedTerm.slice(beforeTargetedPhraseCharacter.length, matchedTerm.length - afterTargetedPhraseCharacter.length)
 			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
 		})
 	}
