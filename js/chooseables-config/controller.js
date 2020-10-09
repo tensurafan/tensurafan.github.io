@@ -5,6 +5,10 @@
 		termsChosen,
 		termsOptions,
 		termsList: Object.keys(termsOptions),
+		log: function(){
+			console.log.apply(console, Array.prototype.slice.call(arguments))
+			return arguments[0]
+		},
 		setOfficial: function(){
 			view.app.termsList.forEach(term=>{
 				let officialTermIndex = termsOptions[term].officialTermIndex

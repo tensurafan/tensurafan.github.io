@@ -3,10 +3,11 @@
 		<strong>Pick the term you'd like to see for『{:this.app.baseName:}|{baseName}|』</strong>
 	</div>
 	<select data-value="{:this.app.chosenName:}|{chosenName}|" onchange="this.app.chosenName = this.value; this.app.nameChoices[this.app.baseName] = this.value; this.app.saveSettings()">
-		<!-- key: "nameIndex" -->
-		<option value="{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|">
-			{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|
-		</option>
+		<!-- foreach: "nameIndex" -->
+			<!-- key: function(item){return item} -->
+			<option value="{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|">
+				{:this.app.nameOptions[this.nameIndex]:}|{nameOptions[this.nameIndex]}|
+			</option>
 		<!-- in: nameOptions -->
 	</select>
 
