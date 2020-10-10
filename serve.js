@@ -13,4 +13,6 @@ app.get("*", (req, res)=>{
 	res.sendFile(__dirname + "/404.html")
 })
 
-app.listen(5000)
+app.listen(9001)
+
+console.log("App server started at http://localhost:9001")

@@ -22,9 +22,9 @@
 			<select class="content-width" onchange="this.app.termsChosen[this.app.termsList[this.termIndex]] = this.value">
 				<!-- foreach: "optionIndex" -->
 					<option
-						value="{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]}|"
+						value="{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}"
 						data-selected="{: this.app.termsChosen[this.app.termsList[this.termIndex]] === this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsChosen[this.app.termsList[this.termIndex]]}|"
-					>{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]}|</option>
+					>{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}</option>
 				<!-- in: termsOptions[this.app.termsList[this.termIndex]].options -->
 			</select>
 		</div>
