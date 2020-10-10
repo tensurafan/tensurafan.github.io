@@ -9,4 +9,8 @@ app.get("/*", (req, res)=>{
 	res.sendFile(__dirname + "/index.html")
 })
 
+app.get("*", (req, res)=>{
+	res.sendFile(__dirname + "/404.html")
+})
+
 app.listen(5000)
