@@ -8,7 +8,8 @@ app.initNav = async function(currentConfigs, routerInstance){
 			routerInstance.path !== "/" && routerInstance.back()
 		},
 		backClickable: false,
-		goHome: ()=>routerInstance.rout("/")
+		goHome: ()=>routerInstance.rout("/"),
+		refreshCache: ()=>fetch('/sw/refresh').then(owo=>owo.text()).then(()=>document.location.reload())
 	})
 
 	routerInstance.on.rout(path=>{

@@ -1,4 +1,6 @@
 async function app(initConfigs){
+	// uwu test
+
 	// respoond to the incoming global configs
 	app.saveSettings = function(){
 		app.updateSettings(initConfigs.presist)

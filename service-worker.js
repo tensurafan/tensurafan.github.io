@@ -66,11 +66,13 @@ self.addEventListener("install", function(ev){
 })
 
 self.addEventListener("fetch", function(ev){
+	//~ console.log(ev.request.url, ev.target.location.origin, ev.request.url.replace(ev.target.location.origin, ""))
 	if (
 		(/^\/sw\/refresh$/).test(ev.request.url.replace(ev.target.location.origin, ""))
 	){
 		ev.respondWith(
 			makeRequestAndCachePathsRecursive("/")
+				//~ .then(()=>console.log("updating app files"))
 				.then(()=>intelegentFetch("/"))
 		)
 	}
