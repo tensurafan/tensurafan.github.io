@@ -99,7 +99,7 @@ module.exports = (function(window, document, volFolder, terms){
 	let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 	function capitalCase(phrase){
-		return phrase.toLowerCase()phrase.split(" ").map(word=>word[0].toUpperCase() + word.slice(1)).join(" ")
+		return phrase.toLowerCase().split(" ").map(word=>word[0].toUpperCase() + word.slice(1)).join(" ")
 	}
 
 	function setupChooseable(text){
