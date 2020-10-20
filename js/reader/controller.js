@@ -7,6 +7,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		showFootnote,
 		allTermsChosen: globalTermchoices,
 		selectNameEventHandler,
+		capitalCase,
 		mounted: false,
 		rout: routerInstance.rout,
 		volume: "",
@@ -131,6 +132,10 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			presistantConfigs.topLine[view.app.volumeId] = savedLineNumber
 			app.saveSettings()
 		}
+	}
+
+	function capitalCase(phrase){
+		phrase.split(" ").map(word=>word[0].toUpperCase() + word.slice(1)).join(" ")
 	}
 
 	function RAFP(){

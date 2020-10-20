@@ -94,7 +94,8 @@ module.exports = (function(window, document, volFolder, terms){
 	// remove the class attribute from anything that doesn't have a class
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "g")
+	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "gi")
+	let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	function setupChooseable(text){
 		return text.replace(termsRegex, function(
 			matchedTerm,
@@ -103,7 +104,13 @@ module.exports = (function(window, document, volFolder, terms){
 			matchedLocation
 		){
 			let targetedPhrase = matchedTerm.slice(beforeTargetedPhraseCharacter.length, matchedTerm.length - afterTargetedPhraseCharacter.length)
-			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:this.app.allTermsChosen[this.parentNode.dataset.term]:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+
+			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
+			if (uppercaseLetters.includes(targetedPhrase[0])){
+				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
+			}
+
+			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
 		})
 	}
 
