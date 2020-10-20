@@ -94,7 +94,7 @@ module.exports = (function(window, document, volFolder, terms){
 	// remove the class attribute from anything that doesn't have a class
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "gi")
+	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(s\$|s\\W|\\W\|\$)", "gi")
 
 	let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 

@@ -10,7 +10,7 @@ app.get("/*", (req, res)=>{
 })
 
 app.get("*", (req, res)=>{
-	res.sendFile(__dirname + "/404.html")
+	res.status(404).sendFile(__dirname + "/404.html")
 })
 
 app.listen(9001)
