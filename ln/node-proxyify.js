@@ -95,7 +95,13 @@ module.exports = (function(window, document, volFolder, terms){
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
 	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(\\W\|\$)", "gi")
+
 	let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+	function capitalCase(phrase){
+		return phrase.toLowerCase()phrase.split(" ").map(word=>word[0].toUpperCase() + word.slice(1)).join(" ")
+	}
+
 	function setupChooseable(text){
 		return text.replace(termsRegex, function(
 			matchedTerm,
@@ -110,7 +116,18 @@ module.exports = (function(window, document, volFolder, terms){
 				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
 			}
 
-			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+			let watchTarget = "allTermsChosen[this.parentNode.dataset.term]"
+
+			if (!terms.terms[targetedPhrase]){
+				if (terms.terms[targetedPhrase.toLowerCase()]){
+					watchTarget = "allTermsChosen[this.parentNode.dataset.term.toLowerCase()]"
+				}
+				else if (terms.terms[capitalCase(targetedPhrase)]){
+					watchTarget = "allTermsChosen[capitalCase(this.parentNode.dataset.term)]"
+				}
+			}
+
+			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{${watchTarget}}|</span>${afterTargetedPhraseCharacter}`
 		})
 	}
 
