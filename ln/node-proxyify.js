@@ -123,7 +123,7 @@ module.exports = (function(window, document, volFolder, terms){
 					watchTarget = "allTermsChosen[this.parentNode.dataset.term.toLowerCase()]"
 				}
 				else if (terms.terms[capitalCase(targetedPhrase)]){
-					watchTarget = "allTermsChosen[capitalCase(this.parentNode.dataset.term)]"
+					watchTarget = "allTermsChosen[this.app.capitalCase(this.parentNode.dataset.term)]"
 				}
 			}
 
