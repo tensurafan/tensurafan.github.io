@@ -105,10 +105,25 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 			return
 		}
 
+		let options = []
+		let chosenName
+		if (terms[ele.dataset.term]){
+			options = terms[ele.dataset.term].options
+			chosenName = globalTermchoices[ele.dataset.term]
+		}
+		else if (terms[ele.dataset.term.toLowerCase()]){
+			options = terms[ele.dataset.term.toLowerCase()].options
+			chosenName = globalTermchoices[ele.dataset.term.toLowerCase()]
+		}
+		else if (terms[capitalCase(ele.dataset.term)]){
+			options = terms[capitalCase(ele.dataset.term)].options
+			chosenName = globalTermchoices[capitalCase(ele.dataset.term)]
+		}
+
 		namePickerInstance.app.setChoice({
-			options: terms[ele.dataset.term].options,
+			options,
 			baseName: ele.dataset.term,
-			chosenName: globalTermchoices[ele.dataset.term],
+			chosenName,
 		})
 	}
 
