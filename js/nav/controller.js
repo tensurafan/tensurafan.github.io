@@ -3,6 +3,8 @@ app.initNav = async function(currentConfigs, routerInstance){
 
 	let version = await fetch("/build.txt").then(owo=>owo.text())
 
+	version = version.split(" ")[0]
+
 	let view = proxymity(template, {
 		version,
 		configs: currentConfigs,
