@@ -113,7 +113,12 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
 			if (uppercaseLetters.includes(targetedPhrase[0])){
-				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
+				if (terms.terms[targetedPhrase.toLowerCase()]){
+					displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term.toLowerCase()])"
+				}
+				else if (terms.terms[capitalCase(targetedPhrase)]){
+					displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.app.capitalCase(this.parentNode.dataset.term)])"
+				}
 			}
 
 			let watchTarget = "allTermsChosen[this.parentNode.dataset.term]"
