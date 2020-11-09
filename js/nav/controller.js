@@ -14,7 +14,7 @@ app.initNav = async function(currentConfigs, routerInstance){
 		},
 		backClickable: false,
 		goHome: ()=>routerInstance.rout("/"),
-		refreshCache: ()=>fetch('/sw/refresh').then(owo=>owo.text()).then(()=>document.location.reload())
+		refreshCache: ()=>fetch('/sw/refresh').then(owo=>owo.text()).then(()=>document.location.reload()),
 	})
 
 	routerInstance.on.rout(path=>{

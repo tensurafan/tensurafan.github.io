@@ -26,6 +26,8 @@ async function app(initConfigs){
 	let router = app.router = app.routerFactory(document.getElementById("app"))
 
 	let navEl = document.getElementById("nav")
+	let appEl = document.getElementById("app")
+
 	let nav = app.nav = await app.initNav(initConfigs.presist, router)
 	nav.appendTo(navEl)
 
@@ -33,7 +35,9 @@ async function app(initConfigs){
 
 	let globalTermchoices = initConfigs.presist.chosenTerms = initConfigs.presist.chosenTerms || {}
 
-	let namePicker = app.namePicker = await app.initNamePicker(router, document.getElementById("app"), globalTermchoices)
+	let searcher = app.searcher = await app.initTextSearcher(router, appEl)
+
+	let namePicker = app.namePicker = await app.initNamePicker(router, appEl, globalTermchoices)
 
 	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
 
