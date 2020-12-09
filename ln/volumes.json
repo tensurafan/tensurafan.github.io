@@ -3,42 +3,56 @@
 		"id": "v6",
 		"name": "Volume 6",
 		"path": "/ln/v6.html",
-		"raw": "/ln/v6/raw.html"
+		"raw": "/ln/v6/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v7",
 		"name": "Volume 7",
 		"path": "/ln/v7.html",
-		"raw": "/ln/v7/raw.html"
+		"raw": "/ln/v7/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v8",
 		"name": "Volume 8",
 		"path": "/ln/v8.html",
-		"raw": "/ln/v8/raw.html"
+		"raw": "/ln/v8/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v8_5",
 		"name": "Side Stories Volume 8.5 + Volume 13.5",
 		"path": "/ln/v8_5.html",
-		"raw": "/ln/v8_5/raw.html"
+		"raw": "/ln/v8_5/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v9",
 		"name": "Volume 9",
 		"path": "/ln/v9.html",
-		"raw": "/ln/v9/raw.html"
+		"raw": "/ln/v9/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v10",
 		"name": "Volume 10",
 		"path": "/ln/v10.html",
-		"raw": "/ln/v10/raw.html"
+		"raw": "/ln/v10/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v11",
 		"name": "Volume 11",
 		"path": "/ln/v11.html",
-		"raw": "/ln/v11/raw.html"
+		"raw": "/ln/v11/raw.html",
+		"progress": 100
+	},
+	{
+		"id": "v12",
+		"name": "Volume 12",
+		"path": "/ln/v12.html",
+		"raw": "/ln/v12/raw.html",
+		"progress": 61
 	}
 ]

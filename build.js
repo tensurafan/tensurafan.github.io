@@ -35,6 +35,9 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 	*/
 
 	let parseAllPromise = volumes.map(async volume=>{
+		if (volume.progress < 100){
+			return console.log("skipping", volume.name)
+		}
 		console.log("parsing", volume.name)
 		let folder = volume.raw.replace(/\/[^\/]+\.html?$/, "\/")
 		let volumeHtml = await waitFor(fs.readFile, __dirname + volume.raw, "utf-8")

@@ -140,6 +140,17 @@ img.line {
 	overflow-y: auto;
 }
 
+button.volume-progressing,
+.button.volume-progressing {
+	color: var(--color-low);
+
+	background: linear-gradient(
+		to right,
+		var(--color-button) calc(1% * calc(var(--volume-progress) - 0.1)),
+		var(--color-clear) calc(1% * var(--volume-progress))
+	);
+}
+
 /* reader stuff */
 .strong {
 	font-weight: bold;
