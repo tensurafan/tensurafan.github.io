@@ -125,13 +125,13 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
 			if (trueTargetedPhrase === targetedPhraseLowerCase){
-				displayedTermValue = "this.app.allTermsChosen[capitalCase(this.parentNode.dataset.term)]"
+				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
 			}
 			else if (trueTargetedPhrase === targetedPhraseUpperCase){
 				displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term].toLowerCase()"
 			}
 
-			return `${beforeTargetedPhraseCharacter}<span data-term="${trueTargetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+			return `${beforeTargetedPhraseCharacter}<span data-term="${trueTargetedPhrase || targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
 		})
 	}
 
