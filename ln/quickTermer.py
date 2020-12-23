@@ -14,6 +14,7 @@ import json
 import sys
 import re
 import pandas as pd
+from collections import OrderedDict
 
 
 class Trie():
@@ -84,7 +85,6 @@ def trie_regex_from_words(words):
     return re.compile(trie.pattern())
 
 
-
 # Requires filename to read from
 parser = argparse.ArgumentParser()
 parser.add_argument("inputfile")
@@ -92,15 +92,22 @@ args = parser.parse_args()
 
 # Importing the excel data
 try:
-    workbook = pd.read_excel(args.inputfile, sheet_name=None, encoding="utf-8")
+    workbook = pd.read_excel(args.inputfile, header=None, sheet_name=None)
 except OSError:
     sys.exit("ERROR: file could not be read")
 
 
 terms = dict()
 termYenIndex = dict()
+termGroups = OrderedDict() # Contains a list of terms in a given category
+termGroupsMetadata = list() # Contains tuples of group names with their x value
+termGroupsLastY = -1 # Metadata list is deleted on every new y val
 
 for sheet in workbook.values():
+
+    # Delete stale metadata
+    termGroupsLastY = -1
+
     height, width = sheet.shape
     for y in range(0, height):
         for x in range(0, width):
@@ -110,7 +117,7 @@ for sheet in workbook.values():
 
             if isinstance(cell, str):
                 # Regular term inclusion
-                if cell[0] in "#%$":
+                if cell[0] in "#%$!~":
 
                     xpos = x + 1
                     default = cell[1:].strip()
@@ -136,33 +143,73 @@ for sheet in workbook.values():
                     if alts:
                         terms[default]        = [default] + alts
                         termYenIndex[default] = yenIndex
-
-                # Automatically add a capitalized version only if starting with %
-                if cell[0] == '%':
-                    xpos = x + 1
-                    default = cell[1:].strip().capitalize()
-                    alts = []
-                    yenIndex = 0
-
-                    # Grab primary replacement if valid
-                    if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
-                        if sheet.iat[y, xpos] != "-":
-                            alts.append(sheet.iat[y, xpos].strip().capitalize())
-                            yenIndex = 1
-
-                    while True:
-                        # Add optional alts
-                        xpos += 1
-                        if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
-                            alts.append(sheet.iat[y, xpos].strip().capitalize())
+                        # Add to the group that is to its left
+                        for group in reversed(termGroupsMetadata):
+                            if x >= group[1]:
+                                termGroups[group[0]].append(default)
+                                break
                         else:
-                            break
+                            print(f"{default} is homeless :(")
 
-                    # Have at least one replacement, otherwise discard
-                    # Also keep the default terms as first entry
-                    if alts:
-                        terms[default]        = [default] + alts
-                        termYenIndex[default] = yenIndex
+
+                    # Automatically add a capitalized version only if starting with %
+                    if cell[0] == '%':
+                        xpos = x + 1
+                        default = cell[1:].strip().capitalize()
+                        alts = []
+                        yenIndex = 0
+
+                        # Grab primary replacement if valid
+                        if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
+                            if sheet.iat[y, xpos] != "-":
+                                alts.append(sheet.iat[y, xpos].strip().capitalize())
+                                yenIndex = 1
+
+                        while True:
+                            # Add optional alts
+                            xpos += 1
+                            if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
+                                alts.append(sheet.iat[y, xpos].strip().capitalize())
+                            else:
+                                break
+
+                        # Have at least one replacement, otherwise discard
+                        # Also keep the default terms as first entry
+                        if alts:
+                            terms[default]        = [default] + alts
+                            termYenIndex[default] = yenIndex
+                            # Add to the group that is to its left
+                            for group in reversed(termGroupsMetadata):
+                                if x >= group[1]:
+                                    termGroups[group[0]].append(default)
+                                    break
+                            else:
+                                print(f"{default} is homeless :(")
+
+                # Include reference to term in this group
+                elif cell[0] == "*":
+                    default = cell[1:].strip()
+                    for group in reversed(termGroupsMetadata):
+                        if x >= group[1]:
+                            termGroups[group[0]].append(default)
+                            break
+                    else:
+                        print(f"{default} is homeless :(")
+
+                # Test for category markers
+                elif cell[0] == "§":
+
+                    group = cell[1:].strip()
+                    #print(f"{group} {x} {y}")
+                    termGroups[group]         = []
+                    if y > termGroupsLastY:
+                        #print(f"Metadata was: {termGroupsMetadata}")
+                        # Clear metadata list
+                        termGroupsMetadata.clear()
+                        termGroupsLastY = y
+
+                    termGroupsMetadata.append((group, x))
+
 
 print(f"{len(terms)} terms found with alternatives")
 # Export JSON
@@ -172,9 +219,23 @@ for key,value in terms.items():
     entries[key]["options"] = value
     entries[key]["officialTermIndex"] = termYenIndex[key]
 
+for groupname,grouplist in list(termGroups.items()):
+    if not grouplist:
+        print(f"WARNING: {groupname} is empty, removing group...")
+        del termGroups[groupname]
+        continue
+
+    # Validate existance of referenced terms due to the * inclusion
+    for ref in list(grouplist):
+        if ref not in terms.keys():
+            print(f"WARNING: {ref} referenced in group {groupname}, but not included in terms. Removing from group...")
+            grouplist.remove(ref)
+
+
 jdata = dict()
 jdata["pattern"] = trie_regex_from_words(terms.keys()).pattern
 jdata["terms"]   = entries
+jdata["groups"]  = termGroups
 
 
 try:

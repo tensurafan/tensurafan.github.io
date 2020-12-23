@@ -1,5 +1,5 @@
 {
-    "pattern": "(?:A(?:B(?:IL|NORMAL\\ CONDITION\\ (?:NULLIFICATION|RESISTANCE))|DALMAN|GERA|LVIS|N(?:ALY(?:ST|ZE\\ AND\\ ASSESS)|NIHILATION\\ KING|RIETTA)|R(?:CHDEMON|NO)|UBERT)|B(?:ACCHUS|E(?:AST(?:\\ MASTER|KETEERS|M(?:AN|EN))|NIMARU)|ONNIE|YAKUREN)|C(?:A(?:BAL|LGURIO|RRERA)|H(?:A(?:NT\\ CANCELLATION|OS\\ KING|R(?:ITY\\ KING|M\\ CONTROL\\?))|RONOA)|IE[LN]|O(?:N(?:TINENT’S\\ WRATH|VICTION\\ KING)|OK|RROSION|SCIA\\ MOUNTAINS|VENANT\\ KING))|D(?:A(?:GRUEL|RK\\ ELF)|E(?:ATH\\ KING|MON(?:(?:\\ (?:LORD(?:\\ HAKI)?|PEER)|S))?|VI(?:ANT|L\\ CHEVALIER))|I(?:ABLO|NO|VINE\\ (?:FLAME\\ KING|MACHINE\\ KING))|O(?:RF|UBLE(?:\\ DIGIT|\\-CROSSER))|RAGON\\ (?:OF\\ (?:F(?:LAME|ROST)|HURTLING\\ WIND)|WORSHIPPERS)|WARF)|E(?:DMALIS|L(?:A(?:LUDE|URE)|EN|WYN|F)|NCHOU|SPRIT|YE\\ OF\\ THE\\ MOON)|F(?:A(?:IRY\\ OF\\ THE\\ LABYRINTH|RMUS)|E(?:LLAGHA|RTILITY\\ KING)|O(?:OTMAN|RGOTTEN\\ CITY\\ OF\\ DRAGONS|UNDING\\ FESTIVAL)|R(?:EEDOM\\ ASSOCIATION|ITZ))|G(?:A(?:BIL|DRA|LE|TE\\ OF\\ HELL)|E(?:LD|NERALISSIMO|RALD|TT)|L(?:ADIUM|UTTONOUS\\ KING)|O(?:B(?:EMON|KYU|LIN\\ RIDERS|TA|UA)|RDON|URMET)|R(?:A(?:NBELL|SSE)|E(?:ATER\\ DEMON|E(?:DY\\ KING|N\\ REBELLION))|IGORI|UCIUS)|U(?:AR(?:ANTEED\\ OUTCOME|DIAN\\ (?:COLOSSUS|GOLEM))|Y))|H(?:A(?:K(?:UROU|I)|RPY\\ NATION)|E(?:AT\\ KING|RCULES\\ EX)|I(?:GH\\ ELF|NATA|RYUU)|O(?:KUSOU|LY(?:\\ (?:KNIGHT(?:\\ ORDER)?|PURI­FIC­A­TION\\ BAR­RIER)|\\-DEMONIC\\ ATTACK\\ RESISTANCE)|PE\\ KING))|I(?:GAMI|LLUSION\\ KING|MPERIAL\\ (?:GUARD(?:IANS|S)|KNIGHT)|N(?:FINITE\\ PRISON|GRACIA|VESTIGATION\\ (?:KING|OF\\ TRUTH)))|J(?:A(?:NE|VELIN)|ESTA|I(?:STAV|U)|USTICE\\ KING)|K(?:ARION|IJIN|OKUSO|UR(?:ENAI|OBEE))|L(?:A(?:RZEN|W\\ MANIPULATION)|ESSER\\ DEMON|ILINA|U(?:CKY\\ DEVIL|STFUL\\ KING))|M(?:A(?:GIC\\ (?:LORD|MARBLE|PERCEPTION)|JINS?|RIABELL|SAYUKI)|ENTAL\\ (?:ATTACK\\ (?:NULLIFICATION|RESISTANCE)|C(?:ONTROL|RUSH))|I(?:DLEY|LLION\\-CLASS|NK|SHA|ZARI)|OSS|Y(?:OURMILES|RD|URAN))|N(?:A(?:NSOU|TURAL\\ EFFECTS\\ (?:NULLIFICATION|RESISTANCE))|ICOLAS)|OBORO\\-RYU|P(?:A(?:IN\\ (?:NULLIFICATION|RESISTANCE)|NN|TIENCE\\ KING)|ERFECT\\ MEMORY|H(?:OBIO|YSICAL\\ ATTACK\\ (?:NULLIFICATION|RESISTANCE))|OISON\\ KING|R(?:I(?:DE\\ KING|MORDIAL)|OBABILITY\\ MANIPULATION)|SYCHOLOGY\\ KING|UNITIVE\\ CONTROL\\?)|QUEEN\\ WORSHIP|R(?:A(?:BBITM(?:AN|EN)|IN|YHIEM|ZUL)|E(?:INER|YNALD)|I(?:MURU|TASE)|OSSO|U(?:BERIOS|MIN(?:AS|IS[MT])))|S(?:A(?:GE|R(?:ION|E))|CORCH\\ (?:DRAGON|KING)|EVEN\\ CELESTIAL(?:\\ SAINTS|S)|H(?:ADOW\\ STEP|I(?:NING|ON)|UNA)|I(?:DEL|LTOROZZO|NGLE\\ DIGIT)|KILL\\ STORAGE|LOTH\\ KING|NIPER|O(?:RCERER’S\\ DYNASTY|U(?:EI|KA|L\\ CONSUMPTION))|P(?:A(?:CETIME\\ KING|TIAL\\ MOVEMENT)|IRIT\\ CORE)|T(?:ARVED|ELLAR\\ WIND\\ KING|ORM\\ (?:DRAGON(?:\\ (?:RESTORATION|SUMMON))?|KING))|UPHIA)|T(?:E(?:AR|MPTATION\\ KING|STAROSSA)|H(?:E\\ TEMPEST\\ FEDERATION|OUGHT\\ ACCELERATION|ROWER)|IME\\ TRAVEL|OUKA|R(?:EYNI|ISS|YA))|U(?:LT(?:IMA|RA\\ INSTINCT)|N(?:DEAD\\ ELF|IVERSAL\\ PERCEPTION))|V(?:E(?:NOM|YRON)|OI(?:CE\\ OF\\ THE\\ WORLD|D\\ GOD))|W(?:ISDOM\\ KING|ORLD\\ OF\\ TEMPTATION)|Y(?:O(?:DA|MIGAERI|U(?:KI|M))|UU(?:KI|RAZANIA))|ZONDA)",
+    "pattern": "(?:A(?:b(?:il|normal\\ Condition\\ (?:Nullification|Resistance))|dalman|gera|lvis|n(?:aly(?:st|ze\\ and\\ Assess)|nihilation\\ King|rietta)|r(?:my\\ Wasp|no)|ubert)|B(?:acchus|e(?:ast(?:\\ Master|keteers)|nimaru)|onnie|yakuren)|C(?:a(?:bal|lgurio|rrera)|h(?:a(?:nt\\ Cancellation|os\\ King|r(?:ity\\ King|m\\ Control\\?))|osen\\ Hero|ronoa)|ie[ln]|o(?:n(?:tinent’s\\ Wrath|viction\\ King)|ok|rrosion|scia\\ Mountains|venant\\ King))|D(?:agruel|e(?:ath\\ King|mon\\ Lord(?:\\ Haki)?|viant)|i(?:ablo|no|vine\\ (?:Flame\\ King|Machine\\ King))|o(?:lan|rf|uble(?:\\ Digit|\\-Crosser))|ragon\\ (?:Roost|Worshippers))|E(?:dmalis|l(?:a(?:lude|ure)|en|wyn)|nchou|sprit|ye\\ of\\ the\\ Moon)|F(?:a(?:iry\\ of\\ the\\ Labyrinth|rm(?:enas|us))|e(?:llagha|rtility\\ King)|ive\\ Great\\ Elders|o(?:otman|rgotten\\ City\\ of\\ Dragons|u(?:nding\\ Festival|r\\ Heavenly\\ Kings))|r(?:eedom\\ Association|itz|ost\\ Dragon))|G(?:a(?:bil|dra|le|te\\ of\\ Hell)|e(?:ld|neralissimo|rald|tt)|l(?:adium|uttonous\\ King)|o(?:b(?:emon|kyu|lin\\ Riders|ta|ua)|rdon|urmet|zer)|r(?:a(?:nbell|sse)|ee(?:dy\\ King|n\\ Rebellion)|igori|ucius)|u(?:aranteed\\ Outcome|y))|H(?:a(?:kurou|rpy\\ Nation)|e(?:at\\ King|rcules\\ Ex)|i(?:nata|ryuu)|o(?:kusou|ly(?:\\ (?:Knight(?:\\ Order)?|Puri­fic­a­tion\\ Bar­rier)|\\-Demonic\\ Attack\\ Resistance)|pe\\ King))|I(?:gami|llusion\\ King|mperial\\ (?:Guard(?:ians|s)|Knight)|n(?:finite\\ Prison|gracia|vestigation\\ (?:King|of\\ Truth)))|J(?:ane|esta|i(?:stav|u)|ustice\\ King)|K(?:a(?:rion|i)|ijin|o(?:kuso|ndou)|ur(?:enai|obee))|L(?:a(?:byrinth\\ Creation|keshore\\ Dyed\\ Scarlet|rzen|w\\ Manipulation)|ilina|u(?:cky\\ Devil|stful\\ King))|M(?:a(?:gic\\ (?:Lord|Perception)|jins?|riabell|sayuki)|e(?:lt\\ Slash|me|ntal\\ (?:Attack\\ (?:Nullification|Resistance)|C(?:ontrol|rush))|zer)|i(?:dley|llion\\-class|nk|sha|zari)|oss|y(?:ourmiles|rd|u(?:ran)?))|N(?:a(?:nsou|tural\\ Effects\\ (?:Nullification|Resistance))|icolas)|Oboro\\-Ryu|P(?:a(?:in\\ (?:Nullification|Resistance)|nn|tience\\ King)|erfect\\ Memory|h(?:obio|ysical\\ Attack\\ (?:Nullification|Resistance))|oison\\ King|r(?:ide\\ King|obability\\ Manipulation)|sychology\\ King|unitive\\ Control\\?)|Queen\\ W(?:asp|orship)|R(?:a(?:bbitm(?:an|en)|in|y(?:hiem|mond)|zul)|e(?:iner|vival\\ Bracelet|ynald)|i(?:muru|tase)|osso|u(?:berios|min(?:as|is[mt])))|S(?:a(?:ge|r(?:ion|e))|corch\\ (?:Dragon|King)|e(?:rgei|ven\\ Celestial(?:\\ Saints|s))|h(?:adow\\ Step|i(?:n(?:ing)?|on)|una)|i(?:del|l(?:ent\\ Killer\\ Wasps|torozzo)|ngle\\ Digit)|kill\\ Storage|loth\\ King|niper|o(?:rcerer’s\\ Dynasty|u(?:ei|ka|l\\ Consumption))|p(?:a(?:cetime\\ King|tial\\ Movement)|ertus|irit\\ Core)|t(?:arved|ellar\\ Wind\\ King|orm\\ (?:Dragon(?:\\ (?:Restoration|Summon))?|King))|uphia)|T(?:akt|e(?:ar|mptation\\ King|starossa)|h(?:e\\ Tempest\\ Federation|ought\\ Acceleration|r(?:ee\\ Martial\\ Sages|ower))|ime\\ Travel|ouka|r(?:eyni|iss|ya))|U(?:ltima|niversal\\ Perception)|V(?:e(?:nom|yron)|oi(?:ce\\ of\\ the\\ World|d\\ God))|W(?:estern\\ Saints\\ Church|isdom\\ King|orld\\ of\\ Temptation)|Y(?:o(?:da|migaeri|um)|uu(?:ki|razania))|Zonda|archdemon|beastm(?:an|en)|d(?:ark\\ elf|e(?:mon(?:(?:\\ (?:lord|peer)|s))?|vil\\ chevalier)|ragon’s\\ dens|warf)|elf|full\\ potion|greater\\ (?:demon|majin)|h(?:aki|ero|igh\\ elf)|javelin|kijin|lesser\\ demon|m(?:a(?:gic\\ marble|jins?)|onsters?)|ogre|primordial|rabbitm(?:an|en)|s(?:pirit\\ wielder|t(?:ar\\ wasp|ellar))|the\\ (?:Secret\\ of\\ Faith\\ and\\ Grace|Tempest\\ Federation)|undead\\ elf|wind\\ spirit\\ wasp|youki)",
     "terms": {
         "Rimuru": {
             "options": [
@@ -115,7 +115,8 @@
         "Gobkyu": {
             "options": [
                 "Gobkyu",
-                "Gobkyuu"
+                "Gobkyuu",
+                "gone, reduced to atoms"
             ],
             "officialTermIndex": 1
         },
@@ -140,6 +141,13 @@
                 "Shell"
             ],
             "officialTermIndex": 0
+        },
+        "Takt": {
+            "options": [
+                "Takt",
+                "Baton"
+            ],
+            "officialTermIndex": 1
         },
         "Touka": {
             "options": [
@@ -204,16 +212,18 @@
         "Grucius": {
             "options": [
                 "Grucius",
-                "Gruecith"
+                "Gruecith",
+                "Gloosius"
             ],
             "officialTermIndex": 1
         },
         "Jiu": {
             "options": [
                 "Jiu",
+                "Jiwu",
                 "Cho"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1
         },
         "Alvis": {
             "options": [
@@ -234,9 +244,11 @@
         "Bonnie": {
             "options": [
                 "Bonnie",
-                "Burnie"
+                "Bernie",
+                "Burnie",
+                "Barny"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1
         },
         "Suphia": {
             "options": [
@@ -338,7 +350,8 @@
         "Rosso": {
             "options": [
                 "Rosso",
-                "Rozzo"
+                "Rozzo",
+                "Lozo"
             ],
             "officialTermIndex": 1
         },
@@ -408,6 +421,30 @@
             ],
             "officialTermIndex": 0
         },
+        "Meme": {
+            "options": [
+                "Meme",
+                "Meem",
+                "Maimai"
+            ],
+            "officialTermIndex": 0
+        },
+        "Myu": {
+            "options": [
+                "Myu",
+                "Mjur",
+                "Mew",
+                "µ"
+            ],
+            "officialTermIndex": 1
+        },
+        "Kondou": {
+            "options": [
+                "Kondou",
+                "Kondo"
+            ],
+            "officialTermIndex": 0
+        },
         "Calgurio": {
             "options": [
                 "Calgurio",
@@ -419,7 +456,8 @@
         "Gadra": {
             "options": [
                 "Gadra",
-                "Gadora"
+                "Gadora",
+                "Gadollah"
             ],
             "officialTermIndex": 1
         },
@@ -444,12 +482,33 @@
             ],
             "officialTermIndex": 0
         },
+        "Raymond": {
+            "options": [
+                "Raymond",
+                "DasRay"
+            ],
+            "officialTermIndex": 0
+        },
+        "Gozer": {
+            "options": [
+                "Gozer",
+                "Bovix"
+            ],
+            "officialTermIndex": 1
+        },
         "Green Rebellion": {
             "options": [
                 "Green Rebellion",
                 "Rebelle Vert"
             ],
             "officialTermIndex": 0
+        },
+        "Mezer": {
+            "options": [
+                "Mezer",
+                "Equix"
+            ],
+            "officialTermIndex": 1
         },
         "Adalman": {
             "options": [
@@ -458,40 +517,19 @@
             ],
             "officialTermIndex": 1
         },
-        "guardian golem": {
+        "Shin": {
             "options": [
-                "guardian golem",
-                "Elemental Colossus"
+                "Shin",
+                "Shen"
+            ],
+            "officialTermIndex": 0
+        },
+        "Kai": {
+            "options": [
+                "Kai",
+                "Gaiye"
             ],
             "officialTermIndex": 1
-        },
-        "Guardian Colossus": {
-            "options": [
-                "Guardian Colossus",
-                "Demon Colossus"
-            ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Flame": {
-            "options": [
-                "Dragon of Flame",
-                "Dragon of Flame Prison"
-            ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Frost": {
-            "options": [
-                "Dragon of Frost",
-                "Dragon of Ice Prison"
-            ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Hurtling Wind": {
-            "options": [
-                "Dragon of Hurtling Wind",
-                "Dragon of Thunder/Sky Thunder"
-            ],
-            "officialTermIndex": 0
         },
         "Yuuki": {
             "options": [
@@ -547,6 +585,13 @@
             "options": [
                 "Nicolas",
                 "Nicolaus"
+            ],
+            "officialTermIndex": 1
+        },
+        "Spertus": {
+            "options": [
+                "Spertus",
+                "Speltus"
             ],
             "officialTermIndex": 1
         },
@@ -618,6 +663,7 @@
         "Grigori": {
             "options": [
                 "Grigori",
+                "Gregory",
                 "Guregori"
             ],
             "officialTermIndex": 0
@@ -625,7 +671,8 @@
         "Sare": {
             "options": [
                 "Sare",
-                "Saare"
+                "Saare",
+                "Salle"
             ],
             "officialTermIndex": 1
         },
@@ -642,6 +689,13 @@
                 "Yandere Dragon"
             ],
             "officialTermIndex": 0
+        },
+        "Frost Dragon": {
+            "options": [
+                "Frost Dragon",
+                "Ice Dragon"
+            ],
+            "officialTermIndex": 1
         },
         "Fairy of the Labyrinth": {
             "options": [
@@ -690,7 +744,8 @@
         "Diablo": {
             "options": [
                 "Diablo",
-                "Lamborghini Diablo"
+                "Lamborghini Diablo",
+                "Mephistopheles"
             ],
             "officialTermIndex": 0
         },
@@ -931,10 +986,10 @@
             ],
             "officialTermIndex": 1
         },
-        "Ultra Instinct": {
+        "Labyrinth Creation": {
             "options": [
-                "Ultra Instinct",
-                "Ultra-instinct"
+                "Labyrinth Creation",
+                "Mazecraft"
             ],
             "officialTermIndex": 1
         },
@@ -975,13 +1030,6 @@
             ],
             "officialTermIndex": 0
         },
-        "Queen Worship": {
-            "options": [
-                "Queen Worship",
-                "Mother"
-            ],
-            "officialTermIndex": 0
-        },
         "Guaranteed Outcome": {
             "options": [
                 "Guaranteed Outcome",
@@ -990,18 +1038,25 @@
             ],
             "officialTermIndex": 1
         },
-        "Cook": {
+        "Queen Worship": {
             "options": [
-                "Cook",
-                "Master Chef",
-                "[Judgement Chef]"
+                "Queen Worship",
+                "Mother"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0
         },
         "Lucky Devil": {
             "options": [
                 "Lucky Devil",
                 "Braggart"
+            ],
+            "officialTermIndex": 1
+        },
+        "Cook": {
+            "options": [
+                "Cook",
+                "Master Chef",
+                "[Judgement Chef]"
             ],
             "officialTermIndex": 1
         },
@@ -1463,10 +1518,33 @@
         "Farmus": {
             "options": [
                 "Farmus",
-                "Falmus",
-                "Falmuth"
+                "Falmuth",
+                "Pharms"
             ],
             "officialTermIndex": 0
+        },
+        "Farmenas": {
+            "options": [
+                "Farmenas",
+                "Farminus (Misread hiragana)",
+                "Carmenus"
+            ],
+            "officialTermIndex": 1
+        },
+        "Dolan": {
+            "options": [
+                "Dolan",
+                "Dorrn",
+                "Duran Duran"
+            ],
+            "officialTermIndex": 0
+        },
+        "dragon’s dens": {
+            "options": [
+                "dragon’s dens",
+                "dragon chambers"
+            ],
+            "officialTermIndex": 1
         },
         "Coscia Mountains": {
             "options": [
@@ -1475,12 +1553,12 @@
             ],
             "officialTermIndex": 1
         },
-        "Freedom Association": {
+        "Dragon Roost": {
             "options": [
-                "Freedom Association",
-                "Free Guild"
+                "Dragon Roost",
+                "Dragon’s Nest"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0
         },
         "Voice of the World": {
             "options": [
@@ -1489,93 +1567,10 @@
             ],
             "officialTermIndex": 1
         },
-        "Ruminism": {
+        "Four Heavenly Kings": {
             "options": [
-                "Ruminism",
-                "Luminism",
-                "Ruminasism",
-                "Lewdminism"
-            ],
-            "officialTermIndex": 1
-        },
-        "Ruminist": {
-            "options": [
-                "Ruminist",
-                "Luminist",
-                "Lewdminist"
-            ],
-            "officialTermIndex": 1
-        },
-        "Holy Knight Order": {
-            "options": [
-                "Holy Knight Order",
-                "Crusaders"
-            ],
-            "officialTermIndex": 1
-        },
-        "Spirit Core": {
-            "options": [
-                "Spirit Core",
-                "Element Core"
-            ],
-            "officialTermIndex": 0
-        },
-        "Holy Knight": {
-            "options": [
-                "Holy Knight",
-                "Crusader"
-            ],
-            "officialTermIndex": 1
-        },
-        "Seven Celestial Saints": {
-            "options": [
-                "Seven Celestial Saints",
-                "Seven Days Clergy",
-                "Seven Luminary Saints"
-            ],
-            "officialTermIndex": 1
-        },
-        "Seven Celestials": {
-            "options": [
-                "Seven Celestials",
-                "Seven Days",
-                "Seven Luminaries"
-            ],
-            "officialTermIndex": 1
-        },
-        "magic marble": {
-            "options": [
-                "magic marble",
-                "core"
-            ],
-            "officialTermIndex": 0
-        },
-        "Beastketeers": {
-            "options": [
-                "Beastketeers",
-                "Lycanthropeers"
-            ],
-            "officialTermIndex": 1
-        },
-        "Gate of Hell": {
-            "options": [
-                "Gate of Hell",
-                "Gate of Heck"
-            ],
-            "officialTermIndex": 1
-        },
-        "Imperial Guards": {
-            "options": [
-                "Imperial Guards",
-                "Master Rooks",
-                "Rook Geniuses"
-            ],
-            "officialTermIndex": 1
-        },
-        "Dragon Worshippers": {
-            "options": [
-                "Dragon Worshippers",
-                "Dragon Faithful"
+                "Four Heavenly Kings",
+                "Big Four"
             ],
             "officialTermIndex": 1
         },
@@ -1602,6 +1597,13 @@
             ],
             "officialTermIndex": 0
         },
+        "Lakeshore Dyed Scarlet": {
+            "options": [
+                "Lakeshore Dyed Scarlet",
+                "Bloody Shore"
+            ],
+            "officialTermIndex": 1
+        },
         "Hiryuu": {
             "options": [
                 "Hiryuu",
@@ -1610,12 +1612,144 @@
             ],
             "officialTermIndex": 1
         },
-        "javelin": {
+        "Beastketeers": {
             "options": [
-                "javelin",
-                "Death pickle"
+                "Beastketeers",
+                "Lycanthropeers"
+            ],
+            "officialTermIndex": 1
+        },
+        "Dragon Worshippers": {
+            "options": [
+                "Dragon Worshippers",
+                "Dragon Faithful"
+            ],
+            "officialTermIndex": 1
+        },
+        "Western Saints Church": {
+            "options": [
+                "Western Saints Church",
+                "Western Holy Church"
+            ],
+            "officialTermIndex": 1
+        },
+        "Ruminism": {
+            "options": [
+                "Ruminism",
+                "Luminism",
+                "Ruminasism",
+                "Lewdminism"
+            ],
+            "officialTermIndex": 1
+        },
+        "Freedom Association": {
+            "options": [
+                "Freedom Association",
+                "Free Guild"
+            ],
+            "officialTermIndex": 1
+        },
+        "Ruminist": {
+            "options": [
+                "Ruminist",
+                "Luminist",
+                "Lewdminist"
+            ],
+            "officialTermIndex": 1
+        },
+        "stellar": {
+            "options": [
+                "stellar",
+                "star gold coin"
             ],
             "officialTermIndex": 0
+        },
+        "Three Martial Sages": {
+            "options": [
+                "Three Martial Sages",
+                "Three Battlesages"
+            ],
+            "officialTermIndex": 1
+        },
+        "Holy Knight Order": {
+            "options": [
+                "Holy Knight Order",
+                "Crusaders"
+            ],
+            "officialTermIndex": 1
+        },
+        "Five Great Elders": {
+            "options": [
+                "Five Great Elders",
+                "Five Elders"
+            ],
+            "officialTermIndex": 1
+        },
+        "Holy Knight": {
+            "options": [
+                "Holy Knight",
+                "Crusader"
+            ],
+            "officialTermIndex": 1
+        },
+        "Seven Celestial Saints": {
+            "options": [
+                "Seven Celestial Saints",
+                "Seven Days Clergy",
+                "Seven Luminary Saints"
+            ],
+            "officialTermIndex": 1
+        },
+        "Seven Celestials": {
+            "options": [
+                "Seven Celestials",
+                "Seven Days",
+                "Seven Luminaries"
+            ],
+            "officialTermIndex": 1
+        },
+        "Imperial Guards": {
+            "options": [
+                "Imperial Guards",
+                "Master Rooks",
+                "Rook Geniuses"
+            ],
+            "officialTermIndex": 1
+        },
+        "Spirit Core": {
+            "options": [
+                "Spirit Core",
+                "Element Core"
+            ],
+            "officialTermIndex": 0
+        },
+        "Revival Bracelet": {
+            "options": [
+                "Revival Bracelet",
+                "Resurrection Bracelet"
+            ],
+            "officialTermIndex": 1
+        },
+        "magic marble": {
+            "options": [
+                "magic marble",
+                "core"
+            ],
+            "officialTermIndex": 0
+        },
+        "full potion": {
+            "options": [
+                "full potion",
+                "maxi potion"
+            ],
+            "officialTermIndex": 0
+        },
+        "Gate of Hell": {
+            "options": [
+                "Gate of Hell",
+                "Gate of Heck"
+            ],
+            "officialTermIndex": 1
         },
         "Oboro-Ryu": {
             "options": [
@@ -1645,17 +1779,25 @@
             ],
             "officialTermIndex": 1
         },
-        "majin": {
+        "javelin": {
             "options": [
-                "majin",
-                "magic-born"
+                "javelin",
+                "Death pickle"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0
         },
-        "Majin": {
+        "Million-class": {
             "options": [
-                "Majin",
-                "Magic-born"
+                "Million-class",
+                "Turbo Woke"
+            ],
+            "officialTermIndex": 0
+        },
+        "Founding Festival": {
+            "options": [
+                "Founding Festival",
+                "Founder’s Fesitval",
+                "Opening Festival"
             ],
             "officialTermIndex": 1
         },
@@ -1665,20 +1807,6 @@
                 "devil"
             ],
             "officialTermIndex": 0
-        },
-        "majins": {
-            "options": [
-                "majins",
-                "magic-born"
-            ],
-            "officialTermIndex": 1
-        },
-        "Majins": {
-            "options": [
-                "Majins",
-                "Magic-born"
-            ],
-            "officialTermIndex": 1
         },
         "demons": {
             "options": [
@@ -1690,9 +1818,11 @@
         "primordial": {
             "options": [
                 "primordial",
+                "Primal",
+                "Primordial",
                 "biggerest devil"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1
         },
         "demon peer": {
             "options": [
@@ -1727,6 +1857,14 @@
             ],
             "officialTermIndex": 1
         },
+        "Imperial Guardians": {
+            "options": [
+                "Imperial Guardians",
+                "Praetorian Guard",
+                "Imperial Knight Order"
+            ],
+            "officialTermIndex": 0
+        },
         "devil chevalier": {
             "options": [
                 "devil chevalier",
@@ -1734,27 +1872,131 @@
             ],
             "officialTermIndex": 0
         },
+        "Imperial Knight": {
+            "options": [
+                "Imperial Knight",
+                "Praetorian"
+            ],
+            "officialTermIndex": 0
+        },
+        "Single Digit": {
+            "options": [
+                "Single Digit",
+                "Double O Number"
+            ],
+            "officialTermIndex": 0
+        },
+        "demon lord": {
+            "options": [
+                "demon lord",
+                "señor demonio",
+                "dank lood"
+            ],
+            "officialTermIndex": 0
+        },
+        "Double Digit": {
+            "options": [
+                "Double Digit",
+                "Single O Number"
+            ],
+            "officialTermIndex": 0
+        },
+        "Sage": {
+            "options": [
+                "Sage",
+                "Enlightened"
+            ],
+            "officialTermIndex": 1
+        },
+        "Chosen Hero": {
+            "options": [
+                "Chosen Hero",
+                "Hero"
+            ],
+            "officialTermIndex": 1
+        },
+        "hero": {
+            "options": [
+                "hero",
+                "champion"
+            ],
+            "officialTermIndex": 1
+        },
+        "majin": {
+            "options": [
+                "majin",
+                "magic-born",
+                "devil"
+            ],
+            "officialTermIndex": 1
+        },
+        "Majin": {
+            "options": [
+                "Majin",
+                "Magic-born",
+                "Devil"
+            ],
+            "officialTermIndex": 1
+        },
+        "monster": {
+            "options": [
+                "monster",
+                "devil"
+            ],
+            "officialTermIndex": 0
+        },
+        "majins": {
+            "options": [
+                "majins",
+                "magic-born",
+                "devils"
+            ],
+            "officialTermIndex": 1
+        },
+        "Majins": {
+            "options": [
+                "Majins",
+                "Magic-born",
+                "Devils"
+            ],
+            "officialTermIndex": 1
+        },
+        "monsters": {
+            "options": [
+                "monsters",
+                "devil"
+            ],
+            "officialTermIndex": 0
+        },
+        "greater majin": {
+            "options": [
+                "greater majin",
+                "big devil"
+            ],
+            "officialTermIndex": 0
+        },
+        "ogre": {
+            "options": [
+                "ogre",
+                "devil"
+            ],
+            "officialTermIndex": 0
+        },
         "kijin": {
             "options": [
                 "kijin",
-                "ogre mage"
+                "ogre mage",
+                "devil"
             ],
             "officialTermIndex": 1
         },
         "Kijin": {
             "options": [
                 "Kijin",
-                "Ogre mage"
+                "Ogre mage",
+                "Devil"
             ],
             "officialTermIndex": 1
-        },
-        "Demon Lord": {
-            "options": [
-                "Demon Lord",
-                "Señor Demonio",
-                "Dank Lood"
-            ],
-            "officialTermIndex": 0
         },
         "rabbitman": {
             "options": [
@@ -1767,14 +2009,6 @@
             "options": [
                 "Rabbitman",
                 "Bunnyboi"
-            ],
-            "officialTermIndex": 0
-        },
-        "demon lord": {
-            "options": [
-                "demon lord",
-                "señor demonio",
-                "dank lood"
             ],
             "officialTermIndex": 0
         },
@@ -1792,24 +2026,17 @@
             ],
             "officialTermIndex": 0
         },
-        "Million-class": {
-            "options": [
-                "Million-class",
-                "Turbo Woke"
-            ],
-            "officialTermIndex": 0
-        },
-        "Sage": {
-            "options": [
-                "Sage",
-                "Enlightened"
-            ],
-            "officialTermIndex": 1
-        },
         "elf": {
             "options": [
                 "elf",
                 "erofu"
+            ],
+            "officialTermIndex": 0
+        },
+        "Army Wasp": {
+            "options": [
+                "Army Wasp",
+                "Army Bee"
             ],
             "officialTermIndex": 0
         },
@@ -1835,13 +2062,6 @@
             ],
             "officialTermIndex": 1
         },
-        "dwarf": {
-            "options": [
-                "dwarf",
-                "smolboi"
-            ],
-            "officialTermIndex": 0
-        },
         "beastmen": {
             "options": [
                 "beastmen",
@@ -1856,32 +2076,24 @@
             ],
             "officialTermIndex": 0
         },
-        "Imperial Guardians": {
+        "dwarf": {
             "options": [
-                "Imperial Guardians",
-                "Praetorian Guard",
-                "Imperial Knight Order"
+                "dwarf",
+                "smolboi"
             ],
             "officialTermIndex": 0
         },
-        "Imperial Knight": {
+        "Silent Killer Wasps": {
             "options": [
-                "Imperial Knight",
-                "Praetorian"
+                "Silent Killer Wasps",
+                "Silent Killer Bees"
             ],
             "officialTermIndex": 0
         },
-        "Single Digit": {
+        "wind spirit wasp": {
             "options": [
-                "Single Digit",
-                "Double O Number"
-            ],
-            "officialTermIndex": 0
-        },
-        "Double Digit": {
-            "options": [
-                "Double Digit",
-                "Single O Number"
+                "wind spirit wasp",
+                "wind spirit bee"
             ],
             "officialTermIndex": 0
         },
@@ -1934,11 +2146,31 @@
             ],
             "officialTermIndex": 0
         },
-        "Founding Festival": {
+        "star wasp": {
             "options": [
-                "Founding Festival",
-                "Founder's Fesitval",
-                "Opening Festival"
+                "star wasp",
+                "star bee"
+            ],
+            "officialTermIndex": 0
+        },
+        "Queen Wasp": {
+            "options": [
+                "Queen Wasp",
+                "Queen Bee"
+            ],
+            "officialTermIndex": 0
+        },
+        "Sergei": {
+            "options": [
+                "Sergei",
+                "Sehrgay"
+            ],
+            "officialTermIndex": 0
+        },
+        "spirit wielder": {
+            "options": [
+                "spirit wielder",
+                "elementalist"
             ],
             "officialTermIndex": 1
         },
@@ -1948,6 +2180,28 @@
                 "Holy Field"
             ],
             "officialTermIndex": 1
+        },
+        "Melt Slash": {
+            "options": [
+                "Melt Slash",
+                "Meltslash"
+            ],
+            "officialTermIndex": 1
+        },
+        "the Secret of Faith and Grace": {
+            "options": [
+                "the Secret of Faith and Grace",
+                "the secret skills of faith and favor"
+            ],
+            "officialTermIndex": 1
+        },
+        "Demon Lord": {
+            "options": [
+                "Demon Lord",
+                "Señor Demonio",
+                "Dank Lood"
+            ],
+            "officialTermIndex": 0
         }
     },
     "groups": {
@@ -1967,6 +2221,7 @@
             "Abil",
             "Geld",
             "Ciel",
+            "Takt",
             "Touka",
             "Nansou",
             "Hokusou"
@@ -2025,25 +2280,28 @@
             "Myuran",
             "Edmalis",
             "Larzen",
-            "Rayhiem"
+            "Rayhiem",
+            "Meme",
+            "Myu"
         ],
         "Eastern Empire": [
+            "Kondou",
             "Calgurio",
             "Gadra",
             "Gladium",
             "Fellagha",
-            "Gordon"
+            "Gordon",
+            "Raymond"
         ],
         "Labyrinth Bosses & Crew": [
-            "Adalman",
-            "guardian golem",
-            "Guardian Colossus",
-            "Dragon of Flame",
-            "Dragon of Frost",
-            "Dragon of Hurtling Wind"
+            "Gozer",
+            "Mezer",
+            "Adalman"
         ],
         "Labyrinth invaders": [
-            "Green Rebellion"
+            "Green Rebellion",
+            "Shin",
+            "Kai"
         ],
         "Yuuki & Clowns": [
             "Yuuki",
@@ -2062,7 +2320,8 @@
             "Chronoa"
         ],
         "Ruminas’s servants": [
-            "Nicolas"
+            "Nicolas",
+            "Spertus"
         ],
         "Holy Knight Order": [
             "Hinata",
@@ -2078,7 +2337,8 @@
         ],
         "True Dragons": [
             "Storm Dragon",
-            "Scorch Dragon"
+            "Scorch Dragon",
+            "Frost Dragon"
         ],
         "Octagram": [
             "Guy",
@@ -2127,19 +2387,19 @@
             "Holy-Demonic Attack Resistance",
             "Magic Perception",
             "Universal Perception",
-            "Demon Lord Haki"
+            "Demon Lord Haki",
+            "Labyrinth Creation"
         ],
         "Unique Skills": [
-            "Ultra Instinct",
             "Time Travel",
             "Chant Cancellation",
             "Mental Crush",
             "Generalissimo",
             "Thrower",
-            "Queen Worship",
             "Guaranteed Outcome",
-            "Cook",
+            "Queen Worship",
             "Lucky Devil",
+            "Cook",
             "Sniper",
             "Gourmet",
             "Starved",
@@ -2205,39 +2465,73 @@
             "Siltorozzo",
             "Ingracia",
             "Farmus",
-            "Coscia Mountains"
+            "Farmenas",
+            "Dolan",
+            "dragon’s dens",
+            "Coscia Mountains",
+            "Dragon Roost"
         ],
-        "Miscellaneous": [
-            "Freedom Association",
+        "Organizations": [
             "Voice of the World",
-            "Ruminism",
-            "Ruminist",
-            "Holy Knight Order",
-            "Spirit Core",
-            "Holy Knight",
-            "Seven Celestial Saints",
-            "Seven Celestials",
-            "magic marble",
             "Beastketeers",
-            "Gate of Hell",
-            "Imperial Guards",
-            "Dragon Worshippers",
+            "Dragon Worshippers"
+        ],
+        "Tempest misc.": [
+            "Four Heavenly Kings",
             "Yomigaeri",
             "Kurenai",
             "Goblin Riders",
-            "Hiryuu",
-            "javelin",
-            "Oboro-Ryu",
-            "Hercules Ex",
+            "Hiryuu"
+        ],
+        "Lakeshore section": [
+            "Lakeshore Dyed Scarlet"
+        ],
+        "Church misc.": [
+            "Western Saints Church",
+            "Ruminism",
+            "Ruminist",
+            "Three Martial Sages",
+            "Holy Knight Order",
+            "Holy Knight",
+            "Seven Celestial Saints",
+            "Seven Celestials",
+            "Imperial Guards"
+        ],
+        "Western Nations": [
+            "Freedom Association",
+            "stellar",
+            "Five Great Elders"
+        ],
+        "Engineering": [
+            "Spirit Core",
+            "Revival Bracelet",
+            "magic marble",
+            "full potion"
+        ],
+        "Magical misc.": [
+            "Gate of Hell",
             "haki",
             "youki"
         ],
-        "Races and species": [
-            "majin",
-            "Majin",
+        "Misc. Weapons": [
+            "Oboro-Ryu",
+            "Hercules Ex",
+            "javelin"
+        ],
+        "Miscellaneous": [
+            "Founding Festival"
+        ],
+        "Rankings": [
+            "Million-class"
+        ],
+        "Empire misc.": [
+            "Imperial Guardians",
+            "Imperial Knight",
+            "Single Digit",
+            "Double Digit"
+        ],
+        "Demons, Angels, and Heros": [
             "demon",
-            "majins",
-            "Majins",
             "demons",
             "primordial",
             "demon peer",
@@ -2245,38 +2539,65 @@
             "greater demon",
             "lesser demon",
             "devil chevalier",
+            "demon lord",
+            "Sage",
+            "Chosen Hero",
+            "hero"
+        ],
+        "Races and species": [
+            "majin",
+            "Majin",
+            "monster",
+            "majins",
+            "Majins",
+            "monsters",
+            "greater majin",
+            "ogre",
             "kijin",
             "Kijin",
-            "Demon Lord",
             "rabbitman",
             "Rabbitman",
-            "demon lord",
             "rabbitmen",
             "Rabbitmen",
-            "Million-class",
-            "Sage",
             "elf",
+            "Army Wasp",
             "high elf",
             "dark elf",
             "undead elf",
-            "dwarf",
             "beastmen",
             "beastman",
-            "Imperial Guardians",
-            "Imperial Knight",
-            "Single Digit",
-            "Double Digit",
+            "dwarf"
+        ],
+        "Alien species": [
+            "Silent Killer Wasps",
             "Byakuren",
             "Gett",
             "Kokuso",
             "Yoda",
             "Mink",
             "Enchou",
-            "Igami",
-            "Founding Festival"
+            "Igami"
+        ],
+        "Character sheet bottom level species names": [
+            "wind spirit wasp"
+        ],
+        "Character sheet top level species names": [
+            "star wasp"
+        ],
+        "Character sheet mid level species names": [
+            "Queen Wasp"
+        ],
+        "Raphael speech": [
+            "Sergei"
         ],
         "Magic": [
-            "Holy Puri­fic­a­tion Bar­rier"
+            "spirit wielder",
+            "Holy Puri­fic­a­tion Bar­rier",
+            "Melt Slash",
+            "the Secret of Faith and Grace"
+        ],
+        "Honorific": [
+            "Demon Lord"
         ]
     }
 }
