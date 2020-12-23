@@ -1,5 +1,5 @@
 {
-    "pattern": "(?:A(?:B(?:IL|NORMAL\\ CONDITION\\ (?:NULLIFICATION|RESISTANCE))|DALMAN|GERA|LVIS|N(?:ALY(?:ST|ZE\\ AND\\ ASSESS)|NIHILATION\\ KING|RIETTA)|R(?:CHDEMON|NO)|UBERT)|B(?:ACCHUS|E(?:AST(?:\\ MASTER|KETEERS|M(?:AN|EN))|NIMARU)|ONNIE|YAKUREN)|C(?:A(?:BAL|LGURIO|RRERA)|H(?:A(?:NT\\ CANCELLATION|OS\\ KING|R(?:ITY\\ KING|M\\ CONTROL\\?))|RONOA)|IE[LN]|O(?:N(?:TINENT’S\\ WRATH|VICTION\\ KING)|OK|RROSION|SCIA\\ MOUNTAINS|VENANT\\ KING))|D(?:A(?:GRUEL|RK\\ ELF)|E(?:ATH\\ KING|MON(?:(?:\\ (?:LORD(?:\\ HAKI)?|PEER)|S))?|VI(?:ANT|L\\ CHEVALIER))|I(?:ABLO|NO|VINE\\ (?:FLAME\\ KING|MACHINE\\ KING))|O(?:RF|UBLE(?:\\ DIGIT|\\-CROSSER))|RAGON\\ (?:OF\\ (?:F(?:LAME|ROST)|HURTLING\\ WIND)|WORSHIPPERS)|WARF)|E(?:DMALIS|L(?:A(?:LUDE|URE)|EN|WYN|F)|NCHOU|SPRIT|YE\\ OF\\ THE\\ MOON)|F(?:A(?:IRY\\ OF\\ THE\\ LABYRINTH|RMUS)|E(?:LLAGHA|RTILITY\\ KING)|O(?:OTMAN|RGOTTEN\\ CITY\\ OF\\ DRAGONS|UNDING\\ FESTIVAL)|R(?:EEDOM\\ ASSOCIATION|ITZ))|G(?:A(?:BIL|DRA|LE|TE\\ OF\\ HELL)|E(?:LD|NERALISSIMO|RALD|TT)|L(?:ADIUM|UTTONOUS\\ KING)|O(?:B(?:EMON|KYU|LIN\\ RIDERS|TA|UA)|RDON|URMET)|R(?:A(?:NBELL|SSE)|E(?:ATER\\ DEMON|E(?:DY\\ KING|N\\ REBELLION))|IGORI|UCIUS)|U(?:AR(?:ANTEED\\ OUTCOME|DIAN\\ (?:COLOSSUS|GOLEM))|Y))|H(?:A(?:K(?:UROU|I)|RPY\\ NATION)|E(?:AT\\ KING|RCULES\\ EX)|I(?:GH\\ ELF|NATA|RYUU)|O(?:KUSOU|LY(?:\\ (?:KNIGHT(?:\\ ORDER)?|PURI­FIC­A­TION\\ BAR­RIER)|\\-DEMONIC\\ ATTACK\\ RESISTANCE)|PE\\ KING))|I(?:GAMI|LLUSION\\ KING|MPERIAL\\ (?:GUARD(?:IANS|S)|KNIGHT)|N(?:FINITE\\ PRISON|GRACIA|VESTIGATION\\ (?:KING|OF\\ TRUTH)))|J(?:A(?:NE|VELIN)|ESTA|I(?:STAV|U)|USTICE\\ KING)|K(?:ARION|IJIN|OKUSO|UR(?:ENAI|OBEE))|L(?:A(?:RZEN|W\\ MANIPULATION)|ESSER\\ DEMON|ILINA|U(?:CKY\\ DEVIL|STFUL\\ KING))|M(?:A(?:GIC\\ (?:LORD|MARBLE|PERCEPTION)|JINS?|RIABELL|SAYUKI)|ENTAL\\ (?:ATTACK\\ (?:NULLIFICATION|RESISTANCE)|C(?:ONTROL|RUSH))|I(?:DLEY|LLION\\-CLASS|NK|SHA|ZARI)|OSS|Y(?:OURMILES|RD|URAN))|N(?:A(?:NSOU|TURAL\\ EFFECTS\\ (?:NULLIFICATION|RESISTANCE))|ICOLAS)|OBORO\\-RYU|P(?:A(?:IN\\ (?:NULLIFICATION|RESISTANCE)|NN|TIENCE\\ KING)|ERFECT\\ MEMORY|H(?:OBIO|YSICAL\\ ATTACK\\ (?:NULLIFICATION|RESISTANCE))|OISON\\ KING|R(?:I(?:DE\\ KING|MORDIAL)|OBABILITY\\ MANIPULATION)|SYCHOLOGY\\ KING|UNITIVE\\ CONTROL\\?)|QUEEN\\ WORSHIP|R(?:A(?:BBITM(?:AN|EN)|IN|YHIEM|ZUL)|E(?:INER|YNALD)|I(?:MURU|TASE)|OSSO|U(?:BERIOS|MIN(?:AS|IS[MT])))|S(?:A(?:GE|R(?:ION|E))|CORCH\\ (?:DRAGON|KING)|EVEN\\ CELESTIAL(?:\\ SAINTS|S)|H(?:ADOW\\ STEP|I(?:NING|ON)|UNA)|I(?:DEL|LTOROZZO|NGLE\\ DIGIT)|KILL\\ STORAGE|LOTH\\ KING|NIPER|O(?:RCERER’S\\ DYNASTY|U(?:EI|KA|L\\ CONSUMPTION))|P(?:A(?:CETIME\\ KING|TIAL\\ MOVEMENT)|IRIT\\ CORE)|T(?:ARVED|ELLAR\\ WIND\\ KING|ORM\\ (?:DRAGON(?:\\ (?:RESTORATION|SUMMON))?|KING))|UPHIA)|T(?:E(?:AR|MPTATION\\ KING|STAROSSA)|H(?:E\\ TEMPEST\\ FEDERATION|OUGHT\\ ACCELERATION|ROWER)|IME\\ TRAVEL|OUKA|R(?:EYNI|ISS|YA))|U(?:LT(?:IMA|RA\\ INSTINCT)|N(?:DEAD\\ ELF|IVERSAL\\ PERCEPTION))|V(?:E(?:NOM|YRON)|OI(?:CE\\ OF\\ THE\\ WORLD|D\\ GOD))|W(?:ISDOM\\ KING|ORLD\\ OF\\ TEMPTATION)|Y(?:O(?:DA|MIGAERI|U(?:KI|M))|UU(?:KI|RAZANIA))|ZONDA)",
+    "pattern": "(?:A(?:b(?:il|normal\\ Condition\\ (?:Nullification|Resistance))|dalman|gera|lvis|n(?:aly(?:st|ze\\ and\\ Assess)|nihilation\\ King|rietta)|r(?:my\\ Wasp|no)|ubert)|B(?:acchus|e(?:ast(?:\\ Master|keteers)|nimaru)|onnie|yakuren)|C(?:a(?:bal|lgurio|rrera)|h(?:a(?:nt\\ Cancellation|os\\ King|r(?:ity\\ King|m\\ Control\\?))|osen\\ Hero|ronoa)|ie[ln]|o(?:n(?:tinent’s\\ Wrath|viction\\ King)|ok|rrosion|scia\\ Mountains|venant\\ King))|D(?:agruel|e(?:ath\\ King|mon\\ Lord(?:\\ Haki)?|viant)|i(?:ablo|no|vine\\ (?:Flame\\ King|Machine\\ King))|o(?:lan|rf|uble(?:\\ Digit|\\-Crosser))|ragon\\ (?:Roost|Worshippers))|E(?:dmalis|l(?:a(?:lude|ure)|en|wyn)|nchou|sprit|ye\\ of\\ the\\ Moon)|F(?:a(?:iry\\ of\\ the\\ Labyrinth|rm(?:enas|us))|e(?:llagha|rtility\\ King)|ive\\ Great\\ Elders|o(?:otman|rgotten\\ City\\ of\\ Dragons|u(?:nding\\ Festival|r\\ Heavenly\\ Kings))|r(?:eedom\\ Association|itz|ost\\ Dragon))|G(?:a(?:bil|dra|le|te\\ of\\ Hell)|e(?:ld|neralissimo|rald|tt)|l(?:adium|uttonous\\ King)|o(?:b(?:emon|kyu|lin\\ Riders|ta|ua)|rdon|urmet|zer)|r(?:a(?:nbell|sse)|ee(?:dy\\ King|n\\ Rebellion)|igori|ucius)|u(?:aranteed\\ Outcome|y))|H(?:a(?:kurou|rpy\\ Nation)|e(?:at\\ King|rcules\\ Ex)|i(?:nata|ryuu)|o(?:kusou|ly(?:\\ (?:Knight(?:\\ Order)?|Puri­fic­a­tion\\ Bar­rier)|\\-Demonic\\ Attack\\ Resistance)|pe\\ King))|I(?:gami|llusion\\ King|mperial\\ (?:Guard(?:ians|s)|Knight)|n(?:finite\\ Prison|gracia|vestigation\\ (?:King|of\\ Truth)))|J(?:ane|esta|i(?:stav|u)|ustice\\ King)|K(?:a(?:rion|i)|ijin|o(?:kuso|ndou)|ur(?:enai|obee))|L(?:a(?:byrinth\\ Creation|keshore\\ Dyed\\ Scarlet|rzen|w\\ Manipulation)|ilina|u(?:cky\\ Devil|stful\\ King))|M(?:a(?:gic\\ (?:Lord|Perception)|jins?|riabell|sayuki)|e(?:lt\\ Slash|me|ntal\\ (?:Attack\\ (?:Nullification|Resistance)|C(?:ontrol|rush))|zer)|i(?:dley|llion\\-class|nk|sha|zari)|oss|y(?:ourmiles|rd|u(?:ran)?))|N(?:a(?:nsou|tural\\ Effects\\ (?:Nullification|Resistance))|icolas)|Oboro\\-Ryu|P(?:a(?:in\\ (?:Nullification|Resistance)|nn|tience\\ King)|erfect\\ Memory|h(?:obio|ysical\\ Attack\\ (?:Nullification|Resistance))|oison\\ King|r(?:ide\\ King|obability\\ Manipulation)|sychology\\ King|unitive\\ Control\\?)|Queen\\ W(?:asp|orship)|R(?:a(?:bbitm(?:an|en)|in|y(?:hiem|mond)|zul)|e(?:iner|vival\\ Bracelet|ynald)|i(?:muru|tase)|osso|u(?:berios|min(?:as|is[mt])))|S(?:a(?:ge|r(?:ion|e))|corch\\ (?:Dragon|King)|e(?:rgei|ven\\ Celestial(?:\\ Saints|s))|h(?:adow\\ Step|i(?:n(?:ing)?|on)|una)|i(?:del|l(?:ent\\ Killer\\ Wasps|torozzo)|ngle\\ Digit)|kill\\ Storage|loth\\ King|niper|o(?:rcerer’s\\ Dynasty|u(?:ei|ka|l\\ Consumption))|p(?:a(?:cetime\\ King|tial\\ Movement)|ertus|irit\\ Core)|t(?:arved|ellar\\ Wind\\ King|orm\\ (?:Dragon(?:\\ (?:Restoration|Summon))?|King))|uphia)|T(?:akt|e(?:ar|mptation\\ King|starossa)|h(?:e\\ Tempest\\ Federation|ought\\ Acceleration|r(?:ee\\ Martial\\ Sages|ower))|ime\\ Travel|ouka|r(?:eyni|iss|ya))|U(?:ltima|niversal\\ Perception)|V(?:e(?:nom|yron)|oi(?:ce\\ of\\ the\\ World|d\\ God))|W(?:estern\\ Saints\\ Church|isdom\\ King|orld\\ of\\ Temptation)|Y(?:o(?:da|migaeri|um)|uu(?:ki|razania))|Zonda|archdemon|beastm(?:an|en)|d(?:ark\\ elf|e(?:mon(?:(?:\\ (?:lord|peer)|s))?|vil\\ chevalier)|ragon’s\\ dens|warf)|elf|full\\ potion|greater\\ (?:demon|majin)|h(?:aki|ero|igh\\ elf)|javelin|kijin|lesser\\ demon|m(?:a(?:gic\\ marble|jins?)|onsters?)|ogre|primordial|rabbitm(?:an|en)|s(?:pirit\\ wielder|t(?:ar\\ wasp|ellar))|the\\ (?:Secret\\ of\\ Faith\\ and\\ Grace|Tempest\\ Federation)|undead\\ elf|wind\\ spirit\\ wasp|youki)",
     "terms": {
         "Rimuru": {
             "options": [
@@ -7,21 +7,24 @@
                 "Rimuwu",
                 "Lime road"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Treyni": {
             "options": [
                 "Treyni",
                 "Doreyni"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Trya": {
             "options": [
                 "Trya",
                 "Dorya"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Triss": {
             "options": [
@@ -29,14 +32,16 @@
                 "Doreth",
                 "Doris"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Benimaru": {
             "options": [
                 "Benimaru",
                 "Red pill"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Souei": {
             "options": [
@@ -44,14 +49,16 @@
                 "Soei",
                 "Shadow"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Gobta": {
             "options": [
                 "Gobta",
                 "Gobuta"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Hakurou": {
             "options": [
@@ -59,14 +66,16 @@
                 "Hakuro",
                 "Old White"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Shion": {
             "options": [
                 "Shion",
                 "Asters"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Shuna": {
             "options": [
@@ -74,35 +83,40 @@
                 "Vegetable",
                 "Zuh Zuh"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Kurobee": {
             "options": [
                 "Kurobee",
                 "Kurobe"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Gobemon": {
             "options": [
                 "Gobemon",
                 "Gob’emon"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Gabil": {
             "options": [
                 "Gabil",
                 "Gabiru"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Gobua": {
             "options": [
                 "Gobua",
                 "Gobwa"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Souka": {
             "options": [
@@ -110,21 +124,25 @@
                 "Soka",
                 "Cyka"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Gobkyu": {
             "options": [
                 "Gobkyu",
-                "Gobkyuu"
+                "Gobkyuu",
+                "gone, reduced to atoms"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Abil": {
             "options": [
                 "Abil",
                 "Abiru"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Geld": {
             "options": [
@@ -132,49 +150,64 @@
                 "Gerudo",
                 "Gaylord"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Ciel": {
             "options": [
                 "Ciel",
                 "Shell"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Takt": {
+            "options": [
+                "Takt",
+                "Baton"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Touka": {
             "options": [
                 "Touka",
                 "Toka"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Myrd": {
             "options": [
                 "Myrd",
                 "Mildo"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Nansou": {
             "options": [
                 "Nansou",
                 "Nanso"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Hokusou": {
             "options": [
                 "Hokusou",
                 "Hokuso"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Lilina": {
             "options": [
                 "Lilina",
                 "Ririna"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Masayuki": {
             "options": [
@@ -182,7 +215,8 @@
                 "Fortunate",
                 "Xingxing"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Karion": {
             "options": [
@@ -191,7 +225,8 @@
                 "Carion",
                 "Carroña"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Elalude": {
             "options": [
@@ -199,21 +234,26 @@
                 "Erald",
                 "Harold"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Grucius": {
             "options": [
                 "Grucius",
-                "Gruecith"
+                "Gruecith",
+                "Gloosius"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Jiu": {
             "options": [
                 "Jiu",
+                "Jiwu",
                 "Cho"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Alvis": {
             "options": [
@@ -221,7 +261,8 @@
                 "Arubis",
                 "Albis"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Elaure": {
             "options": [
@@ -229,14 +270,18 @@
                 "El-Ru",
                 "Elure"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Bonnie": {
             "options": [
                 "Bonnie",
-                "Burnie"
+                "Bernie",
+                "Burnie",
+                "Barny"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Suphia": {
             "options": [
@@ -245,21 +290,24 @@
                 "Sophia",
                 "Sphere"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Phobio": {
             "options": [
                 "Phobio",
                 "Kitty"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Elwyn": {
             "options": [
                 "Elwyn",
                 "Ellwyn"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Shining": {
             "options": [
@@ -267,7 +315,8 @@
                 "Lightspeed",
                 "Flash"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Cabal": {
             "options": [
@@ -275,14 +324,16 @@
                 "Kabal",
                 "Caval"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Pann": {
             "options": [
                 "Pann",
                 "Vaughn"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Elen": {
             "options": [
@@ -290,28 +341,32 @@
                 "Ellen",
                 "Eren"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Grasse": {
             "options": [
                 "Grasse",
                 "Grassé"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Dorf": {
             "options": [
                 "Dorf",
                 "Dolph"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Anrietta": {
             "options": [
                 "Anrietta",
                 "Henrietta"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Myourmiles": {
             "options": [
@@ -319,28 +374,33 @@
                 "Mjöllmile",
                 "Myourmile"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Reiner": {
             "options": [
                 "Reiner",
                 "Rainer"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Jane": {
             "options": [
                 "Jane",
                 "Jaine"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Rosso": {
             "options": [
                 "Rosso",
-                "Rozzo"
+                "Rozzo",
+                "Lozo"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Youm": {
             "options": [
@@ -348,14 +408,16 @@
                 "Yohm",
                 "Youm"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Granbell": {
             "options": [
                 "Granbell",
                 "Granville"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Myuran": {
             "options": [
@@ -363,14 +425,16 @@
                 "Mjurran",
                 "Myulan"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Mariabell": {
             "options": [
                 "Mariabell",
                 "Maribel"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Edmalis": {
             "options": [
@@ -378,35 +442,67 @@
                 "Edmaris",
                 "Edomalis"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Larzen": {
             "options": [
                 "Larzen",
                 "Razen"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Sidel": {
             "options": [
                 "Sidel",
                 "Cider"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Rayhiem": {
             "options": [
                 "Rayhiem",
                 "Reyhiem"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Razul": {
             "options": [
                 "Razul",
                 "Lancelot"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Meme": {
+            "options": [
+                "Meme",
+                "Meem",
+                "Maimai"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Myu": {
+            "options": [
+                "Myu",
+                "Mjur",
+                "Mew",
+                "µ"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
+        },
+        "Kondou": {
+            "options": [
+                "Kondou",
+                "Kondo"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Calgurio": {
             "options": [
@@ -414,84 +510,97 @@
                 "Caliglio",
                 "Don Cariglio"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Gadra": {
             "options": [
                 "Gadra",
-                "Gadora"
+                "Gadora",
+                "Gadollah"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Gladium": {
             "options": [
                 "Gladium",
                 "Gradim"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Fellagha": {
             "options": [
                 "Fellagha",
                 "Faraga"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Gordon": {
             "options": [
                 "Gordon",
                 "Mr. Freeman"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Raymond": {
+            "options": [
+                "Raymond",
+                "DasRay"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Gozer": {
+            "options": [
+                "Gozer",
+                "Bovix"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Green Rebellion": {
             "options": [
                 "Green Rebellion",
                 "Rebelle Vert"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Mezer": {
+            "options": [
+                "Mezer",
+                "Equix"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Adalman": {
             "options": [
                 "Adalman",
                 "Adalmann"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
-        "guardian golem": {
+        "Shin": {
             "options": [
-                "guardian golem",
-                "Elemental Colossus"
+                "Shin",
+                "Shen"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
-        "Guardian Colossus": {
+        "Kai": {
             "options": [
-                "Guardian Colossus",
-                "Demon Colossus"
+                "Kai",
+                "Gaiye"
             ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Flame": {
-            "options": [
-                "Dragon of Flame",
-                "Dragon of Flame Prison"
-            ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Frost": {
-            "options": [
-                "Dragon of Frost",
-                "Dragon of Ice Prison"
-            ],
-            "officialTermIndex": 0
-        },
-        "Dragon of Hurtling Wind": {
-            "options": [
-                "Dragon of Hurtling Wind",
-                "Dragon of Thunder/Sky Thunder"
-            ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Yuuki": {
             "options": [
@@ -499,63 +608,80 @@
                 "Excellent Tree",
                 "Edgy Yagami"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Misha": {
             "options": [
                 "Misha",
                 "Mixer"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Tear": {
             "options": [
                 "Tear",
                 "Teare"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Footman": {
             "options": [
                 "Footman",
                 "Fatman"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Midley": {
             "options": [
                 "Midley",
                 "Middray"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Aubert": {
             "options": [
                 "Aubert",
                 "O’bell"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Gale": {
             "options": [
                 "Gale",
                 "Gail"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Nicolas": {
             "options": [
                 "Nicolas",
                 "Nicolaus"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
+        },
+        "Spertus": {
+            "options": [
+                "Spertus",
+                "Speltus"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Chronoa": {
             "options": [
                 "Chronoa",
                 "Corona"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Hinata": {
             "options": [
@@ -563,7 +689,8 @@
                 "Sun",
                 "Japanese"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Gerald": {
             "options": [
@@ -571,98 +698,122 @@
                 "Garde",
                 "Gyarudo"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Ritase": {
             "options": [
                 "Ritase",
                 "Litus"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Arno": {
             "options": [
                 "Arno",
                 "Arnaud"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Bacchus": {
             "options": [
                 "Bacchus",
                 "Bakkasu"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Fritz": {
             "options": [
                 "Fritz",
                 "Furittsu"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Reynald": {
             "options": [
                 "Reynald",
                 "Renard"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Jesta": {
             "options": [
                 "Jesta",
                 "Jester"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Grigori": {
             "options": [
                 "Grigori",
+                "Gregory",
                 "Guregori"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Sare": {
             "options": [
                 "Sare",
-                "Saare"
+                "Saare",
+                "Salle"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Storm Dragon": {
             "options": [
                 "Storm Dragon",
                 "Tsundere Dragon"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Scorch Dragon": {
             "options": [
                 "Scorch Dragon",
                 "Yandere Dragon"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Frost Dragon": {
+            "options": [
+                "Frost Dragon",
+                "Ice Dragon"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Fairy of the Labyrinth": {
             "options": [
                 "Fairy of the Labyrinth",
                 "Labyrinth Master"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Dagruel": {
             "options": [
                 "Dagruel",
                 "Daggrull"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Continent’s Wrath": {
             "options": [
                 "Continent’s Wrath",
                 "Earthquake"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Ruminas": {
             "options": [
@@ -671,49 +822,57 @@
                 "Luminas",
                 "Lewdminas"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Dino": {
             "options": [
                 "Dino",
                 "Deeno"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Beast Master": {
             "options": [
                 "Beast Master",
                 "Furry Master"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Diablo": {
             "options": [
                 "Diablo",
-                "Lamborghini Diablo"
+                "Lamborghini Diablo",
+                "Mephistopheles"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Testarossa": {
             "options": [
                 "Testarossa",
                 "Ferrari Testarossa"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Ultima": {
             "options": [
                 "Ultima",
                 "Ultima GTR"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Carrera": {
             "options": [
                 "Carrera",
                 "Porsche Carrera"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Mizari": {
             "options": [
@@ -721,7 +880,8 @@
                 "Mizeri",
                 "Misery"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Rain": {
             "options": [
@@ -729,7 +889,8 @@
                 "Raine",
                 "Rhein"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Guy": {
             "options": [
@@ -737,126 +898,144 @@
                 "Gi",
                 "Ghee"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Venom": {
             "options": [
                 "Venom",
                 "Hennessey Venom"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Cien": {
             "options": [
                 "Cien",
                 "Cadillac Cien"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Magic Lord": {
             "options": [
                 "Magic Lord",
                 "Demon Lord"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Moss": {
             "options": [
                 "Moss",
                 "Mercedes SLR Stirling Moss"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Veyron": {
             "options": [
                 "Veyron",
                 "Bugatti Veyron"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Zonda": {
             "options": [
                 "Zonda",
                 "Pagani Zonda"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Esprit": {
             "options": [
                 "Esprit",
                 "Lotus Esprit"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Agera": {
             "options": [
                 "Agera",
                 "Koenigsegg Agera"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Abnormal Condition Resistance": {
             "options": [
                 "Abnormal Condition Resistance",
                 "Resist Ailments"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Shadow Step": {
             "options": [
                 "Shadow Step",
                 "Shadow Motion"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Abnormal Condition Nullification": {
             "options": [
                 "Abnormal Condition Nullification",
                 "Cancel Ailments"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Thought Acceleration": {
             "options": [
                 "Thought Acceleration",
                 "Mind Accelerate"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Natural Effects Resistance": {
             "options": [
                 "Natural Effects Resistance",
                 "Resist Natural Elements"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Analyze and Assess": {
             "options": [
                 "Analyze and Assess",
                 "Analysis"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Natural Effects Nullification": {
             "options": [
                 "Natural Effects Nullification",
                 "Cancel Natural Elements"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Physical Attack Resistance": {
             "options": [
                 "Physical Attack Resistance",
                 "Resist Melee Attack"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Physical Attack Nullification": {
             "options": [
                 "Physical Attack Nullification",
                 "Cancel Melee Attack"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Mental Attack Resistance": {
             "options": [
@@ -864,7 +1043,8 @@
                 "Resist Spiritual Attack",
                 "Spiritual Attack Resistance"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Mental Attack Nullification": {
             "options": [
@@ -872,49 +1052,56 @@
                 "Cancel Spiritual Attack",
                 "Spiritual Attack Nullification"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Pain Resistance": {
             "options": [
                 "Pain Resistance",
                 "Resist Pain"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Pain Nullification": {
             "options": [
                 "Pain Nullification",
                 "Cancel Pain"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Perfect Memory": {
             "options": [
                 "Perfect Memory",
                 "Complete Memory"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Spatial Movement": {
             "options": [
                 "Spatial Movement",
                 "Spatial Motion"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Holy-Demonic Attack Resistance": {
             "options": [
                 "Holy-Demonic Attack Resistance",
                 "Chaos Attack Resistance"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Magic Perception": {
             "options": [
                 "Magic Perception",
                 "Magic Sense"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Universal Perception": {
             "options": [
@@ -922,42 +1109,48 @@
                 "Universal Detect",
                 "Universal Sense"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Demon Lord Haki": {
             "options": [
                 "Demon Lord Haki",
                 "Lord’s Ambition"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "Ultra Instinct": {
+        "Labyrinth Creation": {
             "options": [
-                "Ultra Instinct",
-                "Ultra-instinct"
+                "Labyrinth Creation",
+                "Mazecraft"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Time Travel": {
             "options": [
                 "Time Travel",
                 "Time Traveller"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Chant Cancellation": {
             "options": [
                 "Chant Cancellation",
                 "Cast Cancel"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Mental Crush": {
             "options": [
                 "Mental Crush",
                 "Mental Strike"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Generalissimo": {
             "options": [
@@ -965,7 +1158,8 @@
                 "Born Leader",
                 "Grand Marshal"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Thrower": {
             "options": [
@@ -973,14 +1167,8 @@
                 "Yeet",
                 "Tosser"
             ],
-            "officialTermIndex": 0
-        },
-        "Queen Worship": {
-            "options": [
-                "Queen Worship",
-                "Mother"
-            ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Guaranteed Outcome": {
             "options": [
@@ -988,7 +1176,24 @@
                 "Guarantee Results",
                 "Certain Outcome"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Queen Worship": {
+            "options": [
+                "Queen Worship",
+                "Mother"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Lucky Devil": {
+            "options": [
+                "Lucky Devil",
+                "Braggart"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Cook": {
             "options": [
@@ -996,56 +1201,56 @@
                 "Master Chef",
                 "[Judgement Chef]"
             ],
-            "officialTermIndex": 1
-        },
-        "Lucky Devil": {
-            "options": [
-                "Lucky Devil",
-                "Braggart"
-            ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Sniper": {
             "options": [
                 "Sniper",
                 "Aimer"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Gourmet": {
             "options": [
                 "Gourmet",
                 "Satiator"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Starved": {
             "options": [
                 "Starved",
                 "Ravenous"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Double-Crosser": {
             "options": [
                 "Double-Crosser",
                 "Reverser"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Analyst": {
             "options": [
                 "Analyst",
                 "Parser"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Deviant": {
             "options": [
                 "Deviant",
                 "Degenerate"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Wisdom King": {
             "options": [
@@ -1053,7 +1258,8 @@
                 "Lord of Wisdom,",
                 "Wisdom Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Covenant King": {
             "options": [
@@ -1061,7 +1267,8 @@
                 "Lord of Vows,",
                 "Covenant Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Storm King": {
             "options": [
@@ -1069,7 +1276,8 @@
                 "Lord of the Storm,",
                 "Storm Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Gluttonous King": {
             "options": [
@@ -1077,7 +1285,8 @@
                 "Lord of Gluttony,",
                 "Gluttonous Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Void God": {
             "options": [
@@ -1085,7 +1294,8 @@
                 "God of the Void,",
                 "Void God"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Fertility King": {
             "options": [
@@ -1093,7 +1303,8 @@
                 "Lord of Fertility,",
                 "Fertility Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Investigation King": {
             "options": [
@@ -1101,7 +1312,8 @@
                 "Lord of Investigation,",
                 "Investigation Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Chaos King": {
             "options": [
@@ -1109,7 +1321,8 @@
                 "Lord of Chaos,",
                 "Chaos Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Justice King": {
             "options": [
@@ -1117,7 +1330,8 @@
                 "Lord of Justice,",
                 "Justice Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Hope King": {
             "options": [
@@ -1125,7 +1339,8 @@
                 "Lord of Hope,",
                 "Hope Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Lustful King": {
             "options": [
@@ -1133,7 +1348,8 @@
                 "Lord of Lust,",
                 "Lustful Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Greedy King": {
             "options": [
@@ -1142,7 +1358,8 @@
                 "Greedy Lord",
                 "Avaricious King"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Spacetime King": {
             "options": [
@@ -1150,7 +1367,8 @@
                 "Lord of Spacetime,",
                 "Spacetime Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Heat King": {
             "options": [
@@ -1158,7 +1376,8 @@
                 "Lord of Heat,",
                 "Heat Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Stellar Wind King": {
             "options": [
@@ -1166,7 +1385,8 @@
                 "Stellar Lord of Wind,",
                 "Stellar Wind Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Illusion King": {
             "options": [
@@ -1174,7 +1394,8 @@
                 "Lord of Illusion,",
                 "Illusion Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Temptation King": {
             "options": [
@@ -1182,7 +1403,8 @@
                 "Lord of Temptaion,",
                 "Temptation Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Poison King": {
             "options": [
@@ -1190,7 +1412,8 @@
                 "Lord of Poison,",
                 "Poison Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Death King": {
             "options": [
@@ -1198,7 +1421,8 @@
                 "Lord of Death,",
                 "Death Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Annihilation King": {
             "options": [
@@ -1206,7 +1430,8 @@
                 "Lord of Annihilation,",
                 "Annihilation Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Divine Machine King": {
             "options": [
@@ -1214,7 +1439,8 @@
                 "Divine Lord of Machines,",
                 "Divine Machine Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Psychology King": {
             "options": [
@@ -1222,7 +1448,8 @@
                 "Lord of Psychology,",
                 "Psychology Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Divine Flame King": {
             "options": [
@@ -1230,7 +1457,8 @@
                 "Divine Lord of Flame,",
                 "Divine Flame Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Charity King": {
             "options": [
@@ -1238,7 +1466,8 @@
                 "Lord of Charity,",
                 "Charity Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Scorch King": {
             "options": [
@@ -1246,7 +1475,8 @@
                 "Lord of Scroching,",
                 "Scorch Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Conviction King": {
             "options": [
@@ -1254,7 +1484,8 @@
                 "Lord of Conviction,",
                 "Conviction Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Pride King": {
             "options": [
@@ -1262,7 +1493,8 @@
                 "Lord of Pride,",
                 "Pride Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Sloth King": {
             "options": [
@@ -1270,7 +1502,8 @@
                 "Lord of Sloth,",
                 "Sloth Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Patience King": {
             "options": [
@@ -1278,133 +1511,152 @@
                 "Lord of Patience,",
                 "Patience Lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Corrosion": {
             "options": [
                 "Corrosion",
                 "Rot"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Soul Consumption": {
             "options": [
                 "Soul Consumption",
                 "Soul Consume"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Storm Dragon Summon": {
             "options": [
                 "Storm Dragon Summon",
                 "Summon Storm Dragon"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Storm Dragon Restoration": {
             "options": [
                 "Storm Dragon Restoration",
                 "Restore Storm Dragon"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Infinite Prison": {
             "options": [
                 "Infinite Prison",
                 "Unlimited Imprisonment"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Law Manipulation": {
             "options": [
                 "Law Manipulation",
                 "Control Laws"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "World of Temptation": {
             "options": [
                 "World of Temptation",
                 "Tempting World"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Punitive Control?": {
             "options": [
                 "Punitive Control?",
                 "i think this means dominate through punishment"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Charm Control?": {
             "options": [
                 "Charm Control?",
                 "and this dominate through charm or mesmerize that someone"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Skill Storage": {
             "options": [
                 "Skill Storage",
                 "Skill Bank"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Eye of the Moon": {
             "options": [
                 "Eye of the Moon",
                 "Moon Eye"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Probability Manipulation": {
             "options": [
                 "Probability Manipulation",
                 "Control Probability"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Investigation of Truth": {
             "options": [
                 "Investigation of Truth",
                 "Investigate Truth"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Mental Control": {
             "options": [
                 "Mental Control",
                 "Control Thought"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "the Tempest Federation": {
             "options": [
                 "the Tempest Federation",
                 "Tempest"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "The Tempest Federation": {
             "options": [
                 "The Tempest Federation",
                 "Tempest"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Sarion": {
             "options": [
                 "Sarion",
                 "Thalion"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Sorcerer’s Dynasty": {
             "options": [
                 "Sorcerer’s Dynasty",
                 "Sorcerous Dynasty of"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Ruberios": {
             "options": [
@@ -1412,7 +1664,8 @@
                 "Lubelius",
                 "Ruberius"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Yuurazania": {
             "options": [
@@ -1420,28 +1673,32 @@
                 "Eurazania",
                 "Yurazania"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Harpy Nation": {
             "options": [
                 "Harpy Nation",
                 "Sky Nation"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Forgotten City of Dragons": {
             "options": [
                 "Forgotten City of Dragons",
                 "City of the Forgotten Dragon"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Jistav": {
             "options": [
                 "Jistav",
                 "Dhistav"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Siltorozzo": {
             "options": [
@@ -1450,7 +1707,8 @@
                 "Siltorosso",
                 "Seltrosso"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Ingracia": {
             "options": [
@@ -1458,36 +1716,142 @@
                 "Englesia",
                 "Engrassia"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": true
         },
         "Farmus": {
             "options": [
                 "Farmus",
-                "Falmus",
-                "Falmuth"
+                "Falmuth",
+                "Pharms"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "Farmenas": {
+            "options": [
+                "Farmenas",
+                "Farminus (Misread hiragana)",
+                "Carmenus"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": true
+        },
+        "Dolan": {
+            "options": [
+                "Dolan",
+                "Dorrn",
+                "Duran Duran"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "dragon’s dens": {
+            "options": [
+                "dragon’s dens",
+                "dragon chambers"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Coscia Mountains": {
             "options": [
                 "Coscia Mountains",
                 "Khusha Mountains"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "Freedom Association": {
+        "Dragon Roost": {
             "options": [
-                "Freedom Association",
-                "Free Guild"
+                "Dragon Roost",
+                "Dragon’s Nest"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Voice of the World": {
             "options": [
                 "Voice of the World",
                 "World Language"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Four Heavenly Kings": {
+            "options": [
+                "Four Heavenly Kings",
+                "Big Four"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Yomigaeri": {
+            "options": [
+                "Yomigaeri",
+                "Team Reborn",
+                "Team Re🅱️orn"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Kurenai": {
+            "options": [
+                "Kurenai",
+                "Team Kurenai",
+                "Team Red Flame"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Goblin Riders": {
+            "options": [
+                "Goblin Riders",
+                "Team Goblin Riders"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Lakeshore Dyed Scarlet": {
+            "options": [
+                "Lakeshore Dyed Scarlet",
+                "Bloody Shore"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Hiryuu": {
+            "options": [
+                "Hiryuu",
+                "Team Hiryu",
+                "Team Flying Dragons"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Beastketeers": {
+            "options": [
+                "Beastketeers",
+                "Lycanthropeers"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Dragon Worshippers": {
+            "options": [
+                "Dragon Worshippers",
+                "Dragon Faithful"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Western Saints Church": {
+            "options": [
+                "Western Saints Church",
+                "Western Holy Church"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Ruminism": {
             "options": [
@@ -1496,7 +1860,16 @@
                 "Ruminasism",
                 "Lewdminism"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Freedom Association": {
+            "options": [
+                "Freedom Association",
+                "Free Guild"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Ruminist": {
             "options": [
@@ -1504,28 +1877,48 @@
                 "Luminist",
                 "Lewdminist"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "stellar": {
+            "options": [
+                "stellar",
+                "star gold coin"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Three Martial Sages": {
+            "options": [
+                "Three Martial Sages",
+                "Three Battlesages"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Holy Knight Order": {
             "options": [
                 "Holy Knight Order",
                 "Crusaders"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "Spirit Core": {
+        "Five Great Elders": {
             "options": [
-                "Spirit Core",
-                "Element Core"
+                "Five Great Elders",
+                "Five Elders"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Holy Knight": {
             "options": [
                 "Holy Knight",
                 "Crusader"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Seven Celestial Saints": {
             "options": [
@@ -1533,7 +1926,8 @@
                 "Seven Days Clergy",
                 "Seven Luminary Saints"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Seven Celestials": {
             "options": [
@@ -1541,28 +1935,8 @@
                 "Seven Days",
                 "Seven Luminaries"
             ],
-            "officialTermIndex": 1
-        },
-        "magic marble": {
-            "options": [
-                "magic marble",
-                "core"
-            ],
-            "officialTermIndex": 0
-        },
-        "Beastketeers": {
-            "options": [
-                "Beastketeers",
-                "Lycanthropeers"
-            ],
-            "officialTermIndex": 1
-        },
-        "Gate of Hell": {
-            "options": [
-                "Gate of Hell",
-                "Gate of Heck"
-            ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Imperial Guards": {
             "options": [
@@ -1570,129 +1944,131 @@
                 "Master Rooks",
                 "Rook Geniuses"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "Dragon Worshippers": {
+        "Spirit Core": {
             "options": [
-                "Dragon Worshippers",
-                "Dragon Faithful"
+                "Spirit Core",
+                "Element Core"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
-        "Yomigaeri": {
+        "Revival Bracelet": {
             "options": [
-                "Yomigaeri",
-                "Team Reborn",
-                "Team Re🅱️orn"
+                "Revival Bracelet",
+                "Resurrection Bracelet"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "Kurenai": {
+        "magic marble": {
             "options": [
-                "Kurenai",
-                "Team Kurenai",
-                "Team Red Flame"
+                "magic marble",
+                "core"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
-        "Goblin Riders": {
+        "full potion": {
             "options": [
-                "Goblin Riders",
-                "Team Goblin Riders"
+                "full potion",
+                "maxi potion"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
-        "Hiryuu": {
+        "Gate of Hell": {
             "options": [
-                "Hiryuu",
-                "Team Hiryu",
-                "Team Flying Dragons"
+                "Gate of Hell",
+                "Gate of Heck"
             ],
-            "officialTermIndex": 1
-        },
-        "javelin": {
-            "options": [
-                "javelin",
-                "Death pickle"
-            ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Oboro-Ryu": {
             "options": [
                 "Oboro-Ryu",
                 "Haze"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Hercules Ex": {
             "options": [
                 "Hercules Ex",
                 "Goriki-maru Version 2"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "haki": {
             "options": [
                 "haki",
                 "aura"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "youki": {
             "options": [
                 "youki",
                 "aura"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
-        "majin": {
+        "javelin": {
             "options": [
-                "majin",
-                "magic-born"
+                "javelin",
+                "Death pickle"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
-        "Majin": {
+        "Million-class": {
             "options": [
-                "Majin",
-                "Magic-born"
+                "Million-class",
+                "Turbo Woke"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Founding Festival": {
+            "options": [
+                "Founding Festival",
+                "Founder’s Fesitval",
+                "Opening Festival"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "demon": {
             "options": [
                 "demon",
                 "devil"
             ],
-            "officialTermIndex": 0
-        },
-        "majins": {
-            "options": [
-                "majins",
-                "magic-born"
-            ],
-            "officialTermIndex": 1
-        },
-        "Majins": {
-            "options": [
-                "Majins",
-                "Magic-born"
-            ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "demons": {
             "options": [
                 "demons",
                 "devils"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "primordial": {
             "options": [
                 "primordial",
+                "Primal",
+                "Primordial",
                 "biggerest devil"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "demon peer": {
             "options": [
@@ -1701,7 +2077,8 @@
                 "demon noble",
                 "demon lord"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "archdemon": {
             "options": [
@@ -1709,7 +2086,8 @@
                 "Arch Demon",
                 "biggest devil"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "greater demon": {
             "options": [
@@ -1717,7 +2095,8 @@
                 "Greater Demon",
                 "bigger devil"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "lesser demon": {
             "options": [
@@ -1725,136 +2104,8 @@
                 "Lesser Demon",
                 "smaller devil"
             ],
-            "officialTermIndex": 1
-        },
-        "devil chevalier": {
-            "options": [
-                "devil chevalier",
-                "horse devil"
-            ],
-            "officialTermIndex": 0
-        },
-        "kijin": {
-            "options": [
-                "kijin",
-                "ogre mage"
-            ],
-            "officialTermIndex": 1
-        },
-        "Kijin": {
-            "options": [
-                "Kijin",
-                "Ogre mage"
-            ],
-            "officialTermIndex": 1
-        },
-        "Demon Lord": {
-            "options": [
-                "Demon Lord",
-                "Señor Demonio",
-                "Dank Lood"
-            ],
-            "officialTermIndex": 0
-        },
-        "rabbitman": {
-            "options": [
-                "rabbitman",
-                "bunnyboi"
-            ],
-            "officialTermIndex": 0
-        },
-        "Rabbitman": {
-            "options": [
-                "Rabbitman",
-                "Bunnyboi"
-            ],
-            "officialTermIndex": 0
-        },
-        "demon lord": {
-            "options": [
-                "demon lord",
-                "señor demonio",
-                "dank lood"
-            ],
-            "officialTermIndex": 0
-        },
-        "rabbitmen": {
-            "options": [
-                "rabbitmen",
-                "bunnybois"
-            ],
-            "officialTermIndex": 0
-        },
-        "Rabbitmen": {
-            "options": [
-                "Rabbitmen",
-                "Bunnybois"
-            ],
-            "officialTermIndex": 0
-        },
-        "Million-class": {
-            "options": [
-                "Million-class",
-                "Turbo Woke"
-            ],
-            "officialTermIndex": 0
-        },
-        "Sage": {
-            "options": [
-                "Sage",
-                "Enlightened"
-            ],
-            "officialTermIndex": 1
-        },
-        "elf": {
-            "options": [
-                "elf",
-                "erofu"
-            ],
-            "officialTermIndex": 0
-        },
-        "high elf": {
-            "options": [
-                "high elf",
-                "THC elf"
-            ],
-            "officialTermIndex": 0
-        },
-        "dark elf": {
-            "options": [
-                "dark elf",
-                "ebony elf"
-            ],
-            "officialTermIndex": 0
-        },
-        "undead elf": {
-            "options": [
-                "undead elf",
-                "walking dead",
-                "death man"
-            ],
-            "officialTermIndex": 1
-        },
-        "dwarf": {
-            "options": [
-                "dwarf",
-                "smolboi"
-            ],
-            "officialTermIndex": 0
-        },
-        "beastmen": {
-            "options": [
-                "beastmen",
-                "furries"
-            ],
-            "officialTermIndex": 0
-        },
-        "beastman": {
-            "options": [
-                "beastman",
-                "furry"
-            ],
-            "officialTermIndex": 0
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Imperial Guardians": {
             "options": [
@@ -1862,92 +2113,393 @@
                 "Praetorian Guard",
                 "Imperial Knight Order"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "devil chevalier": {
+            "options": [
+                "devil chevalier",
+                "horse devil"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Imperial Knight": {
             "options": [
                 "Imperial Knight",
                 "Praetorian"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Single Digit": {
             "options": [
                 "Single Digit",
                 "Double O Number"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "demon lord": {
+            "options": [
+                "demon lord",
+                "señor demonio",
+                "dank lood"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Double Digit": {
             "options": [
                 "Double Digit",
                 "Single O Number"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Sage": {
+            "options": [
+                "Sage",
+                "Enlightened"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Chosen Hero": {
+            "options": [
+                "Chosen Hero",
+                "Hero"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "hero": {
+            "options": [
+                "hero",
+                "champion"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "majin": {
+            "options": [
+                "majin",
+                "magic-born",
+                "devil"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Majin": {
+            "options": [
+                "Majin",
+                "Magic-born",
+                "Devil"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "monster": {
+            "options": [
+                "monster",
+                "devil"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "majins": {
+            "options": [
+                "majins",
+                "magic-born",
+                "devils"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Majins": {
+            "options": [
+                "Majins",
+                "Magic-born",
+                "Devils"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "monsters": {
+            "options": [
+                "monsters",
+                "devil"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "greater majin": {
+            "options": [
+                "greater majin",
+                "big devil"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "ogre": {
+            "options": [
+                "ogre",
+                "devil"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "kijin": {
+            "options": [
+                "kijin",
+                "ogre mage",
+                "devil"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Kijin": {
+            "options": [
+                "Kijin",
+                "Ogre mage",
+                "Devil"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "rabbitman": {
+            "options": [
+                "rabbitman",
+                "bunnyboi"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Rabbitman": {
+            "options": [
+                "Rabbitman",
+                "Bunnyboi"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "rabbitmen": {
+            "options": [
+                "rabbitmen",
+                "bunnybois"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Rabbitmen": {
+            "options": [
+                "Rabbitmen",
+                "Bunnybois"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "elf": {
+            "options": [
+                "elf",
+                "erofu"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Army Wasp": {
+            "options": [
+                "Army Wasp",
+                "Army Bee"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "high elf": {
+            "options": [
+                "high elf",
+                "THC elf"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "dark elf": {
+            "options": [
+                "dark elf",
+                "ebony elf"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "undead elf": {
+            "options": [
+                "undead elf",
+                "walking dead",
+                "death man"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "beastmen": {
+            "options": [
+                "beastmen",
+                "furries"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "beastman": {
+            "options": [
+                "beastman",
+                "furry"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "dwarf": {
+            "options": [
+                "dwarf",
+                "smolboi"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Silent Killer Wasps": {
+            "options": [
+                "Silent Killer Wasps",
+                "Silent Killer Bees"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "wind spirit wasp": {
+            "options": [
+                "wind spirit wasp",
+                "wind spirit bee"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Byakuren": {
             "options": [
                 "Byakuren",
                 "Vigoroth"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": false
         },
         "Gett": {
             "options": [
                 "Gett",
                 "Lopunny"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Kokuso": {
             "options": [
                 "Kokuso",
                 "Raticate"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Yoda": {
             "options": [
                 "Yoda",
                 "Rayquaza"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Mink": {
             "options": [
                 "Mink",
                 "Moltres"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Enchou": {
             "options": [
                 "Enchou",
                 "Mareep"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
         "Igami": {
             "options": [
                 "Igami",
                 "Smeargle"
             ],
-            "officialTermIndex": 0
+            "officialTermIndex": 0,
+			"caseSensitive": true
         },
-        "Founding Festival": {
+        "star wasp": {
             "options": [
-                "Founding Festival",
-                "Founder's Fesitval",
-                "Opening Festival"
+                "star wasp",
+                "star bee"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Queen Wasp": {
+            "options": [
+                "Queen Wasp",
+                "Queen Bee"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
+        },
+        "Sergei": {
+            "options": [
+                "Sergei",
+                "Sehrgay"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": true
+        },
+        "spirit wielder": {
+            "options": [
+                "spirit wielder",
+                "elementalist"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
         },
         "Holy Puri­fic­a­tion Bar­rier": {
             "options": [
                 "Holy Puri­fic­a­tion Bar­rier",
                 "Holy Field"
             ],
-            "officialTermIndex": 1
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Melt Slash": {
+            "options": [
+                "Melt Slash",
+                "Meltslash"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "the Secret of Faith and Grace": {
+            "options": [
+                "the Secret of Faith and Grace",
+                "the secret skills of faith and favor"
+            ],
+            "officialTermIndex": 1,
+			"caseSensitive": false
+        },
+        "Demon Lord": {
+            "options": [
+                "Demon Lord",
+                "Señor Demonio",
+                "Dank Lood"
+            ],
+            "officialTermIndex": 0,
+			"caseSensitive": false
         }
     },
     "groups": {
@@ -1967,6 +2519,7 @@
             "Abil",
             "Geld",
             "Ciel",
+            "Takt",
             "Touka",
             "Nansou",
             "Hokusou"
@@ -2025,25 +2578,28 @@
             "Myuran",
             "Edmalis",
             "Larzen",
-            "Rayhiem"
+            "Rayhiem",
+            "Meme",
+            "Myu"
         ],
         "Eastern Empire": [
+            "Kondou",
             "Calgurio",
             "Gadra",
             "Gladium",
             "Fellagha",
-            "Gordon"
+            "Gordon",
+            "Raymond"
         ],
         "Labyrinth Bosses & Crew": [
-            "Adalman",
-            "guardian golem",
-            "Guardian Colossus",
-            "Dragon of Flame",
-            "Dragon of Frost",
-            "Dragon of Hurtling Wind"
+            "Gozer",
+            "Mezer",
+            "Adalman"
         ],
         "Labyrinth invaders": [
-            "Green Rebellion"
+            "Green Rebellion",
+            "Shin",
+            "Kai"
         ],
         "Yuuki & Clowns": [
             "Yuuki",
@@ -2062,7 +2618,8 @@
             "Chronoa"
         ],
         "Ruminas’s servants": [
-            "Nicolas"
+            "Nicolas",
+            "Spertus"
         ],
         "Holy Knight Order": [
             "Hinata",
@@ -2078,7 +2635,8 @@
         ],
         "True Dragons": [
             "Storm Dragon",
-            "Scorch Dragon"
+            "Scorch Dragon",
+            "Frost Dragon"
         ],
         "Octagram": [
             "Guy",
@@ -2127,19 +2685,19 @@
             "Holy-Demonic Attack Resistance",
             "Magic Perception",
             "Universal Perception",
-            "Demon Lord Haki"
+            "Demon Lord Haki",
+            "Labyrinth Creation"
         ],
         "Unique Skills": [
-            "Ultra Instinct",
             "Time Travel",
             "Chant Cancellation",
             "Mental Crush",
             "Generalissimo",
             "Thrower",
-            "Queen Worship",
             "Guaranteed Outcome",
-            "Cook",
+            "Queen Worship",
             "Lucky Devil",
+            "Cook",
             "Sniper",
             "Gourmet",
             "Starved",
@@ -2205,39 +2763,73 @@
             "Siltorozzo",
             "Ingracia",
             "Farmus",
-            "Coscia Mountains"
+            "Farmenas",
+            "Dolan",
+            "dragon’s dens",
+            "Coscia Mountains",
+            "Dragon Roost"
         ],
-        "Miscellaneous": [
-            "Freedom Association",
+        "Organizations": [
             "Voice of the World",
-            "Ruminism",
-            "Ruminist",
-            "Holy Knight Order",
-            "Spirit Core",
-            "Holy Knight",
-            "Seven Celestial Saints",
-            "Seven Celestials",
-            "magic marble",
             "Beastketeers",
-            "Gate of Hell",
-            "Imperial Guards",
-            "Dragon Worshippers",
+            "Dragon Worshippers"
+        ],
+        "Tempest misc.": [
+            "Four Heavenly Kings",
             "Yomigaeri",
             "Kurenai",
             "Goblin Riders",
-            "Hiryuu",
-            "javelin",
-            "Oboro-Ryu",
-            "Hercules Ex",
+            "Hiryuu"
+        ],
+        "Lakeshore section": [
+            "Lakeshore Dyed Scarlet"
+        ],
+        "Church misc.": [
+            "Western Saints Church",
+            "Ruminism",
+            "Ruminist",
+            "Three Martial Sages",
+            "Holy Knight Order",
+            "Holy Knight",
+            "Seven Celestial Saints",
+            "Seven Celestials",
+            "Imperial Guards"
+        ],
+        "Western Nations": [
+            "Freedom Association",
+            "stellar",
+            "Five Great Elders"
+        ],
+        "Engineering": [
+            "Spirit Core",
+            "Revival Bracelet",
+            "magic marble",
+            "full potion"
+        ],
+        "Magical misc.": [
+            "Gate of Hell",
             "haki",
             "youki"
         ],
-        "Races and species": [
-            "majin",
-            "Majin",
+        "Misc. Weapons": [
+            "Oboro-Ryu",
+            "Hercules Ex",
+            "javelin"
+        ],
+        "Miscellaneous": [
+            "Founding Festival"
+        ],
+        "Rankings": [
+            "Million-class"
+        ],
+        "Empire misc.": [
+            "Imperial Guardians",
+            "Imperial Knight",
+            "Single Digit",
+            "Double Digit"
+        ],
+        "Demons, Angels, and Heros": [
             "demon",
-            "majins",
-            "Majins",
             "demons",
             "primordial",
             "demon peer",
@@ -2245,38 +2837,65 @@
             "greater demon",
             "lesser demon",
             "devil chevalier",
+            "demon lord",
+            "Sage",
+            "Chosen Hero",
+            "hero"
+        ],
+        "Races and species": [
+            "majin",
+            "Majin",
+            "monster",
+            "majins",
+            "Majins",
+            "monsters",
+            "greater majin",
+            "ogre",
             "kijin",
             "Kijin",
-            "Demon Lord",
             "rabbitman",
             "Rabbitman",
-            "demon lord",
             "rabbitmen",
             "Rabbitmen",
-            "Million-class",
-            "Sage",
             "elf",
+            "Army Wasp",
             "high elf",
             "dark elf",
             "undead elf",
-            "dwarf",
             "beastmen",
             "beastman",
-            "Imperial Guardians",
-            "Imperial Knight",
-            "Single Digit",
-            "Double Digit",
+            "dwarf"
+        ],
+        "Alien species": [
+            "Silent Killer Wasps",
             "Byakuren",
             "Gett",
             "Kokuso",
             "Yoda",
             "Mink",
             "Enchou",
-            "Igami",
-            "Founding Festival"
+            "Igami"
+        ],
+        "Character sheet bottom level species names": [
+            "wind spirit wasp"
+        ],
+        "Character sheet top level species names": [
+            "star wasp"
+        ],
+        "Character sheet mid level species names": [
+            "Queen Wasp"
+        ],
+        "Raphael speech": [
+            "Sergei"
         ],
         "Magic": [
-            "Holy Puri­fic­a­tion Bar­rier"
+            "spirit wielder",
+            "Holy Puri­fic­a­tion Bar­rier",
+            "Melt Slash",
+            "the Secret of Faith and Grace"
+        ],
+        "Honorific": [
+            "Demon Lord"
         ]
     }
 }
