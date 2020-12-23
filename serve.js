@@ -6,10 +6,10 @@ var app = express()
 app.use(serveStatic(__dirname))
 
 app.get("/*", (req, res)=>{
-	res.sendFile(__dirname + "/index.html")
+	res.status(202).sendFile(__dirname + "/index.html")
 })
 
-app.get("*", (req, res)=>{
+app.get("**/*", (req, res)=>{
 	res.status(404).sendFile(__dirname + "/404.html")
 })
 

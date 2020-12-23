@@ -111,28 +111,31 @@ module.exports = (function(window, document, volFolder, terms){
 		){
 			let targetedPhrase = matchedTerm.slice(beforeTargetedPhraseCharacter.length, matchedTerm.length - afterTargetedPhraseCharacter.length)
 
+			let targetedPhraseUpperCase = capitalCase(targetedPhrase)
+
+			let targetedPhraseLowerCase = targetedPhrase.toLowerCase()
+
+			let trueTargetedPhrase = targetedPhraseLowerCase
+
+			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase]
+
+			if (!targetTerm){
+				console.log(targetedPhrase, "not found in terms set")
+				return matchedTerm
+			}
+			if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
+				return matchedTerm
+			}
+
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
-			if (uppercaseLetters.includes(targetedPhrase[0])){
-				if (terms.terms[targetedPhrase.toLowerCase()]){
-					displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term.toLowerCase()])"
-				}
-				else if (terms.terms[capitalCase(targetedPhrase)]){
-					displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.app.capitalCase(this.parentNode.dataset.term)])"
-				}
+			if (trueTargetedPhrase === targetedPhraseLowerCase){
+				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
+			}
+			else if (trueTargetedPhrase === targetedPhraseUpperCase){
+				displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term].toLowerCase()"
 			}
 
-			let watchTarget = "allTermsChosen[this.parentNode.dataset.term]"
-
-			if (!terms.terms[targetedPhrase]){
-				if (terms.terms[targetedPhrase.toLowerCase()]){
-					watchTarget = "allTermsChosen[this.parentNode.dataset.term.toLowerCase()]"
-				}
-				else if (terms.terms[capitalCase(targetedPhrase)]){
-					watchTarget = "allTermsChosen[this.app.capitalCase(this.parentNode.dataset.term)]"
-				}
-			}
-
-			return `${beforeTargetedPhraseCharacter}<span data-term="${targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{${watchTarget}}|</span>${afterTargetedPhraseCharacter}`
+			return `${beforeTargetedPhraseCharacter}<span data-term="${trueTargetedPhrase || targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
 		})
 	}
 
