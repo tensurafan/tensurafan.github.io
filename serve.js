@@ -9,7 +9,7 @@ app.get("/*", (req, res)=>{
 	res.status(202).sendFile(__dirname + "/index.html")
 })
 
-app.get("*", (req, res)=>{
+app.get("**/*", (req, res)=>{
 	res.status(404).sendFile(__dirname + "/404.html")
 })
 

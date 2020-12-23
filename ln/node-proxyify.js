@@ -119,7 +119,13 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase]
 
-			if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
+			try{
+				if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
+					return matchedTerm
+				}
+			}
+			catch(uwu){
+				console.log(targetedPhrase, "not found")
 				return matchedTerm
 			}
 
