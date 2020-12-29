@@ -119,6 +119,8 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase]
 
+			let originalIsUpperCase = uppercaseLetters.includes(targetedPhrase[0])
+
 			if (!targetTerm){
 				console.log(targetedPhrase, "not found in terms set")
 				return matchedTerm
@@ -128,10 +130,10 @@ module.exports = (function(window, document, volFolder, terms){
 			}
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
-			if (trueTargetedPhrase === targetedPhraseLowerCase){
+			if (trueTargetedPhrase !== targetedPhrase && originalIsUpperCase){
 				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
 			}
-			else if (trueTargetedPhrase === targetedPhraseUpperCase){
+			else if (trueTargetedPhrase !== targetedPhrase){
 				displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term].toLowerCase()"
 			}
 
