@@ -149,8 +149,20 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		}
 	}
 
-	function capitalCase(phrase){
-		return phrase.toLowerCase().split(" ").map(word=>word[0].toUpperCase() + word.slice(1)).join(" ")
+	function capitalCase(phrase, capitalCaseEverything){
+		return phrase.toLowerCase().split(" ").map((word, isNotFirst)=>{
+			if (capitalCaseEverything){
+				return word[0].toUpperCase() + word.slice(1)
+			}
+			else{
+				if (isNotFirst){
+					return word
+				}
+				else{
+					return word[0].toUpperCase() + word.slice(1)
+				}
+			}
+		}).join(" ")
 	}
 
 	function RAFP(){

@@ -119,7 +119,13 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase]
 
+			let targetedPhraseChunks = targetedPhrase.split(" ")
+
+			let targetedPhraseIsSingularWord = targetedPhraseChunks.length === 1
+
 			let originalIsUpperCase = uppercaseLetters.includes(targetedPhrase[0])
+
+			let originalChunksAllHaveUpperCaseStart = targetedPhraseChunks.reduce((assumptionSoFar, newWordChunk)=>assumptionSoFar && uppercaseLetters.includes(newWordChunk[0]), true)
 
 			if (!targetTerm){
 				console.log(targetedPhrase, "not found in terms set")
@@ -131,7 +137,7 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
 			if (trueTargetedPhrase !== targetedPhrase && originalIsUpperCase){
-				displayedTermValue = "this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term])"
+				displayedTermValue = `this.app.capitalCase(this.app.allTermsChosen[this.parentNode.dataset.term], ${originalChunksAllHaveUpperCaseStart})`
 			}
 			else if (trueTargetedPhrase !== targetedPhrase){
 				displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term].toLowerCase()"
