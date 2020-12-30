@@ -94,7 +94,7 @@ module.exports = (function(window, document, volFolder, terms){
 	// remove the class attribute from anything that doesn't have a class
 	Array.prototype.forEach.call(document.querySelectorAll("[class]"), el=>!el.getAttribute("class") && el.removeAttribute("class"))
 
-	let termsRegex = new RegExp("(\\W\|\^)" + terms.pattern + "(s\$|s\\W|\\W\|\$)", "gi")
+	let termsRegex = new RegExp("(\\b)" + terms.pattern + "(\\b)", "gi")
 
 	let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -132,7 +132,7 @@ module.exports = (function(window, document, volFolder, terms){
 				return matchedTerm
 			}
 			if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
-				return matchedTerm
+				return `<!--${{targetedPhrase, targetTerm}}-->matchedTerm`
 			}
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
