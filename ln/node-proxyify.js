@@ -104,12 +104,8 @@ module.exports = (function(window, document, volFolder, terms){
 
 	function setupChooseable(text){
 		return text.replace(termsRegex, function(
-			matchedTerm,
-			beforeTargetedPhraseCharacter,
-			afterTargetedPhraseCharacter,
-			matchedLocation
+			targetedPhrase,
 		){
-			let targetedPhrase = matchedTerm.slice(beforeTargetedPhraseCharacter.length, matchedTerm.length - afterTargetedPhraseCharacter.length)
 
 			let targetedPhraseUpperCase = capitalCase(targetedPhrase)
 
@@ -129,10 +125,10 @@ module.exports = (function(window, document, volFolder, terms){
 
 			if (!targetTerm){
 				console.log(targetedPhrase, "not found in terms set")
-				return matchedTerm
+				return targetedPhrase
 			}
 			if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
-				return `<!--${{targetedPhrase, targetTerm}}-->matchedTerm`
+				return `<!--${{targetedPhrase, targetTerm}}-->${targetedPhrase}`
 			}
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
@@ -143,7 +139,7 @@ module.exports = (function(window, document, volFolder, terms){
 				displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term].toLowerCase()"
 			}
 
-			return `${beforeTargetedPhraseCharacter}<span data-term="${trueTargetedPhrase || targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>${afterTargetedPhraseCharacter}`
+			return `<span data-term="${trueTargetedPhrase || targetedPhrase}" class="underline clickable selectable-term" onclick="this.app.selectNameEventHandler(event)">{:${displayedTermValue}:}|{allTermsChosen[this.parentNode.dataset.term]}|</span>`
 		})
 	}
 
