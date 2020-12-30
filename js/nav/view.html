@@ -11,22 +11,8 @@
 		</span>
 	</div>
 </div>
-<div class="padding-2 {:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
-	<div class="flex">
-		<span class="grow text-center">Theme:</span>
-		<select onchange="this.app.configs.theme = this.value" class="grow" data-value="{:this.app.configs.theme:}|{configs.theme}|">
-			<option value="oled">
-				OLED Black
-			</option>
-			<option value="dark">
-				Dark
-			</option>
-			<option value="">
-				Light
-			</option>
-		</select>
-	</div>
-	<div class="flex column-smol row-mid">
+<div class="padding-2 {:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown --> 
+<div class="flex column-smol row-mid">
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
@@ -63,11 +49,14 @@
 		</div>
 		<div class="basis">
 			<div class="padding-1"></div>
-<!--
 			<div class="text-center">
-				<a class="button inline block" target="_blank">Some Button</a>
+				<span class="grow text-center">Theme: </span>
+				<select onchange="this.app.configs.theme = this.value" class="grow" data-value="{:this.app.configs.theme:}|{configs.theme}|">
+					<option value="oled">OLED Black</option>
+					<option value="dark">Dark</option>
+					<option value="">Light</option>
+				</select>
 			</div>
--->
 		</div>
 	</div>
 	<div>
