@@ -147,6 +147,13 @@ module.exports = (function(window, document, volFolder, terms){
 
 	spans.forEach(span=>{
 		span.innerHTML = setupChooseable(span.innerHTML)
+		span.childNodes.forEach(node=>{
+			if (typeof (node.classList) === "undefined"){
+				let replacemnt = document.createElement("span")
+				replacemnt.textContent = node.textContent
+				node.replaceWith(replacemnt)
+			}
+		})
 	})
 
 	return document.body.innerHTML
