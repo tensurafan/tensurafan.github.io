@@ -117,7 +117,7 @@ module.exports = (function(window, document, volFolder, terms){
 
 			let trueTargetedPhrase = targetedPhraseLowerCase
 
-			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase]
+			let targetTerm = terms.terms[trueTargetedPhrase = targetedPhrase] || terms.terms[trueTargetedPhrase = targetedPhraseLowerCase] || terms.terms[trueTargetedPhrase = targetedPhraseUpperCase]
 
 			let targetedPhraseChunks = targetedPhrase.split(" ")
 
