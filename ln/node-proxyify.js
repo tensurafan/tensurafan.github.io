@@ -128,7 +128,8 @@ module.exports = (function(window, document, volFolder, terms){
 				return targetedPhrase
 			}
 			if (trueTargetedPhrase !== targetedPhrase && targetTerm.caseSensitive){
-				return `<!--${{targetedPhrase, targetTerm}}-->${targetedPhrase}`
+				//~ console.log("rejected", targetedPhrase)
+				return targetedPhrase
 			}
 
 			let displayedTermValue = "this.app.allTermsChosen[this.parentNode.dataset.term]"
