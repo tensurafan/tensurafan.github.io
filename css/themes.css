@@ -14,3 +14,20 @@
 	--color-dark: #CBCBCB;
 	--color-black: #EEE;
 }
+.sepialight {
+    --color-white: #F6F3E9;
+    --color-light: #b78f5c;
+    --color-mid: #F6F3E9;
+    --color-low: #442d2d;
+    --color-dark: #000;
+    --color-black: #39322B;
+    --color-primary: #99bdf9;
+}
+.sepiadark {
+    --color-white: #39322a;
+    --color-light: #594e47;
+    --color-mid: #39322a;
+    --color-low: #938B8B;
+    --color-dark: #f5f0d2;
+    --color-black: #EEE;
+}
