@@ -12,11 +12,11 @@ async function app(initConfigs){
 
 	function updateTheme(newTheme){
 		if (newTheme && !document.documentElement.classList.contains(newTheme)){
-			document.documentElement.classList.remove("oled", "dark")
+			document.documentElement.classList.remove("oled", "dark", "sepialight", "sepiadark")
 			document.documentElement.classList.add(newTheme)
 		}
 		else if (!newTheme){
-			document.documentElement.classList.remove("oled", "dark")
+			document.documentElement.classList.remove("oled", "dark", "sepialight", "sepiadark")
 		}
 
 		app.saveSettings()
