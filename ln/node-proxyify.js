@@ -4,8 +4,14 @@ module.exports = (function(window, document, volFolder, terms){
 
 	Array.prototype.forEach.call(document.querySelectorAll("sup"), sup=>{
 		let target = document.getElementById(sup.querySelector("a").hash.replace("#", ""))
+		let targetParent = target.parentNode
+		targetParent.childNodes.forEach(node=>{
+			if (node.tagName.toLowerCase() == "a"){
+				targetParent.removeChild(node)
+			}
+		})
 
-		let footNote = target.nextElementSibling.textContent
+		let footNote = targetParent.textContent
 
 		let iconDiv = document.createElement("span")
 		iconDiv.classList.add("icon", "color-primary", "color-in")
