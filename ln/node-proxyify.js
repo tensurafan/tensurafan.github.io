@@ -149,7 +149,7 @@ module.exports = (function(window, document, volFolder, terms){
 	spans.forEach(span=>{
 		span.innerHTML = setupChooseable(span.innerHTML)
 		span.childNodes.forEach(node=>{
-			if (typeof (node.classList) === "undefined"){
+			if (typeof (node.classList) === "undefined" && node.textContent.trim()){
 				let replacemnt = document.createElement("span")
 				replacemnt.textContent = node.textContent
 				node.replaceWith(replacemnt)
