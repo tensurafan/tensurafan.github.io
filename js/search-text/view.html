@@ -1,15 +1,16 @@
-<div class="fixed padding-1 color-in bg-light col-12-12-smol col-3-6-mid" id="text-searcher">
-	<strong>Search for Text</strong>
+<div class="fixed padding-1 text-center color-in bg-light col-12-12-smol col-3-6-mid" id="text-searcher">
+	<div id="title">
+		<strong>Search for Text</strong>
+	</div>
 
-	<div class="flex">
-		<input type="text" onkeyup="this.app.searchedText = this.value" onchange="this.app.searchedText = this.value" data-value="{:this.app.searchedText:}|{searchedText}|"/>
-
-		<button onclick="this.app.nextTerm()">🔎</button>
-
-		<button onclick="this.app.nextTerm()">↓</button>
-		<button onclick="this.app.lastTerm()">↑</button>
-
-		<button onclick="this.app.display = false">✕</button>
+	<div class="flex" id="justified-contents">
+		<input id="growing-item" type="text" onkeyup="this.app.searchedText = this.value" onchange="this.app.searchedText = this.value" data-value="{:this.app.searchedText:}|{searchedText}|"/>
+		<div class="flex" id="inside-item">
+			<button onclick="this.app.nextTerm()">🔍</button>
+			<button onclick="this.app.nextTerm()">🔽</button>
+			<button onclick="this.app.lastTerm()">🔼</button>
+			<button onclick="this.app.display = false">❌</button>
+		</div>
 	</div>
 </div>
 

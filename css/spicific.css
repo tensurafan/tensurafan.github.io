@@ -33,8 +33,26 @@
 	transform: translate(-50%);
 }
 
+/* Properties of Searchbox */
 #text-searcher {
-	opacity: 0.8;
+	opacity: 1;
+}
+
+#title {
+	margin-bottom: calc(var(--base-padding));
+}
+
+#justified-contents {
+	justify-content: space-around;
+} 
+
+#growing-item {
+	flex-grow: 2;
+}
+
+#inside-item {
+	flex-grow: 1;
+	justify-content: space-evenly;
 }
 
 #footer, #install-instructions-backdrop  {
