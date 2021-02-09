@@ -33,10 +33,6 @@
 	transform: translate(-50%);
 }
 
-#text-searcher {
-	opacity: 0.8;
-}
-
 #footer, #install-instructions-backdrop  {
 	bottom: 0;
 	left: 0;
@@ -152,7 +148,7 @@ button.volume-progressing,
 }
 
 .progressing-percent {
-	margin-right:5%; 
+	margin-right:5%;
 	float: right;
 }
 .hidden {

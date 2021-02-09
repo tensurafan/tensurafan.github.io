@@ -1,15 +1,16 @@
-<div class="fixed padding-1 color-in bg-light col-12-12-smol col-3-6-mid" id="text-searcher">
+<div class="fixed padding-2 color-in bg-light col-12-12-smol col-3-6-mid" id="text-searcher">
 	<strong>Search for Text</strong>
 
-	<div class="flex">
-		<input type="text" onkeyup="this.app.searchedText = this.value" onchange="this.app.searchedText = this.value" data-value="{:this.app.searchedText:}|{searchedText}|"/>
+	<div class="flex padding-top">
+		<input type="text" onkeyup="this.app.searchedText = this.value" onchange="this.app.searchedText = this.value" data-value="{:this.app.searchedText:}|{searchedText}|" class="grow"/>
 
-		<button onclick="this.app.nextTerm()">🔎</button>
+		<button onclick="this.app.nextTerm()" class="margin-left">🔍</button>
 
-		<button onclick="this.app.nextTerm()">↓</button>
-		<button onclick="this.app.lastTerm()">↑</button>
+		<button onclick="this.app.nextTerm()" class="margin-left">🔽</button>
 
-		<button onclick="this.app.display = false">✕</button>
+		<button onclick="this.app.lastTerm()" class="margin-left">🔼</button>
+
+		<button onclick="this.app.display = false" class="margin-left">❌</button>
 	</div>
 </div>
 
