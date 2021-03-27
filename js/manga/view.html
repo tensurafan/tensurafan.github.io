@@ -1,0 +1,11 @@
+<div class="text-center padding-bottom-1">
+	<h2 class="paddingless marginless">Manga Links</h2>
+</div>
+<!-- foreach: "chapter" -->
+	<a href="{:this.app.chapters[this.chapter].url:}|{chapters[this.chapter].url}|" target="_blank">
+		<div class="block button clickable content-width">
+			<span>{:this.app.chapters[this.chapter].name:}|{chapters[this.chapter].name}|</span>
+		</div>
+	</a>
+	<div class="padding-1"></div>
+<!-- in: chapters -->

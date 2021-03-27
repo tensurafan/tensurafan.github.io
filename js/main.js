@@ -37,6 +37,8 @@ async function app(initConfigs){
 
 	let searcher = app.searcher = await app.initTextSearcher(router, appEl)
 
+	let managaList = app.mangaList = await app.initMangaList(router, initConfigs.mangaList)
+
 	let namePicker = app.namePicker = await app.initNamePicker(router, appEl, globalTermchoices)
 
 	Object.keys(initConfigs.terms).forEach(term=>globalTermchoices[term] = globalTermchoices[term] || term)
@@ -71,12 +73,13 @@ async function app(initConfigs){
 
 // app.init() is called in the index.html file
 app.init = async function(){
-	let [volumeList, terms] = await Promise.all([
+	let [volumeList, terms, mangaList] = await Promise.all([
 		fetch("/ln/volumes.json").then(owo=>owo.json()),
-		fetch("/ln/terms.json").then(owo=>owo.json())
+		fetch("/ln/terms.json").then(owo=>owo.json()),
+		fetch("/manga.json").then(owo=>owo.json())
 	])
 
 	let presist = app.getSettings()
 
-	return app({volumeList, terms: terms.terms, presist})
+	return app({volumeList, terms: terms.terms, presist, mangaList})
 }
