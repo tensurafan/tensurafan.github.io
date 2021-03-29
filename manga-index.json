@@ -1,0 +1,17 @@
+{
+    "title": "That Time I Got Reincarnated as a Slime",
+    "description": "<manga description>",
+    "artist": "<manga artist>",
+    "author": "<manga author>",
+    "cover": "<mangacoverurl.jpg>",
+    "chapters": {
+      "<chapter number>": {
+        "title": "<chapter name>",
+        "volume": "<volume number>",
+        "groups": {
+          "<group name>": "/proxy/api/imgur/chapter/pO9LuAb/"
+        },
+        "last_updated": "1616368746"
+      },
+    }
+  }
