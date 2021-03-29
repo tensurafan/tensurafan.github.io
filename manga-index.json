@@ -5,7 +5,7 @@
   "author": "<manga author>",
   "cover": "https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/2/27/Manga_Volume_16_JP.jpg",
   "chapters": {
-    "<chapter number>": {
+    "82": {
       "title": "<chapter name>",
       "volume": "16",
       "groups": {
