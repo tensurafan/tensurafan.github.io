@@ -1,17 +1,153 @@
 {
   "title": "That Time I Got Reincarnated as a Slime",
-  "description": "<manga description>",
-  "artist": "<manga artist>",
-  "author": "<manga author>",
-  "cover": "https://static.wikia.nocookie.net/tensei-shitara-slime-datta-ken/images/2/27/Manga_Volume_16_JP.jpg",
+  "description": "Satoru Mikami is an ordinary 37-year-old corporate worker living in Tokyo. He is almost content with his monotonous life, despite the fact that he doesn't have a girlfriend. During a casual encounter with his colleague, an assailant pops out of nowhere and stabs him. While succumbing to his injuries, a mysterious voice echoes in his mind and recites a series of commands which he could not make sense of.\n After regaining consciousness, Satoru discovers that he has been reincarnated as a Slime in an unfamiliar world. At the same time, he also acquires new-found skills, particularly the ability called "Predator," which allows him to devour anything and mimic its appearance and skills. He stumbles upon Veldora Tempest, a Catastrophe-level 'Storm Dragon', who was sealed for 300 years for reducing a town to ashes. Feeling sorry for him, Satoru befriends the dragon, promising to help him in destroying the seal. In return, Veldora bestows upon him the name Rimuru Tempest to grant him divine protection.\n With his newfound powers and his wisdom, Rimuru gains the friendship and loyalty of the monsters inhabiting the Great Jura Forest, who accept him as their leader and together they found the nation of Tempest. As their new nation quickly grows in strength and influence, Rimuru and his subjects draw the attention of the nearby foreign powers, from monarchs and legendary heroes to demon lords, some seeking to become their allies, while others intend to just take advantage or destroy them completely for the sake of their plans.",
+  "artist": "Taiki Kawakami",
+  "author": "Fuse",
+  "cover": "https://cdn.discordapp.com/attachments/675134710137094173/826104534727131136/17.png",
   "chapters": {
     "82": {
-      "title": "<chapter name>",
+      "title": "The Loyalty of a Demon",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/pO9LuAb/"
+      },
+      "last_updated": "1616767260"
+    },
+    "81": {
+      "title": "The Wight King",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/WMwQ8k7/"
+      },
+      "last_updated": "1614348060"
+    },
+    "80": {
+      "title": "Return of the Great Beast",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/Xcq81yd/"
+      },
+      "last_updated": "1611669660"
+    },
+    "79": {
+      "title": "Battle",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/ILJ6DlO/"
+      },
+      "last_updated": "1611669660"
+    },
+    "78": {
+      "title": "Walpurgis",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/4bLFygE/"
+      },
+      "last_updated": "1608991260"
+    },
+    "77": {
+      "title": "Eve of Battle",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/yJ5QJB7/"
+      },
+      "last_updated": "1606399260"
+    },
+    "76": {
+      "title": "Demon Lords and True Dragons",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/HI3r3Qn/"
+      },
+      "last_updated": "1603720860"
+    },
+    "75": {
+      "title": "Man-And-Monster Summit 2",
+      "volume": "TBD",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/FsvYtpV/"
+      },
+      "last_updated": "1601128860"
+    },
+    "74": {
+      "title": "Man-And-Monster Summit 1",
       "volume": "16",
       "groups": {
-        "<group name>": "/proxy/api/imgur/chapter/pO9LuAb/"
+        "Tempest": "/proxy/api/imgur/chapter/Vz4VccU/"
       },
-      "last_updated": "1616368746"
-    }
+      "last_updated": "1598450460"
+    },
+    "73": {
+      "title": "The Majins' Scheme",
+      "volume": "16",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/tR28wMU/"
+      },
+      "last_updated": "1595772060"
+    },
+    "72": {
+      "title": "Swirling Conspiracy",
+      "volume": "16",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/pO9LuAb/"
+      },
+      "last_updated": "1593180060"
+    },
+    "71": {
+      "title": "The Unleashed",
+      "volume": "16",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/rCCUD4b/"
+      },
+      "last_updated": "1590505260"
+    },
+    "70": {
+      "title": "Yuurazania, Day of Destruction",
+      "volume": "15",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/FHPcCJR/"
+      },
+      "last_updated": "1587913260"
+    },
+    "69": {
+      "title": "Tempest Resurrection Festival",
+      "volume": "15",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/2bDsmGg/"
+      },
+      "last_updated": "1585231260"
+    },
+    "68": {
+      "title": "Birth of a Demon Lord",
+      "volume": "15",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/cXCiQls/"
+      },
+      "last_updated": "1582725660"
+    },
+    "67": {
+      "title": "Demon of Respect and Affection",
+      "volume": "14",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/4WdLTCU/"
+      },
+      "last_updated": "1580047260"
+    },
+    "66": {
+      "title": "Merciless",
+      "volume": "14",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/8oF9Tzl/"
+      },
+      "last_updated": "1577368860"
+    },
+    "65": {
+      "title": "Megiddo",
+      "volume": "14",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/22WT5Hc/"
+      },
+      "last_updated": "1574776860"
+    },
   }
 }
