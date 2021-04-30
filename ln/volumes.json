@@ -54,5 +54,12 @@
 		"path": "/ln/v12.html",
 		"raw": "/ln/v12/raw.html",
 		"progress": 100
+	},
+	{
+		"id": "v13",
+		"name": "Volume 13",
+		"path": "/ln/v13.html",
+		"raw": "/ln/v13/raw.html",
+		"progress": 9
 	}
 ]
