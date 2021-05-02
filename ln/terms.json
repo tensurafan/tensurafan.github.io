@@ -903,6 +903,8 @@
                 "Luminas",
                 "Luminus",
                 "Ruminas",
+                "Ruminous",
+                "Luminous",
                 "Roomienas",
                 "Lewdminas"
             ],
@@ -2381,7 +2383,8 @@
         "Sage": {
             "options": [
                 "Sage",
-                "Enlightened"
+                "Enlightened",
+                "sennin"
             ],
             "officialTermIndex": 1,
             "caseSensitive": true
@@ -2390,7 +2393,8 @@
             "options": [
                 "Hero",
                 "Chosen Hero",
-                "Brave"
+                "Brave",
+                "Yuusha"
             ],
             "officialTermIndex": 0,
             "caseSensitive": true
@@ -2398,7 +2402,8 @@
         "champion": {
             "options": [
                 "champion",
-                "hero"
+                "hero",
+                "Eiyuu"
             ],
             "officialTermIndex": 0,
             "caseSensitive": false

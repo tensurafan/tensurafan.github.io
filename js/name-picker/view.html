@@ -1,6 +1,6 @@
 <div class="fixed padding-1 text-center color-in bg-light col-12-12-smol col-3-6-mid" id="name-picker">
 	<div>
-		<strong>Pick the term you'd like to see for『{:this.app.baseName:}|{baseName}|』</strong>
+		<strong>Pick the term you'd like to see for “{:this.app.baseName:}|{baseName}|”</strong>
 	</div>
 	<select data-value="{:this.app.chosenName:}|{chosenName}|" onchange="this.app.chosenName = this.value; this.app.nameChoices[this.app.baseName] = this.value; this.app.saveSettings()">
 		<!-- foreach: "nameIndex" -->
