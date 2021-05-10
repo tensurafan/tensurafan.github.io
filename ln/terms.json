@@ -9,6 +9,7 @@
                 "Lime road"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Treyni": {
@@ -17,6 +18,7 @@
                 "Doreyni"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Trya": {
@@ -25,6 +27,7 @@
                 "Dorya"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Triss": {
@@ -34,6 +37,7 @@
                 "Doris"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Benimaru": {
@@ -42,6 +46,7 @@
                 "Red pill"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Souei": {
@@ -51,6 +56,7 @@
                 "Shadow"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gobta": {
@@ -59,6 +65,7 @@
                 "Gobuta"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hakurou": {
@@ -68,6 +75,7 @@
                 "Old White"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Shion": {
@@ -76,6 +84,7 @@
                 "Asters"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Shuna": {
@@ -85,6 +94,7 @@
                 "Zuh Zuh"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kurobee": {
@@ -93,6 +103,7 @@
                 "Kurobe"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gobemon": {
@@ -101,6 +112,7 @@
                 "Gob’emon"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gabil": {
@@ -109,6 +121,7 @@
                 "Gabiru"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gobua": {
@@ -117,6 +130,7 @@
                 "Gobwa"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Souka": {
@@ -126,6 +140,7 @@
                 "Cyka"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gobkyu": {
@@ -135,6 +150,7 @@
                 "gone, reduced to atoms"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Abil": {
@@ -143,6 +159,7 @@
                 "Abiru"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Geld": {
@@ -152,6 +169,7 @@
                 "Gaylord"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Ciel": {
@@ -162,6 +180,7 @@
                 "VEGA"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Takt": {
@@ -170,6 +189,7 @@
                 "Baton"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Touka": {
@@ -178,6 +198,7 @@
                 "Toka"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Nansou": {
@@ -186,6 +207,7 @@
                 "Nanso"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hokusou": {
@@ -194,6 +216,7 @@
                 "Hokuso"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Lilina": {
@@ -202,6 +225,7 @@
                 "Ririna"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Masayuki": {
@@ -211,6 +235,7 @@
                 "Xingxing"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Karion": {
@@ -221,6 +246,7 @@
                 "Carroña"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Elalude": {
@@ -230,6 +256,7 @@
                 "Harold"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Grucius": {
@@ -240,6 +267,7 @@
                 "Gloosys"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Jiwu": {
@@ -249,6 +277,7 @@
                 "Cho"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Alvis": {
@@ -258,6 +287,7 @@
                 "Albis"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "El-Ru": {
@@ -267,6 +297,7 @@
                 "Elure"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Bernie": {
@@ -276,6 +307,7 @@
                 "Barny"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Suphia": {
@@ -286,6 +318,7 @@
                 "Sphere"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Phobio": {
@@ -294,6 +327,7 @@
                 "Kitty"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Elwyn": {
@@ -302,6 +336,7 @@
                 "Ellwyn"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Shining": {
@@ -311,6 +346,7 @@
                 "Flash"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Golden Snake Horn": {
@@ -319,6 +355,7 @@
                 "Golden Snakehorn"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "White Tiger Claw": {
@@ -327,6 +364,7 @@
                 "Snowy Tigerclaw"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gazel": {
@@ -335,6 +373,7 @@
                 "Gazehr"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kabal": {
@@ -343,6 +382,7 @@
                 "Caval"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Vaughn": {
@@ -351,6 +391,7 @@
                 "Pann"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Elen": {
@@ -360,6 +401,7 @@
                 "Eren"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Grasse": {
@@ -368,6 +410,7 @@
                 "Grassé"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dolph": {
@@ -376,6 +419,7 @@
                 "Dorf"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Elric": {
@@ -384,6 +428,7 @@
                 "Elrick"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Anrietta": {
@@ -392,6 +437,7 @@
                 "Henrietta"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Myourmiles": {
@@ -401,6 +447,7 @@
                 "Myourmile"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Reiner": {
@@ -409,6 +456,7 @@
                 "Rainer"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Jaine": {
@@ -417,6 +465,7 @@
                 "Jane"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Myourmiles-kun": {
@@ -425,6 +474,7 @@
                 "Mollie"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Bach": {
@@ -433,6 +483,7 @@
                 "Bak"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Rosso": {
@@ -442,6 +493,7 @@
                 "Lozo"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Youm": {
@@ -451,6 +503,7 @@
                 "Youmu"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Granbell": {
@@ -459,6 +512,7 @@
                 "Granville"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gran": {
@@ -467,6 +521,7 @@
                 "Gren"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Myuran": {
@@ -476,6 +531,7 @@
                 "Myulan"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mariabell": {
@@ -484,6 +540,7 @@
                 "Maribel"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Edmalis": {
@@ -493,6 +550,7 @@
                 "Edomalis"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gavan": {
@@ -502,6 +560,7 @@
                 "Gaben"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Cidre": {
@@ -511,6 +570,7 @@
                 "Sidel"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Muze": {
@@ -519,6 +579,7 @@
                 "Meusé"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Razul": {
@@ -527,6 +588,7 @@
                 "Lancelot"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Meme": {
@@ -536,6 +598,7 @@
                 "Maimai"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Myu": {
@@ -546,6 +609,7 @@
                 "µ"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kondou": {
@@ -554,6 +618,7 @@
                 "Kondo"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Calgurio": {
@@ -563,6 +628,7 @@
                 "Don Cariglio"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gadra": {
@@ -572,6 +638,7 @@
                 "Gadollah"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gladium": {
@@ -580,6 +647,7 @@
                 "Gradim"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Farage": {
@@ -589,6 +657,7 @@
                 "Fellagha"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gordon": {
@@ -597,6 +666,7 @@
                 "Mr. Freeman"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Raymond": {
@@ -605,6 +675,7 @@
                 "DasRay"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gozer": {
@@ -613,6 +684,7 @@
                 "Bovix"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mezer": {
@@ -621,6 +693,7 @@
                 "Equix"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Apostles of Verte": {
@@ -630,6 +703,7 @@
                 "Apostels of WELT"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Adalmann": {
@@ -638,6 +712,7 @@
                 "Adelmann"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Albert": {
@@ -646,6 +721,7 @@
                 "Alberto"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Xin": {
@@ -655,6 +731,7 @@
                 "Shen"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Liuxing": {
@@ -663,6 +740,7 @@
                 "Ryusei"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Shinjee": {
@@ -672,6 +750,7 @@
                 "Shinjin’t"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kai": {
@@ -680,6 +759,7 @@
                 "Gaiye"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Yuuki": {
@@ -689,6 +769,7 @@
                 "Edgy Yagami"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kazalim": {
@@ -697,6 +778,7 @@
                 "Kazaream"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Misha": {
@@ -705,6 +787,7 @@
                 "Mixer"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kagali": {
@@ -713,6 +796,7 @@
                 "Kagari"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Teare": {
@@ -722,6 +806,7 @@
                 "Tia"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Footman": {
@@ -730,6 +815,7 @@
                 "Fatman"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Midley": {
@@ -738,6 +824,7 @@
                 "Middray"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Aubert": {
@@ -746,6 +833,7 @@
                 "O’bell"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Nicolaus": {
@@ -755,6 +843,7 @@
                 "Saint Nick"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Speltus": {
@@ -763,6 +852,7 @@
                 "Spertus"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Chronoa": {
@@ -771,6 +861,7 @@
                 "Corona"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hinata": {
@@ -780,6 +871,7 @@
                 "Japanese"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Garde": {
@@ -789,6 +881,7 @@
                 "Gyarudo"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Ritase": {
@@ -797,6 +890,7 @@
                 "Litus"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Bacchus": {
@@ -805,6 +899,7 @@
                 "Bakkasu"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Fritz": {
@@ -813,6 +908,7 @@
                 "Furittsu"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Leonard": {
@@ -821,6 +917,7 @@
                 "Renard"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Grigori": {
@@ -830,6 +927,7 @@
                 "Guregori"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sare": {
@@ -839,6 +937,7 @@
                 "Salle"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Storm Dragon": {
@@ -847,6 +946,7 @@
                 "Tsundere Dragon"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Scorch Dragon": {
@@ -855,6 +955,7 @@
                 "Yandere Dragon"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Frost Dragon": {
@@ -863,6 +964,7 @@
                 "Ice Dragon"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Star King Dragon": {
@@ -871,6 +973,7 @@
                 "Star-King Dragon"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Fairy of the Labyrinth": {
@@ -879,6 +982,7 @@
                 "Labyrinth Master"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dagruel": {
@@ -888,6 +992,7 @@
                 "Dragrule"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Continent’s Wrath": {
@@ -896,6 +1001,7 @@
                 "Earthquake"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Luminas": {
@@ -909,6 +1015,7 @@
                 "Lewdminas"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dino": {
@@ -918,6 +1025,7 @@
                 "Dyno"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sleeping Ruler": {
@@ -926,6 +1034,7 @@
                 "Strongest Swordsman"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Beast Master": {
@@ -934,6 +1043,7 @@
                 "Furry Master"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Diablo": {
@@ -943,6 +1053,7 @@
                 "Mephistopheles"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Testarossa": {
@@ -951,6 +1062,7 @@
                 "Ferrari Testarossa"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Ultima": {
@@ -959,6 +1071,7 @@
                 "Ultima GTR"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Carrera": {
@@ -967,6 +1080,7 @@
                 "Porsche Carrera"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mizeri": {
@@ -976,6 +1090,7 @@
                 "Misery"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Raine": {
@@ -986,6 +1101,7 @@
                 "Hirari"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Guy": {
@@ -995,6 +1111,7 @@
                 "Ghee"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Venom": {
@@ -1003,6 +1120,7 @@
                 "Hennessey Venom"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Cien": {
@@ -1011,6 +1129,7 @@
                 "Cadillac Cien"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Magic Lord": {
@@ -1019,6 +1138,7 @@
                 "Demon Lord"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Moss": {
@@ -1027,6 +1147,7 @@
                 "Mercedes SLR Stirling Moss"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Veyron": {
@@ -1035,6 +1156,7 @@
                 "Bugatti Veyron"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Zonda": {
@@ -1043,6 +1165,7 @@
                 "Pagani Zonda"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Esprit": {
@@ -1051,6 +1174,7 @@
                 "Lotus Esprit"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Agera": {
@@ -1059,6 +1183,7 @@
                 "Koenigsegg Agera"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Feldway": {
@@ -1069,6 +1194,7 @@
                 "Seinfeld"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Abnormal Condition Resistance": {
@@ -1077,6 +1203,7 @@
                 "Resist Ailments"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Shadow Step": {
@@ -1085,6 +1212,7 @@
                 "Shadow Motion"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Abnormal Condition Nullification": {
@@ -1093,6 +1221,7 @@
                 "Cancel Ailments"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Thought Acceleration": {
@@ -1101,6 +1230,7 @@
                 "Mind Accelerate"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Natural Effects Resistance": {
@@ -1109,6 +1239,7 @@
                 "Resist Natural Elements"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Analyze and Assess": {
@@ -1117,6 +1248,7 @@
                 "Analysis"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Natural Effects Nullification": {
@@ -1125,6 +1257,7 @@
                 "Cancel Natural Elements"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Physical Attack Resistance": {
@@ -1133,6 +1266,7 @@
                 "Resist Melee Attack"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Physical Attack Nullification": {
@@ -1141,6 +1275,7 @@
                 "Cancel Melee Attack"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mental Attack Resistance": {
@@ -1150,6 +1285,7 @@
                 "Spiritual Attack Resistance"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mental Attack Nullification": {
@@ -1159,6 +1295,7 @@
                 "Spiritual Attack Nullification"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Pain Resistance": {
@@ -1167,6 +1304,7 @@
                 "Resist Pain"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Pain Nullification": {
@@ -1175,6 +1313,7 @@
                 "Cancel Pain"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Perfect Memory": {
@@ -1183,6 +1322,7 @@
                 "Complete Memory"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Spatial Movement": {
@@ -1191,6 +1331,7 @@
                 "Spatial Motion"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Holy-Demonic Attack Resistance": {
@@ -1199,6 +1340,7 @@
                 "Chaos Attack Resistance"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Magic Perception": {
@@ -1207,6 +1349,7 @@
                 "Magic Sense"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Universal Perception": {
@@ -1216,6 +1359,7 @@
                 "Universal Sense"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Demon Lord Haki": {
@@ -1224,6 +1368,7 @@
                 "Lord’s Ambition"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Labyrinth Creation": {
@@ -1232,6 +1377,7 @@
                 "Mazecraft"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Great Sage": {
@@ -1242,6 +1388,7 @@
                 "0D Waifu"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Greedy One": {
@@ -1251,6 +1398,7 @@
                 "Greed"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Time Travel": {
@@ -1260,6 +1408,7 @@
                 "Bites Za Dusto"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Chant Cancellation": {
@@ -1268,6 +1417,7 @@
                 "Cast Cancel"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mental Crush": {
@@ -1277,6 +1427,7 @@
                 "Mind Break"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Generalissimo": {
@@ -1286,6 +1437,7 @@
                 "Grand Marshal"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Thrower": {
@@ -1295,6 +1447,7 @@
                 "Tosser"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Guaranteed Outcome": {
@@ -1304,6 +1457,7 @@
                 "Certain Outcome"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Queen Worship": {
@@ -1312,6 +1466,7 @@
                 "Mother"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Lucky Devil": {
@@ -1320,6 +1475,7 @@
                 "Braggart"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Cook": {
@@ -1329,6 +1485,7 @@
                 "[Judgement Chef]"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sniper": {
@@ -1337,6 +1494,7 @@
                 "Aimer"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gourmet": {
@@ -1345,6 +1503,7 @@
                 "Satiator"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Starved": {
@@ -1353,6 +1512,7 @@
                 "Ravenous"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Double-Crosser": {
@@ -1361,6 +1521,7 @@
                 "Reverser"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Falsifier": {
@@ -1369,6 +1530,7 @@
                 "Falsifier"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Analyst": {
@@ -1377,6 +1539,7 @@
                 "Parser"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Deviant": {
@@ -1385,6 +1548,7 @@
                 "Degenerate"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Wisdom King": {
@@ -1394,6 +1558,7 @@
                 "Wisdom Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Raphael": {
@@ -1403,6 +1568,7 @@
                 "Jarvis"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Covenant King": {
@@ -1412,6 +1578,7 @@
                 "Covenant Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Storm King": {
@@ -1421,6 +1588,7 @@
                 "Storm Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gluttonous King": {
@@ -1430,6 +1598,7 @@
                 "Gluttonous Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Void God": {
@@ -1439,6 +1608,7 @@
                 "Void God"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Harvest King": {
@@ -1448,6 +1618,7 @@
                 "Harvest Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Investigation King": {
@@ -1457,6 +1628,7 @@
                 "Investigation Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Chaos King": {
@@ -1466,6 +1638,7 @@
                 "Chaos Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Justice King": {
@@ -1475,6 +1648,7 @@
                 "Justice Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hope King": {
@@ -1484,6 +1658,7 @@
                 "Hope Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Lustful King": {
@@ -1493,6 +1668,7 @@
                 "Lustful Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Greedy King": {
@@ -1503,6 +1679,7 @@
                 "Avaricious King"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Spacetime King": {
@@ -1512,6 +1689,7 @@
                 "Spacetime Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Heat King": {
@@ -1521,6 +1699,7 @@
                 "Heat Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Stellar Wind King": {
@@ -1530,6 +1709,7 @@
                 "Stellar Wind Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Illusion King": {
@@ -1539,6 +1719,7 @@
                 "Illusion Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Temptation King": {
@@ -1548,6 +1729,7 @@
                 "Temptation Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Poison King": {
@@ -1557,6 +1739,7 @@
                 "Poison Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Death King": {
@@ -1566,6 +1749,7 @@
                 "Death Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Annihilation King": {
@@ -1575,6 +1759,7 @@
                 "Annihilation Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Divine Machine King": {
@@ -1584,6 +1769,7 @@
                 "Divine Machine Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Psychology King": {
@@ -1593,6 +1779,7 @@
                 "Psychology Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Divine Flame King": {
@@ -1602,6 +1789,7 @@
                 "Divine Flame Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Charity King": {
@@ -1611,6 +1799,7 @@
                 "Charity Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Scorch King": {
@@ -1620,6 +1809,7 @@
                 "Scorch Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Conviction King": {
@@ -1629,6 +1819,7 @@
                 "Conviction Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Pride King": {
@@ -1638,6 +1829,7 @@
                 "Pride Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sloth King": {
@@ -1647,6 +1839,7 @@
                 "Sloth Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Patience King": {
@@ -1656,6 +1849,7 @@
                 "Patience Lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Corrosion": {
@@ -1664,6 +1858,7 @@
                 "Rot"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Soul Consumption": {
@@ -1672,6 +1867,7 @@
                 "Soul Consume"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Storm Dragon Summon": {
@@ -1680,6 +1876,7 @@
                 "Summon Storm Dragon"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Storm Dragon Restoration": {
@@ -1688,6 +1885,7 @@
                 "Restore Storm Dragon"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Infinite Prison": {
@@ -1696,6 +1894,7 @@
                 "Unlimited Imprisonment"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Law Manipulation": {
@@ -1704,6 +1903,7 @@
                 "Control Laws"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "World of Temptation": {
@@ -1712,6 +1912,7 @@
                 "Tempting World"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Punitive Control?": {
@@ -1720,6 +1921,7 @@
                 "i think this means dominate through punishment"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Charm Control?": {
@@ -1728,6 +1930,7 @@
                 "and this dominate through charm or mesmerize that someone"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Skill Storage": {
@@ -1736,6 +1939,7 @@
                 "Skill Bank"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Eye of the Moon": {
@@ -1744,6 +1948,7 @@
                 "Moon Eye"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Probability Manipulation": {
@@ -1752,6 +1957,7 @@
                 "Control Probability"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Investigation of Truth": {
@@ -1760,6 +1966,7 @@
                 "Investigate Truth"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mental Control": {
@@ -1768,6 +1975,7 @@
                 "Control Thought"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "the Tempest Federation": {
@@ -1776,6 +1984,7 @@
                 "Tempest"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "The Tempest Federation": {
@@ -1784,6 +1993,7 @@
                 "Tempest"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sarion": {
@@ -1792,6 +2002,7 @@
                 "Thalion"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sorcerer’s Dynasty of": {
@@ -1800,6 +2011,7 @@
                 "Sorcerous Dynasty of"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Lubelius": {
@@ -1809,6 +2021,7 @@
                 "Ruberius"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Eurazania": {
@@ -1817,6 +2030,7 @@
                 "Yuurazania"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Harpy Nation": {
@@ -1825,6 +2039,7 @@
                 "Sky Nation"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "City of the Forgotten Dragon": {
@@ -1833,6 +2048,7 @@
                 "Forgotten City of Dragons"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Jistav": {
@@ -1841,6 +2057,7 @@
                 "Dhistav"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Frost Palace": {
@@ -1849,6 +2066,7 @@
                 "Icefayr Castle"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Siltrosso": {
@@ -1859,6 +2077,7 @@
                 "Seltrosso"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Ingracia": {
@@ -1868,6 +2087,7 @@
                 "Engrassia"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Farmus": {
@@ -1877,6 +2097,7 @@
                 "Pharms"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Farmenas": {
@@ -1886,6 +2107,7 @@
                 "Carmenus"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dolan": {
@@ -1896,6 +2118,7 @@
                 "Duran Duran"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Colosseum": {
@@ -1904,6 +2127,7 @@
                 "coliseum"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "dragon chambers": {
@@ -1912,6 +2136,7 @@
                 "dragon’s dens"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Coscia Mountains": {
@@ -1920,6 +2145,7 @@
                 "Khusha Mountains"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Malis": {
@@ -1928,6 +2154,7 @@
                 "Maris"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Amalita": {
@@ -1937,6 +2164,7 @@
                 "Moria"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dragon Roost": {
@@ -1945,6 +2173,7 @@
                 "Dragon’s Nest"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Voice of the World": {
@@ -1953,6 +2182,7 @@
                 "World Language"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Four Heavenly Kings": {
@@ -1961,6 +2191,7 @@
                 "Big Four"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Twelve Chaos Guardian Lords": {
@@ -1969,6 +2200,7 @@
                 "tWelVe PatrOns"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Yomigaeri": {
@@ -1978,6 +2210,7 @@
                 "Team Re🅱️orn"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kurenai": {
@@ -1987,6 +2220,7 @@
                 "Team Red Flame"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Goblin Riders": {
@@ -1995,6 +2229,7 @@
                 "Team Goblin Riders"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Lakeshore Dyed Scarlet": {
@@ -2003,6 +2238,7 @@
                 "Bloody Shore"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hiryuu": {
@@ -2012,6 +2248,7 @@
                 "Team Flying Dragons"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Moderate Clown Troupe": {
@@ -2020,6 +2257,7 @@
                 "Moderate Jesters"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Beastketeers": {
@@ -2028,6 +2266,7 @@
                 "Lycanthropeers"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Dragon Worshipers": {
@@ -2036,6 +2275,7 @@
                 "Dragon Faithful"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Luminism": {
@@ -2045,6 +2285,7 @@
                 "Lewdminism"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Freedom Association": {
@@ -2053,6 +2294,7 @@
                 "Free Guild"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Luminist": {
@@ -2062,6 +2304,7 @@
                 "Lewdminist"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "stellar": {
@@ -2070,6 +2313,7 @@
                 "star gold coin"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Three Martial Sages": {
@@ -2078,6 +2322,7 @@
                 "Three Battlesages"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "stellar gold coin": {
@@ -2086,6 +2331,7 @@
                 "star gold coin"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Holy Knight Order": {
@@ -2094,6 +2340,7 @@
                 "Crusaders"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Holy Knight": {
@@ -2102,6 +2349,7 @@
                 "Crusader"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Seven Luminary Clerics": {
@@ -2111,6 +2359,7 @@
                 "Seven Celestial Saints"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Seven Luminaries": {
@@ -2120,6 +2369,7 @@
                 "Seven Celestials"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Master Rooks": {
@@ -2128,6 +2378,7 @@
                 "Rook Geniuses"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Spirit Core": {
@@ -2136,6 +2387,7 @@
                 "Element Core"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "spirit particle": {
@@ -2144,6 +2396,7 @@
                 "spiritron"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "magic marble": {
@@ -2152,6 +2405,7 @@
                 "core"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "high potion": {
@@ -2160,6 +2414,7 @@
                 "super potion"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "full potion": {
@@ -2168,6 +2423,7 @@
                 "maxi potion"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "magitrain": {
@@ -2176,6 +2432,7 @@
                 "magic train"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Holy Spirit Armor": {
@@ -2184,6 +2441,7 @@
                 "holy spirit armament"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gate of Hell": {
@@ -2193,6 +2451,7 @@
                 "Gate of Hades"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Oboro-Ryu": {
@@ -2201,6 +2460,7 @@
                 "Haze"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hercules Ex": {
@@ -2209,6 +2469,7 @@
                 "Goriki-maru Version 2"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "haki": {
@@ -2217,6 +2478,7 @@
                 "aura"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "youki": {
@@ -2225,6 +2487,7 @@
                 "aura"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "javelin": {
@@ -2233,6 +2496,7 @@
                 "Death pickle"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "That Time I Got Reincarnated as a Slime": {
@@ -2241,6 +2505,7 @@
                 "Regarding Reincarnated To Slime"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Million-class": {
@@ -2249,6 +2514,7 @@
                 "Turbo Woke"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Founding Festival": {
@@ -2258,6 +2524,7 @@
                 "Opening Festival"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "demon": {
@@ -2267,6 +2534,7 @@
                 "devil"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "demons": {
@@ -2276,6 +2544,7 @@
                 "devils"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "primordial": {
@@ -2287,6 +2556,7 @@
                 "biggerest devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "demon peer": {
@@ -2298,6 +2568,7 @@
                 "demon lord"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "archdemon": {
@@ -2308,6 +2579,7 @@
                 "biggest devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "greater demon": {
@@ -2318,6 +2590,7 @@
                 "bigger devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "lesser demon": {
@@ -2328,6 +2601,7 @@
                 "smaller devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Imperial Guardians": {
@@ -2337,6 +2611,7 @@
                 "Imperial Knight Order"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "devil chevalier": {
@@ -2345,6 +2620,7 @@
                 "horse devil"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Imperial Knight": {
@@ -2353,6 +2629,7 @@
                 "Praetorian"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Single Digit": {
@@ -2361,6 +2638,7 @@
                 "Double O Number"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "demon lord": {
@@ -2370,6 +2648,7 @@
                 "dank lood"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Double Digit": {
@@ -2378,6 +2657,7 @@
                 "Single O Number"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Sage": {
@@ -2387,6 +2667,7 @@
                 "sennin"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Hero": {
@@ -2397,6 +2678,7 @@
                 "Yuusha"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "champion": {
@@ -2406,6 +2688,7 @@
                 "Eiyuu"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "majin": {
@@ -2415,6 +2698,7 @@
                 "devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "monster": {
@@ -2423,6 +2707,7 @@
                 "devil"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "greater majin": {
@@ -2431,6 +2716,7 @@
                 "big devil"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "monsters": {
@@ -2439,6 +2725,7 @@
                 "devils"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "ogre": {
@@ -2447,6 +2734,7 @@
                 "devil"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "kijin": {
@@ -2456,6 +2744,7 @@
                 "devil"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "rabbitman": {
@@ -2464,6 +2753,7 @@
                 "bunnyboi"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "rabbitmen": {
@@ -2472,6 +2762,7 @@
                 "bunnybois"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "elf": {
@@ -2480,6 +2771,7 @@
                 "erofu"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Army Wasp": {
@@ -2488,6 +2780,7 @@
                 "Army Bee"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "high elf": {
@@ -2496,6 +2789,7 @@
                 "THC elf"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "dark elf": {
@@ -2504,6 +2798,7 @@
                 "ebony elf"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "undead elf": {
@@ -2513,6 +2808,7 @@
                 "death man"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "beastmen": {
@@ -2521,6 +2817,7 @@
                 "furries"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "beastman": {
@@ -2529,6 +2826,7 @@
                 "furry"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "gozu": {
@@ -2537,6 +2835,7 @@
                 "bovoids"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "dwarf": {
@@ -2545,6 +2844,7 @@
                 "smolboi"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "gyuki": {
@@ -2553,6 +2853,7 @@
                 "tauroid"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "mezu": {
@@ -2561,6 +2862,7 @@
                 "equinoids"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "baki": {
@@ -2569,6 +2871,7 @@
                 "centoid"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Silent Killer Wasps": {
@@ -2577,6 +2880,7 @@
                 "Silent Killer Bees"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "wind spirit wasp": {
@@ -2585,6 +2889,7 @@
                 "wind spirit bee"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Byakuren": {
@@ -2593,6 +2898,7 @@
                 "Vigoroth"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Gett": {
@@ -2601,6 +2907,7 @@
                 "Lopunny"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Kokuso": {
@@ -2609,6 +2916,7 @@
                 "Raticate"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Yoda": {
@@ -2617,6 +2925,7 @@
                 "Rayquaza"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Mink": {
@@ -2625,6 +2934,7 @@
                 "Moltres"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Enchou": {
@@ -2633,6 +2943,7 @@
                 "Mareep"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Igami": {
@@ -2641,6 +2952,7 @@
                 "Smeargle"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "star wasp": {
@@ -2649,6 +2961,7 @@
                 "star bee"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Queen Wasp": {
@@ -2657,6 +2970,7 @@
                 "Queen Bee"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "kufufufu": {
@@ -2665,6 +2979,7 @@
                 "heh-heh-heh-heh"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "ku ku ku": {
@@ -2673,6 +2988,7 @@
                 "ha ha ha"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "fufu": {
@@ -2681,6 +2997,7 @@
                 "heh-heh"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "fufufu": {
@@ -2689,6 +3006,7 @@
                 "heh-heh-heh"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Sergei": {
@@ -2697,6 +3015,7 @@
                 "Sehrgay"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "spirit wielder": {
@@ -2705,6 +3024,7 @@
                 "elementalist"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Melt Slash": {
@@ -2713,6 +3033,7 @@
                 "Meltslash"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Holy Purification Barrier": {
@@ -2721,6 +3042,7 @@
                 "Holy Field"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "the Secret of Faith and Grace": {
@@ -2729,6 +3051,7 @@
                 "the secret skills of faith and favor"
             ],
             "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
             "caseSensitive": false
         },
         "Reversal of Day and Night": {
@@ -2737,6 +3060,7 @@
                 "Night Owl"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         },
         "Demon Lord": {
@@ -2747,6 +3071,7 @@
                 "Demon King"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
             "caseSensitive": true
         }
     },
