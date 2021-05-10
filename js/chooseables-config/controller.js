@@ -16,6 +16,13 @@
 			})
 			app.saveSettings()
 		},
+		setTTS: function(){
+			view.app.termsList.forEach(term=>{
+				let TTSTermIndex = termsOptions[term].textToSpeechIndex
+				termsChosen[term] = termsOptions[term].options[TTSTermIndex]
+			})
+			app.saveSettings()
+		},
 		setJank: function(){
 			view.app.termsList.forEach(term=>{
 				let lastIndex = termsOptions[term].options.length - 1
