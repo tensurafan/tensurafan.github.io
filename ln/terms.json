@@ -1,15 +1,17 @@
 {
-    "pattern": "(?:A(?:b(?:il|normal\\ Condition\\ (?:Nullification|Resistance))|dalmann|gera|l(?:bert|vis)|malita|n(?:aly(?:st|ze\\ and\\ Assess)|nihilation\\ King|rietta)|postles\\ of\\ Verte|rmy\\ Wasp|ubert)|B(?:ac(?:chus|h)|e(?:ast(?:\\ Master|keteers)|nimaru|rnie)|yakuren)|C(?:a(?:lgurio|rrera)|h(?:a(?:nt\\ Cancellation|os\\ King|r(?:ity\\ King|m\\ Control\\?))|ronoa)|i(?:dre|e[ln]|ty\\ of\\ the\\ Forgotten\\ Dragon)|o(?:losseum|n(?:tinent’s\\ Wrath|viction\\ King)|ok|rrosion|scia\\ Mountains|venant\\ King))|D(?:agruel|e(?:ath\\ King|mon\\ Lord(?:\\ Haki)?|viant)|i(?:ablo|no|vine\\ (?:Flame\\ King|Machine\\ King))|o(?:l(?:an|ph)|uble(?:\\ Digit|\\-Crosser))|ragon\\ (?:Roost|Worshipers))|E(?:dmalis|l(?:\\-Ru|alude|en|ric|wyn)|nchou|sprit|urazania|ye\\ of\\ the\\ Moon)|F(?:a(?:iry\\ of\\ the\\ Labyrinth|lsifier|r(?:age|m(?:enas|us)))|eldway|o(?:otman|u(?:nding\\ Festival|r\\ Heavenly\\ Kings))|r(?:eedom\\ Association|itz|ost\\ (?:Dragon|Palace)))|G(?:a(?:bil|dra|rde|te\\ of\\ Hell|van|zel)|e(?:ld|neralissimo|tt)|l(?:adium|uttonous\\ King)|o(?:b(?:emon|kyu|lin\\ Riders|ta|ua)|lden\\ Snake\\ Horn|rdon|urmet|zer)|r(?:a(?:n(?:bell)?|sse)|e(?:at\\ Sage|edy\\ (?:King|One))|igori|ucius)|u(?:aranteed\\ Outcome|y))|H(?:a(?:kurou|r(?:py\\ Nation|vest\\ King))|e(?:at\\ King|r(?:cules\\ Ex|o))|i(?:nata|ryuu)|o(?:kusou|ly(?:\\ (?:Knight(?:\\ Order)?|Purification\\ Barrier|Spirit\\ Armor)|\\-Demonic\\ Attack\\ Resistance)|pe\\ King))|I(?:gami|llusion\\ King|mperial\\ (?:Guardians|Knight)|n(?:finite\\ Prison|gracia|vestigation\\ (?:King|of\\ Truth)))|J(?:aine|i(?:stav|wu)|ustice\\ King)|K(?:a(?:bal|gali|rion|zalim|i)|o(?:kuso|ndou)|ur(?:enai|obee))|L(?:a(?:byrinth\\ Creation|keshore\\ Dyed\\ Scarlet|w\\ Manipulation)|eonard|i(?:lina|uxing)|u(?:belius|cky\\ Devil|min(?:as|is[mt])|stful\\ King))|M(?:a(?:gic\\ (?:Lord|Perception)|lis|riabell|s(?:ayuki|ter\\ Rooks))|e(?:lt\\ Slash|me|ntal\\ (?:Attack\\ (?:Nullification|Resistance)|C(?:ontrol|rush))|zer)|i(?:dley|llion\\-class|nk|sha|zeri)|o(?:derate\\ Clown\\ Troupe|ss)|uze|y(?:ourmiles(?:\\-kun)?|u(?:ran)?))|N(?:a(?:nsou|tural\\ Effects\\ (?:Nullification|Resistance))|icolaus)|Oboro\\-Ryu|P(?:a(?:in\\ (?:Nullification|Resistance)|tience\\ King)|erfect\\ Memory|h(?:obio|ysical\\ Attack\\ (?:Nullification|Resistance))|oison\\ King|r(?:ide\\ King|obability\\ Manipulation)|sychology\\ King|unitive\\ Control\\?)|Queen\\ W(?:asp|orship)|R(?:a(?:ine|phael|ymond|zul)|e(?:iner|versal\\ of\\ Day\\ and\\ Night)|i(?:muru|tase)|osso)|S(?:a(?:ge|r(?:ion|e))|corch\\ (?:Dragon|King)|e(?:rgei|ven\\ Luminar(?:ies|y\\ Clerics))|h(?:adow\\ Step|i(?:n(?:ing|jee)|on)|una)|i(?:l(?:ent\\ Killer\\ Wasps|trosso)|ngle\\ Digit)|kill\\ Storage|l(?:eeping\\ Ruler|oth\\ King)|niper|o(?:rcerer’s\\ Dynasty\\ of|u(?:ei|ka|l\\ Consumption))|p(?:a(?:cetime\\ King|tial\\ Movement)|eltus|irit\\ Core)|t(?:ar(?:\\ King\\ Dragon|ved)|ellar\\ Wind\\ King|orm\\ (?:Dragon(?:\\ (?:Restoration|Summon))?|King))|uphia)|T(?:akt|e(?:are|mptation\\ King|starossa)|h(?:at\\ Time\\ I\\ Got\\ Reincarnated\\ as\\ a\\ Slime|e\\ Tempest\\ Federation|ought\\ Acceleration|r(?:ee\\ Martial\\ Sages|ower))|ime\\ Travel|ouka|r(?:eyni|iss|ya)|welve\\ Chaos\\ Guardian\\ Lords)|U(?:ltima|niversal\\ Perception)|V(?:aughn|e(?:nom|yron)|oi(?:ce\\ of\\ the\\ World|d\\ God))|W(?:hite\\ Tiger\\ Claw|isdom\\ King|orld\\ of\\ Temptation)|Xin|Y(?:o(?:da|migaeri|um)|uuki)|Zonda|archdemon|b(?:aki|eastm(?:an|en))|champion|d(?:ark\\ elf|e(?:mon(?:(?:\\ (?:lord|peer)|s))?|vil\\ chevalier)|ragon\\ chambers|warf)|elf|fu(?:fu(?:fu)?|ll\\ potion)|g(?:ozu|reater\\ (?:demon|majin)|yuki)|h(?:aki|igh\\ (?:elf|potion))|javelin|k(?:ijin|u(?:\\ ku\\ ku|fufufu))|lesser\\ demon|m(?:a(?:gi(?:c\\ marble|train)|jin)|ezu|onsters?)|ogre|primordial|rabbitm(?:an|en)|s(?:pirit\\ (?:particle|wielder)|t(?:ar\\ wasp|ellar(?:\\ gold\\ coin)?))|the\\ (?:Secret\\ of\\ Faith\\ and\\ Grace|Tempest\\ Federation)|undead\\ elf|wind\\ spirit\\ wasp|youki)",
+    "pattern": "(?:A(?:b(?:il|normal\\ Condition\\ (?:Nullification|Resistance))|dalmann|gera|l(?:bert|vis)|malita|n(?:aly(?:st|ze\\ and\\ Assess)|nihilation\\ King|rietta)|postles\\ of\\ Verte|rmy\\ Wasp|ubert)|B(?:ac(?:chus|h)|e(?:ast(?:\\ Master|keteers)|nimaru|rnie)|yakuren)|C(?:a(?:lgurio|rrera)|h(?:a(?:nt\\ Cancellation|os\\ King|r(?:ity\\ King|m\\ Control\\?))|ronoa)|i(?:dre|e[ln]|ty\\ of\\ the\\ Forgotten\\ Dragon)|o(?:losseum|n(?:tinent’s\\ Wrath|viction\\ King)|ok|rrosion|scia\\ Mountains|venant\\ King)|rimson\\ Comet)|D(?:agruel|e(?:ath\\ King|mon\\ Lord(?:\\ Haki)?|viant)|i(?:ablo|no|vine\\ (?:Flame\\ King|Machine\\ King))|o(?:l(?:an|ph)|uble(?:\\ Digit|\\-Crosser))|ragon\\ (?:Roost|Worshipers))|E(?:dmalis|l(?:\\-Ru|alude|en|ric|wyn)|nchou|sprit|urazania|ye\\ of\\ the\\ Moon)|F(?:a(?:iry\\ of\\ the\\ Labyrinth|lsifier|r(?:age|m(?:enas|us)))|eldway|o(?:otman|u(?:nding\\ Festival|r\\ Heavenly\\ Kings))|r(?:eedom\\ Association|itz|ost\\ (?:Dragon|Palace)))|G(?:a(?:bil|dra|rde|te\\ of\\ Hell|van|zel)|e(?:ld|neralissimo|tt)|l(?:adium|uttonous\\ King)|o(?:b(?:emon|kyu|lin\\ Riders|ta|ua)|lden\\ Snake\\ Horn|rdon|urmet|zer)|r(?:a(?:n(?:bell)?|sse)|e(?:at\\ Sage|e(?:d(?:y\\ King)?|n\\ Rebellion))|igori|ucius)|u(?:aranteed\\ Outcome|y))|H(?:a(?:kurou|r(?:py\\ Nation|vest\\ King))|e(?:at\\ King|r(?:cules\\ Ex|o))|i(?:nata|ryuu)|o(?:kusou|ly(?:\\ (?:Knight(?:\\ Order)?|Purification\\ Barrier|Spirit\\ Armor)|\\-Demonic\\ Attack\\ Resistance)|pe\\ King))|I(?:gami|llusion\\ King|mperial\\ (?:Guardians|Knight)|n(?:finite\\ Prison|gracia|vestigation\\ (?:King|of\\ Truth)))|J(?:aine|i(?:stav|wu)|ustice\\ King)|K(?:a(?:bal|gali|rion|zalim|i)|o(?:kuso|ndou)|ur(?:enai|obee))|L(?:a(?:byrinth\\ Creation|keshore\\ Dyed\\ Scarlet|w\\ Manipulation)|eonard|i(?:lina|uxing)|u(?:belius|cky\\ Devil|min(?:as|is[mt])|stful\\ King))|M(?:a(?:gic\\ (?:Lord|Perception)|lis|riabell|s(?:ayuki|ter\\ Rooks))|e(?:lt\\ Slash|me|ntal\\ (?:Attack\\ (?:Nullification|Resistance)|C(?:ontrol|rush))|zer)|i(?:dley|llion\\-class|nk|sha|zeri)|o(?:derate\\ Clown\\ Troupe|ss)|uze|y(?:ourmiles(?:\\-kun)?|u(?:ran)?))|N(?:a(?:nsou|tural\\ Effects\\ (?:Nullification|Resistance))|icolaus)|O(?:boro\\-Ryu|gre\\ Lord)|P(?:a(?:in\\ (?:Nullification|Resistance)|tience\\ King)|erfect\\ Memory|h(?:obio|ysical\\ Attack\\ (?:Nullification|Resistance))|oison\\ King|r(?:ide\\ King|obability\\ Manipulation)|sychology\\ King|unitive\\ Control\\?)|Queen\\ W(?:asp|orship)|R(?:a(?:ine|phael|ymond|zul)|e(?:cording\\ Crystal|iner|versal\\ of\\ Day\\ and\\ Night)|i(?:muru|tase)|osso|uminas)|S(?:a(?:ge|r(?:ion|e))|corch\\ (?:Dragon|King)|e(?:rgei|ven\\ Luminar(?:ies|y\\ Clerics))|h(?:adow\\ Step|i(?:n(?:ing|jee)|on)|una)|i(?:l(?:ent\\ Killer\\ Wasps|trosso)|ngle\\ Digit)|kill\\ Storage|l(?:eeping\\ Ruler|oth\\ King)|niper|o(?:rcerer’s\\ Dynasty\\ of|u(?:ei|ka|l\\ Consumption))|p(?:a(?:cetime\\ King|tial\\ Movement)|eltus|irit\\ Core)|t(?:ar(?:\\ King\\ Dragon|ved)|ellar\\ Wind\\ King|orm\\ (?:Dragon(?:\\ (?:Restoration|Summon))?|King))|uphia)|T(?:akt|e(?:are|mptation\\ King|starossa)|h(?:at\\ Time\\ I\\ Got\\ Reincarnated\\ as\\ a\\ Slime|e\\ Tempest\\ Federation|ought\\ Acceleration|r(?:ee\\ Martial\\ Sages|ower))|ime\\ Travel|ouka|r(?:eyni|iss|ya)|welve\\ Chaos\\ Guardian\\ Lords)|U(?:ltima|niversal\\ Perception)|V(?:aughn|e(?:nom|yron)|oi(?:ce\\ of\\ the\\ World|d\\ God))|W(?:hite\\ Tiger\\ Claw|isdom\\ King|orld\\ of\\ Temptation)|Xin|Y(?:o(?:da|migaeri|um)|uuki)|Zonda|archdemon|b(?:aki|eastm(?:an|en))|champion|d(?:ark\\ elf|e(?:mon(?:(?:\\ (?:lord|peer)|s))?|vil\\ chevalier)|ragon\\ chambers|warf)|elf|fu(?:fu(?:fu)?|ll\\ potion)|g(?:ozu|reater\\ (?:demon|majin)|yuki)|h(?:aki|igh\\ (?:elf|potion))|javelin|k(?:ijin|u(?:\\ ku\\ ku|fufufu))|lesser\\ demon|m(?:a(?:gi(?:c\\ marble|train)|jin)|ezu|onsters?)|ogre|primordial|rabbitm(?:an|en)|s(?:pirit\\ (?:particle|wielder)|t(?:ar\\ wasp|ellar(?:\\ gold\\ coin)?))|the\\ (?:Secret\\ of\\ Faith\\ and\\ Grace|Tempest\\ Federation)|undead\\ elf|wind\\ spirit\\ wasp|youki)",
     "terms": {
         "Rimuru": {
             "options": [
                 "Rimuru",
                 "Rimuwu",
                 "Rimurun",
-                "Lime road"
+                "Limule",
+                "Lime road",
+                "Reemuru"
             ],
             "officialTermIndex": 0,
-            "textToSpeechIndex": 0,
+            "textToSpeechIndex": 5,
             "caseSensitive": true
         },
         "Treyni": {
@@ -444,10 +446,11 @@
             "options": [
                 "Myourmiles",
                 "Mjöllmile",
-                "Myourmile"
+                "Myourmile",
+                "Mjormiles"
             ],
             "officialTermIndex": 1,
-            "textToSpeechIndex": 0,
+            "textToSpeechIndex": 3,
             "caseSensitive": true
         },
         "Reiner": {
@@ -687,6 +690,15 @@
             "textToSpeechIndex": 0,
             "caseSensitive": true
         },
+        "Green Rebellion": {
+            "options": [
+                "Green Rebellion",
+                "Green Fury"
+            ],
+            "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
+            "caseSensitive": true
+        },
         "Mezer": {
             "options": [
                 "Mezer",
@@ -699,7 +711,7 @@
         "Apostles of Verte": {
             "options": [
                 "Apostles of Verte",
-                "Sons of Verdt",
+                "Sons of Verdt (misspelled French for verte, aka green)",
                 "Apostels of WELT"
             ],
             "officialTermIndex": 1,
@@ -1043,6 +1055,20 @@
                 "Furry Master"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
+            "caseSensitive": true
+        },
+        "Ruminas": {
+            "options": [
+                "Ruminas",
+                "Luminus",
+                "Luminas",
+                "Ruminous",
+                "Luminous",
+                "Roomienas",
+                "Lewdminas"
+            ],
+            "officialTermIndex": 1,
             "textToSpeechIndex": 0,
             "caseSensitive": true
         },
@@ -1391,11 +1417,10 @@
             "textToSpeechIndex": 0,
             "caseSensitive": true
         },
-        "Greedy One": {
+        "Greed": {
             "options": [
-                "Greedy One",
-                "Avarice",
-                "Greed"
+                "Greed",
+                "Avarice"
             ],
             "officialTermIndex": 1,
             "textToSpeechIndex": 0,
@@ -2390,6 +2415,15 @@
             "textToSpeechIndex": 0,
             "caseSensitive": true
         },
+        "Recording Crystal": {
+            "options": [
+                "Recording Crystal",
+                "Event Recording Globe"
+            ],
+            "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
+            "caseSensitive": true
+        },
         "spirit particle": {
             "options": [
                 "spirit particle",
@@ -2441,6 +2475,16 @@
                 "holy spirit armament"
             ],
             "officialTermIndex": 0,
+            "textToSpeechIndex": 0,
+            "caseSensitive": true
+        },
+        "Crimson Comet": {
+            "options": [
+                "Crimson Comet",
+                "Scarlet",
+                "Red"
+            ],
+            "officialTermIndex": 1,
             "textToSpeechIndex": 0,
             "caseSensitive": true
         },
@@ -2746,6 +2790,15 @@
             "officialTermIndex": 1,
             "textToSpeechIndex": 0,
             "caseSensitive": false
+        },
+        "Ogre Lord": {
+            "options": [
+                "Ogre Lord",
+                "\"\"\"oRc LorD\"\"\""
+            ],
+            "officialTermIndex": 1,
+            "textToSpeechIndex": 0,
+            "caseSensitive": true
         },
         "rabbitman": {
             "options": [
@@ -3177,6 +3230,7 @@
             "Albert"
         ],
         "Labyrinth invaders": [
+            "Green Rebellion",
             "Apostles of Verte",
             "Xin",
             "Liuxing",
@@ -3230,7 +3284,8 @@
             "Sleeping Ruler",
             "Rimuru",
             "Karion",
-            "Beast Master"
+            "Beast Master",
+            "Ruminas"
         ],
         "Demons": [
             "Diablo",
@@ -3276,7 +3331,7 @@
         ],
         "Unique Skills": [
             "Great Sage",
-            "Greedy One",
+            "Greed",
             "Time Travel",
             "Chant Cancellation",
             "Mental Crush",
@@ -3397,12 +3452,14 @@
         ],
         "Engineering": [
             "Spirit Core",
+            "Recording Crystal",
             "spirit particle",
             "magic marble",
             "high potion",
             "full potion",
             "magitrain",
-            "Holy Spirit Armor"
+            "Holy Spirit Armor",
+            "Crimson Comet"
         ],
         "Magical misc.": [
             "Gate of Hell",
@@ -3448,6 +3505,7 @@
             "monsters",
             "ogre",
             "kijin",
+            "Ogre Lord",
             "rabbitman",
             "rabbitmen",
             "elf",
