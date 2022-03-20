@@ -61,5 +61,47 @@
 		"path": "/ln/v13.html",
 		"raw": "/ln/v13/raw.html",
 		"progress": 100
+	},
+	{
+		"id": "v14",
+		"name": "Volume 14 - MTL",
+		"path": "/ln/v14.html",
+		"raw": "/ln/v14/raw.html",
+		"progress": 0
+	},
+	{
+		"id": "v15",
+		"name": "Volume 15 - MTL",
+		"path": "/ln/v15.html",
+		"raw": "/ln/v15/raw.html",
+		"progress": 66
+	},
+	{
+		"id": "v16",
+		"name": "Volume 16 - MTL",
+		"path": "/ln/v16.html",
+		"raw": "/ln/v16/raw.html",
+		"progress": 100
+	},
+	{
+		"id": "v17",
+		"name": "Volume 17 - MTL",
+		"path": "/ln/v17.html",
+		"raw": "/ln/v17/raw.html",
+		"progress": 100
+	},
+	{
+		"id": "v18",
+		"name": "Volume 18 - MTL",
+		"path": "/ln/v18.html",
+		"raw": "/ln/v18/raw.html",
+		"progress": 100
+	},
+	{
+		"id": "v19",
+		"name": "Volume 19 - MTL",
+		"path": "/ln/v19.html",
+		"raw": "/ln/v19/raw.html",
+		"progress": 100
 	}
 ]
