@@ -5,7 +5,15 @@
   "author": "Fuse",
   "cover": "https://cdn.discordapp.com/attachments/466617567994445835/857259642437369897/RDT_20210623_1603078917049327338730082.jpg",
   "chapters": {
-     "93": {
+    "94": {
+      "title": "The Clash Between Holy and Demonic",
+      "volume": "17",
+      "groups": {
+        "Tempest": "/proxy/api/imgur/chapter/Ky2W2ev/"
+      },
+      "last_updated": "1648747507"
+    },
+    "93": {
       "title": "Clash of Holy and Demonic",
       "volume": "17",
       "groups": {
@@ -38,7 +46,7 @@
       },
       "last_updated": "1638123141"
     },
-     "89": {
+    "89": {
       "title": "The Monster Federation and the Holy Empire",
       "volume": "17",
       "groups": {
@@ -64,7 +72,7 @@
       },
       "last_updated": "1639924722"
     },
-     "87": {
+    "87": {
       "title": "God's Right Hand",
       "volume": "17",
       "groups": {
