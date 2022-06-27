@@ -3,11 +3,14 @@
 	<small>(Click to Read)</small>
 </div>
 <!-- foreach: "volume" -->
-	<div onclick="this.app.read(this.app.volumes[this.volume].id, this.app.volumes[this.volume].progress)" class="block button clickable content-width {:this.app.volumes[this.volume].progress < 100 ? 'volume-progressing' : '' :}|{volumes[this.volume].progress}|" style="--volume-progress: {:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|">
-		<span>{:this.app.volumes[this.volume].name:}|{volumes[this.volume].name}|</span>
-		<span class="progressing-percent {:this.app.volumes[this.volume].progress < 100 ? '' : 'hidden' :}|{volumes[this.volume].progress}|">{:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|%</span>
-	</div>
-	<div class="padding-1"></div>
+<div onclick="this.app.read(this.app.volumes[this.volume].id, this.app.volumes[this.volume].progress)"
+	class="block button clickable content-width {:this.app.volumes[this.volume].progress < 100 ? 'volume-progressing' : '' :}|{volumes[this.volume].progress}|"
+	style="--volume-progress: {:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|">
+	<span>{:this.app.volumes[this.volume].name:}|{volumes[this.volume].name}|</span>
+	<span
+		class="progressing-percent {:this.app.volumes[this.volume].progress < 100 ? '' : 'hidden' :}|{volumes[this.volume].progress}|">{:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|%</span>
+</div>
+<div class="padding-1"></div>
 <!-- in: volumes -->
 <div class="text-center padding-bottom-1  padding-top-1">
 	<strong class="paddingless marginless">Extras</strong>
@@ -26,6 +29,13 @@
 <a href="https://cubari.moe/read/gist/JYC2r/" target="_blank">
 	<div class="block button clickable content-width">
 		<span>Read Manga</span>
+	</div>
+</a>
+<div class="padding-1"></div>
+
+<a href="https://cubari.moe/read/imgur/lA3a49J/" target="_blank">
+	<div class="block button clickable content-width">
+		<span>Booklet: The Path of the Dragon Princess</span>
 	</div>
 </a>
 <div class="padding-1"></div>
