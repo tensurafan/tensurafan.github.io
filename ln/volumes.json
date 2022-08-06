@@ -67,14 +67,14 @@
 		"name": "Volume 14 - Edited MTL",
 		"path": "/ln/v14.html",
 		"raw": "/ln/v14/raw.html",
-		"progress": 60
+		"progress": 70
 	},
 	{
 		"id": "v15",
-		"name": "Volume 15 - Edited MTL",
+		"name": "Volume 15 - Now with human source proofreading",
 		"path": "/ln/v15.html",
 		"raw": "/ln/v15/raw.html",
-		"progress": 99
+		"progress": 85
 	},
 	{
 		"id": "v16",
