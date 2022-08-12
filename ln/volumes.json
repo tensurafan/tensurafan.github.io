@@ -64,17 +64,17 @@
 	},
 	{
 		"id": "v14",
-		"name": "Volume 14 - Edited MTL",
+		"name": "Volume 14 - Edited MTL - ETA: mid September",
 		"path": "/ln/v14.html",
 		"raw": "/ln/v14/raw.html",
-		"progress": 70
+		"progress": 75
 	},
 	{
 		"id": "v15",
-		"name": "Volume 15 - Now with human source proofreading",
+		"name": "Volume 15 - Now with human source proofreading - ETA: mid September",
 		"path": "/ln/v15.html",
 		"raw": "/ln/v15/raw.html",
-		"progress": 85
+		"progress": 87
 	},
 	{
 		"id": "v16",
@@ -103,5 +103,12 @@
 		"path": "/ln/v19.html",
 		"raw": "/ln/v19/raw.html",
 		"progress": 100
+	},
+	{
+		"id": "v20",
+		"name": "Volume 20 - Japanese Release: 2022.09.30",
+		"path": "/ln/v20.html",
+		"raw": "/ln/v20/raw.html",
+		"progress": 0
 	}
 ]
