@@ -14,7 +14,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node serve.js"
+    "start": "node serve.js",
+    "postinstall": "cp pre-commit .git/hooks/pre-commit",
+    "build": "npm install && node build"
   },
   "repository": {
     "type": "git",
