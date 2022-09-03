@@ -1,0 +1,6 @@
+#!/bin/sh
+
+date +%s | md5sum > build.txt
+git add build.txt
+
+exit 0
