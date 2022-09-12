@@ -1,3 +1,4 @@
+#!/bin/python
 # -*- coding: utf-8 -*-
 """
 Parse Excel table to output compact JSON.
@@ -99,6 +100,7 @@ except OSError:
 
 terms = dict()
 termYenIndex = dict()
+termTTSIndex = dict()
 termGroups = OrderedDict() # Contains a list of terms in a given category
 termGroupsMetadata = list() # Contains tuples of group names with their x value
 termGroupsLastY = -1 # Metadata list is deleted on every new y val
@@ -112,17 +114,18 @@ for sheet in workbook.values():
     for y in range(0, height):
         for x in range(0, width):
 
-            # Detect cells marked with # or % as the first letter
+            # Detect cells marked with #, $, !, ~, *, § as the first letter
             cell = sheet.iat[y, x]
 
             if isinstance(cell, str):
                 # Regular term inclusion
-                if cell[0] in "#%$!~":
+                if cell[0] in "#$!~":
 
                     xpos = x + 1
                     default = cell[1:].strip()
                     alts = []
                     yenIndex = 0 # Use default value if no official or identical official
+                    ttsIndex = 0 # Use default value unless an optimized one is available
 
                     # Grab primary replacement if valid
                     if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
@@ -134,7 +137,16 @@ for sheet in workbook.values():
                         # Add optional alts
                         xpos += 1
                         if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
-                            alts.append(sheet.iat[y, xpos].strip())
+                            # Multiple terms may be shared in one cell
+                            alt_terms = sheet.iat[y, xpos].strip().split("&")
+                            for alt_term in alt_terms:
+                                if "TTS:" in alt_term:
+                                    alt_term = alt_term[4:]
+                                    # Count number of alternatives already present and add 1 for the uncounted original term
+                                    ttsIndex = len(alts) + 1
+                                    if not alt_term:
+                                        print(f"WARNING: A TTS term was left empty in {sheet.iat[y, xpos].strip()}")
+                                alts.append(alt_term)
                         else:
                             break
 
@@ -143,6 +155,7 @@ for sheet in workbook.values():
                     if alts:
                         terms[default]        = [default] + alts
                         termYenIndex[default] = yenIndex
+                        termTTSIndex[default] = ttsIndex
                         # Add to the group that is to its left
                         for group in reversed(termGroupsMetadata):
                             if x >= group[1]:
@@ -151,40 +164,6 @@ for sheet in workbook.values():
                         else:
                             print(f"{default} is homeless :(")
 
-
-                    # Automatically add a capitalized version only if starting with %
-                    if cell[0] == '%':
-                        xpos = x + 1
-                        default = cell[1:].strip().capitalize()
-                        alts = []
-                        yenIndex = 0
-
-                        # Grab primary replacement if valid
-                        if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
-                            if sheet.iat[y, xpos] != "-":
-                                alts.append(sheet.iat[y, xpos].strip().capitalize())
-                                yenIndex = 1
-
-                        while True:
-                            # Add optional alts
-                            xpos += 1
-                            if (xpos < width) and (isinstance(sheet.iat[y, xpos], str)):
-                                alts.append(sheet.iat[y, xpos].strip().capitalize())
-                            else:
-                                break
-
-                        # Have at least one replacement, otherwise discard
-                        # Also keep the default terms as first entry
-                        if alts:
-                            terms[default]        = [default] + alts
-                            termYenIndex[default] = yenIndex
-                            # Add to the group that is to its left
-                            for group in reversed(termGroupsMetadata):
-                                if x >= group[1]:
-                                    termGroups[group[0]].append(default)
-                                    break
-                            else:
-                                print(f"{default} is homeless :(")
 
                 # Include reference to term in this group
                 elif cell[0] == "*":
@@ -201,7 +180,7 @@ for sheet in workbook.values():
 
                     group = cell[1:].strip()
                     #print(f"{group} {x} {y}")
-                    termGroups[group]         = []
+                    termGroups[group] = []
                     if y > termGroupsLastY:
                         #print(f"Metadata was: {termGroupsMetadata}")
                         # Clear metadata list
@@ -218,17 +197,19 @@ for key,value in terms.items():
     entries[key] = dict()
     entries[key]["options"] = value
     entries[key]["officialTermIndex"] = termYenIndex[key]
+    entries[key]["textToSpeechIndex"] = termTTSIndex[key]
+    entries[key]["caseSensitive"] = key[0].isupper()
 
 for groupname,grouplist in list(termGroups.items()):
     if not grouplist:
-        print(f"WARNING: {groupname} is empty, removing group...")
+        print(f"INFO: {groupname} is empty, removing group...")
         del termGroups[groupname]
         continue
 
     # Validate existance of referenced terms due to the * inclusion
     for ref in list(grouplist):
         if ref not in terms.keys():
-            print(f"WARNING: {ref} referenced in group {groupname}, but not included in terms. Removing from group...")
+            print(f"INFO: {ref} referenced in group {groupname}, but not included in terms. Removing from group...")
             grouplist.remove(ref)
 
 
