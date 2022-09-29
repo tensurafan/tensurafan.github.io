@@ -71,7 +71,7 @@
 	},
 	{
 		"id": "v15",
-		"name": "Volume 15 - ETA: late September",
+		"name": "Volume 15 - ETA: October",
 		"path": "/ln/v15.html",
 		"raw": "/ln/v15/raw.html",
 		"progress": 89
@@ -106,9 +106,9 @@
 	},
 	{
 		"id": "v20",
-		"name": "Volume 20 - Japanese Release: 2022.09.30",
+		"name": "Volume 20 - Raw MTL - Edited release: November?",
 		"path": "/ln/v20.html",
 		"raw": "/ln/v20/raw.html",
-		"progress": 0
+		"progress": 100
 	}
 ]
