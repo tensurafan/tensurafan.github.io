@@ -35,7 +35,7 @@ const port = Math.floor(Math.random() * 9000 + 1000)
 	*/
 
 	let parseAllPromise = volumes.map(async volume=>{
-		if (volume.progress < 100){
+		if (volume.progress < 100 || !volume.raw){
 			return console.log("skipping", volume.name)
 		}
 		console.log("parsing", volume.name)
