@@ -159,14 +159,199 @@ button.volume-progressing,
 .strong {
 	font-weight: bold;
 }
-.strikethrough {
-	text-decoration: line-through;
-}
 .italic {
 	font-style: italic;
 }
-.indent {
-	text-indent: 2em;
+body {
+  line-height: 1.2em;
+  font-size: 1em;
+}
+.story {
+  font-family: serif;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1.8em;
+  orphans: 1;
+  padding: 0;
+  text-align: justify;
+  widows: 1;
+  word-spacing: 0;
+}
+
+/*title page*/
+h1.title {
+  display: block;
+  font-size: 1.6em;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 1em 0;
+  padding: 0;
+}
+.subtitle {
+  font-size: 1.6em;
+  text-align: center;
+  margin: 1em 0;
+  padding: 0;
+}
+.credits-entry {
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 1em 0;
+  padding: 0;
+  text-indent: 0;
+}
+.credits-entry-space {
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 3em 0 1em;
+  padding: 0;
+  text-indent: 0;
+}
+.hlink {
+  color: #15C;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+/*Chapter content*/
+h1.ch-number {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: normal;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  padding: 0;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-indent: 0;
+  font-family: sans-serif;
+}
+h1.ch-name {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 4em;
+  text-indent: 0;
+  font-family: sans-serif;
+}
+h1.afterword {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 0;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  text-indent: 0;
+  font-family: sans-serif;
+}
+p {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 20pt;
+}
+.no-indent {
+  text-indent: 0;
+}
+.space-break {
+  margin-top: 1.5em;
+}
+/*Illustration wrapper*/
+img.full {
+  background: transparent;
+  display: inline-block;
+  height: auto;
+  page-break-inside: avoid;
+  vertical-align: baseline;
+  width: auto;
+  max-width: 100%;
+  border: currentColor none medium;
+  margin: 0;
+  padding: 0;
+}
+.pagebreak {
+  display: block;
+  page-break-after: always;
+}
+/*Scenebreak*/
+.scenebreak {
+  line-height: 1em;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+}
+.ornament-hard {
+  /*ball*/
+  height: auto;
+  width: 1.4em;
+}
+.ornament-soft {
+  /*asterisk*/
+  height: auto;
+  width: 1.2em;
+}
+/*Table of contents*/
+h1.toc-title {
+  font-size: 1.25em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  text-indent: 0;
+  line-height: 1.2em;
+}
+.toc-chapter-space {
+  text-indent: 0;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.toc-chapter {
+  text-indent: 0;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+/*Bullet list*/
+div.wrapper {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+li p {
+  text-indent: 0em;
+}
+/*footnote*/
+sup {
+  font-size: 0.8em;
+  line-height: 1.2;
+  vertical-align: top;
+}
+.note-back {
+  display: block;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+.note-text {
+  display: block;
+  margin-left: 0;
+  text-indent: 0;
+}
+.footnote {
+  display: block;
+  margin: 1em 0;
+}
+.no-deco {
+  text-decoration: none;
+}
+.strikethrough {
+  text-decoration: line-through;
 }
 
 .selectable-term + .selectable-term::before {
