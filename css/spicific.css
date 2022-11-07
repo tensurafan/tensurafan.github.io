@@ -211,7 +211,7 @@ h1.title {
   text-indent: 0;
 }
 .hlink {
-  color: #15C;
+  color: var(--color-primary);
   line-height: 1.2;
   text-decoration: underline;
 }
