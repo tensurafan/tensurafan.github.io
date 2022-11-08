@@ -49,7 +49,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 				if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
 					let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
-					line.scrollIntoView({block: "start"})
+					line && line.scrollIntoView({block: "start"})
 				}
 
 				subableEvents.forEach(eventName=>{
