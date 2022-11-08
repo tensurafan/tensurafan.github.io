@@ -354,6 +354,6 @@ sup {
   text-decoration: line-through;
 }
 
-.selectable-term + .selectable-term::before {
+P[id^="line"] * + *::before {
 	content: " ";
 }
