@@ -119,7 +119,7 @@ for sheet in workbook.values():
 
             if isinstance(cell, str):
                 # Regular term inclusion
-                if cell[0] in "#$!~":
+                if cell[0] in "#$~":
 
                     xpos = x + 1
                     default = cell[1:].strip()
