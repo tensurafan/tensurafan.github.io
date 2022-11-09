@@ -24,7 +24,7 @@ async function app(initConfigs){
 	}
 
 	// code to do with hiding and showing of the underline of chooseable terms
-	initConfigs.presist.underlineChooseable = Object.prototype.hasOwnProperty.call(initConfigs.presist, "underlineChooseable") ? initConfigs.presist.underlineChooseable : false
+	initConfigs.presist.underlineChooseable = Object.prototype.hasOwnProperty.call(initConfigs.presist, "underlineChooseable") ? initConfigs.presist.underlineChooseable : true
 	proxymity.watch(initConfigs.presist, "underlineChooseable", app.saveSettings)
 
 	// setup the different views
