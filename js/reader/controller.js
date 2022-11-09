@@ -14,6 +14,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		volume: "",
 		title: "",
 		description: "",
+		otherConfigs: presistantConfigs,
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -173,6 +174,12 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	}
 
 	function getSupportingClasses(element){
+		let classList = ""
+
+		if (presistantConfigs.underlineChooseable){
+			classList += "underline "
+		}
+
 		if (
 			element.previousSibling &&
 			(
@@ -180,9 +187,9 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 				!element.previousSibling instanceof Text
 			)
 		){
-			return "follower-selectable-term"
+			classList += "follower-selectable-term "
 		}
 
-		return ""
+		return classList
 	}
 }

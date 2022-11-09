@@ -6,6 +6,7 @@ async function app(initConfigs){
 		app.updateSettings(initConfigs.presist)
 	}
 
+	// code to do with changing and saving of theme
 	initConfigs.presist.theme = Object.prototype.hasOwnProperty.call(initConfigs.presist, "theme") ? initConfigs.presist.theme : "dark"
 	proxymity.watch(initConfigs.presist, "theme", updateTheme)
 	updateTheme(initConfigs.presist.theme)
@@ -21,6 +22,10 @@ async function app(initConfigs){
 
 		app.saveSettings()
 	}
+
+	// code to do with hiding and showing of the underline of chooseable terms
+	initConfigs.presist.underlineChooseable = Object.prototype.hasOwnProperty.call(initConfigs.presist, "underlineChooseable") ? initConfigs.presist.underlineChooseable : false
+	proxymity.watch(initConfigs.presist, "underlineChooseable", app.saveSettings)
 
 	// setup the different views
 	let router = app.router = app.routerFactory(document.getElementById("app"))
