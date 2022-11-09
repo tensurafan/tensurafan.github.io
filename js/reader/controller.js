@@ -7,6 +7,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		showFootnote,
 		allTermsChosen: globalTermchoices,
 		selectNameEventHandler,
+		getSupportingClasses,
 		capitalCase,
 		mounted: false,
 		rout: routerInstance.rout,
@@ -169,5 +170,13 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		return new Promise(function(accept){
 			requestAnimationFrame(accept)
 		})
+	}
+
+	function getSupportingClasses(element){
+		if (element.previousSibling && !element.previousSibling instanceof Text ){
+			return "follower-selectable-term"
+		}
+
+		return ""
 	}
 }
