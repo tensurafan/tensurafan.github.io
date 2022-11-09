@@ -173,7 +173,13 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 	}
 
 	function getSupportingClasses(element){
-		if (element.previousSibling && !element.previousSibling instanceof Text ){
+		if (
+			element.previousSibling &&
+			(
+				!element.previousSibling.textContent.trim() ||
+				!element.previousSibling instanceof Text
+			)
+		){
 			return "follower-selectable-term"
 		}
 
