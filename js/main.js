@@ -24,8 +24,12 @@ async function app(initConfigs){
 	}
 
 	// code to do with hiding and showing of the underline of chooseable terms
-	initConfigs.presist.underlineChooseable = Object.prototype.hasOwnProperty.call(initConfigs.presist, "underlineChooseable") ? initConfigs.presist.underlineChooseable : true
-	proxymity.watch(initConfigs.presist, "underlineChooseable", app.saveSettings)
+	function initiateConfigToggle(toggledProperty, defaultValue){
+		initConfigs.presist[toggledProperty] = Object.prototype.hasOwnProperty.call(initConfigs.presist, toggledProperty) ? initConfigs.presist[toggledProperty] : defaultValue
+		proxymity.watch(initConfigs.presist, toggledProperty, app.saveSettings)
+	}
+	initiateConfigToggle("underlineChooseable", true)
+	initiateConfigToggle("coloredIllustrations", true)
 
 	// setup the different views
 	let router = app.router = app.routerFactory(document.getElementById("app"))
