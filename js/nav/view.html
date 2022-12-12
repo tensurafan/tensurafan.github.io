@@ -1,5 +1,6 @@
 <div class="border-bot flex vhcenter"><!-- always visable -->
-	<div class="border-right padding-2 flex {:this.app.backClickable ? '' : 'color-light color-in':}|{backClickable}|" onclick="this.app.back()">
+	<div class="border-right padding-2 flex {:this.app.backClickable ? '' : 'color-light color-in':}|{backClickable}|"
+		onclick="this.app.back()">
 		<span class="icon">
 			<span class="back"></span>
 		</span>
@@ -12,7 +13,7 @@
 	</div>
 </div>
 <div class="padding-2 {:this.app.menuOpen ? '' : 'hidden-state':}|{menuOpen}|"><!-- toggleable dropdown -->
-<div class="flex column-smol row-mid">
+	<div class="flex column-smol row-mid">
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
@@ -22,7 +23,8 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false" class="inline block">Instructions for Offline Use</button>
+				<button onclick="window.app.footer.app.showInstructions = true; this.app.menuOpen = false"
+					class="inline block">Instructions for Offline Use</button>
 			</div>
 		</div>
 	</div>
@@ -36,7 +38,8 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<a href="https://github.com/tensurafan/tensurafan.github.io/issues" class="button inline block" target="_blank">Report Bug / Request Feature</a>
+				<a href="https://github.com/tensurafan/tensurafan.github.io/issues" class="button inline block"
+					target="_blank">Report Bug / Request Feature</a>
 			</div>
 		</div>
 	</div>
@@ -44,14 +47,41 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
-				<button onclick="window.app.searcher.app.display = true; this.app.menuOpen = false;" class="inline block">Search in Page</button>
+				<button onclick="window.app.searcher.app.display = true; this.app.menuOpen = false;"
+					class="inline block">Search in Page</button>
 			</div>
 		</div>
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
+				<a href="https://tensurafan.home.blog/light-novel/" class="button inline block" target="_blank">Get Epub
+					or PDF</a>
+			</div>
+		</div>
+	</div>
+	<div class="flex column-smol row-mid">
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
+				<button onclick="this.app.configs.underlineChooseable = !this.app.configs.underlineChooseable"
+					class="inline block">Toggle Chooseable Underline</button>
+			</div>
+		</div>
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
+				<button onclick="this.app.configs.coloredIllustrations = !this.app.configs.coloredIllustrations"
+					class="inline block">Toggle Fan Colored Illustrations</button>
+			</div>
+		</div>
+	</div>
+	<div class="flex column-smol row-mid">
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
 				<span class="grow text-center">Theme: </span>
-				<select onchange="this.app.configs.theme = this.value" class="grow" data-value="{:this.app.configs.theme:}|{configs.theme}|">
+				<select onchange="this.app.configs.theme = this.value" class="grow"
+					data-value="{:this.app.configs.theme:}|{configs.theme}|">
 					<option value="oled">OLED Black</option>
 					<option value="dark">Dark</option>
 					<!-- Note to those who see this from Ettezo:
@@ -63,22 +93,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="flex column-smol row-mid">
-		<div class="basis">
-			<div class="padding-1"></div>
-			<div class="text-center">
-				<button onclick="this.app.configs.underlineChooseable = !this.app.configs.underlineChooseable" class="inline block">Toggle Chooseable Underline</button>
-			</div>
-		</div>
-		<div class="basis">
-			<div class="padding-1"></div>
-			<div class="text-center">
-				<button onclick="this.app.configs.coloredIllustrations = !this.app.configs.coloredIllustrations" class="inline block">Toggle Fan Colored Illustrations</button>
-			</div>
-		</div>
-	</div>
 	<div>
 		<div class="padding-1"></div>
-		<div class="text-center" style="font-size: 0.75em">Build Version: {:this.app.version.substring(this.app.version.length - 12, this.app.version.length):}</div>
+		<div class="text-center" style="font-size: 0.75em">Build Version:
+			{:this.app.version.substring(this.app.version.length - 12, this.app.version.length):}</div>
 	</div>
 </div>
