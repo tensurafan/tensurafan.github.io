@@ -1,4 +1,7 @@
 *.zip
+*.epub
+*.pdf
+*.docx
 
 # Logs
 logs

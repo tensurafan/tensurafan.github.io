@@ -7,12 +7,14 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		showFootnote,
 		allTermsChosen: globalTermchoices,
 		selectNameEventHandler,
+		getSupportingClasses,
 		capitalCase,
 		mounted: false,
 		rout: routerInstance.rout,
 		volume: "",
 		title: "",
 		description: "",
+		otherConfigs: presistantConfigs,
 	})
 
 	let readerContainer = view.find(el=>el.id === "reading-content")
@@ -49,7 +51,7 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 
 				if (presistantConfigs.topLine && presistantConfigs.topLine[volumeId]){
 					let line = document.getElementById("line_" + presistantConfigs.topLine[volumeId])
-					line.scrollIntoView({block: "start"})
+					line && line.scrollIntoView({block: "start"})
 				}
 
 				subableEvents.forEach(eventName=>{
@@ -169,5 +171,25 @@ app.initReader = async function(volumes, routerInstance, namePickerInstance, ter
 		return new Promise(function(accept){
 			requestAnimationFrame(accept)
 		})
+	}
+
+	function getSupportingClasses(element){
+		let classList = ""
+
+		if (presistantConfigs.underlineChooseable){
+			classList += "underline "
+		}
+
+		if (
+			element.previousSibling &&
+			(
+				!element.previousSibling.textContent.trim() ||
+				!element.previousSibling instanceof Text
+			)
+		){
+			classList += "follower-selectable-term "
+		}
+
+		return classList
 	}
 }

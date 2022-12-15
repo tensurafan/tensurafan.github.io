@@ -3659,17 +3659,6 @@
             "officialTermIndex": 0,
             "textToSpeechIndex": 0,
             "caseSensitive": true
-        },
-        "Demon Lord": {
-            "options": [
-                "Demon Lord",
-                "Señor Demonio",
-                "Dank Lood",
-                "Demon King"
-            ],
-            "officialTermIndex": 0,
-            "textToSpeechIndex": 0,
-            "caseSensitive": true
         }
     },
     "groups": {
