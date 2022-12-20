@@ -1,4 +1,8 @@
 <div class="padding-1"></div>
+<div onclick="this.app.setDefault()" class="block button clickable content-width">
+	Set All Terms to Default Terms
+</div>
+<div class="padding-1"></div>
 <div onclick="this.app.setOfficial()" class="block button clickable content-width">
 	Set All Terms to Official Terms
 </div>
@@ -15,26 +19,22 @@
 	Set All Terms to Random Terms
 </div>
 <div class="padding-1"></div>
-<div onclick="this.app.setDefault()" class="block button clickable content-width">
-	Set All Terms to Default Terms
-</div>
-<div class="padding-1"></div>
 <div class="block button clickable content-width">
-	<a href="https://docs.google.com/forms/d/e/1FAIpQLSd0SVwvqe85eiZm8_NhY_-QV7ftyWDpwiNNmY9vQ5bSaQg-jw/viewform" target="_blank">Suggest NEW Terms to This List</a>
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSd0SVwvqe85eiZm8_NhY_-QV7ftyWDpwiNNmY9vQ5bSaQg-jw/viewform"
+		target="_blank">Suggest NEW Terms to This List</a>
 </div>
 <div class="padding-1"></div>
 <!-- foreach: "termIndex" -->
-	<div class="flex padding-bottom-1">
-		<div class="basis-50">{:this.app.termsList[this.termIndex]:}|{termsList[this.termIndex]}|</div>
-		<div class="basis-50">
-			<select class="content-width" onchange="this.app.termsChosen[this.app.termsList[this.termIndex]] = this.value">
-				<!-- foreach: "optionIndex" -->
-					<option
-						value="{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}"
-						data-selected="{: this.app.termsChosen[this.app.termsList[this.termIndex]] === this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsChosen[this.app.termsList[this.termIndex]]}|"
-					>{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}</option>
-				<!-- in: termsOptions[this.app.termsList[this.termIndex]].options -->
-			</select>
-		</div>
+<div class="flex padding-bottom-1">
+	<div class="basis-50">{:this.app.termsList[this.termIndex]:}|{termsList[this.termIndex]}|</div>
+	<div class="basis-50">
+		<select class="content-width" onchange="this.app.termsChosen[this.app.termsList[this.termIndex]] = this.value">
+			<!-- foreach: "optionIndex" -->
+			<option value="{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}"
+				data-selected="{: this.app.termsChosen[this.app.termsList[this.termIndex]] === this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}|{termsChosen[this.app.termsList[this.termIndex]]}|">
+				{:this.app.termsOptions[this.app.termsList[this.termIndex]].options[this.optionIndex]:}</option>
+			<!-- in: termsOptions[this.app.termsList[this.termIndex]].options -->
+		</select>
 	</div>
+</div>
 <!-- in: termsList -->
