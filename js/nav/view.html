@@ -64,14 +64,14 @@
 			<div class="padding-1"></div>
 			<div class="text-center">
 				<button onclick="this.app.configs.underlineChooseable = !this.app.configs.underlineChooseable"
-					class="inline block">Toggle Chooseable Underline</button>
+					class="inline block">{: this.app.configs.underlineChooseable ? "Turn Off Chooseable Underline" : "Turn On Chooseable Underline" :}|{ configs.underlineChooseable }|</button>
 			</div>
 		</div>
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
 				<button onclick="this.app.configs.coloredIllustrations = !this.app.configs.coloredIllustrations"
-					class="inline block">Toggle Fan Colored Illustrations</button>
+					class="inline block">{: this.app.configs.coloredIllustrations ? "Turn Off Fan Colored Illustrations" : "Turn On Fan Colored Illustrations" :}|{ configs.coloredIllustrations }|</button>
 			</div>
 		</div>
 	</div>

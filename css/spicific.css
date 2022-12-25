@@ -398,3 +398,14 @@ sup {
 .follower-selectable-term::before {
 	content: " ";
 }
+
+.color-indicator {
+	width: 0.75em;
+	height: 0.75em;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+.grayscal {
+	filter: grayscale(100%);
+}
