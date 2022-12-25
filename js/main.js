@@ -23,16 +23,37 @@ async function app(initConfigs){
 		app.saveSettings()
 	}
 
+	function initiateConfigProperty(configuredPropertyName, defaultValue){
+		initConfigs.presist[configuredPropertyName] = Object.prototype.hasOwnProperty.call(initConfigs.presist, configuredPropertyName) ? initConfigs.presist[configuredPropertyName] : defaultValue
+		proxymity.watch(initConfigs.presist, configuredPropertyName, app.saveSettings)
+	}	
+	
 	// code to do with hiding and showing of the underline of chooseable terms
-	function initiateConfigToggle(toggledProperty, defaultValue){
-		initConfigs.presist[toggledProperty] = Object.prototype.hasOwnProperty.call(initConfigs.presist, toggledProperty) ? initConfigs.presist[toggledProperty] : defaultValue
-		proxymity.watch(initConfigs.presist, toggledProperty, app.saveSettings)
-	}
-	initiateConfigToggle("underlineChooseable", true)
-	initiateConfigToggle("coloredIllustrations", true)
+	initiateConfigProperty("underlineChooseable", true)
+	initiateConfigProperty("coloredIllustrations", true)	
+
+	initiateConfigProperty("fontFace", undefined)
+	initiateConfigProperty("fontSize", undefined)
+	let appRoot = document.getElementById("app")
+	proxymity.watch(initConfigs.presist, "fontFace", function(fontFam){
+		if (!fontFam){
+			appRoot.style.removeProperty("font-family")
+			return
+		}
+
+		appRoot.style.fontFamily = fontFam
+	})
+	proxymity.watch(initConfigs.presist, "fontSize", function(fontSize){
+		if (!fontSize){
+			appRoot.style.removeProperty("font-size")
+			return
+		}
+
+		appRoot.style.fontSize = fontSize + "px"
+	})
 
 	// setup the different views
-	let router = app.router = app.routerFactory(document.getElementById("app"))
+	let router = app.router = app.routerFactory(appRoot)
 
 	let navEl = document.getElementById("nav")
 	let appEl = document.getElementById("app")
