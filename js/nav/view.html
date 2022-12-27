@@ -79,6 +79,24 @@
 		<div class="basis">
 			<div class="padding-1"></div>
 			<div class="text-center">
+				<div>
+					Select Font:
+					<select onchange="this.app.configs.fontFace = this.value" class="grow" data-value="{:this.app.configs.fontFace:}|{configs.fontFace}|">
+						<option value="">Default</option>
+						<!-- foreach: "index" -->
+							<option value="{:this.app.useableFonts[this.index]:}">{:this.app.useableFonts[this.index]:}</option>
+						<!-- in: useableFonts -->
+					</select>
+				</div>
+				<div>
+					Font Size:
+					<input data-value="{:this.app.configs.fontSize || null:}" onchange="this.app.configs.fontSize = this.valueAsNumber" onblur="this.app.configs.fontSize = this.valueAsNumber" type="number"/>	
+				</div>
+			</div>
+		</div>
+		<div class="basis">
+			<div class="padding-1"></div>
+			<div class="text-center">
 				<span class="grow text-center">Theme: </span>
 				<select onchange="this.app.configs.theme = this.value" class="grow"
 					data-value="{:this.app.configs.theme:}|{configs.theme}|">
