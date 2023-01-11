@@ -1,23 +1,10 @@
 # slime-reader
 This is a web app to allow for users to read the fan translation of "That Time I Got Reincarnated as a Slime" with a few bonus features that are absent in PDF and EPub versions.
 
-# todo
-- ~read content~
-- ~click to read foot note~
-- ~name toggleer~
-- ~service worker~
-- ~save reading location~
-- ~sharable discord quotes~
-- ~change theme~
-- notifications maybe
-- ~install instructions~
-- ~remove shareable quotes~
-- search
-- center small images
-- space between 2 changeable terms
+## Contributing
+If you wish to suggest changes to novel contents, you can find the markdown files in: [ln/sources](ln/sources). \
+To review how our specific flavor of Markdown works, see our [Markdown tutorial](https://tensurafan.github.io/Markdowntutorial).
 
-for later maybe
+## todo
+- notifications maybe
 - return to closed page on save
-- toggle underline
-- button to yenpressify selectable options
-- post paragraph spaceing update
