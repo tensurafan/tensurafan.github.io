@@ -167,6 +167,33 @@ button.volume-progressing,
 	visibility: hidden;
 }
 
+.follower-selectable-term::before {
+	content: " ";
+}
+
+.support-color-indicator {
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: flex;
+}
+
+.color-indicator {
+	width: 0.75em;
+	height: 0.75em;
+	position: absolute;
+	right: 0.5em;
+	/* this will push the element to the right */
+	top: 50%;
+	/* this will center the element vertically */
+	transform: translateY(-50%);
+	/* this will move the element up by half of it's height */
+}
+
+.grayscal {
+	filter: grayscale(100%);
+}
+
 /* reader stuff */
 .strong {
 	font-weight: bold;
@@ -392,19 +419,4 @@ sup {
 
 .strikethrough {
 	text-decoration: line-through;
-}
-
-.follower-selectable-term::before {
-	content: " ";
-}
-
-.color-indicator {
-	width: 0.75em;
-	height: 0.75em;
-	display: inline-block;
-	margin-right: 0.5em;
-}
-
-.grayscal {
-	filter: grayscale(100%);
 }

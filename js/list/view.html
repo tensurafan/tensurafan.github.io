@@ -4,14 +4,13 @@
 </div>
 <!-- foreach: "volume" -->
 <div onclick="this.app.read(this.app.volumes[this.volume].id, this.app.volumes[this.volume].progress)"
-	class="block button clickable content-width {:this.app.volumes[this.volume].progress < 100 ? 'volume-progressing' : '' :}|{volumes[this.volume].progress}|"
-	style="--volume-progress: {:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|"
->
-	<img src="/img/color-wheel.svg" class="color-indicator {:this.app.volumes[this.volume].color ? 'color' : 'grayscal' :} {: Object.prototype.hasOwnProperty.call(this.app.volumes[this.volume], 'color') ? '' : 'hidden-state' :} " />
+	class="block button clickable content-width {:this.app.volumes[this.volume].progress < 100 ? 'volume-progressing' : 'support-color-indicator' :}|{volumes[this.volume].progress}|"
+	style="--volume-progress: {:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|">
 	<span>{:this.app.volumes[this.volume].name:}|{volumes[this.volume].name}|</span>
+	<img src="/img/color-wheel.svg"
+		class="color-indicator {:this.app.volumes[this.volume].color ? 'color' : 'grayscal' :} {: Object.prototype.hasOwnProperty.call(this.app.volumes[this.volume], 'color') ? '' : 'hidden-state' :} " />
 	<span
-		class="progressing-percent {:this.app.volumes[this.volume].progress < 100 ? '' : 'hidden' :}|{volumes[this.volume].progress}|"
-	>{:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|%</span>
+		class="progressing-percent {:this.app.volumes[this.volume].progress < 100 ? '' : 'hidden' :}|{volumes[this.volume].progress}|">{:this.app.volumes[this.volume].progress:}|{volumes[this.volume].progress}|%</span>
 </div>
 <div class="padding-1"></div>
 <!-- in: volumes -->
