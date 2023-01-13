@@ -24,12 +24,16 @@
 
 		<script>
 		if ('serviceWorker' in navigator) {
-			window.addEventListener('load', () => {
-			navigator.serviceWorker.register('/service-worker.js')
-				.then((reg) => {
-				  console.log('Service worker registered.', reg);
-				});
-			});
+			function registerSW(){
+				navigator.serviceWorker.register('/service-worker.js')
+					.then((reg) => {
+						console.log('Service worker registered.', reg);
+					});
+			}
+
+			document.readyState === "complete" 
+				? registerSW() 
+				: window.addEventListener('load', registerSW);
 		}
 		</script>
 	</head>
