@@ -70,7 +70,8 @@
 		"name": "Volume 14",
 		"path": "/ln/v14.html",
 		"raw": "/ln/v14/raw.html",
-		"progress": 100
+		"progress": 100,
+		"color": true
 	},
 	{
 		"id": "v15",
