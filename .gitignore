@@ -5,6 +5,8 @@
 *.mobi
 *.azw3
 
+.directory
+
 # Logs
 logs
 *.log

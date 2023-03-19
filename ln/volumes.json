@@ -22,8 +22,8 @@
 	},
 	{
 		"id": "v8_5",
-		"name": "Side Stories Volume 8.5 + Volume 13.5",
-		"path": "/ln/v8_5.html",
+		"name": "Volume 8.5 Side Stories",
+		"path": "/ln/v8.5.html",
 		"raw": "/ln/v8_5/raw.html",
 		"progress": 100
 	},
@@ -64,6 +64,13 @@
 		"raw": "/ln/v13/raw.html",
 		"progress": 100,
 		"color": true
+	},
+	{
+		"id": "v13_5",
+		"name": "Volume 13.5 Side Stories",
+		"path": "/ln/v13.5.html",
+		"raw": "/ln/v13_5/raw.html",
+		"progress": 100
 	},
 	{
 		"id": "v14",
