@@ -4,6 +4,7 @@
 *.docx
 *.mobi
 *.azw3
+*.tex
 
 .directory
 

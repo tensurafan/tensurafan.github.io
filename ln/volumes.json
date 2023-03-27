@@ -122,5 +122,12 @@
 		"path": "/ln/v20.html",
 		"raw": "/ln/v20/raw.html",
 		"progress": 100
+	},
+	{
+		"id": "b1",
+		"name": "Special Booklet 1",
+		"path": "/ln/b1.html",
+		"raw": "/ln/b1/raw.html",
+		"progress": 100
 	}
 ]
