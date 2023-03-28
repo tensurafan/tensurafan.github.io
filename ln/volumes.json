@@ -121,7 +121,8 @@
 		"name": "Volume 20 - Edited MTL",
 		"path": "/ln/v20.html",
 		"raw": "/ln/v20/raw.html",
-		"progress": 100
+		"progress": 100,
+		"color": true
 	},
 	{
 		"id": "b1",
