@@ -31,7 +31,7 @@ app.initNav = async function (currentConfigs, routerInstance) {
 				// Default
 				'serif', 'sans-serif', 'monospace', 'cursive', 'fantasy',
 				// Memes
-				'tenslafont005',
+				'tenslafont005', 'Tensura',
 				// Linux
 				'Bitstream Charter', 'Bitstream Vera Serif', 'DejaVu Sans', 'DejaVu Sans Mono', 'DejaVu Serif', 'Droid Sans', 'Droid Sans Mono', 'Droid Serif', 'FreeMono', 'FreeSans', 'FreeSerif', 'Liberation Mono', 'Liberation Sans', 'Liberation Serif', 'Nimbus Mono L', 'Nimbus Roman No9 L', 'Nimbus Sans L', 'Standard Symbols L', 'URW Bookman L', 'URW Chancery L', 'URW Gothic L', 'URW Palladio L', 'WenQuanYi Micro Hei', 'WenQuanYi Zen Hei', 'American Typewriter', 'Andale Mono', 'Arial Black', 'Arial Narrow', 'Arial Rounded MT Bold', 'Arial Unicode MS', 'Avenir', 'Avenir Next', 'Avenir Next Condensed', 'Baskerville', 'Big Caslon', 'Bodoni 72', 'Bodoni 72 Oldstyle', 'Bodoni 72 Smallcaps', 'Bradley Hand', 'Brush Script MT', 'Chalkboard', 'Chalkboard SE', 'Chalkduster', 'Charter', 'Cochin', 'Copperplate', 'Courier', 'Didot', 'DIN Alternate', 'DIN Condensed', 'Futura', 'Geneva', 'Gill Sans', 'Helvetica Neue',
 				// Windows 10
