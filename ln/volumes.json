@@ -93,7 +93,8 @@
 		"name": "Volume 16 - Edited MTL",
 		"path": "/ln/v16.html",
 		"raw": "/ln/v16/raw.html",
-		"progress": 100
+		"progress": 100,
+		"color": true
 	},
 	{
 		"id": "v17",
