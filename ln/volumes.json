@@ -126,6 +126,13 @@
 		"color": true
 	},
 	{
+		"id": "v21",
+		"name": "Volume 21 - In Progress",
+		"path": "/ln/v20.html",
+		"raw": "/ln/v20/raw.html",
+		"progress": 10
+	},
+	{
 		"id": "b1",
 		"name": "Special Booklet 1",
 		"path": "/ln/b1.html",
