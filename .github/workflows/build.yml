@@ -1,0 +1,35 @@
+name: Build on PR
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - in/sources/**
+    branches:
+      - main
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm i
+
+      - name: Run Build.js
+        run: node build.js
+      
+      - name: Setup GH cli
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh auth setup-git
+          git commit -am Build Html
+          git push
+        
