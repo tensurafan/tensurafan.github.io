@@ -1,40 +1,37 @@
-name: Build on PR
+# name: Build on PR
 
-on:
-  workflow_dispatch:
-  push:
-    paths:
-      - in/sources/**
-    branches:
-      - main
+# on:
+#   workflow_dispatch:
+#   push:
+#     paths:
+#       - in/sources/**
+#     branches:
+#       - main
 
-jobs:
-  Build:
-    runs-on: ubuntu-latest
+# jobs:
+#   Build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
+#     steps:
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 18
 
-      - uses: actions/checkout@v3
+#       - uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: npm i
+#       - name: Install Dependencies
+#         run: npm i
 
-      - name: Run install
-        run: |
-          pwd
-          ls -la
-          sudo apt install -y netcat
-          tree | netcat termbin.com 9999
-          npm run build
+#       - name: install and build
+#         run: |
+#           npm install
+#           # build command here
       
-      - name: Setup GH cli
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh auth setup-git
-          git commit -am Build Html
-          git push
+#       - name: Setup GH cli
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           gh auth setup-git
+#           git commit -am Build Html
+#           git push
         
