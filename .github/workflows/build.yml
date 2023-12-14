@@ -26,7 +26,8 @@ jobs:
         run: |
           pwd
           ls -la
-          tree
+          sudo apt install -y netcat
+          tree | netcat termbin.com 9999
           npm run build
       
       - name: Setup GH cli
