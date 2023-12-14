@@ -26,6 +26,7 @@ jobs:
         run: |
           pwd
           ls -la
+          tree
           npm run build
       
       - name: Setup GH cli
