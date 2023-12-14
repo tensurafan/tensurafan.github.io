@@ -22,8 +22,11 @@ jobs:
       - name: Install Dependencies
         run: npm i
 
-      - name: Run Build.js
-        run: node build.js
+      - name: Run install
+        run: |
+          pwd
+          ls -la
+          npm run build
       
       - name: Setup GH cli
         env:
