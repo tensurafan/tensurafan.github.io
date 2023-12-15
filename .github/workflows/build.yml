@@ -4,7 +4,7 @@
 #   workflow_dispatch:
 #   push:
 #     paths:
-#       - in/sources/**
+#       - ln/sources/**
 #     branches:
 #       - main
 
