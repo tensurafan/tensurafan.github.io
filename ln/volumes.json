@@ -134,9 +134,17 @@
 	},
 	{
 		"id": "b1",
-		"name": "Special Booklet 1",
+		"name": "Special Booklets 1-4",
 		"path": "/ln/b1.html",
 		"raw": "/ln/b1/raw.html",
+		"progress": 100
+
+	},
+	{
+		"id": "b5",
+		"name": "Special Booklets 5-8",
+		"path": "/ln/b5.html",
+		"raw": "/ln/b5/raw.html",
 		"progress": 100
 	}
 ]
