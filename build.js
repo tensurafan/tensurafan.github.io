@@ -4,7 +4,7 @@ const terms = require(__dirname + "/ln/terms.json")
 const jsdom = require("jsdom")
 const path = require("path")
 const waitFor = (fn, ...args)=>new Promise((accept, reject)=>fn.apply(this, [...args, (uwu, owo)=>uwu ? reject(uwu) : accept(owo)]))
-const uglify = require("uglify-js")
+const uglify = require("uglify-js")
 const proxyify = require("./ln/node-proxyify.js")
 // const JSDOM = jsdom.JSDOM
 const http = require("http")
